@@ -17,8 +17,7 @@ local function onFillInventoryContextMenu(playerNum, context, items)
 
         local perkType = WK_DOCS[itemType]
         if perkType then
-            local key = "WK_read_" .. itemType
-            if player:getModData()[key] then
+            if item:getModData()["WK_read"] then
                 local opt = context:addOption("Already read", item, nil)
                 opt.notAvailable = true
             else
