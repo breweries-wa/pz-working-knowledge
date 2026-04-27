@@ -2,23 +2,21 @@
 
 ## Concept
 
-Knox County's filing cabinets hold more than paperwork. Safety manuals, training guides, reference handbooks — the working knowledge of people who aren't around anymore. A survivor who finds and reads these documents gets a head start on skills they might otherwise have to learn the hard way.
+Knox County holds the working knowledge of people who aren't around anymore. Safety manuals, training guides, reference handbooks — practical documentation from the jobs and hobbies of the old world. A survivor who finds and reads one of these documents gets a head start on skills they might otherwise have to learn the hard way.
 
 ## Core Mechanic
 
 Each document grants a **one-time, flat XP boost** when read. The amount is 25% of the XP required to reach level 1 in the associated skill — enough to feel meaningful without being a shortcut to competence.
 
-- No level gating. Anyone can read anything.
-- One boost per document type per character, tracked via player moddata. The item itself is not consumed — it can be passed to another survivor.
-- Stacks normally with skill books and all other XP sources.
+Once read, a document is spent — it stays in your inventory but won't grant XP again. An unread copy found elsewhere is a different story.
 
 ## Skill Coverage
 
-Documents exist for a wide range of skills. The guiding question is: *would a workplace plausibly produce written reference material for this?*
+Documents exist for a wide range of skills. The guiding question is: *would a workplace or hobby plausibly produce written reference material for this?*
 
 **Crafting and trade skills** are the easiest fit — carpentry, mechanics, tailoring, cooking, electrical, and so on. Workplaces generate documentation for these constantly: safety manuals, certification guides, service logs.
 
-**Survival and outdoor skills** — farming, fishing, foraging, trapping — fit through the lens of hobbyist and agricultural publications, extension office materials, and field guides filed in relevant offices.
+**Survival and outdoor skills** — farming, fishing, foraging, trapping — fit through the lens of hobbyist and agricultural publications, extension office materials, and field guides.
 
 **Combat and physical skills** are included selectively. The bar is higher, but the cases exist: a kitchen knife safety card, a spear fishing handbook, a martial arts studio's training syllabus, a marathon training guide. Finding a physical fitness document in the right context should feel earned, not arbitrary.
 
@@ -26,11 +24,11 @@ There is no blanket exclusion. If a plausible document can be named and placed b
 
 ## Spawning
 
-Documents spawn exclusively in **filing cabinets**, in rooms where that document would plausibly be found. Spawn weights are tuned so that finding a relevant document feels like a lucky discovery, not a routine pickup.
+Documents spawn in containers where they would plausibly be found. Spawn weights are tuned so that finding a relevant document feels like a lucky discovery, not a routine pickup.
 
-Targeted room types include generic offices, medical offices, car dealerships, police stations, university department offices, and others. Each document type maps to one or more specific room contexts — nothing spawns in a generic catch-all.
+Container types include filing cabinets, store counters, and others appropriate to the location. Each document maps to one or more specific room contexts — nothing spawns in a generic catch-all.
 
-Note: Project Zomboid B42 does not have a dedicated school administration office room type. School-related documents use the closest available context (e.g., general office rooms).
+Note: Project Zomboid B42 does not have a dedicated school administration office room type. School-related documents use the closest available context.
 
 ## Item Design
 
