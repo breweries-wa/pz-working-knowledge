@@ -4,7 +4,7 @@ A Project Zomboid Build 42 mod. Knox County is full of the working knowledge of 
 
 ## How It Works
 
-Documents scattered across Knox County can each be read once. Reading one grants a flat XP boost toward the associated skill — no page-grinding. The boost is modest (roughly 25% of what it takes to hit level 1), meant to supplement your experience rather than replace it. The document stays in your inventory afterward and can be passed to another survivor.
+Documents scattered across Knox County can each be read once per character. Reading one grants a flat XP boost toward the associated skill. The boost is modest, meant to supplement your experience rather than replace it. Once read, the document can be passed to another survivor.
 
 ## Finding Documents
 
@@ -21,6 +21,8 @@ The specific documents, their associated skills, spawn locations, and flavor tex
 1. Subscribe on the Steam Workshop *(link coming at release)*
 2. Enable **Working Knowledge** in the Mods menu
 3. Start or load a save
+
+**Existing saves:** Documents will appear in any area you haven't visited yet. Containers that were already opened before the mod was added won't be affected — PZ spawns loot when a chunk is first loaded, not retroactively.
 
 ## Credits
 
