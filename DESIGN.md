@@ -20,15 +20,11 @@ Documents exist for a wide range of skills. The guiding question is: *would a wo
 
 **Combat and physical skills** are included selectively. The bar is higher, but the cases exist: a kitchen knife safety card, a spear fishing handbook, a martial arts studio's training syllabus, a marathon training guide. Finding a physical fitness document in the right context should feel earned, not arbitrary.
 
-There is no blanket exclusion. If a plausible document can be named and placed believably, it belongs.
-
 ## Spawning
 
 Documents spawn in containers where they would plausibly be found. Spawn weights are tuned so that finding a relevant document feels like a lucky discovery, not a routine pickup.
 
 Container types include filing cabinets, store counters, and others appropriate to the location. Each document maps to one or more specific room contexts — nothing spawns in a generic catch-all.
-
-Note: Project Zomboid B42 does not have a dedicated school administration office room type. School-related documents use the closest available context.
 
 ## Item Design
 
