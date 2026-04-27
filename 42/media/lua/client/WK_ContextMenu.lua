@@ -1,7 +1,9 @@
 require "WK_ReadAction"
 
 -- Maps item type → Perks enum value.
--- Item type is whatever item:getType() returns at runtime (checked on first test).
+-- Keys are the bare item ID without module prefix (e.g. "WK_LumberYardManual").
+-- item:getType() may return "Base.WK_LumberYardManual" or "WK_LumberYardManual"
+-- depending on context; we strip the prefix before lookup.
 local WK_DOCS = {
     WK_LumberYardManual = Perks.Carpentry,
 }
@@ -15,7 +17,8 @@ local function onFillInventoryContextMenu(playerNum, context, items)
         local ok, itemType = pcall(function() return item:getType() end)
         if not ok or not itemType then goto continue end
 
-        local perkType = WK_DOCS[itemType]
+        local bareType = itemType:match("%.(.+)$") or itemType
+        local perkType = WK_DOCS[bareType]
         if perkType then
             if item:getModData()["WK_read"] then
                 local opt = context:addOption("Already read", item, nil)
