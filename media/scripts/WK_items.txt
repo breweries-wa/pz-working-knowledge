@@ -1,0 +1,13 @@
+module Base
+{
+    item WK_LumberYardManual
+    {
+        Type             = Normal,
+        DisplayName      = Lumber Yard Safety Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+    }
+}
