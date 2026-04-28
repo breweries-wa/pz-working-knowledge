@@ -1,27 +1,31 @@
 require "WK_ReadAction"
 
--- Maps item type → Perks enum value.
--- Keys are the bare item ID without module prefix (e.g. "WK_LumberYardManual").
--- item:getType() may return "Base.WK_LumberYardManual" or "WK_LumberYardManual"
--- depending on context; we strip the prefix before lookup.
-local WK_DOCS = {
-    WK_LumberYardManual = Perks.Carpentry,
-}
+-- Maps bare item type → Perks enum value.
+-- Built lazily on first use so Perks.X is read after the game engine is ready.
+local WK_DOCS = nil
+
+local function getWKDocs()
+    if not WK_DOCS then
+        WK_DOCS = {
+            WK_LumberYardManual = Perks.Carpentry,
+        }
+    end
+    return WK_DOCS
+end
 
 local function onFillInventoryContextMenu(playerNum, context, items)
-    print("[WK] context menu fired, playerNum=" .. tostring(playerNum))
     local player = getSpecificPlayer(playerNum)
-    if not player then print("[WK] no player") return end
+    if not player then return end
 
     local actualItems = ISInventoryPane.getActualItems(items)
-    print("[WK] actualItems count=" .. tostring(#actualItems))
+    local seen = {}
     for _, item in ipairs(actualItems) do
         local ok, itemType = pcall(function() return item:getType() end)
         if ok and itemType then
-            print("[WK] item type=" .. tostring(itemType))
             local bareType = itemType:match("%.(.+)$") or itemType
-            local perkType = WK_DOCS[bareType]
-            if perkType then
+            local perkType = getWKDocs()[bareType]
+            if perkType and not seen[bareType] then
+                seen[bareType] = true
                 if item:getModData()["WK_read"] then
                     local opt = context:addOption("Already read", item, nil)
                     opt.notAvailable = true
