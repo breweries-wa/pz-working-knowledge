@@ -87,7 +87,12 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 
 ### Spear
 
-*Omitted — only plausible angle is recreational spearfishing, which reads too much like a hobby guide.*
+*Spear technique shows up in places you wouldn't expect. Kentucky has a primitive weapons hunting season — the KDFWR regulates it. Track and field programs document javelin mechanics for coaching. Wilderness survival schools teach shaft construction and throwing as formal curriculum. Stage combat instructors write it down so nobody gets hurt. None of these people were preparing for the apocalypse, but the documentation they left behind is useful anyway.*
+
+- **KDFWR Primitive Weapons Hunting Regulations** — The official Kentucky regulations for primitive weapons seasons, covering legal implement specifications, harvest reporting, and zone restrictions. Spears and lances are listed alongside bows and atlatls. Keys: `FilingCabinetGeneric` (huntingstore, office rooms)
+- **Track and Field Coaching Reference — Javelin** — A coaching guide from a high school athletic program. Grip technique, approach run mechanics, release angle, and common faults. Keys: `FilingCabinetGeneric` (gym, school rooms)
+- **Atlatl and Spear Construction Field Reference** — Curriculum materials from a wilderness survival school covering shaft selection, point hafting, and throwing mechanics. Keys: `FilingCabinetGeneric` (classroom_anthro room)
+- **Stage Combat Instructor's Reference — Pole and Spear Techniques** — A theatrical combat reference covering spear handling, thrusting mechanics, and partnered drill work. Designed so nobody actually gets hurt. Keys: `FilingCabinetGeneric` (theater room)
 
 ---
 
