@@ -16,20 +16,17 @@ function WKReadAction:perform()
             itemType = self.itemType,
         })
 
-        -- Has Been Read compatibility: write into HBR's readMaps directly.
-        -- HBR has no global API; it reads from player modData and shared ModData.
         local fullType = "Base." .. self.itemType
+
+        -- Ensure the item is tagged so inventory-tracking mods can identify it.
         local okMd, itemMd = pcall(function() return self.item:getModData() end)
         if okMd and itemMd and not itemMd.literatureTitle then
             itemMd.literatureTitle = fullType
         end
-        if modData.readMap then
-            modData.readMap[fullType] = true
-        end
-        local okSmd, smd = pcall(function() return ModData.get("P4HasBeenRead") end)
-        if okSmd and smd and smd.readMap then
-            smd.readMap[fullType] = true
-        end
+
+        -- Write into the player's readMap so inventory-tracking mods know it's been read.
+        if not modData.readMap then modData.readMap = {} end
+        modData.readMap[fullType] = true
     end
     ISBaseTimedAction.perform(self)
 end

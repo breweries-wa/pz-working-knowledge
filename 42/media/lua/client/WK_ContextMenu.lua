@@ -161,9 +161,8 @@ local function getWKDocs()
     return WK_DOCS
 end
 
--- Ensure HBR can track this item by setting literatureTitle on the item's modData.
--- HBR is a local-scoped mod with no global API; we write to the same modData keys it reads.
-local function initHBRItem(item, bareType)
+-- Tag the item with a literatureTitle so inventory-tracking mods can identify it.
+local function tagLiterature(item, bareType)
     local ok, md = pcall(function() return item:getModData() end)
     if ok and md and not md.literatureTitle then
         md.literatureTitle = "Base." .. bareType
@@ -183,7 +182,7 @@ local function onFillInventoryContextMenu(playerNum, context, items)
             local bareType = itemType:match("%.(.+)$") or itemType
             local perkName = docs[bareType]
             if perkName then
-                initHBRItem(item, bareType)
+                tagLiterature(item, bareType)
                 if not seen[bareType] then
                     seen[bareType] = true
                     local readKey = "WK_read_" .. bareType
@@ -199,7 +198,7 @@ local function onFillInventoryContextMenu(playerNum, context, items)
     end
 end
 
--- Sweep player inventory on load to init literatureTitle for any WK items already held.
+-- Tag any WK items already in the player's inventory on save load.
 local function onGameStart()
     local player = getSpecificPlayer(0)
     if not player then return end
@@ -214,7 +213,7 @@ local function onGameStart()
             if ok2 and itemType then
                 local bareType = itemType:match("%.(.+)$") or itemType
                 if docs[bareType] then
-                    initHBRItem(item, bareType)
+                    tagLiterature(item, bareType)
                 end
             end
         end
