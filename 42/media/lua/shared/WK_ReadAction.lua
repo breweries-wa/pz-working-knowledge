@@ -3,7 +3,9 @@ require "TimedActions/ISBaseTimedAction"
 WKReadAction = ISBaseTimedAction:derive("WKReadAction")
 
 function WKReadAction:isValid()
-    return self.item ~= nil and self.character:getInventory():contains(self.item)
+    if not self.item then return false end
+    local ok, container = pcall(function() return self.item:getContainer() end)
+    return ok and container ~= nil
 end
 
 function WKReadAction:perform()
