@@ -1,13 +1,13 @@
 require "WK_ReadAction"
 
--- Maps bare item type → Perks enum value.
--- Built lazily on first use so Perks.X is read after the game engine is ready.
+-- Maps bare item type → perk name string.
+-- Built lazily so Perks.X is read after the game engine is ready.
 local WK_DOCS = nil
 
 local function getWKDocs()
     if not WK_DOCS then
         WK_DOCS = {
-            WK_LumberYardManual = Perks.Woodwork,
+            WK_LumberYardManual = "Woodwork",
         }
     end
     return WK_DOCS
@@ -23,14 +23,15 @@ local function onFillInventoryContextMenu(playerNum, context, items)
         local ok, itemType = pcall(function() return item:getType() end)
         if ok and itemType then
             local bareType = itemType:match("%.(.+)$") or itemType
-            local perkType = getWKDocs()[bareType]
-            if perkType and not seen[bareType] then
+            local perkName = getWKDocs()[bareType]
+            if perkName and not seen[bareType] then
                 seen[bareType] = true
-                if item:getModData()["WK_read"] then
+                local readKey = "WK_read_" .. bareType
+                if player:getModData()[readKey] then
                     local opt = context:addOption("Already read", item, nil)
                     opt.notAvailable = true
                 else
-                    context:addOption("Read", item, WK_ContextMenu.onRead, player, perkType)
+                    context:addOption("Read", item, WK_ContextMenu.onRead, player, perkName, bareType)
                 end
             end
         end
@@ -39,8 +40,8 @@ end
 
 WK_ContextMenu = {}
 
-function WK_ContextMenu.onRead(item, player, perkType)
-    ISTimedActionQueue.add(WKReadAction:new(player, item, perkType))
+function WK_ContextMenu.onRead(item, player, perkName, itemType)
+    ISTimedActionQueue.add(WKReadAction:new(player, item, perkName, itemType))
 end
 
 Events.OnFillInventoryObjectContextMenu.Add(onFillInventoryContextMenu)

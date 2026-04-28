@@ -6,9 +6,9 @@ Knox County holds the working knowledge of people who aren't around anymore. Saf
 
 ## Core Mechanic
 
-Each document grants a **one-time, flat XP boost** when read. The amount is 25% of the XP required to reach level 1 in the associated skill — enough to feel meaningful without being a shortcut to competence.
+Each document grants a **one-time, flat XP boost** when read. The base grant is 50 XP, scaled by the game's passive skill rate — an untrained character receives around 12 XP, a practiced one noticeably more. The boost is meaningful without being a shortcut to competence.
 
-Once read, a document is spent — it stays in your inventory but won't grant XP again. An unread copy found elsewhere is a different story.
+Read state is tracked per character, per document type. Reading any copy of a document marks that document as read for that character — finding another copy of the same manual won't grant XP again. A different survivor who finds the same copy can still benefit from it.
 
 ## Skill Coverage
 

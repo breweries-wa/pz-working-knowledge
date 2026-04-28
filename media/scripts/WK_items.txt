@@ -2,7 +2,7 @@ module Base
 {
     item WK_LumberYardManual
     {
-        Type             = Normal,
+        ItemType         = base:normal,
         DisplayName      = Lumber Yard Safety Manual,
         DisplayCategory  = Literature,
         Weight           = 0.2,
