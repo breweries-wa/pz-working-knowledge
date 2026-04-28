@@ -11,6 +11,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KCPDFirearmsQual,
     }
 
     item WK_RangeSafetyOfficerRef
@@ -22,6 +23,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_RangeSafetyOfficerRef,
     }
 
     item WK_DefensiveHandgunRef
@@ -33,6 +35,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_DefensiveHandgunRef,
     }
 
     item WK_SheriffQualLog
@@ -44,6 +47,7 @@ module Base
         Icon             = Diary1,
         StaticModel      = Diary1,
         WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_SheriffQualLog,
     }
 
     -- ── Firearms: Reloading ─────────────────────────────────────────────────
@@ -57,6 +61,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_TacticalReloadRef,
     }
 
     item WK_MagazineDrillCard
@@ -68,6 +73,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_MagazineDrillCard,
     }
 
     item WK_ArmorersWeaponsRef
@@ -79,6 +85,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ArmorersWeaponsRef,
     }
 
     item WK_PracticalShootingRef
@@ -90,6 +97,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_PracticalShootingRef,
     }
 
     -- ── Melee: Axe ──────────────────────────────────────────────────────────
@@ -103,6 +111,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_OSHALoggingRef,
     }
 
     item WK_ArboristFieldGuide
@@ -114,6 +123,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ArboristFieldGuide,
     }
 
     item WK_ForcibleEntryRef
@@ -125,6 +135,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ForcibleEntryRef,
     }
 
     item WK_FirefighterHandToolSOP
@@ -136,6 +147,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_FirefighterHandToolSOP,
     }
 
     -- ── Melee: Long Blade ───────────────────────────────────────────────────
@@ -149,6 +161,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_BrushClearingRef,
     }
 
     item WK_MacheteUseGuide
@@ -160,6 +173,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_MacheteUseGuide,
     }
 
     item WK_ForestryContractorSOP
@@ -171,6 +185,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_ForestryContractorSOP,
     }
 
     -- ── Melee: Maintenance ──────────────────────────────────────────────────
@@ -184,6 +199,7 @@ module Base
         Icon             = Diary1,
         StaticModel      = Diary1,
         WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_KnifeMaintenanceLog,
     }
 
     item WK_EdgeToolSharpeningRef
@@ -195,6 +211,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_EdgeToolSharpeningRef,
     }
 
     item WK_HandToolConditionRef
@@ -206,6 +223,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_HandToolConditionRef,
     }
 
     item WK_ImpactWeaponMaintSOP
@@ -217,6 +235,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ImpactWeaponMaintSOP,
     }
 
     item WK_WhetstoneSelectionRef
@@ -228,6 +247,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_WhetstoneSelectionRef,
     }
 
     -- ── Melee: Short Blade ──────────────────────────────────────────────────
@@ -241,6 +261,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_MeatFabricationRef,
     }
 
     item WK_NSFBladeSafetyRef
@@ -252,6 +273,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_NSFBladeSafetyRef,
     }
 
     item WK_FishFabricationRef
@@ -263,6 +285,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_FishFabricationRef,
     }
 
     -- ── Melee: Short Blunt ──────────────────────────────────────────────────
@@ -276,6 +299,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_KCPDImpactWeaponsRef,
     }
 
     item WK_OSHAHandToolSafety
@@ -287,6 +311,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_OSHAHandToolSafety,
     }
 
     item WK_FramingHammerCard
@@ -298,6 +323,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_FramingHammerCard,
     }
 
     item WK_PlumbingQuickClearRef
@@ -309,6 +335,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_PlumbingQuickClearRef,
     }
 
     -- ── Melee: Long Blunt ───────────────────────────────────────────────────
@@ -322,6 +349,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_BaseballSwingRef,
     }
 
     item WK_DemolitionHandToolRef
@@ -333,6 +361,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_DemolitionHandToolRef,
     }
 
     item WK_GolfSwingRef
@@ -344,6 +373,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_GolfSwingRef,
     }
 
     item WK_CrowbarApplicationsRef
@@ -355,6 +385,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_CrowbarApplicationsRef,
     }
 
     -- ── Melee: Spear ────────────────────────────────────────────────────────
@@ -368,6 +399,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_KDFWRPrimitiveWeapons,
     }
 
     item WK_JavelinCoachingRef
@@ -379,6 +411,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_JavelinCoachingRef,
     }
 
     item WK_AtlatlSpearRef
@@ -390,6 +423,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_AtlatlSpearRef,
     }
 
     item WK_StageCombatSpearRef
@@ -401,6 +435,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_StageCombatSpearRef,
     }
 
     -- ── Crafting: Blacksmithing ─────────────────────────────────────────────
@@ -414,6 +449,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_ASTMMaterialSpecRef,
     }
 
     item WK_ForgeHeatTreatGuide
@@ -425,6 +461,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ForgeHeatTreatGuide,
     }
 
     item WK_IndustrialMetalworkRef
@@ -436,6 +473,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_IndustrialMetalworkRef,
     }
 
     item WK_BlacksmithGuildStandards
@@ -447,6 +485,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_BlacksmithGuildStandards,
     }
 
     -- ── Crafting: Carpentry ─────────────────────────────────────────────────
@@ -460,6 +499,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_LumberYardManual,
     }
 
     item WK_SpanTablesRef
@@ -471,6 +511,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_SpanTablesRef,
     }
 
     item WK_FinishCarpentryNotes
@@ -482,6 +523,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_FinishCarpentryNotes,
     }
 
     item WK_NDSWoodConstruction
@@ -493,6 +535,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_NDSWoodConstruction,
     }
 
     item WK_FramingSquareCard
@@ -504,6 +547,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_FramingSquareCard,
     }
 
     -- ── Crafting: Carving ───────────────────────────────────────────────────
@@ -517,6 +561,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_WoodenHandleShaftRef,
     }
 
     item WK_FieldExpedientToolRef
@@ -528,6 +573,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_FieldExpedientToolRef,
     }
 
     item WK_ArchaeologicalToolNotes
@@ -539,6 +585,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_ArchaeologicalToolNotes,
     }
 
     item WK_TrapperBoneToolRef
@@ -550,6 +597,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_TrapperBoneToolRef,
     }
 
     item WK_KnifeHandleFittingRef
@@ -561,6 +609,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_KnifeHandleFittingRef,
     }
 
     -- ── Crafting: Cooking ───────────────────────────────────────────────────
@@ -574,6 +623,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_HACCPFoodSafetyPlan,
     }
 
     item WK_TempTimeControlChart
@@ -585,6 +635,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_TempTimeControlChart,
     }
 
     item WK_LineCookStationRef
@@ -596,6 +647,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_LineCookStationRef,
     }
 
     item WK_SauceStockLog
@@ -607,6 +659,7 @@ module Base
         Icon             = Diary1,
         StaticModel      = Diary1,
         WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_SauceStockLog,
     }
 
     item WK_ServSafeRef
@@ -618,6 +671,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_ServSafeRef,
     }
 
     -- ── Crafting: Electrical ────────────────────────────────────────────────
@@ -631,6 +685,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_NECArticleRef,
     }
 
     item WK_WireGaugeAmpacityRef
@@ -642,6 +697,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_WireGaugeAmpacityRef,
     }
 
     item WK_OSHAElectricalSafety
@@ -653,6 +709,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_OSHAElectricalSafety,
     }
 
     item WK_ConduitFillRef
@@ -664,6 +721,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_ConduitFillRef,
     }
 
     item WK_PanelInspectionChecklist
@@ -675,6 +733,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_PanelInspectionChecklist,
     }
 
     -- ── Crafting: Glassmaking ───────────────────────────────────────────────
@@ -688,6 +747,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_GlassAnnealingRef,
     }
 
     item WK_FloatGlassManufRef
@@ -699,6 +759,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_FloatGlassManufRef,
     }
 
     item WK_KilnFormingRef
@@ -710,6 +771,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_KilnFormingRef,
     }
 
     -- ── Crafting: Knapping ──────────────────────────────────────────────────
@@ -723,6 +785,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_LithicTechnologyRef,
     }
 
     item WK_PrimitiveSkillsKnappingRef
@@ -734,6 +797,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_PrimitiveSkillsKnappingRef,
     }
 
     item WK_LithicAnalysisStandards
@@ -745,6 +809,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_LithicAnalysisStandards,
     }
 
     -- ── Crafting: Masonry ───────────────────────────────────────────────────
@@ -758,6 +823,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_MortarMixRef,
     }
 
     item WK_ASTMC90MasonryRef
@@ -769,6 +835,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ASTMC90MasonryRef,
     }
 
     item WK_BrickBlockInspectionRef
@@ -780,6 +847,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_BrickBlockInspectionRef,
     }
 
     item WK_ConcreteMixRef
@@ -791,6 +859,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_ConcreteMixRef,
     }
 
     -- ── Crafting: Mechanics ─────────────────────────────────────────────────
@@ -804,6 +873,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_OBDIICodeRef,
     }
 
     item WK_TorqueSpecsRef
@@ -815,6 +885,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_TorqueSpecsRef,
     }
 
     item WK_BrakeServiceRef
@@ -826,6 +897,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_BrakeServiceRef,
     }
 
     item WK_AutoElecDiagRef
@@ -837,6 +909,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_AutoElecDiagRef,
     }
 
     item WK_FleetMaintenanceLog
@@ -848,6 +921,7 @@ module Base
         Icon             = Diary1,
         StaticModel      = Diary1,
         WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_FleetMaintenanceLog,
     }
 
     -- ── Crafting: Pottery ───────────────────────────────────────────────────
@@ -861,6 +935,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_KilnFiringScheduleRef,
     }
 
     item WK_GlazeChemistryRef
@@ -872,6 +947,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_GlazeChemistryRef,
     }
 
     item WK_ClayBodyFormulationRef
@@ -883,6 +959,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_ClayBodyFormulationRef,
     }
 
     -- ── Crafting: Tailoring ─────────────────────────────────────────────────
@@ -896,6 +973,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_PatternGradingRef,
     }
 
     item WK_IndustrialSewingRef
@@ -907,6 +985,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_IndustrialSewingRef,
     }
 
     item WK_FiberFabricRef
@@ -918,6 +997,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_FiberFabricRef,
     }
 
     item WK_GarmentQualityRef
@@ -929,6 +1009,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_GarmentQualityRef,
     }
 
     -- ── Crafting: Welding ───────────────────────────────────────────────────
@@ -942,6 +1023,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_AWSD11WeldingRef,
     }
 
     item WK_WeldingProcSpecRef
@@ -953,6 +1035,7 @@ module Base
         Icon             = Diary1,
         StaticModel      = Diary1,
         WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_WeldingProcSpecRef,
     }
 
     item WK_ElectrodeFillMetalRef
@@ -964,6 +1047,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_ElectrodeFillMetalRef,
     }
 
     item WK_WeldInspectionRef
@@ -975,6 +1059,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_WeldInspectionRef,
     }
 
     item WK_OSHAWeldingSafety
@@ -986,6 +1071,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_OSHAWeldingSafety,
     }
 
     -- ── Farming: Agriculture ────────────────────────────────────────────────
@@ -999,6 +1085,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_KnoxExtensionGuide,
     }
 
     item WK_SoilTestInterpretRef
@@ -1010,6 +1097,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_SoilTestInterpretRef,
     }
 
     item WK_PesticideApplicationRef
@@ -1021,6 +1109,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_PesticideApplicationRef,
     }
 
     item WK_IrrigationSchedulingRef
@@ -1032,6 +1121,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_IrrigationSchedulingRef,
     }
 
     -- ── Farming: Animal Care ────────────────────────────────────────────────
@@ -1045,6 +1135,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_LivestockHealthRef,
     }
 
     item WK_VaccinationDosageRef
@@ -1056,6 +1147,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_VaccinationDosageRef,
     }
 
     item WK_ReproductiveMgmtBinder
@@ -1067,6 +1159,7 @@ module Base
         Icon             = Diary1,
         StaticModel      = Diary1,
         WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_ReproductiveMgmtBinder,
     }
 
     item WK_KDALivestockRef
@@ -1078,6 +1171,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KDALivestockRef,
     }
 
     -- ── Farming: Butchering ─────────────────────────────────────────────────
@@ -1091,6 +1185,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_USDAMeatGradingRef,
     }
 
     item WK_PrimalSubPrimalRef
@@ -1102,6 +1197,7 @@ module Base
         Icon             = GraphPaper,
         StaticModel      = GraphPaper,
         WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_PrimalSubPrimalRef,
     }
 
     item WK_HACCPMeatProcessing
@@ -1113,6 +1209,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_HACCPMeatProcessing,
     }
 
     -- ── Physical: Running ───────────────────────────────────────────────────
@@ -1126,6 +1223,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_LEFitnessStandardsRef,
     }
 
     item WK_FireAcademyFitnessRef
@@ -1137,6 +1235,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_FireAcademyFitnessRef,
     }
 
     -- ── Physical: Strength ──────────────────────────────────────────────────
@@ -1150,6 +1249,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_NIOSHLiftingRef,
     }
 
     item WK_ManualMaterialsHandRef
@@ -1161,6 +1261,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_ManualMaterialsHandRef,
     }
 
     -- ── Survival: First Aid ─────────────────────────────────────────────────
@@ -1174,6 +1275,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_WorkplaceFirstAidSOP,
     }
 
     item WK_CPRAEDRef
@@ -1185,6 +1287,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_CPRAEDRef,
     }
 
     item WK_OSHAFirstAidRef
@@ -1196,6 +1299,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_OSHAFirstAidRef,
     }
 
     item WK_EmergencyTriageRef
@@ -1207,6 +1311,7 @@ module Base
         Icon             = IndexCard,
         StaticModel      = IndexCard,
         WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_EmergencyTriageRef,
     }
 
     -- ── Survival: Fishing ───────────────────────────────────────────────────
@@ -1220,6 +1325,7 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_KYFishingRegs,
     }
 
     item WK_FishIdentificationRef
@@ -1231,6 +1337,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_FishIdentificationRef,
     }
 
     item WK_RiggingTackleRef
@@ -1242,6 +1349,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_RiggingTackleRef,
     }
 
     item WK_CommercialFishingSafetyRef
@@ -1253,6 +1361,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_CommercialFishingSafetyRef,
     }
 
     -- ── Survival: Foraging ──────────────────────────────────────────────────
@@ -1266,6 +1375,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_EdiblePlantsRef,
     }
 
     item WK_ToxicPlantRef
@@ -1277,6 +1387,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ToxicPlantRef,
     }
 
     item WK_WildcraftHerbalistRef
@@ -1288,6 +1399,7 @@ module Base
         Icon             = Notepad,
         StaticModel      = Notepad,
         WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_WildcraftHerbalistRef,
     }
 
     -- ── Survival: Tracking ──────────────────────────────────────────────────
@@ -1301,6 +1413,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_WildlifeTrackSignRef,
     }
 
     item WK_DeerMovementRef
@@ -1312,6 +1425,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_DeerMovementRef,
     }
 
     item WK_KDFWRGameMgmtRef
@@ -1323,6 +1437,7 @@ module Base
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KDFWRGameMgmtRef,
     }
 
     -- ── Survival: Trapping ──────────────────────────────────────────────────
@@ -1336,6 +1451,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_WildlifeTrappingGuide,
     }
 
     item WK_FurbearerRef
@@ -1347,6 +1463,7 @@ module Base
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_FurbearerRef,
     }
 
     item WK_KDFWRTrapperRegs
@@ -1358,5 +1475,6 @@ module Base
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_KDFWRTrapperRegs,
     }
 }

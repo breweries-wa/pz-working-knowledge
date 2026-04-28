@@ -1,0 +1,181 @@
+Tooltip_EN = {
+    -- Aiming
+    Tooltip_WK_KCPDFirearmsQual = "Official scoring rubric and qualification targets used by Knox County patrol officers. Stance diagrams, scoring zones, and remediation criteria for officers who didn't make standard. <LINE> <LINE> Trains: Aiming",
+    Tooltip_WK_RangeSafetyOfficerRef = "Laminated card from a police firearms instructor. Procedures for running a live-fire range: commands, malfunction response, and shooter positioning. <LINE> <LINE> Trains: Aiming",
+    Tooltip_WK_DefensiveHandgunRef = "Training division reference covering threat assessment, sight picture, and shoot/no-shoot criteria for law enforcement officers. <LINE> <LINE> Trains: Aiming",
+    Tooltip_WK_SheriffQualLog = "A binder of qualification records from the Knox County Sheriff's Office. Scoring sheets, qualification dates, and remediation notes for officers who didn't make the standard. <LINE> <LINE> Trains: Aiming",
+
+    -- Reloading
+    Tooltip_WK_TacticalReloadRef = "Training division reference covering speed reloads, administrative reloads, and retention reloads for duty weapons. Includes drill sequences and timing benchmarks. <LINE> <LINE> Trains: Reloading",
+    Tooltip_WK_MagazineDrillCard = "Laminated card from a police firearms instructor. Draw-and-load sequences, emergency reload steps, and malfunction clearances in priority order. <LINE> <LINE> Trains: Reloading",
+    Tooltip_WK_ArmorersWeaponsRef = "Department armorer's technical guide covering function checks, magazine inspection, and handling procedures for issued weapons. <LINE> <LINE> Trains: Reloading",
+    Tooltip_WK_PracticalShootingRef = "Competition stage booklet from a practical shooting club. Load conditions, reload station rules, and start positions for timed events. <LINE> <LINE> Trains: Reloading",
+
+    -- Axe
+    Tooltip_WK_OSHALoggingRef = "Federal standard for logging operations. Covers felling techniques, escape route planning, and equipment requirements for working in timber. <LINE> <LINE> Trains: Axe",
+    Tooltip_WK_ArboristFieldGuide = "Used by professional arborists to evaluate hazard trees and plan removal. Felling angles, hinge wood calculations, and notch geometry for controlled drops. <LINE> <LINE> Trains: Axe",
+    Tooltip_WK_ForcibleEntryRef = "Fire department standard on breaching doors and structures with hand tools. Axe strike angles, purchase points, and reading door construction. <LINE> <LINE> Trains: Axe",
+    Tooltip_WK_FirefighterHandToolSOP = "Station SOP covering deployment and technique for pike poles, halligan bars, and axes. Includes condition inspection criteria and tool assignment procedures. <LINE> <LINE> Trains: Axe",
+
+    -- Long Blade
+    Tooltip_WK_BrushClearingRef = "Field reference from a state parks department covering machete technique, stance, and blade care for trail maintenance crews. <LINE> <LINE> Trains: Long Blade",
+    Tooltip_WK_MacheteUseGuide = "Cooperative extension document covering grip, swing mechanics, and harvesting technique for row crops and brush clearing. <LINE> <LINE> Trains: Long Blade",
+    Tooltip_WK_ForestryContractorSOP = "SOP from a land-clearing company. Brush blade selection, swing clearance, and worksite safety for hand-clearing operations. <LINE> <LINE> Trains: Long Blade",
+
+    -- Maintenance
+    Tooltip_WK_KnifeMaintenanceLog = "Kitchen record and reference covering sharpening angles by blade type, honing schedule, and stone progression for commercial knife care. <LINE> <LINE> Trains: Maintenance",
+    Tooltip_WK_EdgeToolSharpeningRef = "Laminated technical chart from a tool supplier. Sharpening angles for chisels, plane irons, knives, and axes — with grit progression and honing medium by tool category. <LINE> <LINE> Trains: Maintenance",
+    Tooltip_WK_HandToolConditionRef = "Workplace maintenance guide for tradespeople. Inspection criteria, rust prevention, handle inspection, and replacement thresholds for hand tools. <LINE> <LINE> Trains: Maintenance",
+    Tooltip_WK_ImpactWeaponMaintSOP = "Department SOP covering inspection, cleaning, and condition reporting for batons and impact tools. Includes serviceability criteria and out-of-service procedures. <LINE> <LINE> Trains: Maintenance",
+    Tooltip_WK_WhetstoneSelectionRef = "Product reference from a sharpening supply company. Stone grits, lubricant types, and technique recommendations by tool category. <LINE> <LINE> Trains: Maintenance",
+
+    -- Short Blade
+    Tooltip_WK_MeatFabricationRef = "USDA primal and sub-primal cut diagram used in commercial kitchens and butcher shops. Carcass breakdown by species with cut names and knife angles. <LINE> <LINE> Trains: Short Blade",
+    Tooltip_WK_NSFBladeSafetyRef = "Food service compliance document covering knife handling, storage, sanitation procedures, and cutting board protocols. <LINE> <LINE> Trains: Short Blade",
+    Tooltip_WK_FishFabricationRef = "Processing reference covering filleting, skinning, and portioning for commercial fish operations. <LINE> <LINE> Trains: Short Blade",
+
+    -- Short Blunt
+    Tooltip_WK_KCPDImpactWeaponsRef = "Department training reference for baton use. Grip positions, targeting zones, defensive blocks, and use-of-force escalation doctrine. <LINE> <LINE> Trains: Short Blunt",
+    Tooltip_WK_OSHAHandToolSafety = "Federal construction standard on hand tool use. Hammer selection, grip technique, and struck-tool safety for construction site work. <LINE> <LINE> Trains: Short Blunt",
+    Tooltip_WK_FramingHammerCard = "Laminated pocket card from a tool manufacturer. Grip positions, face angles, and nail-driving technique for production framing work. <LINE> <LINE> Trains: Short Blunt",
+    Tooltip_WK_PlumbingQuickClearRef = "Laminated troubleshooting card from a property management company. Plunger technique by fixture type, access steps, and escalation criteria. <LINE> <LINE> Trains: Short Blunt",
+
+    -- Long Blunt
+    Tooltip_WK_BaseballSwingRef = "Coaching card from a youth league organization. Stance, hip rotation, load position, and follow-through for contact hitting. <LINE> <LINE> Trains: Long Blunt",
+    Tooltip_WK_DemolitionHandToolRef = "Construction SOP covering sledgehammer grip, swing mechanics, and substrate assessment for controlled demolition work. <LINE> <LINE> Trains: Long Blunt",
+    Tooltip_WK_GolfSwingRef = "Laminated reference from a country club pro shop. Club selection, stance width, grip pressure, and swing plane by shot type. Belonged to someone with a corner office. <LINE> <LINE> Trains: Long Blunt",
+    Tooltip_WK_CrowbarApplicationsRef = "Field guide from a demolition contractor. Prying leverage points, grip positions, and substrate damage avoidance for pry tool work. <LINE> <LINE> Trains: Long Blunt",
+
+    -- Spear
+    Tooltip_WK_KDFWRPrimitiveWeapons = "Official Kentucky regulations for primitive weapons hunting seasons. Legal implement specifications and harvest reporting. Spears and lances listed alongside bows and atlatls. <LINE> <LINE> Trains: Spear",
+    Tooltip_WK_JavelinCoachingRef = "Coaching guide from a high school athletic program. Grip technique, approach run mechanics, release angle, and common faults for competitive javelin. <LINE> <LINE> Trains: Spear",
+    Tooltip_WK_AtlatlSpearRef = "Curriculum materials from a wilderness survival school. Shaft selection, point hafting, and throwing mechanics for primitive hunting implements. <LINE> <LINE> Trains: Spear",
+    Tooltip_WK_StageCombatSpearRef = "Theatrical combat reference covering spear handling, thrusting mechanics, and partnered drill work. Designed so nobody actually gets hurt. <LINE> <LINE> Trains: Spear",
+
+    -- Blacksmithing
+    Tooltip_WK_ASTMMaterialSpecRef = "Laminated chart of common steel grades, hardness ratings, and heat treatment ranges. The kind that lives next to the forge. <LINE> <LINE> Trains: Blacksmithing",
+    Tooltip_WK_ForgeHeatTreatGuide = "Technical reference from an industrial supplier covering temperature ranges, quenching media, and tempering colors for forge work. <LINE> <LINE> Trains: Blacksmithing",
+    Tooltip_WK_IndustrialMetalworkRef = "Machinist's desk reference covering metal properties, cutting speeds, and tool selection for industrial metalworking. <LINE> <LINE> Trains: Blacksmithing",
+    Tooltip_WK_BlacksmithGuildStandards = "Guild reference covering joinery, fastener specifications, and finish standards for ironwork. <LINE> <LINE> Trains: Blacksmithing",
+
+    -- Carpentry
+    Tooltip_WK_LumberYardManual = "Laminated pocket guide issued to lumber yard workers. Hand and power tool safety, load-bearing limits, and material grading. <LINE> <LINE> Trains: Carpentry",
+    Tooltip_WK_SpanTablesRef = "AWC structural reference used on every framing job. Joist spans, rafter tables, and load calculations for wood construction. <LINE> <LINE> Trains: Carpentry",
+    Tooltip_WK_FinishCarpentryNotes = "A contractor's personal reference — trim joint techniques, coping profiles, and fitting strategies accumulated over years of work. Handwritten notes in the margins. <LINE> <LINE> Trains: Carpentry",
+    Tooltip_WK_NDSWoodConstruction = "Condensed reference for structural wood connections, fastener schedules, and allowable stresses for wood frame construction. <LINE> <LINE> Trains: Carpentry",
+    Tooltip_WK_FramingSquareCard = "Laminated card covering roof pitch calculations, stair stringer layouts, and rafter lengths using a framing square. <LINE> <LINE> Trains: Carpentry",
+
+    -- Carving
+    Tooltip_WK_WoodenHandleShaftRef = "Toolmaker's reference covering wood selection, grain orientation, and shaping technique for replacement handles and tool hafts. <LINE> <LINE> Trains: Carving",
+    Tooltip_WK_FieldExpedientToolRef = "Backcountry guide from a wilderness survival school covering knife-based wood and bone tool fabrication in the field. <LINE> <LINE> Trains: Carving",
+    Tooltip_WK_ArchaeologicalToolNotes = "University research notes covering hafting, handle construction, and bone tool production techniques from lithic replication studies. <LINE> <LINE> Trains: Carving",
+    Tooltip_WK_TrapperBoneToolRef = "Trapper's working reference covering bone awl construction, wooden toggle making, and lashing using field-available materials. <LINE> <LINE> Trains: Carving",
+    Tooltip_WK_KnifeHandleFittingRef = "Custom knife maker's technical reference. Wood selection, epoxy procedures, and handle shaping technique for replacing or fabricating handles. <LINE> <LINE> Trains: Carving",
+
+    -- Cooking
+    Tooltip_WK_HACCPFoodSafetyPlan = "Required compliance document for commercial kitchens. Critical control points, temperature logs, and corrective action procedures for food safety. <LINE> <LINE> Trains: Cooking",
+    Tooltip_WK_TempTimeControlChart = "Laminated chart from a commercial kitchen. Safe holding temperatures, cooling curves, and cooking minimums by protein type. <LINE> <LINE> Trains: Cooking",
+    Tooltip_WK_LineCookStationRef = "Kitchen SOP covering mise en place, ticket flow, and plate specifications. Someone's handwritten adjustments cover the margins. <LINE> <LINE> Trains: Cooking",
+    Tooltip_WK_SauceStockLog = "Working reference from a restaurant kitchen — base recipes, reduction ratios, and batch scaling notes for stocks and sauces. <LINE> <LINE> Trains: Cooking",
+    Tooltip_WK_ServSafeRef = "Industry-standard food safety quick reference. Temperature rules, cross-contamination procedures, and sanitation standards for food handlers. <LINE> <LINE> Trains: Cooking",
+
+    -- Electrical
+    Tooltip_WK_NECArticleRef = "Laminated summary of the most-cited National Electrical Code articles. Every journeyman's pocket reference for permitted electrical work. <LINE> <LINE> Trains: Electrical",
+    Tooltip_WK_WireGaugeAmpacityRef = "Laminated chart used on every installation job. Conductor sizing, conduit fill, and breaker ratings by circuit type. <LINE> <LINE> Trains: Electrical",
+    Tooltip_WK_OSHAElectricalSafety = "Federal electrical safety standard. Lockout/tagout procedures, arc flash boundaries, and PPE requirements for working with live circuits. <LINE> <LINE> Trains: Electrical",
+    Tooltip_WK_ConduitFillRef = "Laminated calculation guide used by electricians during rough-in. Conduit and box fill limits by wire gauge and conduit type. <LINE> <LINE> Trains: Electrical",
+    Tooltip_WK_PanelInspectionChecklist = "Field reference for electrical inspectors and licensed contractors. Load calculations, circuit labeling, and code compliance items. <LINE> <LINE> Trains: Electrical",
+
+    -- Glassmaking
+    Tooltip_WK_GlassAnnealingRef = "Technical chart from a glass supplier covering annealing curves for different glass types and thicknesses. The margin for error is narrow. <LINE> <LINE> Trains: Glassmaking",
+    Tooltip_WK_FloatGlassManufRef = "Operations reference from a glass manufacturing facility. Tin bath temperatures, draw rates, and quality inspection criteria. <LINE> <LINE> Trains: Glassmaking",
+    Tooltip_WK_KilnFormingRef = "Professional glass artist's working reference — fusing temperatures, slumping molds, and compatible glass COE charts for studio work. <LINE> <LINE> Trains: Glassmaking",
+
+    -- Knapping
+    Tooltip_WK_LithicTechnologyRef = "Research notes from a university anthropology program covering flake production, platform preparation, and tool typology. <LINE> <LINE> Trains: Knapping",
+    Tooltip_WK_PrimitiveSkillsKnappingRef = "Curriculum guide from a wilderness survival school. Flint selection, percussion technique, and pressure flaking sequence. <LINE> <LINE> Trains: Knapping",
+    Tooltip_WK_LithicAnalysisStandards = "Technical reference for identifying and classifying knapped stone tools by production technique and use-wear pattern. <LINE> <LINE> Trains: Knapping",
+
+    -- Masonry
+    Tooltip_WK_MortarMixRef = "Laminated spec chart from a masonry supply company. Mix ratios by application, working time, and curing requirements for mortar joints. <LINE> <LINE> Trains: Masonry",
+    Tooltip_WK_ASTMC90MasonryRef = "Standard specification for concrete masonry units. Compressive strength, dimensional tolerances, and testing requirements. <LINE> <LINE> Trains: Masonry",
+    Tooltip_WK_BrickBlockInspectionRef = "Field reference for masonry contractors and inspectors. Joint profiles, coursing tolerances, and flashing requirements. <LINE> <LINE> Trains: Masonry",
+    Tooltip_WK_ConcreteMixRef = "Water-cement ratios, admixture dosing, and slump specifications for different construction applications. <LINE> <LINE> Trains: Masonry",
+
+    -- Mechanics
+    Tooltip_WK_OBDIICodeRef = "Mechanic's field guide to diagnostic codes organized by system. The worn corners show how often it gets pulled from the drawer. <LINE> <LINE> Trains: Mechanics",
+    Tooltip_WK_TorqueSpecsRef = "Laminated chart from an auto shop covering fastener torques for common vehicles by make and system. <LINE> <LINE> Trains: Mechanics",
+    Tooltip_WK_BrakeServiceRef = "Technical guide from a brake manufacturer. Inspection criteria, rotor thickness minimums, and bleed procedures for brake service. <LINE> <LINE> Trains: Mechanics",
+    Tooltip_WK_AutoElecDiagRef = "Shop reference for tracing wiring faults, reading wiring diagrams, and testing electrical components on vehicles. <LINE> <LINE> Trains: Mechanics",
+    Tooltip_WK_FleetMaintenanceLog = "Binder of standardized checklists from a regional transport company. Service intervals, fluid specs, and pre-trip inspection forms. <LINE> <LINE> Trains: Mechanics",
+
+    -- Pottery
+    Tooltip_WK_KilnFiringScheduleRef = "Studio potter's technical reference. Temperature ramp rates, hold times, and cooling curves for different clay bodies and firing types. <LINE> <LINE> Trains: Pottery",
+    Tooltip_WK_GlazeChemistryRef = "Working chart for studio potters covering flux ratios, colorant percentages, and firing ranges by glaze type. <LINE> <LINE> Trains: Pottery",
+    Tooltip_WK_ClayBodyFormulationRef = "Material specification sheets from a ceramic supply company. Shrinkage rates, absorption, and cone compatibility for clay bodies. <LINE> <LINE> Trains: Pottery",
+
+    -- Tailoring
+    Tooltip_WK_PatternGradingRef = "Production sewing reference used in garment manufacturing. Grade rules by size range and garment category for pattern scaling. <LINE> <LINE> Trains: Tailoring",
+    Tooltip_WK_IndustrialSewingRef = "Technical card for production sewers. Thread tension, stitch length, and presser foot pressure settings by fabric weight. <LINE> <LINE> Trains: Tailoring",
+    Tooltip_WK_FiberFabricRef = "Trade reference for alterations and repair work. Fabric behavior, care requirements, and seam allowance recommendations by material type. <LINE> <LINE> Trains: Tailoring",
+    Tooltip_WK_GarmentQualityRef = "Compliance reference from a clothing manufacturer. Construction tolerances, seam strength requirements, and finishing standards. <LINE> <LINE> Trains: Tailoring",
+
+    -- Welding
+    Tooltip_WK_AWSD11WeldingRef = "The industry-standard structural welding code condensed to a field reference card. Found on every certified welder's workbench. <LINE> <LINE> Trains: Welding",
+    Tooltip_WK_WeldingProcSpecRef = "Documented welding procedures from a certified operation. Preheat requirements, interpass temperatures, and inspection criteria. <LINE> <LINE> Trains: Welding",
+    Tooltip_WK_ElectrodeFillMetalRef = "Technical reference card from a welding supply company. Matches electrode types to base metals and position requirements. <LINE> <LINE> Trains: Welding",
+    Tooltip_WK_WeldInspectionRef = "Quality control reference covering visual inspection standards, defect classification, and rejection criteria for welds. <LINE> <LINE> Trains: Welding",
+    Tooltip_WK_OSHAWeldingSafety = "Federal welding and cutting safety standard. Ventilation requirements, fire watch procedures, and PPE specifications. <LINE> <LINE> Trains: Welding",
+
+    -- Agriculture
+    Tooltip_WK_KnoxExtensionGuide = "Regional planting calendars, soil amendment recommendations, and pest management for Kentucky's climate. Distributed by the county extension office. <LINE> <LINE> Trains: Agriculture",
+    Tooltip_WK_SoilTestInterpretRef = "Laboratory guide for reading soil test reports and calculating lime and fertilizer applications. <LINE> <LINE> Trains: Agriculture",
+    Tooltip_WK_PesticideApplicationRef = "Licensed applicator's field reference. Application rates, re-entry intervals, and PPE requirements by chemical class. <LINE> <LINE> Trains: Agriculture",
+    Tooltip_WK_IrrigationSchedulingRef = "Technical reference for crop irrigation. Evapotranspiration tables, soil moisture targets, and scheduling by crop growth stage. <LINE> <LINE> Trains: Agriculture",
+
+    -- Animal Care
+    Tooltip_WK_LivestockHealthRef = "Veterinary quick-reference for farm animals. Vital signs by species, signs of common illness, and when to call the vet. <LINE> <LINE> Trains: Animal Care",
+    Tooltip_WK_VaccinationDosageRef = "Farm animal medication reference used by production animal owners. Species-specific dosing, withdrawal times, and storage requirements. <LINE> <LINE> Trains: Animal Care",
+    Tooltip_WK_ReproductiveMgmtBinder = "Working binder from a livestock operation. Cycle tracking, breeding dates, and expected parturition records for a breeding program. <LINE> <LINE> Trains: Animal Care",
+    Tooltip_WK_KDALivestockRef = "Tagging, transport, and health certificate requirements for Kentucky livestock producers. <LINE> <LINE> Trains: Animal Care",
+
+    -- Butchering
+    Tooltip_WK_USDAMeatGradingRef = "Official USDA grading standards and inspection criteria for beef, pork, and poultry. The kind posted in every USDA-inspected facility. <LINE> <LINE> Trains: Butchering",
+    Tooltip_WK_PrimalSubPrimalRef = "Butcher's wall chart covering carcass breakdown by species. Yield grades, cut names, and fabrication sequences. <LINE> <LINE> Trains: Butchering",
+    Tooltip_WK_HACCPMeatProcessing = "Compliance document for small meat processors. Critical control points, temperature monitoring logs, and corrective action procedures. <LINE> <LINE> Trains: Butchering",
+
+    -- Running
+    Tooltip_WK_LEFitnessStandardsRef = "Physical fitness assessment standards used by police and sheriff's departments. Timed run protocols, scoring tables, and conditioning benchmarks. <LINE> <LINE> Trains: Running",
+    Tooltip_WK_FireAcademyFitnessRef = "Fitness standards and aerobic conditioning benchmarks for fire department candidates and academy recruits. <LINE> <LINE> Trains: Running",
+
+    -- Strength
+    Tooltip_WK_NIOSHLiftingRef = "Workplace ergonomics reference for calculating safe lifting limits. Used in warehouse and manufacturing safety programs — employers were required to post it. <LINE> <LINE> Trains: Strength",
+    Tooltip_WK_ManualMaterialsHandRef = "Occupational safety reference covering lift techniques, team lift procedures, and load assessment for industrial workplaces. <LINE> <LINE> Trains: Strength",
+
+    -- First Aid
+    Tooltip_WK_WorkplaceFirstAidSOP = "Internal first aid protocol from a company safety program. Wound care, shock management, and chain of command for emergency response. <LINE> <LINE> Trains: First Aid",
+    Tooltip_WK_CPRAEDRef = "Laminated reference from a certified first aid course. Adult and child compression ratios, AED operation, and rescue breathing steps. <LINE> <LINE> Trains: First Aid",
+    Tooltip_WK_OSHAFirstAidRef = "Federal requirement for workplace first aid coverage. Required supplies, trained responder ratios, and documentation standards. <LINE> <LINE> Trains: First Aid",
+    Tooltip_WK_EmergencyTriageRef = "Quick-reference guide used by first responders. START triage protocol, patient assessment sequence, and priority classification. <LINE> <LINE> Trains: First Aid",
+
+    -- Fishing
+    Tooltip_WK_KYFishingRegs = "Annual regulations booklet from Kentucky Fish and Wildlife. Seasons, size limits, bag limits, and legal gear by species and water body. <LINE> <LINE> Trains: Fishing",
+    Tooltip_WK_FishIdentificationRef = "Professional identification reference for Kentucky species. Used by wildlife officers and commercial fishing operations for species assessment. <LINE> <LINE> Trains: Fishing",
+    Tooltip_WK_RiggingTackleRef = "Working guide to knots, leader construction, and rig assembly for serious anglers. The pages are water-stained. <LINE> <LINE> Trains: Fishing",
+    Tooltip_WK_CommercialFishingSafetyRef = "USCG reference for small commercial operators. Personal flotation requirements, flare requirements, and emergency procedures. <LINE> <LINE> Trains: Fishing",
+
+    -- Foraging
+    Tooltip_WK_EdiblePlantsRef = "Field guide with detailed identification, seasonal availability, and preparation notes for eastern woodland species. Some entries have been circled and starred. <LINE> <LINE> Trains: Foraging",
+    Tooltip_WK_ToxicPlantRef = "Safety reference for foragers and herbalists covering dangerous species that closely resemble edible plants. <LINE> <LINE> Trains: Foraging",
+    Tooltip_WK_WildcraftHerbalistRef = "Professional forager's working reference. Harvest windows, preparation methods, and medicinal applications for common eastern woodland species. <LINE> <LINE> Trains: Foraging",
+
+    -- Tracking
+    Tooltip_WK_WildlifeTrackSignRef = "Field guide used by wildlife officers, professional guides, and hunters. Track morphology, gait patterns, and habitat associations by species. <LINE> <LINE> Trains: Tracking",
+    Tooltip_WK_DeerMovementRef = "Hunter's field reference for reading terrain, identifying travel corridors, and locating bedding areas for white-tailed deer. <LINE> <LINE> Trains: Tracking",
+    Tooltip_WK_KDFWRGameMgmtRef = "Professional reference used by wildlife officers. Population assessment methods, habitat evaluation, and legal enforcement standards. <LINE> <LINE> Trains: Tracking",
+
+    -- Trapping
+    Tooltip_WK_WildlifeTrappingGuide = "KDFWR reference covering trap types, placement strategy, and set construction by target species for licensed trappers. <LINE> <LINE> Trains: Trapping",
+    Tooltip_WK_FurbearerRef = "Commercial trapping reference covering pelt quality assessment, prime time by species, and handling procedures. <LINE> <LINE> Trains: Trapping",
+    Tooltip_WK_KDFWRTrapperRegs = "Legal set requirements, species restrictions, and tagging requirements for licensed trappers in Kentucky. <LINE> <LINE> Trains: Trapping",
+}
