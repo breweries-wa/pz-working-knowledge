@@ -9,26 +9,27 @@ local WK_DOCS = {
 }
 
 local function onFillInventoryContextMenu(playerNum, context, items)
+    print("[WK] context menu fired, playerNum=" .. tostring(playerNum))
     local player = getSpecificPlayer(playerNum)
-    if not player then return end
+    if not player then print("[WK] no player") return end
 
     local actualItems = ISInventoryPane.getActualItems(items)
+    print("[WK] actualItems count=" .. tostring(#actualItems))
     for _, item in ipairs(actualItems) do
         local ok, itemType = pcall(function() return item:getType() end)
-        if not ok or not itemType then goto continue end
-
-        local bareType = itemType:match("%.(.+)$") or itemType
-        local perkType = WK_DOCS[bareType]
-        if perkType then
-            if item:getModData()["WK_read"] then
-                local opt = context:addOption("Already read", item, nil)
-                opt.notAvailable = true
-            else
-                context:addOption("Read", item, WK_ContextMenu.onRead, player, perkType)
+        if ok and itemType then
+            print("[WK] item type=" .. tostring(itemType))
+            local bareType = itemType:match("%.(.+)$") or itemType
+            local perkType = WK_DOCS[bareType]
+            if perkType then
+                if item:getModData()["WK_read"] then
+                    local opt = context:addOption("Already read", item, nil)
+                    opt.notAvailable = true
+                else
+                    context:addOption("Read", item, WK_ContextMenu.onRead, player, perkType)
+                end
             end
         end
-
-        ::continue::
     end
 end
 
