@@ -161,30 +161,66 @@ local function getWKDocs()
     return WK_DOCS
 end
 
+-- Ensure HBR can track this item by setting literatureTitle on the item's modData.
+-- HBR is a local-scoped mod with no global API; we write to the same modData keys it reads.
+local function initHBRItem(item, bareType)
+    local ok, md = pcall(function() return item:getModData() end)
+    if ok and md and not md.literatureTitle then
+        md.literatureTitle = "Base." .. bareType
+    end
+end
+
 local function onFillInventoryContextMenu(playerNum, context, items)
     local player = getSpecificPlayer(playerNum)
     if not player then return end
 
+    local docs = getWKDocs()
     local actualItems = ISInventoryPane.getActualItems(items)
     local seen = {}
     for _, item in ipairs(actualItems) do
         local ok, itemType = pcall(function() return item:getType() end)
         if ok and itemType then
             local bareType = itemType:match("%.(.+)$") or itemType
-            local perkName = getWKDocs()[bareType]
-            if perkName and not seen[bareType] then
-                seen[bareType] = true
-                local readKey = "WK_read_" .. bareType
-                if player:getModData()[readKey] then
-                    local opt = context:addOption("Already read", item, nil)
-                    opt.notAvailable = true
-                else
-                    context:addOption("Read", item, WK_ContextMenu.onRead, player, perkName, bareType)
+            local perkName = docs[bareType]
+            if perkName then
+                initHBRItem(item, bareType)
+                if not seen[bareType] then
+                    seen[bareType] = true
+                    local readKey = "WK_read_" .. bareType
+                    if player:getModData()[readKey] then
+                        local opt = context:addOption("Already read", item, nil)
+                        opt.notAvailable = true
+                    else
+                        context:addOption("Read", item, WK_ContextMenu.onRead, player, perkName, bareType)
+                    end
                 end
             end
         end
     end
 end
+
+-- Sweep player inventory on load to init literatureTitle for any WK items already held.
+local function onGameStart()
+    local player = getSpecificPlayer(0)
+    if not player then return end
+    local inv = player:getInventory()
+    if not inv then return end
+    local docs = getWKDocs()
+    local invItems = inv:getItems()
+    for i = 0, invItems:size() - 1 do
+        local ok, item = pcall(function() return invItems:get(i) end)
+        if ok and item then
+            local ok2, itemType = pcall(function() return item:getType() end)
+            if ok2 and itemType then
+                local bareType = itemType:match("%.(.+)$") or itemType
+                if docs[bareType] then
+                    initHBRItem(item, bareType)
+                end
+            end
+        end
+    end
+end
+Events.OnGameStart.Add(onGameStart)
 
 WK_ContextMenu = {}
 
