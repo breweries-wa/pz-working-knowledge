@@ -1,0 +1,3 @@
+Sandbox_WorkingKnowledge = Working Knowledge,
+Sandbox_WorkingKnowledge_XPGrant = XP Grant,
+Sandbox_WorkingKnowledge_XPGrant_tooltip = Base XP awarded when a character reads a document. Scaled by the game's passive skill rate. Default: 50.,
