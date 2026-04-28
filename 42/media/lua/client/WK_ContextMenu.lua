@@ -7,7 +7,7 @@ local WK_DOCS = nil
 local function getWKDocs()
     if not WK_DOCS then
         WK_DOCS = {
-            WK_LumberYardManual = Perks.Carpentry,
+            WK_LumberYardManual = Perks.Woodwork,
         }
     end
     return WK_DOCS
