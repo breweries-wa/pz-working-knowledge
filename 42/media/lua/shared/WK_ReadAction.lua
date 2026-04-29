@@ -50,8 +50,13 @@ function WKReadAction:perform()
         if not modData.readMap then modData.readMap = {} end
         modData.readMap[fullType] = true
     end
-    -- Delegate to ISReadABook.perform for HBR hook (addReadLiterature).
-    ISReadABook.perform(self)
+    self.character:setReading(false)
+    self.character:playSound("CloseBook")
+    -- addReadLiterature is what HBR hooks for its checkmark.
+    -- Calling ISReadABook.perform(self) crashes on nil container, so call directly.
+    local fullType = "Base." .. self.itemType
+    pcall(function() self.character:addReadLiterature(fullType) end)
+    ISBaseTimedAction.perform(self)
 end
 
 function WKReadAction:new(character, item, perkName, itemType)
