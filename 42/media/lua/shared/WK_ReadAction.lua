@@ -1,43 +1,46 @@
-require "TimedActions/ISBaseTimedAction"
+require "TimedActions/ISReadABook"
 
-WKReadAction = ISBaseTimedAction:derive("WKReadAction")
+WKReadAction = ISReadABook:derive("WKReadAction")
 
 function WKReadAction:isValid()
-    if not self.item then return false end
-    local ok, container = pcall(function() return self.item:getContainer() end)
-    return ok and container ~= nil
+    -- Don't allow re-reading
+    if self.character:getModData()["WK_read_" .. self.itemType] then
+        return false
+    end
+    -- Item must be in player's inventory (same as vanilla reading)
+    if isClient() then
+        return self.item ~= nil and self.character:getInventory():containsID(self.item:getID())
+    else
+        return self.item ~= nil and self.character:getInventory():contains(self.item)
+    end
 end
 
 function WKReadAction:perform()
     local readKey = "WK_read_" .. self.itemType
     local modData = self.character:getModData()
     if not modData[readKey] then
-        modData[readKey] = true  -- local mark so context menu updates immediately
+        modData[readKey] = true
         sendClientCommand(self.character, "WorkingKnowledge", "ReadDocument", {
             perk     = self.perkName,
             itemType = self.itemType,
         })
-
+        -- Set literatureTitle before calling ISReadABook.perform so it can
+        -- call addReadLiterature() with the correct value (HBR hooks this).
         local fullType = "Base." .. self.itemType
-
-        -- Ensure the item is tagged so inventory-tracking mods can identify it.
         local okMd, itemMd = pcall(function() return self.item:getModData() end)
-        if okMd and itemMd and not itemMd.literatureTitle then
-            itemMd.literatureTitle = fullType
+        if okMd and itemMd then
+            itemMd.literatureTitle = itemMd.literatureTitle or fullType
         end
-
-        -- Write into the player's readMap so inventory-tracking mods know it's been read.
         if not modData.readMap then modData.readMap = {} end
         modData.readMap[fullType] = true
     end
-    ISBaseTimedAction.perform(self)
+    -- Delegate to ISReadABook for sound, animation cleanup, and literature tracking.
+    ISReadABook.perform(self)
 end
 
 function WKReadAction:new(character, item, perkName, itemType)
-    local o = ISBaseTimedAction.new(self, character)
-    o.item     = item
-    o.perkName = perkName   -- string, e.g. "Woodwork"
-    o.itemType = itemType   -- bare type, e.g. "WK_LumberYardManual"
-    o.maxTime  = 100
+    local o = ISReadABook.new(self, character, item)
+    o.perkName = perkName
+    o.itemType = itemType
     return o
 end

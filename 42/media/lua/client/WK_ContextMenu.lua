@@ -224,6 +224,14 @@ Events.OnGameStart.Add(onGameStart)
 WK_ContextMenu = {}
 
 function WK_ContextMenu.onRead(item, player, perkName, itemType)
+    -- ISReadABook requires the item to be in the player's inventory.
+    -- Queue a pickup first if the item is still in a container.
+    if not player:getInventory():containsID(item:getID()) then
+        local ok, container = pcall(function() return item:getContainer() end)
+        if ok and container then
+            ISTimedActionQueue.add(ISInventoryTransferAction:new(player, item, container, player:getInventory()))
+        end
+    end
     ISTimedActionQueue.add(WKReadAction:new(player, item, perkName, itemType))
 end
 
