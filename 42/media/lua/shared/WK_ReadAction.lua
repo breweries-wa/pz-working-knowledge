@@ -1,18 +1,36 @@
+require "TimedActions/ISBaseTimedAction"
 require "TimedActions/ISReadABook"
 
-WKReadAction = ISReadABook:derive("WKReadAction")
+WKReadAction = ISBaseTimedAction:derive("WKReadAction")
 
 function WKReadAction:isValid()
-    -- Don't allow re-reading
-    if self.character:getModData()["WK_read_" .. self.itemType] then
-        return false
-    end
-    -- Item must be in player's inventory (same as vanilla reading)
+    if self.character:getModData()["WK_read_" .. self.itemType] then return false end
     if isClient() then
         return self.item ~= nil and self.character:getInventory():containsID(self.item:getID())
     else
         return self.item ~= nil and self.character:getInventory():contains(self.item)
     end
+end
+
+function WKReadAction:start()
+    self.item:setJobType(getText("ContextMenu_Read") .. " " .. self.item:getName())
+    self.item:setJobDelta(0.0)
+    self:setActionAnim(CharacterActionAnims.Read)
+    self:setAnimVariable("ReadType", "book")
+    self:setOverrideHandModels(nil, self.item)
+    self.character:setReading(true)
+    self.character:playSound("OpenBook")
+end
+
+function WKReadAction:stop()
+    self.character:setReading(false)
+    self.item:setJobDelta(0.0)
+    self.character:playSound("CloseBook")
+    ISBaseTimedAction.stop(self)
+end
+
+function WKReadAction:update()
+    self.item:setJobDelta(self:getJobDelta())
 end
 
 function WKReadAction:perform()
@@ -24,8 +42,6 @@ function WKReadAction:perform()
             perk     = self.perkName,
             itemType = self.itemType,
         })
-        -- Set literatureTitle before calling ISReadABook.perform so it can
-        -- call addReadLiterature() with the correct value (HBR hooks this).
         local fullType = "Base." .. self.itemType
         local okMd, itemMd = pcall(function() return self.item:getModData() end)
         if okMd and itemMd then
@@ -34,13 +50,20 @@ function WKReadAction:perform()
         if not modData.readMap then modData.readMap = {} end
         modData.readMap[fullType] = true
     end
-    -- Delegate to ISReadABook for sound, animation cleanup, and literature tracking.
+    -- Delegate to ISReadABook.perform for HBR hook (addReadLiterature).
     ISReadABook.perform(self)
 end
 
 function WKReadAction:new(character, item, perkName, itemType)
-    local o = ISReadABook.new(self, character, item)
+    local o = ISBaseTimedAction.new(self, character)
+    o.item     = item
     o.perkName = perkName
     o.itemType = itemType
+    -- Honor Fast Reader / Slow Reader traits like vanilla books do.
+    local time = 200
+    if character:hasTrait(CharacterTrait.FAST_READER) then time = time * 0.7 end
+    if character:hasTrait(CharacterTrait.SLOW_READER)  then time = time * 1.3 end
+    o.maxTime  = math.max(math.floor(time), 1)
+    o.forceProgressBar = true
     return o
 end
