@@ -170,9 +170,9 @@ local function getWKDocs()
             WK_TimberCruiserHandbook        = "Axe",
             WK_AppalachianFellingNotes      = "Axe",
             WK_BoyScoutAxemanship           = "Axe",
-            WK_HewingTimbersGuide           = "Axe",
-            WK_KMLALumberjackPaper          = "Axe",
-            WK_WeyerhaeuserSafety           = "Axe",
+            WK_MountainRescueIceAxe         = "Axe",
+            WK_BackcountryHatchetCard       = "Axe",
+            WK_TechnicalRescueAxeRef        = "Axe",
             WK_EngineCompanyAxeRef          = "Axe",
             WK_KDFWRDeadwoodPamph           = "Axe",
             -- Blacksmithing

@@ -29,7 +29,7 @@ module Base
     item WK_DefensiveHandgunRef
     {
         ItemType         = base:literature,
-        DisplayName      = Defensive Handgun Employment: A Law Enforcement Reference,
+        DisplayName      = Defensive Handgun Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Book8,
@@ -41,7 +41,7 @@ module Base
     item WK_SheriffQualLog
     {
         ItemType         = base:literature,
-        DisplayName      = Sheriff's Department Duty Weapon Qualification Log,
+        DisplayName      = Sheriff's Duty Weapon Qual Log,
         DisplayCategory  = Literature,
         Weight           = 0.3,
         Icon             = Diary1,
@@ -67,7 +67,7 @@ module Base
     item WK_MagazineDrillCard
     {
         ItemType         = base:literature,
-        DisplayName      = Weapons Handling and Magazine Management Drill Card,
+        DisplayName      = Weapons Handling Drill Card,
         DisplayCategory  = Literature,
         Weight           = 0.1,
         Icon             = IndexCard,
@@ -91,7 +91,7 @@ module Base
     item WK_PracticalShootingRef
     {
         ItemType         = base:literature,
-        DisplayName      = Practical Shooting Stage Procedures and Load Standards,
+        DisplayName      = Practical Shooting Stage Procedures,
         DisplayCategory  = Literature,
         Weight           = 0.1,
         Icon             = Brochure,
@@ -105,7 +105,7 @@ module Base
     item WK_OSHALoggingRef
     {
         ItemType         = base:literature,
-        DisplayName      = OSHA 1910.266 Logging Operations Safety Reference,
+        DisplayName      = OSHA Logging Operations Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Paperwork1,
@@ -155,7 +155,7 @@ module Base
     item WK_BrushClearingRef
     {
         ItemType         = base:literature,
-        DisplayName      = Brush Clearing and Trail Maintenance Reference,
+        DisplayName      = Brush Clearing Trail Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
         Icon             = Brochure,
@@ -167,7 +167,7 @@ module Base
     item WK_MacheteUseGuide
     {
         ItemType         = base:literature,
-        DisplayName      = Agricultural Machete Use and Safety Guide,
+        DisplayName      = Agricultural Machete Safety Guide,
         DisplayCategory  = Literature,
         Weight           = 0.1,
         Icon             = Brochure,
@@ -179,7 +179,7 @@ module Base
     item WK_ForestryContractorSOP
     {
         ItemType         = base:literature,
-        DisplayName      = Forestry Contractor Tool Use and Safety SOP,
+        DisplayName      = Forestry Contractor Brush SOP,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Notepad,
@@ -267,7 +267,7 @@ module Base
     item WK_NSFBladeSafetyRef
     {
         ItemType         = base:literature,
-        DisplayName      = NSF Blade Safety and Sanitation Compliance Reference,
+        DisplayName      = NSF Blade Safety & Sanitation Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Paperwork1,
@@ -293,7 +293,7 @@ module Base
     item WK_KCPDImpactWeaponsRef
     {
         ItemType         = base:literature,
-        DisplayName      = KCPD Defensive Tactics Reference: Impact Weapons,
+        DisplayName      = KCPD Impact Weapons Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Book8,
@@ -305,7 +305,7 @@ module Base
     item WK_OSHAHandToolSafety
     {
         ItemType         = base:literature,
-        DisplayName      = OSHA 1926.304 Hand Tool Safety Reference,
+        DisplayName      = OSHA Hand Tool Safety Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Paperwork1,
@@ -329,7 +329,7 @@ module Base
     item WK_PlumbingQuickClearRef
     {
         ItemType         = base:literature,
-        DisplayName      = Building Maintenance Drain and Plumbing Quick-Clear Reference,
+        DisplayName      = Plumbing Quick-Clear Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
         Icon             = IndexCard,
@@ -429,7 +429,7 @@ module Base
     item WK_StageCombatSpearRef
     {
         ItemType         = base:literature,
-        DisplayName      = Stage Combat Instructor's Reference: Pole and Spear Techniques,
+        DisplayName      = Stage Combat Spear Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Paperwork1,
@@ -529,7 +529,7 @@ module Base
     item WK_NDSWoodConstruction
     {
         ItemType         = base:literature,
-        DisplayName      = National Design Specification for Wood Construction: Field Summary,
+        DisplayName      = NDS Wood Construction Field Summary,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Paperwork1,
@@ -1079,7 +1079,7 @@ module Base
     item WK_KnoxExtensionGuide
     {
         ItemType         = base:literature,
-        DisplayName      = Knox County Extension Office Crop Production Guide,
+        DisplayName      = Knox County Extension Crop Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Book8,
@@ -1165,7 +1165,7 @@ module Base
     item WK_KDALivestockRef
     {
         ItemType         = base:literature,
-        DisplayName      = Kentucky Department of Agriculture Livestock Compliance Reference,
+        DisplayName      = KDA Livestock Compliance Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Paperwork1,
@@ -1217,7 +1217,7 @@ module Base
     item WK_LEFitnessStandardsRef
     {
         ItemType         = base:literature,
-        DisplayName      = Law Enforcement Physical Fitness Standards Reference,
+        DisplayName      = LE Physical Fitness Standards,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Paperwork1,
@@ -1381,7 +1381,7 @@ module Base
     item WK_ToxicPlantRef
     {
         ItemType         = base:literature,
-        DisplayName      = Toxic Plant Look-Alikes: Field Identification Reference,
+        DisplayName      = Toxic Plant Look-Alikes Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Book8,
@@ -1469,7 +1469,7 @@ module Base
     item WK_KDFWRTrapperRegs
     {
         ItemType         = base:literature,
-        DisplayName      = KDFWR Trapper Regulations and Compliance Reference,
+        DisplayName      = KDFWR Trapper Regulations,
         DisplayCategory  = Literature,
         Weight           = 0.1,
         Icon             = Brochure,
@@ -1578,7 +1578,7 @@ module Base
     item WK_PoliceAcademyHandgun
     {
         ItemType         = base:literature,
-        DisplayName      = Police Academy Recruit Handgun Manipulation Manual,
+        DisplayName      = Police Academy Handgun Manual,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Book8,
@@ -1650,7 +1650,7 @@ module Base
     item WK_RangemasterDrillBook
     {
         ItemType         = base:literature,
-        DisplayName      = Rangemaster Three-Day Certification Drillbook,
+        DisplayName      = Rangemaster Certification Drillbook,
         DisplayCategory  = Literature,
         Weight           = 0.3,
         Icon             = Diary1,
@@ -1707,40 +1707,40 @@ module Base
         Tooltip          = Tooltip_WK_BoyScoutAxemanship,
     }
 
-    item WK_HewingTimbersGuide
+    item WK_MountainRescueIceAxe
     {
         ItemType         = base:literature,
-        DisplayName      = Traditional Timber Hewing Guide,
+        DisplayName      = Mountain Rescue Ice Axe Manual,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Book8,
         StaticModel      = BookBrown,
         WorldStaticModel = BookBrown_Ground,
-        Tooltip          = Tooltip_WK_HewingTimbersGuide,
+        Tooltip          = Tooltip_WK_MountainRescueIceAxe,
     }
 
-    item WK_KMLALumberjackPaper
+    item WK_BackcountryHatchetCard
     {
         ItemType         = base:literature,
-        DisplayName      = KY Mountain Lumberjack Association Pamphlet,
+        DisplayName      = Backcountry Hatchet Field Card,
         DisplayCategory  = Literature,
         Weight           = 0.1,
         Icon             = Brochure,
         StaticModel      = Brochure,
         WorldStaticModel = Brochure,
-        Tooltip          = Tooltip_WK_KMLALumberjackPaper,
+        Tooltip          = Tooltip_WK_BackcountryHatchetCard,
     }
 
-    item WK_WeyerhaeuserSafety
+    item WK_TechnicalRescueAxeRef
     {
         ItemType         = base:literature,
-        DisplayName      = Weyerhaeuser Logger Safety Manual,
+        DisplayName      = Technical Rescue Axe Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
         Icon             = Paperwork1,
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
-        Tooltip          = Tooltip_WK_WeyerhaeuserSafety,
+        Tooltip          = Tooltip_WK_TechnicalRescueAxeRef,
     }
 
     item WK_EngineCompanyAxeRef
