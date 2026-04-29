@@ -56,6 +56,7 @@ function WKReadAction:perform()
     pcall(function() self.item:getContainer():setDrawDirty(true) end)
     local fullType = "Base." .. self.itemType
     pcall(function() self.character:addReadLiterature(fullType) end)
+    pcall(function() self.character:ReadLiterature(self.item) end)
     ISBaseTimedAction.perform(self)
 end
 
