@@ -52,8 +52,8 @@ function WKReadAction:perform()
     end
     self.character:setReading(false)
     self.character:playSound("CloseBook")
-    -- addReadLiterature is what HBR hooks for its checkmark.
-    -- Calling ISReadABook.perform(self) crashes on nil container, so call directly.
+    self.item:setJobDelta(0.0)
+    pcall(function() self.item:getContainer():setDrawDirty(true) end)
     local fullType = "Base." .. self.itemType
     pcall(function() self.character:addReadLiterature(fullType) end)
     ISBaseTimedAction.perform(self)
