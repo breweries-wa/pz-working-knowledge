@@ -275,3 +275,394 @@ if dist.FilingCabinetGeneric and dist.FilingCabinetGeneric.items then
         { "WK_WeldInspectionRef",        0.1  },
     })
 end
+
+-- EXPANDED CONTENT v2
+if dist.ButcherLiterature and dist.ButcherLiterature.items then
+    addMany(dist.ButcherLiterature.items, {
+        { "WK_ButchersBoningGuide", 1 },
+        { "WK_UFCWCutleryTechRef", 1 },
+        { "WK_UnionStockyardsCut", 1 },
+        { "WK_DeerProcessorGuide", 1 },
+        { "WK_SausageProductionNotes", 1 },
+        { "WK_SmallSlaughterhouseSOP", 1 },
+        { "WK_KosherButcheringRef", 1 },
+        { "WK_CharcuterieProduction", 1 },
+        { "WK_HolidayTurkeyCard", 1 },
+        { "WK_CharcutierApprDiary", 1 },
+        { "WK_WildGameProcessor", 1 },
+    })
+end
+
+if dist.CarDealerFilingCabinet and dist.CarDealerFilingCabinet.items then
+    addMany(dist.CarDealerFilingCabinet.items, {
+        { "WK_ASEStudyGuide", 0.5 },
+        { "WK_ChevyTechServiceBull", 0.5 },
+        { "WK_TruckingFleetPMSched", 1 },
+    })
+end
+
+if dist.DeskGeneric and dist.DeskGeneric.items then
+    addMany(dist.DeskGeneric.items, {
+        { "WK_BullseyeMatchProgramme", 0.3 },
+        { "WK_BoyScoutRiflery", 1 },
+        { "WK_HighPowerNewsletter", 0.3 },
+        { "WK_BoyScoutAxemanship", 1 },
+        { "WK_SCAHeavyFightCard", 1 },
+        { "WK_LarpFightChoreography", 1 },
+        { "WK_ScoutTroopToolCare", 1 },
+        { "WK_ScoutCampcraftKnife", 1 },
+        { "WK_CricketBowlersGuide", 1 },
+        { "WK_LacrosseCoachManual", 1 },
+        { "WK_HockeyStickHandling", 1 },
+        { "WK_SCAPolearmRef", 1 },
+        { "WK_TrackPoleVaultCard", 1 },
+        { "WK_KarateBoStaffMan", 1 },
+        { "WK_ScoutsPolearmDemo", 1 },
+        { "WK_ScoutMetalwork", 1 },
+        { "WK_SpoonCarvingNotes", 1 },
+        { "WK_ChipCarvingPattern", 1 },
+        { "WK_WaldenWoodcrafter", 1 },
+        { "WK_JuniorHighWoodshop", 1 },
+        { "WK_AppalachianFolkArt", 1 },
+        { "WK_KilnFusedJewelry", 1 },
+        { "WK_BeadSocietyLampwork", 1 },
+        { "WK_RendezvousMtnMan", 1 },
+        { "WK_BSAPrimitiveSurvival", 1 },
+        { "WK_ChildrenPotteryLesson", 1 },
+        { "WK_BeginnerWheelNotes", 1 },
+        { "WK_HomeEcSewingText", 1 },
+        { "WK_AgEdJudgingCard", 1 },
+        { "WK_HSTrackCoachManual", 1 },
+        { "WK_KYHSAARulebook", 1 },
+        { "WK_SprintIntervalCard", 1 },
+        { "WK_CrossCountryRef", 1 },
+        { "WK_HSFootballCondition", 1 },
+        { "WK_BMXRacingTraining", 1 },
+        { "WK_RugbyStrengthMan", 1 },
+        { "WK_HSWrestlingStrength", 1 },
+        { "WK_PediatricFirstAid", 1 },
+        { "WK_ScoutCarpentryMerit", 1 },
+    })
+end
+
+if dist.ElectricianTools and dist.ElectricianTools.items then
+    addMany(dist.ElectricianTools.items, {
+        { "WK_IBEWApprentBook", 1 },
+        { "WK_ResWiringText", 1 },
+        { "WK_MotorControlSchem", 1 },
+        { "WK_TransformerNamePlate", 1 },
+        { "WK_GroundingBondingRef", 1 },
+        { "WK_UndergroundCableRef", 1 },
+    })
+end
+
+if dist.FilingCabinetGeneric and dist.FilingCabinetGeneric.items then
+    addMany(dist.FilingCabinetGeneric.items, {
+        { "WK_FBIQualScorebook", 0.1 },
+        { "WK_BoyScoutRiflery", 0.1 },
+        { "WK_VietnamRiflemanNotes", 1 },
+        { "WK_NavalGunnersManual", 1 },
+        { "WK_GuardForceWeaponsManual", 1 },
+        { "WK_TimberCruiserHandbook", 0.1 },
+        { "WK_BoyScoutAxemanship", 0.1 },
+        { "WK_KMLALumberjackPaper", 0.1 },
+        { "WK_WeyerhaeuserSafety", 1 },
+        { "WK_KDFWRDeadwoodPamph", 1 },
+        { "WK_KYHighwayBrushControl", 1 },
+        { "WK_CornDetasselingCard", 0.1 },
+        { "WK_AppalachianHerbalCutting", 1 },
+        { "WK_StateParksTrailCrew", 1 },
+        { "WK_CaneCuttingManual", 1 },
+        { "WK_ShopApprenticeToolLog", 0.1 },
+        { "WK_BarberRazorStropping", 1 },
+        { "WK_AntiqueDealerCare", 1 },
+        { "WK_SushiChefKnifeBook", 1 },
+        { "WK_TaxidermistCapingRef", 1 },
+        { "WK_SurgeonScalpelRef", 1 },
+        { "WK_UFCWCutleryTechRef", 0.1 },
+        { "WK_NorthwoodsFilletCard", 1 },
+        { "WK_RailroadSpikeMaul", 1 },
+        { "WK_CaverHammerPickRef", 1 },
+        { "WK_TrackMaintenanceSledge", 1 },
+        { "WK_KDFWRBowfishingRef", 1 },
+        { "WK_CherokeeFishSpear", 1 },
+        { "WK_WWIIBayonetTraining", 1 },
+        { "WK_PrimitiveSpearfishing", 1 },
+        { "WK_ABANANewsletter", 0.1 },
+        { "WK_SteelmillProcessRef", 0.1 },
+        { "WK_CountryCarversBook", 1 },
+        { "WK_AppalachianFolkArt", 0.1 },
+        { "WK_BowyerTilleringNotes", 1 },
+        { "WK_SullivanCulinaryText", 1 },
+        { "WK_KYExtensionCookbook", 1 },
+        { "WK_ArmyMessHallSOP", 1 },
+        { "WK_SchoolCafeteriaRef", 1 },
+        { "WK_PitBossBBQManual", 1 },
+        { "WK_HeritageCookbook1957", 1 },
+        { "WK_TruckStopGriddleNotes", 1 },
+        { "WK_IBEWApprentBook", 0.1 },
+        { "WK_GroundingBondingRef", 0.1 },
+        { "WK_KYStateLicensingMan", 1 },
+        { "WK_CorningEngineering", 0.1 },
+        { "WK_StainedGlassChurch", 1 },
+        { "WK_AntiqueBottleCollect", 1 },
+        { "WK_TiffanyMethodRef", 1 },
+        { "WK_NeonSignBenders", 1 },
+        { "WK_CherokeeArrowhead", 1 },
+        { "WK_FieldArchKnapping", 1 },
+        { "WK_PrimBowhunterFlint", 1 },
+        { "WK_AmateurArchPamph", 1 },
+        { "WK_ObsidianSourceRef", 1 },
+        { "WK_KCMuseumLithicCat", 1 },
+        { "WK_ToolStoneQualityCard", 1 },
+        { "WK_BIATraditionalBrick", 0.1 },
+        { "WK_ChimneySweepInspect", 1 },
+        { "WK_HistoricPointingMan", 1 },
+        { "WK_KCMasonsLocalNews", 1 },
+        { "WK_KYVehicleInspection", 0.1 },
+        { "WK_TruckingFleetPMSched", 0.1 },
+        { "WK_UnivCeramicsText", 1 },
+        { "WK_PenlandWheelRef", 1 },
+        { "WK_RakuFiringNotes", 1 },
+        { "WK_SaltGlazeStoneware", 1 },
+        { "WK_AppFolkPotteryPamph", 1 },
+        { "WK_StudioKilnRepair", 1 },
+        { "WK_CommercialPotteryProc", 1 },
+        { "WK_SearsPatternCatalog", 1 },
+        { "WK_CarhartUnionShop", 1 },
+        { "WK_AlterationsTailorCard", 1 },
+        { "WK_HomeEcSewingText", 0.1 },
+        { "WK_TheatricalCostumeShop", 1 },
+        { "WK_HancockFabricsManual", 1 },
+        { "WK_UpholstererGuide", 1 },
+        { "WK_BridalSeamstressNotes", 1 },
+        { "WK_AWSCertWelderManual", 0.1 },
+        { "WK_UAWWeldingShopSOP", 0.1 },
+        { "WK_FFAVocAgText", 0.1 },
+        { "WK_KYExtensionAgBull", 0.1 },
+        { "WK_UKAgEconNotes", 1 },
+        { "WK_KYTobaccoGrowGuide", 0.1 },
+        { "WK_RodaleOrganicPamph", 1 },
+        { "WK_KYCattlemensNews", 0.1 },
+        { "WK_TysonPoultryGrower", 0.1 },
+        { "WK_TrackVetDailyLog", 1 },
+        { "WK_UnionStockyardsCut", 0.1 },
+        { "WK_SmallSlaughterhouseSOP", 0.1 },
+        { "WK_CharcuterieProduction", 0.1 },
+        { "WK_NCAAStrengthCondition", 1 },
+        { "WK_BostonMarathonTrain", 1 },
+        { "WK_ArmyAPFTManual", 1 },
+        { "WK_USPFPowerlifting", 1 },
+        { "WK_OlympicLiftingNotes", 1 },
+        { "WK_StrongmanTrainingMan", 1 },
+        { "WK_MuscleBuilderMag", 1 },
+        { "WK_ArmyCombatLifter", 1 },
+        { "WK_FreightDockLiftCard", 1 },
+        { "WK_CollegeStrengthLog", 1 },
+        { "WK_ParamedicProtocolMan", 0.1 },
+        { "WK_ERTriageTextbook", 1 },
+        { "WK_NursingFundamentals", 1 },
+        { "WK_PharmacistDispensing", 1 },
+        { "WK_ArmyCombatMedic", 0.1 },
+        { "WK_NursingHomeCareMan", 1 },
+        { "WK_WoundCareSuturing", 1 },
+        { "WK_PediatricFirstAid", 0.1 },
+        { "WK_KYBassFishingClub", 1 },
+        { "WK_CrappieAnglersGuide", 1 },
+        { "WK_KYTroutStocking", 1 },
+        { "WK_FlyTyingPattern", 1 },
+        { "WK_KYRiverCatfishing", 1 },
+        { "WK_WalleyeFishingRef", 1 },
+        { "WK_NoodlingHandfishing", 1 },
+        { "WK_KYMusselRegs", 1 },
+        { "WK_KYWildflowerGuide", 0.1 },
+        { "WK_StalkingWildAsparagus", 1 },
+        { "WK_HerbalPharmacyEnc", 1 },
+        { "WK_WildMushroomHunt", 1 },
+        { "WK_BackyardForaging", 1 },
+        { "WK_EthnobotanyText", 1 },
+        { "WK_TraditionalAppPlants", 1 },
+        { "WK_HunterGatherersRef", 1 },
+        { "WK_WildEdiblesCookbook", 1 },
+        { "WK_ApacheScoutTracking", 1 },
+        { "WK_KYCoonHunting", 1 },
+        { "WK_SARTrackingTraining", 0.1 },
+        { "WK_TurkeyHuntingRef", 1 },
+        { "WK_WildlifeBiologyText", 1 },
+        { "WK_BowHunterCamoMan", 1 },
+        { "WK_NavySEALReconPamph", 1 },
+        { "WK_SignReadingNotes", 1 },
+        { "WK_NTAFurHandlersGuide", 1 },
+        { "WK_KYBeaverTrapPamph", 1 },
+        { "WK_FoxHolerLureRecipes", 1 },
+        { "WK_ConibearSetTechnique", 1 },
+        { "WK_FootholdStakingRef", 1 },
+        { "WK_USDAAnimalDamage", 0.1 },
+        { "WK_KDFWRNuisanceWild", 1 },
+        { "WK_MuskratPeltStretch", 1 },
+        { "WK_FurAuctionGrading", 1 },
+        { "WK_LogHomeBuildersRef", 0.1 },
+        { "WK_AppTimberFramePamph", 1 },
+        { "WK_VocSchoolBuildTrades", 1 },
+    })
+end
+
+if dist.FireStorageTools and dist.FireStorageTools.items then
+    addMany(dist.FireStorageTools.items, {
+        { "WK_EngineCompanyAxeRef", 1 },
+        { "WK_EMTRescueKnifeCard", 1 },
+        { "WK_FirefighterHaliganRef", 1 },
+        { "WK_PulaskiSwingScale", 1 },
+        { "WK_ParamedicProtocolMan", 1 },
+        { "WK_ArmyCombatMedic", 1 },
+        { "WK_SARTrackingTraining", 1 },
+    })
+end
+
+if dist.GunStoreCounter and dist.GunStoreCounter.items then
+    addMany(dist.GunStoreCounter.items, {
+        { "WK_NRAPistolInstructorMan", 1 },
+        { "WK_BullseyeMatchProgramme", 1 },
+        { "WK_KYConcealedCarryGuide", 0.5 },
+        { "WK_USPSARulebook", 1 },
+        { "WK_VietnamRiflemanNotes", 0.5 },
+        { "WK_HighPowerNewsletter", 1 },
+        { "WK_RevolverSpeedloaderCard", 0.5 },
+        { "WK_CombatShootingDrills", 1 },
+        { "WK_GunsmithStripping", 1 },
+        { "WK_ShotgunReloadingCard", 1 },
+        { "WK_RangemasterDrillBook", 1 },
+    })
+end
+
+if dist.MechanicShelfBooks and dist.MechanicShelfBooks.items then
+    addMany(dist.MechanicShelfBooks.items, {
+        { "WK_AutoBodyHammerNotes", 1 },
+        { "WK_ASEStudyGuide", 1 },
+        { "WK_KYVehicleInspection", 1 },
+        { "WK_BriggsStrattonRepair", 1 },
+        { "WK_DieselTroubleshoot", 1 },
+        { "WK_FordPickupShopMan", 1 },
+        { "WK_ChevyTechServiceBull", 1 },
+        { "WK_AutoBodyWeldingRef", 1 },
+    })
+end
+
+if dist.MetalShopTools and dist.MetalShopTools.items then
+    addMany(dist.MetalShopTools.items, {
+        { "WK_BladesmithToolCare", 1 },
+        { "WK_KnifemakerTestCutLog", 1 },
+        { "WK_BlacksmithHammerCard", 1 },
+        { "WK_SteelmillProcessRef", 1 },
+        { "WK_KnifemakerForgeWeld", 1 },
+        { "WK_MotorControlSchem", 0.5 },
+    })
+end
+
+if dist.PoliceDesk and dist.PoliceDesk.items then
+    addMany(dist.PoliceDesk.items, {
+        { "WK_PoliceAcademyHandgun", 0.5 },
+        { "WK_CombatShootingDrills", 0.5 },
+        { "WK_PoliceRecruitFitness", 0.5 },
+    })
+end
+
+if dist.PoliceFilingCabinet and dist.PoliceFilingCabinet.items then
+    addMany(dist.PoliceFilingCabinet.items, {
+        { "WK_NRAPistolInstructorMan", 0.5 },
+        { "WK_KYConcealedCarryGuide", 1 },
+        { "WK_FBIQualScorebook", 1 },
+        { "WK_PoliceAcademyHandgun", 1 },
+        { "WK_RevolverSpeedloaderCard", 1 },
+        { "WK_RangemasterDrillBook", 0.5 },
+        { "WK_NightstickTrainingMan", 1 },
+        { "WK_RiotBatonInstructorRef", 1 },
+        { "WK_PoliceRecruitFitness", 1 },
+        { "WK_BloodhoundHandlerCard", 1 },
+    })
+end
+
+if dist.ToolCabinetFarming and dist.ToolCabinetFarming.items then
+    addMany(dist.ToolCabinetFarming.items, {
+        { "WK_BushHogOperatorRef", 1 },
+        { "WK_CornDetasselingCard", 1 },
+        { "WK_KaiserBladeFieldRef", 0.5 },
+        { "WK_FarrierShoeingNotes", 0.5 },
+        { "WK_KYExtensionCookbook", 0.5 },
+        { "WK_BriggsStrattonRepair", 0.5 },
+        { "WK_FFAVocAgText", 1 },
+        { "WK_KYExtensionAgBull", 1 },
+        { "WK_FertSpreaderCalCard", 1 },
+        { "WK_USDACropRotation", 1 },
+        { "WK_NoTillFarmingMan", 1 },
+        { "WK_KYTobaccoGrowGuide", 1 },
+        { "WK_KYCattlemensNews", 1 },
+        { "WK_FFALivestockJudging", 1 },
+        { "WK_TysonPoultryGrower", 1 },
+        { "WK_SheepGoatBreeder", 1 },
+        { "WK_SwineProductionMan", 1 },
+        { "WK_DairyHerdMgmt", 1 },
+        { "WK_DeerProcessorGuide", 0.5 },
+        { "WK_WildGameProcessor", 0.5 },
+        { "WK_FarmStrengthManual", 1 },
+        { "WK_KYWildflowerGuide", 1 },
+        { "WK_USDAAnimalDamage", 1 },
+    })
+end
+
+if dist.ToolStoreMisc and dist.ToolStoreMisc.items then
+    addMany(dist.ToolStoreMisc.items, {
+        { "WK_TimberCruiserHandbook", 1 },
+        { "WK_AppalachianFellingNotes", 1 },
+        { "WK_HewingTimbersGuide", 1 },
+        { "WK_KMLALumberjackPaper", 1 },
+        { "WK_WeyerhaeuserSafety", 0.5 },
+        { "WK_KaiserBladeFieldRef", 1 },
+        { "WK_JewelersFileCard", 1 },
+        { "WK_ShopApprenticeToolLog", 1 },
+        { "WK_BowSawSetGuide", 1 },
+        { "WK_ProductionFramerCard", 1 },
+        { "WK_MasonsHammerRef", 1 },
+        { "WK_RoofersFlashingCard", 1 },
+        { "WK_LandClearingMaul", 1 },
+        { "WK_BIATraditionalBrick", 1 },
+        { "WK_StonecutterApprenNote", 1 },
+        { "WK_ConcreteFinishersRef", 1 },
+        { "WK_FieldstoneWalls", 1 },
+        { "WK_PavingStoneInstall", 1 },
+        { "WK_CabinetmakerJoinery", 1 },
+        { "WK_RoofFramingCalcCard", 1 },
+        { "WK_LogHomeBuildersRef", 1 },
+        { "WK_FurnitureMakerNotes", 1 },
+    })
+end
+
+if dist.UniversityFilingCabinet_Glassmaking and dist.UniversityFilingCabinet_Glassmaking.items then
+    addMany(dist.UniversityFilingCabinet_Glassmaking.items, {
+        { "WK_PenlandStudioGlass", 1 },
+        { "WK_CorningEngineering", 1 },
+        { "WK_BorosilicateLampwork", 1 },
+    })
+end
+
+if dist.WeldingWorkshopTools and dist.WeldingWorkshopTools.items then
+    addMany(dist.WeldingWorkshopTools.items, {
+        { "WK_AWSCertWelderManual", 1 },
+        { "WK_PipefittersWelding", 1 },
+        { "WK_AluminumMIGRef", 1 },
+        { "WK_UAWWeldingShopSOP", 1 },
+        { "WK_StickRodSelectionGuide", 1 },
+        { "WK_AerospaceTIGNotes", 1 },
+    })
+end
+
+if dist.WildWestBlacksmith and dist.WildWestBlacksmith.items then
+    addMany(dist.WildWestBlacksmith.items, {
+        { "WK_ABANANewsletter", 1 },
+        { "WK_FarrierShoeingNotes", 1 },
+        { "WK_FrontierForgeRef", 1 },
+        { "WK_SwordsmithApprDiary", 1 },
+        { "WK_ColonialIronworker", 1 },
+    })
+end
+

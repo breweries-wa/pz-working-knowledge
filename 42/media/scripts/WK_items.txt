@@ -4,7 +4,7 @@ module Base
 
     item WK_KCPDFirearmsQual
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = KCPD Patrol Firearms Qualification Standards,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -16,7 +16,7 @@ module Base
 
     item WK_RangeSafetyOfficerRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Range Safety Officer Field Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -28,7 +28,7 @@ module Base
 
     item WK_DefensiveHandgunRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Defensive Handgun Employment: A Law Enforcement Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -40,7 +40,7 @@ module Base
 
     item WK_SheriffQualLog
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Sheriff's Department Duty Weapon Qualification Log,
         DisplayCategory  = Literature,
         Weight           = 0.3,
@@ -54,7 +54,7 @@ module Base
 
     item WK_TacticalReloadRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Law Enforcement Tactical Reload Procedures,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -66,7 +66,7 @@ module Base
 
     item WK_MagazineDrillCard
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Weapons Handling and Magazine Management Drill Card,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -78,7 +78,7 @@ module Base
 
     item WK_ArmorersWeaponsRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Armorer's Weapons Manipulation Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -90,7 +90,7 @@ module Base
 
     item WK_PracticalShootingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Practical Shooting Stage Procedures and Load Standards,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -104,7 +104,7 @@ module Base
 
     item WK_OSHALoggingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = OSHA 1910.266 Logging Operations Safety Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -116,7 +116,7 @@ module Base
 
     item WK_ArboristFieldGuide
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Certified Arborist Tree Assessment Field Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -128,7 +128,7 @@ module Base
 
     item WK_ForcibleEntryRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = NFPA 1 Forcible Entry Operations Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -140,7 +140,7 @@ module Base
 
     item WK_FirefighterHandToolSOP
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Firefighter Hand Tool Operations SOP,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -154,7 +154,7 @@ module Base
 
     item WK_BrushClearingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Brush Clearing and Trail Maintenance Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -166,7 +166,7 @@ module Base
 
     item WK_MacheteUseGuide
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Agricultural Machete Use and Safety Guide,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -178,7 +178,7 @@ module Base
 
     item WK_ForestryContractorSOP
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Forestry Contractor Tool Use and Safety SOP,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -192,7 +192,7 @@ module Base
 
     item WK_KnifeMaintenanceLog
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Commercial Kitchen Knife Maintenance Log,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -204,7 +204,7 @@ module Base
 
     item WK_EdgeToolSharpeningRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Edge Tool Sharpening Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -216,7 +216,7 @@ module Base
 
     item WK_HandToolConditionRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Hand Tool Condition and Care Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -228,7 +228,7 @@ module Base
 
     item WK_ImpactWeaponMaintSOP
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Police Department Impact Weapon Maintenance SOP,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -240,7 +240,7 @@ module Base
 
     item WK_WhetstoneSelectionRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Whetstone and Grinding Stone Selection Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -254,7 +254,7 @@ module Base
 
     item WK_MeatFabricationRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Meat Fabrication Cuts Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -266,7 +266,7 @@ module Base
 
     item WK_NSFBladeSafetyRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = NSF Blade Safety and Sanitation Compliance Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -278,7 +278,7 @@ module Base
 
     item WK_FishFabricationRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Fish Fabrication Field Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -292,7 +292,7 @@ module Base
 
     item WK_KCPDImpactWeaponsRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = KCPD Defensive Tactics Reference: Impact Weapons,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -304,7 +304,7 @@ module Base
 
     item WK_OSHAHandToolSafety
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = OSHA 1926.304 Hand Tool Safety Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -316,7 +316,7 @@ module Base
 
     item WK_FramingHammerCard
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Framing Hammer Use and Safety Card,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -328,7 +328,7 @@ module Base
 
     item WK_PlumbingQuickClearRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Building Maintenance Drain and Plumbing Quick-Clear Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -342,7 +342,7 @@ module Base
 
     item WK_BaseballSwingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Athletic Swing Mechanics Reference: Baseball,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -354,7 +354,7 @@ module Base
 
     item WK_DemolitionHandToolRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Demolition and Breaching Hand Tool Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -366,7 +366,7 @@ module Base
 
     item WK_GolfSwingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Golf Swing Mechanics and Club Technique,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -378,7 +378,7 @@ module Base
 
     item WK_CrowbarApplicationsRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Crowbar and Pry Tool Applications Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -392,7 +392,7 @@ module Base
 
     item WK_KDFWRPrimitiveWeapons
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = KDFWR Primitive Weapons Hunting Regulations,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -404,7 +404,7 @@ module Base
 
     item WK_JavelinCoachingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Track and Field Coaching Reference: Javelin,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -416,7 +416,7 @@ module Base
 
     item WK_AtlatlSpearRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Atlatl and Spear Construction Field Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -428,7 +428,7 @@ module Base
 
     item WK_StageCombatSpearRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Stage Combat Instructor's Reference: Pole and Spear Techniques,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -442,7 +442,7 @@ module Base
 
     item WK_ASTMMaterialSpecRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = ASTM Material Specifications Quick Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -454,7 +454,7 @@ module Base
 
     item WK_ForgeHeatTreatGuide
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Forge Welding and Heat Treatment Field Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -466,7 +466,7 @@ module Base
 
     item WK_IndustrialMetalworkRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Industrial Metalworking Process Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -478,7 +478,7 @@ module Base
 
     item WK_BlacksmithGuildStandards
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Blacksmith Trade Guild Technical Standards,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -492,7 +492,7 @@ module Base
 
     item WK_LumberYardManual
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Lumber Yard Safety Manual,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -504,7 +504,7 @@ module Base
 
     item WK_SpanTablesRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Span Tables for Joists and Rafters,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -516,7 +516,7 @@ module Base
 
     item WK_FinishCarpentryNotes
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Finish Carpentry Field Notes,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -528,7 +528,7 @@ module Base
 
     item WK_NDSWoodConstruction
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = National Design Specification for Wood Construction: Field Summary,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -540,7 +540,7 @@ module Base
 
     item WK_FramingSquareCard
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Framing Square Reference Card,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -554,7 +554,7 @@ module Base
 
     item WK_WoodenHandleShaftRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Wooden Handle and Shaft Fabrication Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -566,7 +566,7 @@ module Base
 
     item WK_FieldExpedientToolRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Field Expedient Tool Construction Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -578,7 +578,7 @@ module Base
 
     item WK_ArchaeologicalToolNotes
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Archaeological Primitive Tool Replication Notes,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -590,7 +590,7 @@ module Base
 
     item WK_TrapperBoneToolRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Trapper's Gear and Bone Tool Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -602,7 +602,7 @@ module Base
 
     item WK_KnifeHandleFittingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Custom Knife Handle Fitting Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -616,7 +616,7 @@ module Base
 
     item WK_HACCPFoodSafetyPlan
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = HACCP Food Safety Plan,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -628,7 +628,7 @@ module Base
 
     item WK_TempTimeControlChart
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Temperature and Time Control Quick Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -640,7 +640,7 @@ module Base
 
     item WK_LineCookStationRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Line Cook Station Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -652,7 +652,7 @@ module Base
 
     item WK_SauceStockLog
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Sauce and Stock Production Log,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -664,7 +664,7 @@ module Base
 
     item WK_ServSafeRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = ServSafe Food Handler Quick Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -678,7 +678,7 @@ module Base
 
     item WK_NECArticleRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = NEC Article Quick Reference Card,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -690,7 +690,7 @@ module Base
 
     item WK_WireGaugeAmpacityRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Wire Gauge and Ampacity Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -702,7 +702,7 @@ module Base
 
     item WK_OSHAElectricalSafety
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = OSHA 1910 Electrical Safety in the Workplace,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -714,7 +714,7 @@ module Base
 
     item WK_ConduitFillRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Conduit Fill and Box Fill Reference Card,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -726,7 +726,7 @@ module Base
 
     item WK_PanelInspectionChecklist
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Residential Panel Inspection Checklist,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -740,7 +740,7 @@ module Base
 
     item WK_GlassAnnealingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Glass Annealing Temperature Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -752,7 +752,7 @@ module Base
 
     item WK_FloatGlassManufRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Float Glass Manufacturing Process Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -764,7 +764,7 @@ module Base
 
     item WK_KilnFormingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Kiln-Forming Techniques: Studio Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -778,7 +778,7 @@ module Base
 
     item WK_LithicTechnologyRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Lithic Technology Field Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -790,7 +790,7 @@ module Base
 
     item WK_PrimitiveSkillsKnappingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Primitive Skills Instructor's Knapping Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -802,7 +802,7 @@ module Base
 
     item WK_LithicAnalysisStandards
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Archaeological Lithic Analysis Standards,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -816,7 +816,7 @@ module Base
 
     item WK_MortarMixRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Mortar Mix and Application Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -828,7 +828,7 @@ module Base
 
     item WK_ASTMC90MasonryRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = ASTM C90 Concrete Masonry Standards Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -840,7 +840,7 @@ module Base
 
     item WK_BrickBlockInspectionRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Brick and Block Masonry Inspection Checklist,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -852,7 +852,7 @@ module Base
 
     item WK_ConcreteMixRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Concrete Mix Design Field Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -866,7 +866,7 @@ module Base
 
     item WK_OBDIICodeRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = OBD-II Diagnostic Trouble Code Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -878,7 +878,7 @@ module Base
 
     item WK_TorqueSpecsRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Torque Specifications Quick Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -890,7 +890,7 @@ module Base
 
     item WK_BrakeServiceRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Brake System Inspection and Service Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -902,7 +902,7 @@ module Base
 
     item WK_AutoElecDiagRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Automotive Electrical Diagnosis Field Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -914,7 +914,7 @@ module Base
 
     item WK_FleetMaintenanceLog
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Fleet Vehicle Maintenance and Inspection Log,
         DisplayCategory  = Literature,
         Weight           = 0.3,
@@ -928,7 +928,7 @@ module Base
 
     item WK_KilnFiringScheduleRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Kiln Firing Schedule Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -940,7 +940,7 @@ module Base
 
     item WK_GlazeChemistryRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Glaze Chemistry Quick Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -952,7 +952,7 @@ module Base
 
     item WK_ClayBodyFormulationRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Clay Body Formulation and Firing Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -966,7 +966,7 @@ module Base
 
     item WK_PatternGradingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Pattern Grading and Sizing Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -978,7 +978,7 @@ module Base
 
     item WK_IndustrialSewingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Industrial Sewing Machine Adjustment Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -990,7 +990,7 @@ module Base
 
     item WK_FiberFabricRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Fiber and Fabric Properties Quick Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1002,7 +1002,7 @@ module Base
 
     item WK_GarmentQualityRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Garment Inspection and Quality Standards,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1016,7 +1016,7 @@ module Base
 
     item WK_AWSD11WeldingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = AWS D1.1 Structural Welding Code Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1028,7 +1028,7 @@ module Base
 
     item WK_WeldingProcSpecRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Welding Procedure Specification Binder,
         DisplayCategory  = Literature,
         Weight           = 0.3,
@@ -1040,7 +1040,7 @@ module Base
 
     item WK_ElectrodeFillMetalRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Electrode and Filler Metal Selection Guide,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1052,7 +1052,7 @@ module Base
 
     item WK_WeldInspectionRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Weld Inspection and Acceptance Criteria,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1064,7 +1064,7 @@ module Base
 
     item WK_OSHAWeldingSafety
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = OSHA 1910.252 Welding Safety Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1078,7 +1078,7 @@ module Base
 
     item WK_KnoxExtensionGuide
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Knox County Extension Office Crop Production Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1090,7 +1090,7 @@ module Base
 
     item WK_SoilTestInterpretRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Soil Test Interpretation Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1102,7 +1102,7 @@ module Base
 
     item WK_PesticideApplicationRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Pesticide Application and Safety Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1114,7 +1114,7 @@ module Base
 
     item WK_IrrigationSchedulingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Irrigation Scheduling and Water Management Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1128,7 +1128,7 @@ module Base
 
     item WK_LivestockHealthRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Livestock Health Assessment Field Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1140,7 +1140,7 @@ module Base
 
     item WK_VaccinationDosageRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Vaccination and Medication Dosage Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1152,7 +1152,7 @@ module Base
 
     item WK_ReproductiveMgmtBinder
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Reproductive Management and Breeding Records,
         DisplayCategory  = Literature,
         Weight           = 0.3,
@@ -1164,7 +1164,7 @@ module Base
 
     item WK_KDALivestockRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Kentucky Department of Agriculture Livestock Compliance Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1178,7 +1178,7 @@ module Base
 
     item WK_USDAMeatGradingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = USDA Meat Grading and Inspection Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1190,7 +1190,7 @@ module Base
 
     item WK_PrimalSubPrimalRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Primal and Sub-Primal Cut Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1202,7 +1202,7 @@ module Base
 
     item WK_HACCPMeatProcessing
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = HACCP Plan for Small Meat Processing Operations,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1216,7 +1216,7 @@ module Base
 
     item WK_LEFitnessStandardsRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Law Enforcement Physical Fitness Standards Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1228,7 +1228,7 @@ module Base
 
     item WK_FireAcademyFitnessRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Fire Academy Cardiovascular Fitness Requirements,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1242,7 +1242,7 @@ module Base
 
     item WK_NIOSHLiftingRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = NIOSH Lifting Equation Field Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1254,7 +1254,7 @@ module Base
 
     item WK_ManualMaterialsHandRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Manual Materials Handling Safety Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1268,7 +1268,7 @@ module Base
 
     item WK_WorkplaceFirstAidSOP
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Workplace First Aid and Emergency Response SOP,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1280,7 +1280,7 @@ module Base
 
     item WK_CPRAEDRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = CPR and AED Quick Reference Card,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1292,7 +1292,7 @@ module Base
 
     item WK_OSHAFirstAidRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = OSHA 1910.151 First Aid Compliance Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1304,7 +1304,7 @@ module Base
 
     item WK_EmergencyTriageRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Emergency Triage Field Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1318,7 +1318,7 @@ module Base
 
     item WK_KYFishingRegs
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Kentucky Fish and Wildlife Fishing Regulations,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1330,7 +1330,7 @@ module Base
 
     item WK_FishIdentificationRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Fish Identification and Assessment Field Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1342,7 +1342,7 @@ module Base
 
     item WK_RiggingTackleRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Rigging and Terminal Tackle Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1354,7 +1354,7 @@ module Base
 
     item WK_CommercialFishingSafetyRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Commercial Fishing Vessel Safety Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1368,7 +1368,7 @@ module Base
 
     item WK_EdiblePlantsRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Edible Plants of the Eastern Woodlands,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1380,7 +1380,7 @@ module Base
 
     item WK_ToxicPlantRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Toxic Plant Look-Alikes: Field Identification Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1392,7 +1392,7 @@ module Base
 
     item WK_WildcraftHerbalistRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Wildcraft Herbalist's Field Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1406,7 +1406,7 @@ module Base
 
     item WK_WildlifeTrackSignRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Wildlife Track and Sign Identification Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1418,7 +1418,7 @@ module Base
 
     item WK_DeerMovementRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Deer Movement and Habitat Assessment Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1430,7 +1430,7 @@ module Base
 
     item WK_KDFWRGameMgmtRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = KDFWR Game Management Field Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1444,7 +1444,7 @@ module Base
 
     item WK_WildlifeTrappingGuide
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Wildlife Management Trapping Field Guide,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1456,7 +1456,7 @@ module Base
 
     item WK_FurbearerRef
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = Furbearer Identification and Harvest Reference,
         DisplayCategory  = Literature,
         Weight           = 0.2,
@@ -1468,7 +1468,7 @@ module Base
 
     item WK_KDFWRTrapperRegs
     {
-        ItemType         = base:normal,
+        ItemType         = base:literature,
         DisplayName      = KDFWR Trapper Regulations and Compliance Reference,
         DisplayCategory  = Literature,
         Weight           = 0.1,
@@ -1477,4 +1477,3054 @@ module Base
         WorldStaticModel = Brochure,
         Tooltip          = Tooltip_WK_KDFWRTrapperRegs,
     }
+    -- EXPANDED CONTENT v2
+
+    item WK_NRAPistolInstructorMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = NRA Pistol Instructor Course Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_NRAPistolInstructorMan,
+    }
+
+    item WK_BullseyeMatchProgramme
+    {
+        ItemType         = base:literature,
+        DisplayName      = NRA Conventional Pistol Match Programme,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_BullseyeMatchProgramme,
+    }
+
+    item WK_KYConcealedCarryGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = Kentucky CCDW Permit Course Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KYConcealedCarryGuide,
+    }
+
+    item WK_FBIQualScorebook
+    {
+        ItemType         = base:literature,
+        DisplayName      = Resident Agent's FBI Qualification Scorebook,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_FBIQualScorebook,
+    }
+
+    item WK_USPSARulebook
+    {
+        ItemType         = base:literature,
+        DisplayName      = USPSA Production Division Rulebook,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_USPSARulebook,
+    }
+
+    item WK_BoyScoutRiflery
+    {
+        ItemType         = base:literature,
+        DisplayName      = Boy Scout Rifle Shooting Merit Badge Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_BoyScoutRiflery,
+    }
+
+    item WK_VietnamRiflemanNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Veteran's Annotated USMC Rifleman Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_VietnamRiflemanNotes,
+    }
+
+    item WK_HighPowerNewsletter
+    {
+        ItemType         = base:literature,
+        DisplayName      = Knox County High Power Rifle Club Newsletter,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_HighPowerNewsletter,
+    }
+
+    item WK_PoliceAcademyHandgun
+    {
+        ItemType         = base:literature,
+        DisplayName      = Police Academy Recruit Handgun Manipulation Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_PoliceAcademyHandgun,
+    }
+
+    item WK_RevolverSpeedloaderCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Service Revolver Speedloader Drill Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_RevolverSpeedloaderCard,
+    }
+
+    item WK_CombatShootingDrills
+    {
+        ItemType         = base:literature,
+        DisplayName      = Defensive Pistol Drill Card Set,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_CombatShootingDrills,
+    }
+
+    item WK_GunsmithStripping
+    {
+        ItemType         = base:literature,
+        DisplayName      = Gunsmith's Stripping and Reassembly Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_GunsmithStripping,
+    }
+
+    item WK_NavalGunnersManual
+    {
+        ItemType         = base:literature,
+        DisplayName      = Navy Gunner's Mate Manipulation Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_NavalGunnersManual,
+    }
+
+    item WK_ShotgunReloadingCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Match Shotgun Tube Reload Drill Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_ShotgunReloadingCard,
+    }
+
+    item WK_RangemasterDrillBook
+    {
+        ItemType         = base:literature,
+        DisplayName      = Rangemaster Three-Day Certification Drillbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_RangemasterDrillBook,
+    }
+
+    item WK_GuardForceWeaponsManual
+    {
+        ItemType         = base:literature,
+        DisplayName      = Loomis Armored Vehicle Weapons SOP,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_GuardForceWeaponsManual,
+    }
+
+    item WK_TimberCruiserHandbook
+    {
+        ItemType         = base:literature,
+        DisplayName      = Timber Cruiser's Pocket Handbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_TimberCruiserHandbook,
+    }
+
+    item WK_AppalachianFellingNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Appalachian Logger's Felling Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_AppalachianFellingNotes,
+    }
+
+    item WK_BoyScoutAxemanship
+    {
+        ItemType         = base:literature,
+        DisplayName      = Boy Scout Axemanship Merit Badge Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_BoyScoutAxemanship,
+    }
+
+    item WK_HewingTimbersGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = Traditional Timber Hewing Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_HewingTimbersGuide,
+    }
+
+    item WK_KMLALumberjackPaper
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY Mountain Lumberjack Association Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_KMLALumberjackPaper,
+    }
+
+    item WK_WeyerhaeuserSafety
+    {
+        ItemType         = base:literature,
+        DisplayName      = Weyerhaeuser Logger Safety Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_WeyerhaeuserSafety,
+    }
+
+    item WK_EngineCompanyAxeRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Engine Company Forcible Entry Axe Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_EngineCompanyAxeRef,
+    }
+
+    item WK_KDFWRDeadwoodPamph
+    {
+        ItemType         = base:literature,
+        DisplayName      = KDFWR Hunter's Deadwood Removal Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_KDFWRDeadwoodPamph,
+    }
+
+    item WK_BushHogOperatorRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Bush Hog Rotary Cutter Operator Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_BushHogOperatorRef,
+    }
+
+    item WK_KYHighwayBrushControl
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY Highway Dept. Roadside Vegetation Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KYHighwayBrushControl,
+    }
+
+    item WK_CornDetasselingCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Corn Detasseling Crew Leader Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_CornDetasselingCard,
+    }
+
+    item WK_AppalachianHerbalCutting
+    {
+        ItemType         = base:literature,
+        DisplayName      = Appalachian Wildcrafter's Cutting Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_AppalachianHerbalCutting,
+    }
+
+    item WK_StateParksTrailCrew
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY State Parks Trail Crew Brushing SOP,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_StateParksTrailCrew,
+    }
+
+    item WK_KaiserBladeFieldRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Kaiser Blade Field Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_KaiserBladeFieldRef,
+    }
+
+    item WK_SCAHeavyFightCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = SCA Heavy Combat Sword Practice Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_SCAHeavyFightCard,
+    }
+
+    item WK_CaneCuttingManual
+    {
+        ItemType         = base:literature,
+        DisplayName      = Sugar Cane Crew Cutting Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_CaneCuttingManual,
+    }
+
+    item WK_LarpFightChoreography
+    {
+        ItemType         = base:literature,
+        DisplayName      = LARP Combat Choreography Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_LarpFightChoreography,
+    }
+
+    item WK_JewelersFileCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Jeweler's File and Burnisher Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_JewelersFileCard,
+    }
+
+    item WK_ShopApprenticeToolLog
+    {
+        ItemType         = base:literature,
+        DisplayName      = Shop Apprentice Tool Maintenance Log,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_ShopApprenticeToolLog,
+    }
+
+    item WK_BarberRazorStropping
+    {
+        ItemType         = base:literature,
+        DisplayName      = Barber's Razor Stropping Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_BarberRazorStropping,
+    }
+
+    item WK_ScoutTroopToolCare
+    {
+        ItemType         = base:literature,
+        DisplayName      = Scout Troop Tool Care Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_ScoutTroopToolCare,
+    }
+
+    item WK_BladesmithToolCare
+    {
+        ItemType         = base:literature,
+        DisplayName      = Bladesmith's Tool Care Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_BladesmithToolCare,
+    }
+
+    item WK_BowSawSetGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = Tooth-Set and Saw Sharpening Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_BowSawSetGuide,
+    }
+
+    item WK_AntiqueDealerCare
+    {
+        ItemType         = base:literature,
+        DisplayName      = Antique Dealer's Edged Tool Care Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_AntiqueDealerCare,
+    }
+
+    item WK_SushiChefKnifeBook
+    {
+        ItemType         = base:literature,
+        DisplayName      = Sushi Chef's Yanagiba Technique Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_SushiChefKnifeBook,
+    }
+
+    item WK_TaxidermistCapingRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Taxidermist's Caping Knife Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_TaxidermistCapingRef,
+    }
+
+    item WK_EMTRescueKnifeCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = EMT Rescue Knife Field Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_EMTRescueKnifeCard,
+    }
+
+    item WK_ButchersBoningGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = Butcher's Boning Knife Technique Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ButchersBoningGuide,
+    }
+
+    item WK_SurgeonScalpelRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Surgical Scalpel Handling Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_SurgeonScalpelRef,
+    }
+
+    item WK_ScoutCampcraftKnife
+    {
+        ItemType         = base:literature,
+        DisplayName      = Boy Scout Campcraft Knife Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_ScoutCampcraftKnife,
+    }
+
+    item WK_UFCWCutleryTechRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = UFCW Cutlery Worker Technique Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_UFCWCutleryTechRef,
+    }
+
+    item WK_KnifemakerTestCutLog
+    {
+        ItemType         = base:literature,
+        DisplayName      = Custom Knifemaker's Test Cutting Log,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_KnifemakerTestCutLog,
+    }
+
+    item WK_NorthwoodsFilletCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Northwoods Fish Camp Fillet Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_NorthwoodsFilletCard,
+    }
+
+    item WK_NightstickTrainingMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Police Nightstick Instructor Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_NightstickTrainingMan,
+    }
+
+    item WK_RailroadSpikeMaul
+    {
+        ItemType         = base:literature,
+        DisplayName      = Railroad Spike Maul Technique Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_RailroadSpikeMaul,
+    }
+
+    item WK_AutoBodyHammerNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Auto Body Hammer and Dolly Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_AutoBodyHammerNotes,
+    }
+
+    item WK_ProductionFramerCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Production Framer's Nailing Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_ProductionFramerCard,
+    }
+
+    item WK_BlacksmithHammerCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Blacksmith's Cross-Pein Hammer Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_BlacksmithHammerCard,
+    }
+
+    item WK_MasonsHammerRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Mason's Hammer and Trowel Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_MasonsHammerRef,
+    }
+
+    item WK_CaverHammerPickRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = NSS Caver's Hammer and Pick Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_CaverHammerPickRef,
+    }
+
+    item WK_RoofersFlashingCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Roofer's Slate Hammer Flashing Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_RoofersFlashingCard,
+    }
+
+    item WK_TrackMaintenanceSledge
+    {
+        ItemType         = base:literature,
+        DisplayName      = Track Maintenance Sledge Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_TrackMaintenanceSledge,
+    }
+
+    item WK_RiotBatonInstructorRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Police Riot Baton Instructor Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_RiotBatonInstructorRef,
+    }
+
+    item WK_CricketBowlersGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = Cricket Bowler's Coaching Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_CricketBowlersGuide,
+    }
+
+    item WK_LacrosseCoachManual
+    {
+        ItemType         = base:literature,
+        DisplayName      = Boys Lacrosse Coach's Stick Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_LacrosseCoachManual,
+    }
+
+    item WK_HockeyStickHandling
+    {
+        ItemType         = base:literature,
+        DisplayName      = High School Hockey Stickhandling Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_HockeyStickHandling,
+    }
+
+    item WK_FirefighterHaliganRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Firefighter Halligan Bar Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_FirefighterHaliganRef,
+    }
+
+    item WK_LandClearingMaul
+    {
+        ItemType         = base:literature,
+        DisplayName      = Land Clearing Splitting Maul Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_LandClearingMaul,
+    }
+
+    item WK_PulaskiSwingScale
+    {
+        ItemType         = base:literature,
+        DisplayName      = USFS Pulaski Tool Swing Scale,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_PulaskiSwingScale,
+    }
+
+    item WK_KDFWRBowfishingRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = KDFWR Bowfishing Regulations Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_KDFWRBowfishingRef,
+    }
+
+    item WK_SCAPolearmRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = SCA Pole Weapons Practice Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_SCAPolearmRef,
+    }
+
+    item WK_CherokeeFishSpear
+    {
+        ItemType         = base:literature,
+        DisplayName      = Cherokee Heritage Fish Spear Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_CherokeeFishSpear,
+    }
+
+    item WK_TrackPoleVaultCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Track Coach's Pole Vault Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_TrackPoleVaultCard,
+    }
+
+    item WK_WWIIBayonetTraining
+    {
+        ItemType         = base:literature,
+        DisplayName      = WWII Bayonet Training Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_WWIIBayonetTraining,
+    }
+
+    item WK_KarateBoStaffMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Karate Dojo Bo Staff Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_KarateBoStaffMan,
+    }
+
+    item WK_ScoutsPolearmDemo
+    {
+        ItemType         = base:literature,
+        DisplayName      = Scout Demo Team Polearm Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_ScoutsPolearmDemo,
+    }
+
+    item WK_PrimitiveSpearfishing
+    {
+        ItemType         = base:literature,
+        DisplayName      = Primitive Skills Spearfishing Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_PrimitiveSpearfishing,
+    }
+
+    item WK_ABANANewsletter
+    {
+        ItemType         = base:literature,
+        DisplayName      = ABANA Traditional Smithing Newsletter,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ABANANewsletter,
+    }
+
+    item WK_FarrierShoeingNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Farrier's Hot Shoeing Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_FarrierShoeingNotes,
+    }
+
+    item WK_FrontierForgeRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Frontier Forge Reconstruction Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_FrontierForgeRef,
+    }
+
+    item WK_SteelmillProcessRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = US Steel Hot Working Process Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_SteelmillProcessRef,
+    }
+
+    item WK_KnifemakerForgeWeld
+    {
+        ItemType         = base:literature,
+        DisplayName      = Custom Knifemaker's Forge Welding Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_KnifemakerForgeWeld,
+    }
+
+    item WK_ScoutMetalwork
+    {
+        ItemType         = base:literature,
+        DisplayName      = Boy Scout Metalwork Merit Badge Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_ScoutMetalwork,
+    }
+
+    item WK_SwordsmithApprDiary
+    {
+        ItemType         = base:literature,
+        DisplayName      = Swordsmith Apprentice's Journal,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_SwordsmithApprDiary,
+    }
+
+    item WK_ColonialIronworker
+    {
+        ItemType         = base:literature,
+        DisplayName      = Colonial Williamsburg Ironworker Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_ColonialIronworker,
+    }
+
+    item WK_SpoonCarvingNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Spoon Carver's Pocket Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_SpoonCarvingNotes,
+    }
+
+    item WK_CountryCarversBook
+    {
+        ItemType         = base:literature,
+        DisplayName      = Country Carver's Whittling Book,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_CountryCarversBook,
+    }
+
+    item WK_ChipCarvingPattern
+    {
+        ItemType         = base:literature,
+        DisplayName      = Chip Carving Pattern Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = GraphPaper,
+        StaticModel      = GraphPaper,
+        WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_ChipCarvingPattern,
+    }
+
+    item WK_WaldenWoodcrafter
+    {
+        ItemType         = base:literature,
+        DisplayName      = Walden Pond Woodcrafter Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_WaldenWoodcrafter,
+    }
+
+    item WK_JuniorHighWoodshop
+    {
+        ItemType         = base:literature,
+        DisplayName      = Junior High Woodshop Project Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_JuniorHighWoodshop,
+    }
+
+    item WK_AppalachianFolkArt
+    {
+        ItemType         = base:literature,
+        DisplayName      = Appalachian Folk Art Whittling Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_AppalachianFolkArt,
+    }
+
+    item WK_BowyerTilleringNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Self-Bow Carver's Tillering Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_BowyerTilleringNotes,
+    }
+
+    item WK_SullivanCulinaryText
+    {
+        ItemType         = base:literature,
+        DisplayName      = Sullivan University Culinary Text,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_SullivanCulinaryText,
+    }
+
+    item WK_KYExtensionCookbook
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY Cooperative Extension Home Cookbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_KYExtensionCookbook,
+    }
+
+    item WK_ArmyMessHallSOP
+    {
+        ItemType         = base:literature,
+        DisplayName      = Army Mess Hall Standard Operating Procedure,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ArmyMessHallSOP,
+    }
+
+    item WK_SchoolCafeteriaRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = School Cafeteria Worker's Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_SchoolCafeteriaRef,
+    }
+
+    item WK_PitBossBBQManual
+    {
+        ItemType         = base:literature,
+        DisplayName      = Pit Boss Competition BBQ Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_PitBossBBQManual,
+    }
+
+    item WK_HeritageCookbook1957
+    {
+        ItemType         = base:literature,
+        DisplayName      = 1957 Heritage Methodist Cookbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_HeritageCookbook1957,
+    }
+
+    item WK_TruckStopGriddleNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Truck Stop Diner Griddle Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_TruckStopGriddleNotes,
+    }
+
+    item WK_IBEWApprentBook
+    {
+        ItemType         = base:literature,
+        DisplayName      = IBEW Apprenticeship Workbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_IBEWApprentBook,
+    }
+
+    item WK_ResWiringText
+    {
+        ItemType         = base:literature,
+        DisplayName      = Trade School Residential Wiring Textbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ResWiringText,
+    }
+
+    item WK_MotorControlSchem
+    {
+        ItemType         = base:literature,
+        DisplayName      = Motor Control Schematic Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = GraphPaper,
+        StaticModel      = GraphPaper,
+        WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_MotorControlSchem,
+    }
+
+    item WK_TransformerNamePlate
+    {
+        ItemType         = base:literature,
+        DisplayName      = Transformer Nameplate Reading Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_TransformerNamePlate,
+    }
+
+    item WK_GroundingBondingRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Equipment Grounding and Bonding Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_GroundingBondingRef,
+    }
+
+    item WK_KYStateLicensingMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY State Electrician Licensing Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KYStateLicensingMan,
+    }
+
+    item WK_UndergroundCableRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Underground Service Cable Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = GraphPaper,
+        StaticModel      = GraphPaper,
+        WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_UndergroundCableRef,
+    }
+
+    item WK_PenlandStudioGlass
+    {
+        ItemType         = base:literature,
+        DisplayName      = Penland School Studio Glass Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_PenlandStudioGlass,
+    }
+
+    item WK_CorningEngineering
+    {
+        ItemType         = base:literature,
+        DisplayName      = Corning Glass Engineering Standard,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_CorningEngineering,
+    }
+
+    item WK_StainedGlassChurch
+    {
+        ItemType         = base:literature,
+        DisplayName      = Stained Glass Church Restoration Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_StainedGlassChurch,
+    }
+
+    item WK_BorosilicateLampwork
+    {
+        ItemType         = base:literature,
+        DisplayName      = Borosilicate Lampwork Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_BorosilicateLampwork,
+    }
+
+    item WK_AntiqueBottleCollect
+    {
+        ItemType         = base:literature,
+        DisplayName      = Antique Bottle Collector's Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_AntiqueBottleCollect,
+    }
+
+    item WK_KilnFusedJewelry
+    {
+        ItemType         = base:literature,
+        DisplayName      = Kiln-Fused Glass Jewelry Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_KilnFusedJewelry,
+    }
+
+    item WK_TiffanyMethodRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Tiffany Studios Method Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_TiffanyMethodRef,
+    }
+
+    item WK_NeonSignBenders
+    {
+        ItemType         = base:literature,
+        DisplayName      = Neon Sign Bender's Field Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_NeonSignBenders,
+    }
+
+    item WK_BeadSocietyLampwork
+    {
+        ItemType         = base:literature,
+        DisplayName      = Bead Society Lampworking Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_BeadSocietyLampwork,
+    }
+
+    item WK_CherokeeArrowhead
+    {
+        ItemType         = base:literature,
+        DisplayName      = Cherokee Heritage Arrowhead Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_CherokeeArrowhead,
+    }
+
+    item WK_FieldArchKnapping
+    {
+        ItemType         = base:literature,
+        DisplayName      = Field Archaeologist's Knapping Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_FieldArchKnapping,
+    }
+
+    item WK_PrimBowhunterFlint
+    {
+        ItemType         = base:literature,
+        DisplayName      = Primitive Bowhunter's Flinting Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_PrimBowhunterFlint,
+    }
+
+    item WK_AmateurArchPamph
+    {
+        ItemType         = base:literature,
+        DisplayName      = Society for Amateur Archaeology Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_AmateurArchPamph,
+    }
+
+    item WK_ObsidianSourceRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Obsidian Source Identification Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ObsidianSourceRef,
+    }
+
+    item WK_RendezvousMtnMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Mountain Man Rendezvous Knapping Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_RendezvousMtnMan,
+    }
+
+    item WK_KCMuseumLithicCat
+    {
+        ItemType         = base:literature,
+        DisplayName      = Kentucky State Museum Lithic Catalog,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_KCMuseumLithicCat,
+    }
+
+    item WK_BSAPrimitiveSurvival
+    {
+        ItemType         = base:literature,
+        DisplayName      = BSA Primitive Skills Survival Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_BSAPrimitiveSurvival,
+    }
+
+    item WK_ToolStoneQualityCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Tool Stone Quality Assessment Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_ToolStoneQualityCard,
+    }
+
+    item WK_BIATraditionalBrick
+    {
+        ItemType         = base:literature,
+        DisplayName      = Brick Industry Association Bricklayer Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_BIATraditionalBrick,
+    }
+
+    item WK_StonecutterApprenNote
+    {
+        ItemType         = base:literature,
+        DisplayName      = Stonecutter Apprentice's Notebook,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_StonecutterApprenNote,
+    }
+
+    item WK_ChimneySweepInspect
+    {
+        ItemType         = base:literature,
+        DisplayName      = Chimney Sweep's Inspection Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ChimneySweepInspect,
+    }
+
+    item WK_HistoricPointingMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Historic Building Pointing Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_HistoricPointingMan,
+    }
+
+    item WK_ConcreteFinishersRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Concrete Finisher's Tools Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_ConcreteFinishersRef,
+    }
+
+    item WK_KCMasonsLocalNews
+    {
+        ItemType         = base:literature,
+        DisplayName      = Knox County Masons Local Newsletter,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KCMasonsLocalNews,
+    }
+
+    item WK_FieldstoneWalls
+    {
+        ItemType         = base:literature,
+        DisplayName      = Field Stone Wall Builder's Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_FieldstoneWalls,
+    }
+
+    item WK_PavingStoneInstall
+    {
+        ItemType         = base:literature,
+        DisplayName      = Paving Stone Installation Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_PavingStoneInstall,
+    }
+
+    item WK_ASEStudyGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = ASE Certification Study Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ASEStudyGuide,
+    }
+
+    item WK_KYVehicleInspection
+    {
+        ItemType         = base:literature,
+        DisplayName      = Kentucky Vehicle Inspection Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KYVehicleInspection,
+    }
+
+    item WK_BriggsStrattonRepair
+    {
+        ItemType         = base:literature,
+        DisplayName      = Briggs Stratton Small Engine Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_BriggsStrattonRepair,
+    }
+
+    item WK_DieselTroubleshoot
+    {
+        ItemType         = base:literature,
+        DisplayName      = Diesel Engine Troubleshooting Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_DieselTroubleshoot,
+    }
+
+    item WK_FordPickupShopMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Ford F-Series Pickup Shop Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_FordPickupShopMan,
+    }
+
+    item WK_ChevyTechServiceBull
+    {
+        ItemType         = base:literature,
+        DisplayName      = Chevrolet Technical Service Bulletin,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ChevyTechServiceBull,
+    }
+
+    item WK_TruckingFleetPMSched
+    {
+        ItemType         = base:literature,
+        DisplayName      = Trucking Co. Fleet PM Schedule,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = GraphPaper,
+        StaticModel      = GraphPaper,
+        WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_TruckingFleetPMSched,
+    }
+
+    item WK_UnivCeramicsText
+    {
+        ItemType         = base:literature,
+        DisplayName      = University Ceramics Studio Textbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_UnivCeramicsText,
+    }
+
+    item WK_PenlandWheelRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Penland Wheel-Throwing Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_PenlandWheelRef,
+    }
+
+    item WK_RakuFiringNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Raku Firing Studio Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_RakuFiringNotes,
+    }
+
+    item WK_SaltGlazeStoneware
+    {
+        ItemType         = base:literature,
+        DisplayName      = Salt-Glaze Stoneware Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_SaltGlazeStoneware,
+    }
+
+    item WK_AppFolkPotteryPamph
+    {
+        ItemType         = base:literature,
+        DisplayName      = Appalachian Folk Pottery Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_AppFolkPotteryPamph,
+    }
+
+    item WK_StudioKilnRepair
+    {
+        ItemType         = base:literature,
+        DisplayName      = Studio Kiln Repair Field Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_StudioKilnRepair,
+    }
+
+    item WK_CommercialPotteryProc
+    {
+        ItemType         = base:literature,
+        DisplayName      = Commercial Pottery Production Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_CommercialPotteryProc,
+    }
+
+    item WK_ChildrenPotteryLesson
+    {
+        ItemType         = base:literature,
+        DisplayName      = Children's Pottery Lesson Plans,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ChildrenPotteryLesson,
+    }
+
+    item WK_BeginnerWheelNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Beginner Wheel-Throwing Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_BeginnerWheelNotes,
+    }
+
+    item WK_SearsPatternCatalog
+    {
+        ItemType         = base:literature,
+        DisplayName      = Sears Sewing Pattern Catalog,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_SearsPatternCatalog,
+    }
+
+    item WK_CarhartUnionShop
+    {
+        ItemType         = base:literature,
+        DisplayName      = Carhartt Union Shop Sewing Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_CarhartUnionShop,
+    }
+
+    item WK_AlterationsTailorCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Alterations Tailor's Reference Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_AlterationsTailorCard,
+    }
+
+    item WK_HomeEcSewingText
+    {
+        ItemType         = base:literature,
+        DisplayName      = Home Economics Sewing Textbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_HomeEcSewingText,
+    }
+
+    item WK_TheatricalCostumeShop
+    {
+        ItemType         = base:literature,
+        DisplayName      = Theatrical Costume Shop Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_TheatricalCostumeShop,
+    }
+
+    item WK_HancockFabricsManual
+    {
+        ItemType         = base:literature,
+        DisplayName      = Hancock Fabrics Employee Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_HancockFabricsManual,
+    }
+
+    item WK_UpholstererGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = Furniture Upholsterer's Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_UpholstererGuide,
+    }
+
+    item WK_BridalSeamstressNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Bridal Seamstress Alteration Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_BridalSeamstressNotes,
+    }
+
+    item WK_AWSCertWelderManual
+    {
+        ItemType         = base:literature,
+        DisplayName      = AWS Certified Welder Test Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_AWSCertWelderManual,
+    }
+
+    item WK_PipefittersWelding
+    {
+        ItemType         = base:literature,
+        DisplayName      = Pipefitter's Welding Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_PipefittersWelding,
+    }
+
+    item WK_AluminumMIGRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Aluminum MIG Welding Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_AluminumMIGRef,
+    }
+
+    item WK_UAWWeldingShopSOP
+    {
+        ItemType         = base:literature,
+        DisplayName      = UAW Welding Shop Safety SOP,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_UAWWeldingShopSOP,
+    }
+
+    item WK_AutoBodyWeldingRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Auto Body Shop Welding Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_AutoBodyWeldingRef,
+    }
+
+    item WK_StickRodSelectionGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = Stick Welding Rod Selection Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = GraphPaper,
+        StaticModel      = GraphPaper,
+        WorldStaticModel = GraphPaper,
+        Tooltip          = Tooltip_WK_StickRodSelectionGuide,
+    }
+
+    item WK_AerospaceTIGNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Aerospace TIG Welding Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_AerospaceTIGNotes,
+    }
+
+    item WK_FFAVocAgText
+    {
+        ItemType         = base:literature,
+        DisplayName      = FFA Vocational Agriculture Textbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_FFAVocAgText,
+    }
+
+    item WK_KYExtensionAgBull
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY Cooperative Extension Ag Bulletin,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KYExtensionAgBull,
+    }
+
+    item WK_UKAgEconNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = University of Kentucky Ag Economics Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_UKAgEconNotes,
+    }
+
+    item WK_FertSpreaderCalCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Fertilizer Spreader Calibration Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_FertSpreaderCalCard,
+    }
+
+    item WK_USDACropRotation
+    {
+        ItemType         = base:literature,
+        DisplayName      = USDA Corn Belt Crop Rotation Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_USDACropRotation,
+    }
+
+    item WK_NoTillFarmingMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = No-Till Farming Practice Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_NoTillFarmingMan,
+    }
+
+    item WK_KYTobaccoGrowGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY Burley Tobacco Growers' Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_KYTobaccoGrowGuide,
+    }
+
+    item WK_RodaleOrganicPamph
+    {
+        ItemType         = base:literature,
+        DisplayName      = Rodale Organic Farming Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_RodaleOrganicPamph,
+    }
+
+    item WK_KYCattlemensNews
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY Cattlemen's Association Newsletter,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KYCattlemensNews,
+    }
+
+    item WK_FFALivestockJudging
+    {
+        ItemType         = base:literature,
+        DisplayName      = FFA Livestock Judging Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_FFALivestockJudging,
+    }
+
+    item WK_TysonPoultryGrower
+    {
+        ItemType         = base:literature,
+        DisplayName      = Tyson Poultry Grower Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_TysonPoultryGrower,
+    }
+
+    item WK_TrackVetDailyLog
+    {
+        ItemType         = base:literature,
+        DisplayName      = Race Track Veterinarian's Daily Log,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_TrackVetDailyLog,
+    }
+
+    item WK_SheepGoatBreeder
+    {
+        ItemType         = base:literature,
+        DisplayName      = Sheep and Goat Breeders' Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_SheepGoatBreeder,
+    }
+
+    item WK_SwineProductionMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Swine Confinement Production Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_SwineProductionMan,
+    }
+
+    item WK_DairyHerdMgmt
+    {
+        ItemType         = base:literature,
+        DisplayName      = Dairy Herd Management Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_DairyHerdMgmt,
+    }
+
+    item WK_AgEdJudgingCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Ag Education Livestock Judging Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_AgEdJudgingCard,
+    }
+
+    item WK_UnionStockyardsCut
+    {
+        ItemType         = base:literature,
+        DisplayName      = Union Stockyards Cutting Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_UnionStockyardsCut,
+    }
+
+    item WK_DeerProcessorGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = Local Deer Processor's Cutting Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_DeerProcessorGuide,
+    }
+
+    item WK_SausageProductionNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Sausage Maker's Production Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_SausageProductionNotes,
+    }
+
+    item WK_SmallSlaughterhouseSOP
+    {
+        ItemType         = base:literature,
+        DisplayName      = Small Slaughterhouse Inspection SOP,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_SmallSlaughterhouseSOP,
+    }
+
+    item WK_KosherButcheringRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Kosher Butchering Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_KosherButcheringRef,
+    }
+
+    item WK_CharcuterieProduction
+    {
+        ItemType         = base:literature,
+        DisplayName      = Charcuterie Production Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_CharcuterieProduction,
+    }
+
+    item WK_HolidayTurkeyCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Holiday Turkey Processor's Crew Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_HolidayTurkeyCard,
+    }
+
+    item WK_CharcutierApprDiary
+    {
+        ItemType         = base:literature,
+        DisplayName      = Charcutier's Apprentice Diary,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_CharcutierApprDiary,
+    }
+
+    item WK_WildGameProcessor
+    {
+        ItemType         = base:literature,
+        DisplayName      = Wild Game Processor's Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_WildGameProcessor,
+    }
+
+    item WK_HSTrackCoachManual
+    {
+        ItemType         = base:literature,
+        DisplayName      = High School Track Coach Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_HSTrackCoachManual,
+    }
+
+    item WK_NCAAStrengthCondition
+    {
+        ItemType         = base:literature,
+        DisplayName      = NCAA Strength and Conditioning Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_NCAAStrengthCondition,
+    }
+
+    item WK_KYHSAARulebook
+    {
+        ItemType         = base:literature,
+        DisplayName      = Kentucky HS Athletic Association Rule Book,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KYHSAARulebook,
+    }
+
+    item WK_BostonMarathonTrain
+    {
+        ItemType         = base:literature,
+        DisplayName      = Boston Marathon Training Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_BostonMarathonTrain,
+    }
+
+    item WK_SprintIntervalCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Sprint Interval Training Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_SprintIntervalCard,
+    }
+
+    item WK_CrossCountryRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Cross Country Running Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_CrossCountryRef,
+    }
+
+    item WK_PoliceRecruitFitness
+    {
+        ItemType         = base:literature,
+        DisplayName      = Police Recruit Physical Training Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_PoliceRecruitFitness,
+    }
+
+    item WK_ArmyAPFTManual
+    {
+        ItemType         = base:literature,
+        DisplayName      = Army APFT Field Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ArmyAPFTManual,
+    }
+
+    item WK_HSFootballCondition
+    {
+        ItemType         = base:literature,
+        DisplayName      = HS Football Conditioning Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_HSFootballCondition,
+    }
+
+    item WK_BMXRacingTraining
+    {
+        ItemType         = base:literature,
+        DisplayName      = BMX Racing Training Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_BMXRacingTraining,
+    }
+
+    item WK_USPFPowerlifting
+    {
+        ItemType         = base:literature,
+        DisplayName      = USPF Powerlifting Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_USPFPowerlifting,
+    }
+
+    item WK_OlympicLiftingNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Olympic Weightlifting Coach Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_OlympicLiftingNotes,
+    }
+
+    item WK_StrongmanTrainingMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Strongman Training Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_StrongmanTrainingMan,
+    }
+
+    item WK_MuscleBuilderMag
+    {
+        ItemType         = base:literature,
+        DisplayName      = Muscle Builder Magazine Issue,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_MuscleBuilderMag,
+    }
+
+    item WK_ArmyCombatLifter
+    {
+        ItemType         = base:literature,
+        DisplayName      = Army Combat Lifter Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_ArmyCombatLifter,
+    }
+
+    item WK_FarmStrengthManual
+    {
+        ItemType         = base:literature,
+        DisplayName      = Farm Strength and Endurance Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_FarmStrengthManual,
+    }
+
+    item WK_RugbyStrengthMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Rugby Strength Training Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_RugbyStrengthMan,
+    }
+
+    item WK_FreightDockLiftCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Freight Dock Worker's Lift Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_FreightDockLiftCard,
+    }
+
+    item WK_CollegeStrengthLog
+    {
+        ItemType         = base:literature,
+        DisplayName      = College Athletic Strength Log,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_CollegeStrengthLog,
+    }
+
+    item WK_HSWrestlingStrength
+    {
+        ItemType         = base:literature,
+        DisplayName      = HS Wrestling Strength Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_HSWrestlingStrength,
+    }
+
+    item WK_ParamedicProtocolMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Paramedic Field Protocol Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ParamedicProtocolMan,
+    }
+
+    item WK_ERTriageTextbook
+    {
+        ItemType         = base:literature,
+        DisplayName      = Emergency Department Triage Textbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ERTriageTextbook,
+    }
+
+    item WK_NursingFundamentals
+    {
+        ItemType         = base:literature,
+        DisplayName      = Nursing Fundamentals Textbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_NursingFundamentals,
+    }
+
+    item WK_PharmacistDispensing
+    {
+        ItemType         = base:literature,
+        DisplayName      = Pharmacist's Dispensing Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_PharmacistDispensing,
+    }
+
+    item WK_ArmyCombatMedic
+    {
+        ItemType         = base:literature,
+        DisplayName      = Army Combat Medic Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ArmyCombatMedic,
+    }
+
+    item WK_NursingHomeCareMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Nursing Home Care Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_NursingHomeCareMan,
+    }
+
+    item WK_WoundCareSuturing
+    {
+        ItemType         = base:literature,
+        DisplayName      = Wound Care and Suturing Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_WoundCareSuturing,
+    }
+
+    item WK_PediatricFirstAid
+    {
+        ItemType         = base:literature,
+        DisplayName      = Pediatric First Aid Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_PediatricFirstAid,
+    }
+
+    item WK_KYBassFishingClub
+    {
+        ItemType         = base:literature,
+        DisplayName      = Kentucky Bass Fishing Club Newsletter,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KYBassFishingClub,
+    }
+
+    item WK_CrappieAnglersGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = Crappie Anglers' Field Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_CrappieAnglersGuide,
+    }
+
+    item WK_KYTroutStocking
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY Trout Stocking Schedule,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KYTroutStocking,
+    }
+
+    item WK_FlyTyingPattern
+    {
+        ItemType         = base:literature,
+        DisplayName      = Fly Tying Pattern Book,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_FlyTyingPattern,
+    }
+
+    item WK_KYRiverCatfishing
+    {
+        ItemType         = base:literature,
+        DisplayName      = Kentucky River Catfishing Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_KYRiverCatfishing,
+    }
+
+    item WK_WalleyeFishingRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Walleye Fishing Field Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_WalleyeFishingRef,
+    }
+
+    item WK_NoodlingHandfishing
+    {
+        ItemType         = base:literature,
+        DisplayName      = Noodling and Handfishing Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_NoodlingHandfishing,
+    }
+
+    item WK_KYMusselRegs
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY Commercial Mussel Fishing Regulations,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KYMusselRegs,
+    }
+
+    item WK_KYWildflowerGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = Kentucky Wildflower Field Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_KYWildflowerGuide,
+    }
+
+    item WK_StalkingWildAsparagus
+    {
+        ItemType         = base:literature,
+        DisplayName      = Stalking the Wild Asparagus,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_StalkingWildAsparagus,
+    }
+
+    item WK_HerbalPharmacyEnc
+    {
+        ItemType         = base:literature,
+        DisplayName      = Herbal Pharmacy Encyclopedia,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_HerbalPharmacyEnc,
+    }
+
+    item WK_WildMushroomHunt
+    {
+        ItemType         = base:literature,
+        DisplayName      = Wild Mushroom Hunting Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_WildMushroomHunt,
+    }
+
+    item WK_BackyardForaging
+    {
+        ItemType         = base:literature,
+        DisplayName      = Backyard Foraging Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_BackyardForaging,
+    }
+
+    item WK_EthnobotanyText
+    {
+        ItemType         = base:literature,
+        DisplayName      = University Ethnobotany Textbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_EthnobotanyText,
+    }
+
+    item WK_TraditionalAppPlants
+    {
+        ItemType         = base:literature,
+        DisplayName      = Traditional Appalachian Plant Uses,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_TraditionalAppPlants,
+    }
+
+    item WK_HunterGatherersRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Hunter-Gatherer Plants of NA,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_HunterGatherersRef,
+    }
+
+    item WK_WildEdiblesCookbook
+    {
+        ItemType         = base:literature,
+        DisplayName      = Wild Edibles Cookbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_WildEdiblesCookbook,
+    }
+
+    item WK_ApacheScoutTracking
+    {
+        ItemType         = base:literature,
+        DisplayName      = Apache Scout Tracking Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_ApacheScoutTracking,
+    }
+
+    item WK_KYCoonHunting
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY Raccoon Hunting Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_KYCoonHunting,
+    }
+
+    item WK_SARTrackingTraining
+    {
+        ItemType         = base:literature,
+        DisplayName      = Search and Rescue Tracking Training Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_SARTrackingTraining,
+    }
+
+    item WK_TurkeyHuntingRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Turkey Hunting Field Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_TurkeyHuntingRef,
+    }
+
+    item WK_BloodhoundHandlerCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Bloodhound Handler's Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_BloodhoundHandlerCard,
+    }
+
+    item WK_WildlifeBiologyText
+    {
+        ItemType         = base:literature,
+        DisplayName      = Wildlife Biology Textbook,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_WildlifeBiologyText,
+    }
+
+    item WK_BowHunterCamoMan
+    {
+        ItemType         = base:literature,
+        DisplayName      = Bow Hunter's Camouflage Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_BowHunterCamoMan,
+    }
+
+    item WK_NavySEALReconPamph
+    {
+        ItemType         = base:literature,
+        DisplayName      = Navy SEAL Reconnaissance Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_NavySEALReconPamph,
+    }
+
+    item WK_SignReadingNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Tracking Workshop Sign Reading Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_SignReadingNotes,
+    }
+
+    item WK_NTAFurHandlersGuide
+    {
+        ItemType         = base:literature,
+        DisplayName      = National Trappers Assoc. Fur Handlers Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_NTAFurHandlersGuide,
+    }
+
+    item WK_KYBeaverTrapPamph
+    {
+        ItemType         = base:literature,
+        DisplayName      = KY Beaver Trapping Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_KYBeaverTrapPamph,
+    }
+
+    item WK_FoxHolerLureRecipes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Fox Holer's Lure Recipes,
+        DisplayCategory  = Literature,
+        Weight           = 0.3,
+        Icon             = Diary1,
+        StaticModel      = Diary1,
+        WorldStaticModel = Diary1,
+        Tooltip          = Tooltip_WK_FoxHolerLureRecipes,
+    }
+
+    item WK_ConibearSetTechnique
+    {
+        ItemType         = base:literature,
+        DisplayName      = Conibear Trap Set Technique Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_ConibearSetTechnique,
+    }
+
+    item WK_FootholdStakingRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Foothold Trap Staking Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_FootholdStakingRef,
+    }
+
+    item WK_USDAAnimalDamage
+    {
+        ItemType         = base:literature,
+        DisplayName      = USDA Animal Damage Control Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_USDAAnimalDamage,
+    }
+
+    item WK_KDFWRNuisanceWild
+    {
+        ItemType         = base:literature,
+        DisplayName      = KDFWR Nuisance Wildlife Manual,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+        Tooltip          = Tooltip_WK_KDFWRNuisanceWild,
+    }
+
+    item WK_MuskratPeltStretch
+    {
+        ItemType         = base:literature,
+        DisplayName      = Muskrat Pelt Stretcher Guide,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_MuskratPeltStretch,
+    }
+
+    item WK_FurAuctionGrading
+    {
+        ItemType         = base:literature,
+        DisplayName      = Fur Auction Grading Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_FurAuctionGrading,
+    }
+
+    item WK_CabinetmakerJoinery
+    {
+        ItemType         = base:literature,
+        DisplayName      = Cabinetmaker's Joinery Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_CabinetmakerJoinery,
+    }
+
+    item WK_RoofFramingCalcCard
+    {
+        ItemType         = base:literature,
+        DisplayName      = Roof Framing Calculator Card,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = IndexCard,
+        StaticModel      = IndexCard,
+        WorldStaticModel = IndexCard,
+        Tooltip          = Tooltip_WK_RoofFramingCalcCard,
+    }
+
+    item WK_LogHomeBuildersRef
+    {
+        ItemType         = base:literature,
+        DisplayName      = Log Home Builders' Reference,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_LogHomeBuildersRef,
+    }
+
+    item WK_AppTimberFramePamph
+    {
+        ItemType         = base:literature,
+        DisplayName      = Appalachian Timber Frame Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_AppTimberFramePamph,
+    }
+
+    item WK_ScoutCarpentryMerit
+    {
+        ItemType         = base:literature,
+        DisplayName      = Boy Scout Carpentry Merit Badge Pamphlet,
+        DisplayCategory  = Literature,
+        Weight           = 0.1,
+        Icon             = Brochure,
+        StaticModel      = Brochure,
+        WorldStaticModel = Brochure,
+        Tooltip          = Tooltip_WK_ScoutCarpentryMerit,
+    }
+
+    item WK_FurnitureMakerNotes
+    {
+        ItemType         = base:literature,
+        DisplayName      = Furniture Maker's Field Notes,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Notepad,
+        StaticModel      = Notepad,
+        WorldStaticModel = Notepad,
+        Tooltip          = Tooltip_WK_FurnitureMakerNotes,
+    }
+
+    item WK_VocSchoolBuildTrades
+    {
+        ItemType         = base:literature,
+        DisplayName      = Vocational School Building Trades Text,
+        DisplayCategory  = Literature,
+        Weight           = 0.2,
+        Icon             = Book8,
+        StaticModel      = BookBrown,
+        WorldStaticModel = BookBrown_Ground,
+        Tooltip          = Tooltip_WK_VocSchoolBuildTrades,
+    }
+
 }
