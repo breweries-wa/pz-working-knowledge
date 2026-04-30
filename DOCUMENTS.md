@@ -55,7 +55,7 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **OSHA Logging Operations Reference** — Federal logging safety: felling and escape routes. Keys: `FilingCabinetGeneric`
 - **Certified Arborist Tree Assessment Field Guide** — Hazard tree felling angles and notch geometry.
 - **NFPA 1 Forcible Entry Operations Reference** — Fire department door-breaching technique with axes. Keys: `FireStorageTools`
-- **Firefighter Hand Tool Operations SOP** — Station SOP for axes, halligan bars, and pike poles. Keys: `FireStorageTools`
+- **Firefighter Hand Tool Operations SOP** — Standard operating procedure for axes, halligan bars, and pike poles. Keys: `FireStorageTools`
 - **Timber Cruiser's Pocket Handbook** — Stand assessment and felling-direction notes. Keys: `FilingCabinetGeneric`, `ToolStoreMisc`
 - **Appalachian Logger's Felling Notes** — Hardwood felling cuts on steep ground. Keys: `ToolStoreMisc`
 - **Boy Scout Axemanship Merit Badge Pamphlet** — Counselor axe and saw fundamentals. Sap stain. Keys: `DeskGeneric`, `FilingCabinetGeneric`
@@ -71,12 +71,12 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 
 - **Brush Clearing Trail Reference** — State parks machete technique and blade care.
 - **Agricultural Machete Safety Guide** — Extension service guide to machete grip and swing.
-- **Forestry Contractor Brush SOP** — Land-clearing SOP for brush blade operations.
+- **Forestry Contractor Brush SOP** — Standard operating procedure for brush blade land-clearing operations.
 - **Bush Hog Rotary Cutter Operator Manual** — Tractor implement operation and PTO safety. Keys: `ToolCabinetFarming`
-- **KY Highway Dept. Roadside Vegetation Manual** — State highway brush crew SOP. Keys: `FilingCabinetGeneric`
+- **KY Highway Dept. Roadside Vegetation Manual** — Roadside crew procedures for medians and right-of-way clearing. Keys: `FilingCabinetGeneric`
 - **Corn Detasseling Crew Leader Card** — Seasonal detasseling crew leader notes. Keys: `FilingCabinetGeneric`, `ToolCabinetFarming`
 - **Appalachian Wildcrafter's Cutting Reference** — Plant harvest blade techniques. Earthy smell. Keys: `FilingCabinetGeneric`
-- **KY State Parks Trail Crew Brushing SOP** — Trail-clearing crew SOP. Coffee-stained. Keys: `FilingCabinetGeneric`
+- **KY State Parks Trail Crew Brushing SOP** — Standard operating procedure for trail-clearing crews. Coffee-stained. Keys: `FilingCabinetGeneric`
 - **Kaiser Blade Field Reference** — Bush hook brush technique. Sweat-stained. Keys: `ToolCabinetFarming`, `ToolStoreMisc`
 - **SCA Heavy Combat Sword Practice Card** — Society for Creative Anachronism practice card. Keys: `DeskGeneric`
 - **Sugar Cane Crew Cutting Manual** — Vintage cane-cutting technique manual. Keys: `FilingCabinetGeneric`
@@ -89,7 +89,7 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Commercial Kitchen Knife Maintenance Log** — Commercial kitchen knife sharpening schedule and angles. Keys: `FilingCabinetGeneric`
 - **Edge Tool Sharpening Reference** — Sharpening angles and grit progression by tool type. Keys: `MetalShopTools`, `ToolStoreMisc`
 - **Hand Tool Condition and Care Reference** — Inspection and rust prevention for hand tools. Keys: `ToolStoreMisc`, `FilingCabinetGeneric`
-- **Police Department Impact Weapon Maintenance SOP** — Department baton inspection and serviceability criteria. Keys: `PoliceFilingCabinet`, `PoliceDesk`
+- **Police Department Impact Weapon Maintenance SOP** — Standard operating procedure for baton inspection and serviceability. Keys: `PoliceFilingCabinet`, `PoliceDesk`
 - **Whetstone and Grinding Stone Selection Reference** — Stone grits and lubricants by tool category. Keys: `MetalShopTools`, `ToolStoreMisc`
 - **Jeweler's File and Burnisher Reference** — Precision file selection by metal type. Keys: `ToolStoreMisc`
 - **Shop Apprentice Tool Maintenance Log** — Apprenticeship daily tool care log. Keys: `FilingCabinetGeneric`, `ToolStoreMisc`
@@ -228,12 +228,12 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 
 - **HACCP Food Safety Plan** — Commercial kitchen critical control points and temp logs. Keys: `FilingCabinetGeneric`
 - **Temperature and Time Control Quick Reference** — Safe holding temps and cooking minimums by protein. Keys: `FilingCabinetGeneric`
-- **Line Cook Station Reference** — Kitchen mise en place and ticket flow SOP. Keys: `FilingCabinetGeneric`
+- **Line Cook Station Reference** — Mise en place setup and ticket-flow procedures for line cooks. Keys: `FilingCabinetGeneric`
 - **Sauce and Stock Production Log** — Restaurant base recipes and batch scaling for stocks.
 - **ServSafe Food Handler Quick Reference** — Food handler temperature and cross-contamination rules. Keys: `FilingCabinetGeneric`
 - **Sullivan University Culinary Text** — Louisville culinary program textbook. Keys: `FilingCabinetGeneric`
 - **KY Cooperative Extension Home Cookbook** — State extension service home cookbook. Keys: `FilingCabinetGeneric`, `ToolCabinetFarming`
-- **Army Mess Hall Standard Operating Procedure** — Army field mess SOP. Faded mimeo. Keys: `FilingCabinetGeneric`
+- **Army Mess Hall Standard Operating Procedure** — Field kitchen procedures and rationing schedules. Faded mimeo. Keys: `FilingCabinetGeneric`
 - **School Cafeteria Worker's Reference** — K-12 school lunch program reference. Keys: `FilingCabinetGeneric`
 - **Pit Boss Competition BBQ Manual** — Memphis-style competition BBQ manual. Keys: `FilingCabinetGeneric`
 - **1957 Heritage Methodist Cookbook** — Church potluck cookbook. Hand-annotated. Keys: `FilingCabinetGeneric`
@@ -254,7 +254,7 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Transformer Nameplate Reading Card** — Pad-mount transformer ID and rating card. Keys: `ElectricianTools`
 - **Equipment Grounding and Bonding Reference** — Grounding and bonding requirements pamphlet. Keys: `ElectricianTools`, `FilingCabinetGeneric`
 - **KY State Electrician Licensing Manual** — State licensing exam preparation manual. Keys: `FilingCabinetGeneric`
-- **Underground Service Cable Reference** — URD cable specs and burial-depth reference. Keys: `ElectricianTools`
+- **Underground Service Cable Reference** — Underground residential distribution cable specs and burial depths. Keys: `ElectricianTools`
 
 ### Glassmaking
 
@@ -423,7 +423,7 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Union Stockyards Cutting Manual** — Chicago Union Stockyards cutter manual. Keys: `ButcherLiterature`
 - **Local Deer Processor's Cutting Guide** — Deer processor cutting guide. Game-blood smell. Keys: `ButcherLiterature`, `ToolCabinetFarming`
 - **Sausage Maker's Production Notes** — Sausage line production notes. Keys: `ButcherLiterature`
-- **Small Slaughterhouse Inspection SOP** — Small slaughterhouse inspection SOP. Keys: `ButcherLiterature`
+- **Small Slaughterhouse Inspection SOP** — Standard operating procedure for inspection cycles and carcass disposition. Keys: `ButcherLiterature`
 - **Kosher Butchering Reference** — Kashrut requirements and forequarter cuts. Hebrew margin notes. Keys: `ButcherLiterature`
 - **Charcuterie Production Manual** — Cure ratios and humidity targets for dry-cured products. Keys: `ButcherLiterature`
 - **Holiday Turkey Processor's Crew Card** — Holiday turkey processing crew card. Keys: `ButcherLiterature`
@@ -441,11 +441,11 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **LE Physical Fitness Standards** — Police and sheriff fitness assessment scoring tables. Keys: `PoliceFilingCabinet`, `DeskGeneric`, `FilingCabinetGeneric`
 - **Fire Academy Cardiovascular Fitness Requirements** — Fire academy aerobic conditioning benchmarks. Keys: `FireStorageTools`, `FilingCabinetGeneric`
 - **High School Track Coach Manual** — Workout periodization and event-by-event drills. Dog-eared.
-- **NCAA Strength and Conditioning Notes** — University S&C program notes.
+- **NCAA Strength and Conditioning Notes** — University strength and conditioning program notes.
 - **Kentucky HS Athletic Association Rule Book** — Eligibility, transfer, and recruiting rules. Compliance officer's stamp.
 - **Boston Marathon Training Pamphlet** — Eighteen-week qualifying program. Pace charts on every page.
 - **Sprint Interval Training Card** — Tabata-style timing tables. Whistle marks on the laminate.
-- **Cross Country Running Reference** — HS cross-country team reference.
+- **Cross Country Running Reference** — Hill repeats and pack-running drills for high school distance teams.
 - **Police Recruit Physical Training Manual** — Twelve-week academy fitness program with weekly benchmarks. Keys: `PoliceDesk`, `PoliceFilingCabinet`
 - **Army APFT Field Manual** — Army Physical Fitness Test manual.
 - **HS Football Conditioning Manual** — Off-season weight room and gasser sequences. Pen in the spine.
@@ -476,7 +476,7 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 
 *OSHA requires employers to maintain workplace first aid capacity and documentation. The laminated reference cards, compliance checklists, and emergency response SOPs that fulfilled that requirement are in office filing cabinets and factory first aid stations across the county — still sealed in their plastic sleeves.*
 
-- **Workplace First Aid and Emergency Response SOP** — Company first aid protocol: wound care and shock response. Keys: `FireStorageTools`, `FilingCabinetGeneric`
+- **Workplace First Aid and Emergency Response SOP** — Standard operating procedure for wound care and shock response. Keys: `FireStorageTools`, `FilingCabinetGeneric`
 - **CPR and AED Quick Reference Card** — CPR compression ratios, AED operation, and rescue breathing. Keys: `FireStorageTools`, `FilingCabinetGeneric`
 - **OSHA 1910.151 First Aid Compliance Reference** — OSHA required supplies and trained responder ratios. Keys: `FilingCabinetGeneric`
 - **Emergency Triage Field Reference** — START triage protocol and patient priority classification. Keys: `FireStorageTools`, `FilingCabinetGeneric`
@@ -496,7 +496,7 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Kentucky Fish and Wildlife Fishing Regulations** — Kentucky seasons, size limits, and bag limits by species. Keys: `FilingCabinetGeneric`
 - **Fish Identification and Assessment Field Guide** — Kentucky species ID reference for officers and operators.
 - **Rigging and Terminal Tackle Reference** — Knots, leader construction, and rig assembly. Water-stained.
-- **Commercial Fishing Vessel Safety Reference** — USCG PFD, flare, and emergency procedures for small vessels. Keys: `FilingCabinetGeneric`
+- **Commercial Fishing Vessel Safety Reference** — Coast Guard flotation, flare, and emergency procedures for small vessels. Keys: `FilingCabinetGeneric`
 - **Kentucky Bass Fishing Club Newsletter** — Local bass club newsletter.
 - **Crappie Anglers' Field Guide** — Crappie fishing pulp guide.
 - **KY Trout Stocking Schedule** — Fish & Wildlife Resources stocking schedule by stream.
