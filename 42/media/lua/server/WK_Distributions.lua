@@ -14,6 +14,59 @@ end
 
 local dist = ProceduralDistributions.list
 
+-- ── Military ─────────────────────────────────────────────────────────────────
+-- ArmySurplusLiterature: the book/magazine rack in a surplus store.
+--   Already carries vanilla skill books, so WK docs fit naturally.
+if dist.ArmySurplusLiterature and dist.ArmySurplusLiterature.items then
+    addMany(dist.ArmySurplusLiterature.items, {
+        { "WK_VietnamRiflemanNotes",    1   },  -- Aiming
+        { "WK_NavalGunnersManual",      1   },  -- Reloading
+        { "WK_GuardForceWeaponsManual", 1   },  -- Reloading
+        { "WK_CombatShootingDrills",    1   },  -- Reloading
+        { "WK_TacticalReloadRef",       1   },  -- Reloading
+        { "WK_WWIIBayonetTraining",     1   },  -- Spear
+        { "WK_ArmyAPFTManual",          1   },  -- Sprinting
+        { "WK_ArmyCombatMedic",         1   },  -- First Aid
+        { "WK_ArmyCombatLifter",        1   },  -- Strength
+        { "WK_NavySEALReconPamph",      1   },  -- Tracking
+        { "WK_SARTrackingTraining",     0.5 },  -- Tracking
+        { "WK_ArmyMessHallSOP",         0.5 },  -- Cooking
+    })
+end
+
+-- ArmyStorageGuns: weapons armory — the right place for firearms and tactics docs.
+if dist.ArmyStorageGuns and dist.ArmyStorageGuns.items then
+    addMany(dist.ArmyStorageGuns.items, {
+        { "WK_VietnamRiflemanNotes",    1   },  -- Aiming
+        { "WK_NavalGunnersManual",      1   },  -- Reloading
+        { "WK_GuardForceWeaponsManual", 1   },  -- Reloading
+        { "WK_CombatShootingDrills",    1   },  -- Reloading
+        { "WK_TacticalReloadRef",       1   },  -- Reloading
+        { "WK_MagazineDrillCard",       1   },  -- Reloading
+        { "WK_WWIIBayonetTraining",     0.5 },  -- Spear
+    })
+end
+
+-- ArmyBunkerLockers: personal lockers — fitness manuals, field notes, personal copies.
+if dist.ArmyBunkerLockers and dist.ArmyBunkerLockers.items then
+    addMany(dist.ArmyBunkerLockers.items, {
+        { "WK_ArmyAPFTManual",          1   },  -- Sprinting
+        { "WK_ArmyCombatLifter",        1   },  -- Strength
+        { "WK_VietnamRiflemanNotes",    0.5 },  -- Aiming
+        { "WK_ArmyCombatMedic",         0.5 },  -- First Aid
+        { "WK_NavySEALReconPamph",      0.5 },  -- Tracking
+    })
+end
+
+-- ArmyBunkerStorage: supply storage — a few tactical and maintenance references.
+if dist.ArmyBunkerStorage and dist.ArmyBunkerStorage.items then
+    addMany(dist.ArmyBunkerStorage.items, {
+        { "WK_NavalGunnersManual",      0.5 },  -- Reloading
+        { "WK_ArmyCombatMedic",         0.5 },  -- First Aid
+        { "WK_GuardForceWeaponsManual", 0.5 },  -- Reloading
+    })
+end
+
 -- ── Police / Law Enforcement ─────────────────────────────────────────────────
 if dist.PoliceFilingCabinet and dist.PoliceFilingCabinet.items then
     addMany(dist.PoliceFilingCabinet.items, {
