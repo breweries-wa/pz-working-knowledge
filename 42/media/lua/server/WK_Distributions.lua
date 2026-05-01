@@ -34,18 +34,6 @@ if dist.ArmySurplusLiterature and dist.ArmySurplusLiterature.items then
     })
 end
 
--- ArmyStorageGuns: weapons armory — the right place for firearms and tactics docs.
-if dist.ArmyStorageGuns and dist.ArmyStorageGuns.items then
-    addMany(dist.ArmyStorageGuns.items, {
-        { "WK_VietnamRiflemanNotes",    0.25   },  -- Aiming
-        { "WK_NavalGunnersManual",      0.25   },  -- Reloading
-        { "WK_GuardForceWeaponsManual", 0.25   },  -- Reloading
-        { "WK_CombatShootingDrills",    0.25   },  -- Reloading
-        { "WK_TacticalReloadRef",       0.25   },  -- Reloading
-        { "WK_MagazineDrillCard",       0.25   },  -- Reloading
-        { "WK_WWIIBayonetTraining",     0.12 },  -- Spear
-    })
-end
 
 -- ArmyBunkerLockers: personal lockers — fitness manuals, field notes, personal copies.
 if dist.ArmyBunkerLockers and dist.ArmyBunkerLockers.items then
