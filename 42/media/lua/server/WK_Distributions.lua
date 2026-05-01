@@ -163,6 +163,7 @@ if dist.MetalShopTools and dist.MetalShopTools.items then
         { "WK_SteelmillProcessRef",    0.25   },
         { "WK_KnifemakerForgeWeld",    0.25   },
         { "WK_MotorControlSchem",      0.12 },
+        { "WK_NSFBladeSafetyRef",      0.25   },  -- SmallBlade
     })
 end
 
@@ -247,7 +248,10 @@ if dist.UniversityFilingCabinet_Glassmaking and dist.UniversityFilingCabinet_Gla
         { "WK_FloatGlassManufRef",   0.25 },
         { "WK_PenlandStudioGlass",   0.25 },
         { "WK_CorningEngineering",   0.25 },
-        { "WK_BorosilicateLampwork", 0.25 },
+        { "WK_BorosilicateLampwork",   0.25 },
+        { "WK_KilnFiringScheduleRef",  0.25 },  -- Pottery
+        { "WK_GlazeChemistryRef",      0.25 },  -- Pottery
+        { "WK_ClayBodyFormulationRef", 0.25 },  -- Pottery
     })
 end
 
@@ -305,6 +309,8 @@ if dist.ButcherLiterature and dist.ButcherLiterature.items then
         { "WK_HolidayTurkeyCard",     0.25 },
         { "WK_CharcutierApprDiary",   0.25 },
         { "WK_WildGameProcessor",     0.25 },
+        { "WK_FishFabricationRef",    0.25 },  -- SmallBlade
+        { "WK_SauceStockLog",         0.25 },  -- Cooking
     })
 end
 
@@ -343,6 +349,29 @@ if dist.ToolStoreMisc and dist.ToolStoreMisc.items then
         { "WK_RoofFramingCalcCard",    0.25   },
         { "WK_LogHomeBuildersRef",     0.25   },
         { "WK_FurnitureMakerNotes",    0.25   },
+        { "WK_ArboristFieldGuide",     0.25   },  -- Axe
+        { "WK_BrushClearingRef",       0.25   },  -- LongBlade
+        { "WK_MacheteUseGuide",        0.25   },  -- LongBlade
+        { "WK_ForestryContractorSOP",  0.25   },  -- LongBlade
+        { "WK_DemolitionHandToolRef",  0.25   },  -- Blunt
+        { "WK_FieldExpedientToolRef",  0.25   },  -- Carving
+        { "WK_TrapperBoneToolRef",     0.25   },  -- Carving
+        { "WK_ArchaeologicalToolNotes",0.25   },  -- Carving
+    })
+end
+
+-- ── Fishing Store ─────────────────────────────────────────────────────────────
+if dist.FishingStoreGear and dist.FishingStoreGear.items then
+    addMany(dist.FishingStoreGear.items, {
+        { "WK_FishIdentificationRef", 0.25 },  -- Fishing
+        { "WK_RiggingTackleRef",      0.25 },  -- Fishing
+    })
+end
+
+-- ── Plumbing ──────────────────────────────────────────────────────────────────
+if dist.PlumbingSupplies and dist.PlumbingSupplies.items then
+    addMany(dist.PlumbingSupplies.items, {
+        { "WK_PlumbingQuickClearRef", 0.25 },  -- SmallBlunt
     })
 end
 
@@ -393,6 +422,8 @@ if dist.DeskGeneric and dist.DeskGeneric.items then
         { "WK_HSWrestlingStrength",    0.07 },
         { "WK_PediatricFirstAid",      0.07 },
         { "WK_ScoutCarpentryMerit",    0.07 },
+        { "WK_StageCombatSpearRef",    0.07 },  -- Spear (theatre/drama)
+        { "WK_JavelinCoachingRef",     0.07 },  -- Spear (athletics)
     })
 end
 
@@ -613,6 +644,9 @@ if dist.FilingCabinetGeneric and dist.FilingCabinetGeneric.items then
         { "WK_ObsidianSourceRef",         0.01 },
         { "WK_KCMuseumLithicCat",         0.01 },
         { "WK_ToolStoneQualityCard",      0.01 },
+        { "WK_LithicTechnologyRef",       0.01 },
+        { "WK_PrimitiveSkillsKnappingRef",0.01 },
+        { "WK_LithicAnalysisStandards",   0.01 },
         -- Pottery / ceramics
         { "WK_UnivCeramicsText",          0.01 },
         { "WK_PenlandWheelRef",           0.01 },
@@ -632,6 +666,16 @@ if dist.FilingCabinetGeneric and dist.FilingCabinetGeneric.items then
         { "WK_KDFWRNuisanceWild",         0.01 },
         { "WK_MuskratPeltStretch",        0.01 },
         { "WK_FurAuctionGrading",         0.01 },
+        { "WK_WildlifeTrappingGuide",     0.01 },
+        { "WK_FurbearerRef",              0.01 },
+        -- Tracking
+        { "WK_WildlifeTrackSignRef",      0.01 },
+        { "WK_DeerMovementRef",           0.01 },
+        -- Spear / primitive weapons
+        { "WK_KDFWRPrimitiveWeapons",     0.01 },
+        { "WK_AtlatlSpearRef",            0.01 },
+        -- Foraging / herbalism
+        { "WK_WildcraftHerbalistRef",     0.01 },
         -- Carpentry / timber framing
         { "WK_LogHomeBuildersRef",        0.01 },
         { "WK_AppTimberFramePamph",       0.01 },
