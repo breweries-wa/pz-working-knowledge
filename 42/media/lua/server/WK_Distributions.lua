@@ -19,198 +19,198 @@ local dist = ProceduralDistributions.list
 --   Already carries vanilla skill books, so WK docs fit naturally.
 if dist.ArmySurplusLiterature and dist.ArmySurplusLiterature.items then
     addMany(dist.ArmySurplusLiterature.items, {
-        { "WK_VietnamRiflemanNotes",    1   },  -- Aiming
-        { "WK_NavalGunnersManual",      1   },  -- Reloading
-        { "WK_GuardForceWeaponsManual", 1   },  -- Reloading
-        { "WK_CombatShootingDrills",    1   },  -- Reloading
-        { "WK_TacticalReloadRef",       1   },  -- Reloading
-        { "WK_WWIIBayonetTraining",     1   },  -- Spear
-        { "WK_ArmyAPFTManual",          1   },  -- Sprinting
-        { "WK_ArmyCombatMedic",         1   },  -- First Aid
-        { "WK_ArmyCombatLifter",        1   },  -- Strength
-        { "WK_NavySEALReconPamph",      1   },  -- Tracking
-        { "WK_SARTrackingTraining",     0.5 },  -- Tracking
-        { "WK_ArmyMessHallSOP",         0.5 },  -- Cooking
+        { "WK_VietnamRiflemanNotes",    0.25   },  -- Aiming
+        { "WK_NavalGunnersManual",      0.25   },  -- Reloading
+        { "WK_GuardForceWeaponsManual", 0.25   },  -- Reloading
+        { "WK_CombatShootingDrills",    0.25   },  -- Reloading
+        { "WK_TacticalReloadRef",       0.25   },  -- Reloading
+        { "WK_WWIIBayonetTraining",     0.25   },  -- Spear
+        { "WK_ArmyAPFTManual",          0.25   },  -- Sprinting
+        { "WK_ArmyCombatMedic",         0.25   },  -- First Aid
+        { "WK_ArmyCombatLifter",        0.25   },  -- Strength
+        { "WK_NavySEALReconPamph",      0.25   },  -- Tracking
+        { "WK_SARTrackingTraining",     0.12 },  -- Tracking
+        { "WK_ArmyMessHallSOP",         0.12 },  -- Cooking
     })
 end
 
 -- ArmyStorageGuns: weapons armory — the right place for firearms and tactics docs.
 if dist.ArmyStorageGuns and dist.ArmyStorageGuns.items then
     addMany(dist.ArmyStorageGuns.items, {
-        { "WK_VietnamRiflemanNotes",    1   },  -- Aiming
-        { "WK_NavalGunnersManual",      1   },  -- Reloading
-        { "WK_GuardForceWeaponsManual", 1   },  -- Reloading
-        { "WK_CombatShootingDrills",    1   },  -- Reloading
-        { "WK_TacticalReloadRef",       1   },  -- Reloading
-        { "WK_MagazineDrillCard",       1   },  -- Reloading
-        { "WK_WWIIBayonetTraining",     0.5 },  -- Spear
+        { "WK_VietnamRiflemanNotes",    0.25   },  -- Aiming
+        { "WK_NavalGunnersManual",      0.25   },  -- Reloading
+        { "WK_GuardForceWeaponsManual", 0.25   },  -- Reloading
+        { "WK_CombatShootingDrills",    0.25   },  -- Reloading
+        { "WK_TacticalReloadRef",       0.25   },  -- Reloading
+        { "WK_MagazineDrillCard",       0.25   },  -- Reloading
+        { "WK_WWIIBayonetTraining",     0.12 },  -- Spear
     })
 end
 
 -- ArmyBunkerLockers: personal lockers — fitness manuals, field notes, personal copies.
 if dist.ArmyBunkerLockers and dist.ArmyBunkerLockers.items then
     addMany(dist.ArmyBunkerLockers.items, {
-        { "WK_ArmyAPFTManual",          1   },  -- Sprinting
-        { "WK_ArmyCombatLifter",        1   },  -- Strength
-        { "WK_VietnamRiflemanNotes",    0.5 },  -- Aiming
-        { "WK_ArmyCombatMedic",         0.5 },  -- First Aid
-        { "WK_NavySEALReconPamph",      0.5 },  -- Tracking
+        { "WK_ArmyAPFTManual",          0.25   },  -- Sprinting
+        { "WK_ArmyCombatLifter",        0.25   },  -- Strength
+        { "WK_VietnamRiflemanNotes",    0.12 },  -- Aiming
+        { "WK_ArmyCombatMedic",         0.12 },  -- First Aid
+        { "WK_NavySEALReconPamph",      0.12 },  -- Tracking
     })
 end
 
 -- ArmyBunkerStorage: supply storage — a few tactical and maintenance references.
 if dist.ArmyBunkerStorage and dist.ArmyBunkerStorage.items then
     addMany(dist.ArmyBunkerStorage.items, {
-        { "WK_NavalGunnersManual",      0.5 },  -- Reloading
-        { "WK_ArmyCombatMedic",         0.5 },  -- First Aid
-        { "WK_GuardForceWeaponsManual", 0.5 },  -- Reloading
+        { "WK_NavalGunnersManual",      0.12 },  -- Reloading
+        { "WK_ArmyCombatMedic",         0.12 },  -- First Aid
+        { "WK_GuardForceWeaponsManual", 0.12 },  -- Reloading
     })
 end
 
 -- ── Police / Law Enforcement ─────────────────────────────────────────────────
 if dist.PoliceFilingCabinet and dist.PoliceFilingCabinet.items then
     addMany(dist.PoliceFilingCabinet.items, {
-        { "WK_KCPDFirearmsQual",        1   },
-        { "WK_RangeSafetyOfficerRef",   1   },
-        { "WK_DefensiveHandgunRef",     1   },
-        { "WK_SheriffQualLog",          1   },
-        { "WK_TacticalReloadRef",       1   },
-        { "WK_MagazineDrillCard",       1   },
-        { "WK_ArmorersWeaponsRef",      1   },
-        { "WK_ImpactWeaponMaintSOP",    1   },
-        { "WK_KCPDImpactWeaponsRef",    1   },
-        { "WK_LEFitnessStandardsRef",   1   },
-        { "WK_NRAPistolInstructorMan",  0.5 },
-        { "WK_KYConcealedCarryGuide",   1   },
-        { "WK_FBIQualScorebook",        1   },
-        { "WK_PoliceAcademyHandgun",    1   },
-        { "WK_RevolverSpeedloaderCard", 1   },
-        { "WK_RangemasterDrillBook",    0.5 },
-        { "WK_NightstickTrainingMan",   1   },
-        { "WK_RiotBatonInstructorRef",  1   },
-        { "WK_PoliceRecruitFitness",    1   },
-        { "WK_BloodhoundHandlerCard",   1   },
+        { "WK_KCPDFirearmsQual",        0.25   },
+        { "WK_RangeSafetyOfficerRef",   0.25   },
+        { "WK_DefensiveHandgunRef",     0.25   },
+        { "WK_SheriffQualLog",          0.25   },
+        { "WK_TacticalReloadRef",       0.25   },
+        { "WK_MagazineDrillCard",       0.25   },
+        { "WK_ArmorersWeaponsRef",      0.25   },
+        { "WK_ImpactWeaponMaintSOP",    0.25   },
+        { "WK_KCPDImpactWeaponsRef",    0.25   },
+        { "WK_LEFitnessStandardsRef",   0.25   },
+        { "WK_NRAPistolInstructorMan",  0.12 },
+        { "WK_KYConcealedCarryGuide",   0.25   },
+        { "WK_FBIQualScorebook",        0.25   },
+        { "WK_PoliceAcademyHandgun",    0.25   },
+        { "WK_RevolverSpeedloaderCard", 0.25   },
+        { "WK_RangemasterDrillBook",    0.12 },
+        { "WK_NightstickTrainingMan",   0.25   },
+        { "WK_RiotBatonInstructorRef",  0.25   },
+        { "WK_PoliceRecruitFitness",    0.25   },
+        { "WK_BloodhoundHandlerCard",   0.25   },
     })
 end
 
 if dist.PoliceDesk and dist.PoliceDesk.items then
     addMany(dist.PoliceDesk.items, {
-        { "WK_KCPDFirearmsQual",        1   },
-        { "WK_DefensiveHandgunRef",     1   },
-        { "WK_TacticalReloadRef",       1   },
-        { "WK_MagazineDrillCard",       1   },
-        { "WK_ImpactWeaponMaintSOP",    1   },
-        { "WK_KCPDImpactWeaponsRef",    1   },
-        { "WK_PoliceAcademyHandgun",    0.5 },
-        { "WK_CombatShootingDrills",    0.5 },
-        { "WK_PoliceRecruitFitness",    0.5 },
+        { "WK_KCPDFirearmsQual",        0.25   },
+        { "WK_DefensiveHandgunRef",     0.25   },
+        { "WK_TacticalReloadRef",       0.25   },
+        { "WK_MagazineDrillCard",       0.25   },
+        { "WK_ImpactWeaponMaintSOP",    0.25   },
+        { "WK_KCPDImpactWeaponsRef",    0.25   },
+        { "WK_PoliceAcademyHandgun",    0.12 },
+        { "WK_CombatShootingDrills",    0.12 },
+        { "WK_PoliceRecruitFitness",    0.12 },
     })
 end
 
 -- ── Gun Store ────────────────────────────────────────────────────────────────
 if dist.GunStoreCounter and dist.GunStoreCounter.items then
     addMany(dist.GunStoreCounter.items, {
-        { "WK_RangeSafetyOfficerRef",   1   },
-        { "WK_MagazineDrillCard",       1   },
-        { "WK_ArmorersWeaponsRef",      1   },
-        { "WK_PracticalShootingRef",    1   },
-        { "WK_NRAPistolInstructorMan",  1   },
-        { "WK_BullseyeMatchProgramme",  1   },
-        { "WK_KYConcealedCarryGuide",   0.5 },
-        { "WK_USPSARulebook",           1   },
-        { "WK_VietnamRiflemanNotes",    0.5 },
-        { "WK_HighPowerNewsletter",     1   },
-        { "WK_RevolverSpeedloaderCard", 0.5 },
-        { "WK_CombatShootingDrills",    1   },
-        { "WK_GunsmithStripping",       1   },
-        { "WK_ShotgunReloadingCard",    1   },
-        { "WK_RangemasterDrillBook",    1   },
+        { "WK_RangeSafetyOfficerRef",   0.25   },
+        { "WK_MagazineDrillCard",       0.25   },
+        { "WK_ArmorersWeaponsRef",      0.25   },
+        { "WK_PracticalShootingRef",    0.25   },
+        { "WK_NRAPistolInstructorMan",  0.25   },
+        { "WK_BullseyeMatchProgramme",  0.25   },
+        { "WK_KYConcealedCarryGuide",   0.12 },
+        { "WK_USPSARulebook",           0.25   },
+        { "WK_VietnamRiflemanNotes",    0.12 },
+        { "WK_HighPowerNewsletter",     0.25   },
+        { "WK_RevolverSpeedloaderCard", 0.12 },
+        { "WK_CombatShootingDrills",    0.25   },
+        { "WK_GunsmithStripping",       0.25   },
+        { "WK_ShotgunReloadingCard",    0.25   },
+        { "WK_RangemasterDrillBook",    0.25   },
     })
 end
 
 -- ── Fire Station ─────────────────────────────────────────────────────────────
 if dist.FireStorageTools and dist.FireStorageTools.items then
     addMany(dist.FireStorageTools.items, {
-        { "WK_ForcibleEntryRef",        1 },
-        { "WK_FirefighterHandToolSOP",  1 },
-        { "WK_CPRAEDRef",               1 },
-        { "WK_EmergencyTriageRef",      1 },
-        { "WK_FireAcademyFitnessRef",   1 },
-        { "WK_WorkplaceFirstAidSOP",    1 },
-        { "WK_EngineCompanyAxeRef",     1 },
-        { "WK_EMTRescueKnifeCard",      1 },
-        { "WK_FirefighterHaliganRef",   1 },
-        { "WK_PulaskiSwingScale",       1 },
-        { "WK_ParamedicProtocolMan",    1 },
-        { "WK_ArmyCombatMedic",         1 },
-        { "WK_SARTrackingTraining",     1 },
+        { "WK_ForcibleEntryRef",        0.25 },
+        { "WK_FirefighterHandToolSOP",  0.25 },
+        { "WK_CPRAEDRef",               0.25 },
+        { "WK_EmergencyTriageRef",      0.25 },
+        { "WK_FireAcademyFitnessRef",   0.25 },
+        { "WK_WorkplaceFirstAidSOP",    0.25 },
+        { "WK_EngineCompanyAxeRef",     0.25 },
+        { "WK_EMTRescueKnifeCard",      0.25 },
+        { "WK_FirefighterHaliganRef",   0.25 },
+        { "WK_PulaskiSwingScale",       0.25 },
+        { "WK_ParamedicProtocolMan",    0.25 },
+        { "WK_ArmyCombatMedic",         0.25 },
+        { "WK_SARTrackingTraining",     0.25 },
     })
 end
 
 -- ── Blacksmith / Metal Shop ───────────────────────────────────────────────────
 if dist.WildWestBlacksmith and dist.WildWestBlacksmith.items then
     addMany(dist.WildWestBlacksmith.items, {
-        { "WK_ASTMMaterialSpecRef",      1 },
-        { "WK_ForgeHeatTreatGuide",      1 },
-        { "WK_IndustrialMetalworkRef",   1 },
-        { "WK_BlacksmithGuildStandards", 1 },
-        { "WK_ABANANewsletter",          1 },
-        { "WK_FarrierShoeingNotes",      1 },
-        { "WK_FrontierForgeRef",         1 },
-        { "WK_SwordsmithApprDiary",      1 },
-        { "WK_ColonialIronworker",       1 },
+        { "WK_ASTMMaterialSpecRef",      0.25 },
+        { "WK_ForgeHeatTreatGuide",      0.25 },
+        { "WK_IndustrialMetalworkRef",   0.25 },
+        { "WK_BlacksmithGuildStandards", 0.25 },
+        { "WK_ABANANewsletter",          0.25 },
+        { "WK_FarrierShoeingNotes",      0.25 },
+        { "WK_FrontierForgeRef",         0.25 },
+        { "WK_SwordsmithApprDiary",      0.25 },
+        { "WK_ColonialIronworker",       0.25 },
     })
 end
 
 if dist.MetalShopTools and dist.MetalShopTools.items then
     addMany(dist.MetalShopTools.items, {
-        { "WK_ASTMMaterialSpecRef",    1   },
-        { "WK_ForgeHeatTreatGuide",    1   },
-        { "WK_IndustrialMetalworkRef", 1   },
-        { "WK_EdgeToolSharpeningRef",  1   },
-        { "WK_WhetstoneSelectionRef",  1   },
-        { "WK_BladesmithToolCare",     1   },
-        { "WK_KnifemakerTestCutLog",   1   },
-        { "WK_BlacksmithHammerCard",   1   },
-        { "WK_SteelmillProcessRef",    1   },
-        { "WK_KnifemakerForgeWeld",    1   },
-        { "WK_MotorControlSchem",      0.5 },
+        { "WK_ASTMMaterialSpecRef",    0.25   },
+        { "WK_ForgeHeatTreatGuide",    0.25   },
+        { "WK_IndustrialMetalworkRef", 0.25   },
+        { "WK_EdgeToolSharpeningRef",  0.25   },
+        { "WK_WhetstoneSelectionRef",  0.25   },
+        { "WK_BladesmithToolCare",     0.25   },
+        { "WK_KnifemakerTestCutLog",   0.25   },
+        { "WK_BlacksmithHammerCard",   0.25   },
+        { "WK_SteelmillProcessRef",    0.25   },
+        { "WK_KnifemakerForgeWeld",    0.25   },
+        { "WK_MotorControlSchem",      0.12 },
     })
 end
 
 -- ── Welding Shop ─────────────────────────────────────────────────────────────
 if dist.WeldingWorkshopTools and dist.WeldingWorkshopTools.items then
     addMany(dist.WeldingWorkshopTools.items, {
-        { "WK_AWSD11WeldingRef",        1 },
-        { "WK_WeldingProcSpecRef",      1 },
-        { "WK_ElectrodeFillMetalRef",   1 },
-        { "WK_WeldInspectionRef",       1 },
-        { "WK_OSHAWeldingSafety",       1 },
-        { "WK_AWSCertWelderManual",     1 },
-        { "WK_PipefittersWelding",      1 },
-        { "WK_AluminumMIGRef",          1 },
-        { "WK_UAWWeldingShopSOP",       1 },
-        { "WK_StickRodSelectionGuide",  1 },
-        { "WK_AerospaceTIGNotes",       1 },
+        { "WK_AWSD11WeldingRef",        0.25 },
+        { "WK_WeldingProcSpecRef",      0.25 },
+        { "WK_ElectrodeFillMetalRef",   0.25 },
+        { "WK_WeldInspectionRef",       0.25 },
+        { "WK_OSHAWeldingSafety",       0.25 },
+        { "WK_AWSCertWelderManual",     0.25 },
+        { "WK_PipefittersWelding",      0.25 },
+        { "WK_AluminumMIGRef",          0.25 },
+        { "WK_UAWWeldingShopSOP",       0.25 },
+        { "WK_StickRodSelectionGuide",  0.25 },
+        { "WK_AerospaceTIGNotes",       0.25 },
     })
 end
 
 -- ── Auto Shop / Mechanic ──────────────────────────────────────────────────────
 if dist.MechanicShelfBooks and dist.MechanicShelfBooks.items then
     addMany(dist.MechanicShelfBooks.items, {
-        { "WK_OBDIICodeRef",        1 },
-        { "WK_TorqueSpecsRef",      1 },
-        { "WK_BrakeServiceRef",     1 },
-        { "WK_AutoElecDiagRef",     1 },
-        { "WK_FleetMaintenanceLog", 1 },
-        { "WK_AutoBodyHammerNotes", 1 },
-        { "WK_ASEStudyGuide",       1 },
-        { "WK_KYVehicleInspection", 1 },
+        { "WK_OBDIICodeRef",        0.25 },
+        { "WK_TorqueSpecsRef",      0.25 },
+        { "WK_BrakeServiceRef",     0.25 },
+        { "WK_AutoElecDiagRef",     0.25 },
+        { "WK_FleetMaintenanceLog", 0.25 },
+        { "WK_AutoBodyHammerNotes", 0.25 },
+        { "WK_ASEStudyGuide",       0.25 },
+        { "WK_KYVehicleInspection", 0.25 },
         { "WK_BriggsStrattonRepair",1 },
-        { "WK_DieselTroubleshoot",  1 },
-        { "WK_FordPickupShopMan",   1 },
+        { "WK_DieselTroubleshoot",  0.25 },
+        { "WK_FordPickupShopMan",   0.25 },
         { "WK_ChevyTechServiceBull",1 },
-        { "WK_AutoBodyWeldingRef",  1 },
+        { "WK_AutoBodyWeldingRef",  0.25 },
     })
 end
 
@@ -224,137 +224,137 @@ end
 
 if dist.CarDealerFilingCabinet and dist.CarDealerFilingCabinet.items then
     addMany(dist.CarDealerFilingCabinet.items, {
-        { "WK_OBDIICodeRef",         1   },
-        { "WK_TorqueSpecsRef",       1   },
-        { "WK_FleetMaintenanceLog",  1   },
-        { "WK_ASEStudyGuide",        0.5 },
-        { "WK_ChevyTechServiceBull", 0.5 },
-        { "WK_TruckingFleetPMSched", 1   },
+        { "WK_OBDIICodeRef",         0.25   },
+        { "WK_TorqueSpecsRef",       0.25   },
+        { "WK_FleetMaintenanceLog",  0.25   },
+        { "WK_ASEStudyGuide",        0.12 },
+        { "WK_ChevyTechServiceBull", 0.12 },
+        { "WK_TruckingFleetPMSched", 0.25   },
     })
 end
 
 -- ── Electrician ───────────────────────────────────────────────────────────────
 if dist.ElectricianTools and dist.ElectricianTools.items then
     addMany(dist.ElectricianTools.items, {
-        { "WK_NECArticleRef",            1 },
-        { "WK_WireGaugeAmpacityRef",     1 },
-        { "WK_OSHAElectricalSafety",     1 },
-        { "WK_ConduitFillRef",           1 },
-        { "WK_PanelInspectionChecklist", 1 },
-        { "WK_IBEWApprentBook",          1 },
-        { "WK_ResWiringText",            1 },
-        { "WK_MotorControlSchem",        1 },
-        { "WK_TransformerNamePlate",     1 },
-        { "WK_GroundingBondingRef",      1 },
-        { "WK_KYStateLicensingMan",      1 },
-        { "WK_UndergroundCableRef",      1 },
+        { "WK_NECArticleRef",            0.25 },
+        { "WK_WireGaugeAmpacityRef",     0.25 },
+        { "WK_OSHAElectricalSafety",     0.25 },
+        { "WK_ConduitFillRef",           0.25 },
+        { "WK_PanelInspectionChecklist", 0.25 },
+        { "WK_IBEWApprentBook",          0.25 },
+        { "WK_ResWiringText",            0.25 },
+        { "WK_MotorControlSchem",        0.25 },
+        { "WK_TransformerNamePlate",     0.25 },
+        { "WK_GroundingBondingRef",      0.25 },
+        { "WK_KYStateLicensingMan",      0.25 },
+        { "WK_UndergroundCableRef",      0.25 },
     })
 end
 
 -- ── Glassmaking ───────────────────────────────────────────────────────────────
 if dist.UniversityFilingCabinet_Glassmaking and dist.UniversityFilingCabinet_Glassmaking.items then
     addMany(dist.UniversityFilingCabinet_Glassmaking.items, {
-        { "WK_GlassAnnealingRef",    1 },
-        { "WK_KilnFormingRef",       1 },
-        { "WK_FloatGlassManufRef",   1 },
-        { "WK_PenlandStudioGlass",   1 },
-        { "WK_CorningEngineering",   1 },
-        { "WK_BorosilicateLampwork", 1 },
+        { "WK_GlassAnnealingRef",    0.25 },
+        { "WK_KilnFormingRef",       0.25 },
+        { "WK_FloatGlassManufRef",   0.25 },
+        { "WK_PenlandStudioGlass",   0.25 },
+        { "WK_CorningEngineering",   0.25 },
+        { "WK_BorosilicateLampwork", 0.25 },
     })
 end
 
 -- ── Farming / Agriculture ─────────────────────────────────────────────────────
 if dist.ToolCabinetFarming and dist.ToolCabinetFarming.items then
     addMany(dist.ToolCabinetFarming.items, {
-        { "WK_KnoxExtensionGuide",      1   },
-        { "WK_SoilTestInterpretRef",    1   },
-        { "WK_PesticideApplicationRef", 1   },
-        { "WK_IrrigationSchedulingRef", 1   },
-        { "WK_LivestockHealthRef",      1   },
-        { "WK_VaccinationDosageRef",    1   },
-        { "WK_KDALivestockRef",         1   },
-        { "WK_BushHogOperatorRef",      1   },
-        { "WK_CornDetasselingCard",     1   },
-        { "WK_KaiserBladeFieldRef",     0.5 },
-        { "WK_FarrierShoeingNotes",     0.5 },
-        { "WK_KYExtensionCookbook",     0.5 },
-        { "WK_BriggsStrattonRepair",    0.5 },
-        { "WK_FFAVocAgText",            1   },
-        { "WK_KYExtensionAgBull",       1   },
-        { "WK_FertSpreaderCalCard",     1   },
-        { "WK_USDACropRotation",        1   },
-        { "WK_NoTillFarmingMan",        1   },
-        { "WK_KYTobaccoGrowGuide",      1   },
-        { "WK_KYCattlemensNews",        1   },
-        { "WK_FFALivestockJudging",     1   },
-        { "WK_TysonPoultryGrower",      1   },
-        { "WK_SheepGoatBreeder",        1   },
-        { "WK_SwineProductionMan",      1   },
-        { "WK_DairyHerdMgmt",           1   },
-        { "WK_DeerProcessorGuide",      0.5 },
-        { "WK_WildGameProcessor",       0.5 },
-        { "WK_FarmStrengthManual",      1   },
-        { "WK_KYWildflowerGuide",       1   },
-        { "WK_USDAAnimalDamage",        1   },
+        { "WK_KnoxExtensionGuide",      0.25   },
+        { "WK_SoilTestInterpretRef",    0.25   },
+        { "WK_PesticideApplicationRef", 0.25   },
+        { "WK_IrrigationSchedulingRef", 0.25   },
+        { "WK_LivestockHealthRef",      0.25   },
+        { "WK_VaccinationDosageRef",    0.25   },
+        { "WK_KDALivestockRef",         0.25   },
+        { "WK_BushHogOperatorRef",      0.25   },
+        { "WK_CornDetasselingCard",     0.25   },
+        { "WK_KaiserBladeFieldRef",     0.12 },
+        { "WK_FarrierShoeingNotes",     0.12 },
+        { "WK_KYExtensionCookbook",     0.12 },
+        { "WK_BriggsStrattonRepair",    0.12 },
+        { "WK_FFAVocAgText",            0.25   },
+        { "WK_KYExtensionAgBull",       0.25   },
+        { "WK_FertSpreaderCalCard",     0.25   },
+        { "WK_USDACropRotation",        0.25   },
+        { "WK_NoTillFarmingMan",        0.25   },
+        { "WK_KYTobaccoGrowGuide",      0.25   },
+        { "WK_KYCattlemensNews",        0.25   },
+        { "WK_FFALivestockJudging",     0.25   },
+        { "WK_TysonPoultryGrower",      0.25   },
+        { "WK_SheepGoatBreeder",        0.25   },
+        { "WK_SwineProductionMan",      0.25   },
+        { "WK_DairyHerdMgmt",           0.25   },
+        { "WK_DeerProcessorGuide",      0.12 },
+        { "WK_WildGameProcessor",       0.12 },
+        { "WK_FarmStrengthManual",      0.25   },
+        { "WK_KYWildflowerGuide",       0.25   },
+        { "WK_USDAAnimalDamage",        0.25   },
     })
 end
 
 -- ── Butcher ───────────────────────────────────────────────────────────────────
 if dist.ButcherLiterature and dist.ButcherLiterature.items then
     addMany(dist.ButcherLiterature.items, {
-        { "WK_USDAMeatGradingRef",    1 },
-        { "WK_PrimalSubPrimalRef",    1 },
-        { "WK_HACCPMeatProcessing",   1 },
-        { "WK_MeatFabricationRef",    1 },
-        { "WK_ButchersBoningGuide",   1 },
-        { "WK_UFCWCutleryTechRef",    1 },
-        { "WK_UnionStockyardsCut",    1 },
-        { "WK_DeerProcessorGuide",    1 },
+        { "WK_USDAMeatGradingRef",    0.25 },
+        { "WK_PrimalSubPrimalRef",    0.25 },
+        { "WK_HACCPMeatProcessing",   0.25 },
+        { "WK_MeatFabricationRef",    0.25 },
+        { "WK_ButchersBoningGuide",   0.25 },
+        { "WK_UFCWCutleryTechRef",    0.25 },
+        { "WK_UnionStockyardsCut",    0.25 },
+        { "WK_DeerProcessorGuide",    0.25 },
         { "WK_SausageProductionNotes",1 },
         { "WK_SmallSlaughterhouseSOP",1 },
-        { "WK_KosherButcheringRef",   1 },
-        { "WK_CharcuterieProduction", 1 },
-        { "WK_HolidayTurkeyCard",     1 },
-        { "WK_CharcutierApprDiary",   1 },
-        { "WK_WildGameProcessor",     1 },
+        { "WK_KosherButcheringRef",   0.25 },
+        { "WK_CharcuterieProduction", 0.25 },
+        { "WK_HolidayTurkeyCard",     0.25 },
+        { "WK_CharcutierApprDiary",   0.25 },
+        { "WK_WildGameProcessor",     0.25 },
     })
 end
 
 -- ── Tool Store (back room) ────────────────────────────────────────────────────
 if dist.ToolStoreMisc and dist.ToolStoreMisc.items then
     addMany(dist.ToolStoreMisc.items, {
-        { "WK_FramingHammerCard",      1   },
-        { "WK_CrowbarApplicationsRef", 1   },
-        { "WK_FramingSquareCard",      1   },
-        { "WK_EdgeToolSharpeningRef",  1   },
-        { "WK_WhetstoneSelectionRef",  1   },
-        { "WK_WoodenHandleShaftRef",   1   },
-        { "WK_KnifeHandleFittingRef",  1   },
-        { "WK_MortarMixRef",           1   },
-        { "WK_HandToolConditionRef",   1   },
-        { "WK_OSHAHandToolSafety",     1   },
-        { "WK_TimberCruiserHandbook",  1   },
+        { "WK_FramingHammerCard",      0.25   },
+        { "WK_CrowbarApplicationsRef", 0.25   },
+        { "WK_FramingSquareCard",      0.25   },
+        { "WK_EdgeToolSharpeningRef",  0.25   },
+        { "WK_WhetstoneSelectionRef",  0.25   },
+        { "WK_WoodenHandleShaftRef",   0.25   },
+        { "WK_KnifeHandleFittingRef",  0.25   },
+        { "WK_MortarMixRef",           0.25   },
+        { "WK_HandToolConditionRef",   0.25   },
+        { "WK_OSHAHandToolSafety",     0.25   },
+        { "WK_TimberCruiserHandbook",  0.25   },
         { "WK_AppalachianFellingNotes",1   },
-        { "WK_MountainRescueIceAxe",   1   },
-        { "WK_BackcountryHatchetCard", 1   },
-        { "WK_TechnicalRescueAxeRef",  0.5 },
-        { "WK_KaiserBladeFieldRef",    1   },
-        { "WK_JewelersFileCard",       1   },
-        { "WK_ShopApprenticeToolLog",  1   },
-        { "WK_BowSawSetGuide",         1   },
-        { "WK_ProductionFramerCard",   1   },
-        { "WK_MasonsHammerRef",        1   },
-        { "WK_RoofersFlashingCard",    1   },
-        { "WK_LandClearingMaul",       1   },
-        { "WK_BIATraditionalBrick",    1   },
-        { "WK_StonecutterApprenNote",  1   },
-        { "WK_ConcreteFinishersRef",   1   },
-        { "WK_FieldstoneWalls",        1   },
-        { "WK_PavingStoneInstall",     1   },
-        { "WK_CabinetmakerJoinery",    1   },
-        { "WK_RoofFramingCalcCard",    1   },
-        { "WK_LogHomeBuildersRef",     1   },
-        { "WK_FurnitureMakerNotes",    1   },
+        { "WK_MountainRescueIceAxe",   0.25   },
+        { "WK_BackcountryHatchetCard", 0.25   },
+        { "WK_TechnicalRescueAxeRef",  0.12 },
+        { "WK_KaiserBladeFieldRef",    0.25   },
+        { "WK_JewelersFileCard",       0.25   },
+        { "WK_ShopApprenticeToolLog",  0.25   },
+        { "WK_BowSawSetGuide",         0.25   },
+        { "WK_ProductionFramerCard",   0.25   },
+        { "WK_MasonsHammerRef",        0.25   },
+        { "WK_RoofersFlashingCard",    0.25   },
+        { "WK_LandClearingMaul",       0.25   },
+        { "WK_BIATraditionalBrick",    0.25   },
+        { "WK_StonecutterApprenNote",  0.25   },
+        { "WK_ConcreteFinishersRef",   0.25   },
+        { "WK_FieldstoneWalls",        0.25   },
+        { "WK_PavingStoneInstall",     0.25   },
+        { "WK_CabinetmakerJoinery",    0.25   },
+        { "WK_RoofFramingCalcCard",    0.25   },
+        { "WK_LogHomeBuildersRef",     0.25   },
+        { "WK_FurnitureMakerNotes",    0.25   },
     })
 end
 
