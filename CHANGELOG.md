@@ -2,6 +2,31 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [0.3] - 2026-05-03
+
+### Added
+- **Document Spawn Rate** sandbox option (Very Rare / Rare / Normal / Common / Abundant) — scales
+  all WK loot weights by 0.25× to 4×; default is Normal (1×); does not affect already-generated
+  containers, only new ones
+- 11 new container types now carry WK documents:
+  - Thematic: blacksmith literature rack, tailoring/fabric store, ranger station bookshelf,
+    medical office desk, garden/nursery store misc shelf
+  - Office desks: generic business office, home office, classy home office, medical waiting-room
+    reception desk
+  - Classroom desks: elementary (Boy Scout / youth-program handouts) and secondary (HS athletics,
+    home ec, woodshop)
+
+### Changed
+- All container spawn weights recalibrated to consistent math-based targets — ~10 expected
+  containers at Normal sandbox (10% hit chance per container) for most locations; ~20 expected
+  (5% hit chance) for containers already carrying high-value loot: Army Bunker Lockers, Police
+  Desk, Mechanic Electrical Shelf, Car Dealer Filing Cabinet
+- WK documents removed from `GunStoreCounter` (deprecated/empty in B42) and
+  `UniversityFilingCabinet_Glassmaking` (stub/empty in B42); generic desk and filing cabinet
+  pools provide fallback coverage for those locations
+- Medical office documents moved from bookshelf pool to the desk — they now appear in the desk
+  you actually interact with in the room
+
 ## [0.2] - 2026-05-01
 
 ### Added
