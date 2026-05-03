@@ -35,7 +35,7 @@ local dist = ProceduralDistributions.list
 -- ── Military ─────────────────────────────────────────────────────────────────
 -- ArmySurplusLiterature: the book/magazine rack in a surplus store.
 --   Already carries vanilla skill books, so WK docs fit naturally.
-if dist.ArmySurplusLiterature and dist.ArmySurplusLiterature.items then
+if dist.ArmySurplusLiterature and dist.ArmySurplusLiterature.items then  -- target ~10
     addMany(dist.ArmySurplusLiterature.items, {
         { "WK_VietnamRiflemanNotes",    w(0.5071)   },  -- Aiming
         { "WK_NavalGunnersManual",      w(0.5071)   },  -- Reloading
@@ -54,7 +54,7 @@ end
 
 
 -- ArmyBunkerLockers: personal lockers — fitness manuals, field notes, personal copies.
-if dist.ArmyBunkerLockers and dist.ArmyBunkerLockers.items then
+if dist.ArmyBunkerLockers and dist.ArmyBunkerLockers.items then  -- target ~20
     addMany(dist.ArmyBunkerLockers.items, {
         { "WK_ArmyAPFTManual",          w(0.0725)   },  -- Sprinting
         { "WK_ArmyCombatLifter",        w(0.0725)   },  -- Strength
@@ -65,7 +65,7 @@ if dist.ArmyBunkerLockers and dist.ArmyBunkerLockers.items then
 end
 
 -- ArmyBunkerStorage: supply storage — a few tactical and maintenance references.
-if dist.ArmyBunkerStorage and dist.ArmyBunkerStorage.items then
+if dist.ArmyBunkerStorage and dist.ArmyBunkerStorage.items then  -- target ~10
     addMany(dist.ArmyBunkerStorage.items, {
         { "WK_NavalGunnersManual",      w(0.4673) },  -- Reloading
         { "WK_ArmyCombatMedic",         w(0.4673) },  -- First Aid
@@ -74,7 +74,7 @@ if dist.ArmyBunkerStorage and dist.ArmyBunkerStorage.items then
 end
 
 -- ── Police / Law Enforcement ─────────────────────────────────────────────────
-if dist.PoliceFilingCabinet and dist.PoliceFilingCabinet.items then
+if dist.PoliceFilingCabinet and dist.PoliceFilingCabinet.items then  -- target ~10
     addMany(dist.PoliceFilingCabinet.items, {
         { "WK_KCPDFirearmsQual",        w(0.7019)   },
         { "WK_RangeSafetyOfficerRef",   w(0.7019)   },
@@ -99,7 +99,7 @@ if dist.PoliceFilingCabinet and dist.PoliceFilingCabinet.items then
     })
 end
 
-if dist.PoliceDesk and dist.PoliceDesk.items then
+if dist.PoliceDesk and dist.PoliceDesk.items then  -- target ~20
     addMany(dist.PoliceDesk.items, {
         { "WK_KCPDFirearmsQual",        w(0.4844)   },
         { "WK_DefensiveHandgunRef",     w(0.4844)   },
@@ -118,7 +118,7 @@ end
 -- Skipping until TIS ships an active replacement pool for gun store containers.
 
 -- ── Fire Station ─────────────────────────────────────────────────────────────
-if dist.FireStorageTools and dist.FireStorageTools.items then
+if dist.FireStorageTools and dist.FireStorageTools.items then  -- target ~10
     addMany(dist.FireStorageTools.items, {
         { "WK_ForcibleEntryRef",        w(0.3462) },
         { "WK_FirefighterHandToolSOP",  w(0.3462) },
@@ -137,7 +137,7 @@ if dist.FireStorageTools and dist.FireStorageTools.items then
 end
 
 -- ── Blacksmith / Metal Shop ───────────────────────────────────────────────────
-if dist.WildWestBlacksmith and dist.WildWestBlacksmith.items then
+if dist.WildWestBlacksmith and dist.WildWestBlacksmith.items then  -- target ~10
     addMany(dist.WildWestBlacksmith.items, {
         { "WK_ASTMMaterialSpecRef",      w(0.2936) },
         { "WK_ForgeHeatTreatGuide",      w(0.2936) },
@@ -151,7 +151,7 @@ if dist.WildWestBlacksmith and dist.WildWestBlacksmith.items then
     })
 end
 
-if dist.MetalShopTools and dist.MetalShopTools.items then
+if dist.MetalShopTools and dist.MetalShopTools.items then  -- target ~10
     addMany(dist.MetalShopTools.items, {
         { "WK_ASTMMaterialSpecRef",    w(0.8959)   },
         { "WK_ForgeHeatTreatGuide",    w(0.8959)   },
@@ -169,7 +169,7 @@ if dist.MetalShopTools and dist.MetalShopTools.items then
 end
 
 -- ── Welding Shop ─────────────────────────────────────────────────────────────
-if dist.WeldingWorkshopTools and dist.WeldingWorkshopTools.items then
+if dist.WeldingWorkshopTools and dist.WeldingWorkshopTools.items then  -- target ~10
     addMany(dist.WeldingWorkshopTools.items, {
         { "WK_AWSD11WeldingRef",        w(0.5636) },
         { "WK_WeldingProcSpecRef",      w(0.5636) },
@@ -186,7 +186,7 @@ if dist.WeldingWorkshopTools and dist.WeldingWorkshopTools.items then
 end
 
 -- ── Auto Shop / Mechanic ──────────────────────────────────────────────────────
-if dist.MechanicShelfBooks and dist.MechanicShelfBooks.items then
+if dist.MechanicShelfBooks and dist.MechanicShelfBooks.items then  -- target ~10
     addMany(dist.MechanicShelfBooks.items, {
         { "WK_OBDIICodeRef",        w(0.427) },
         { "WK_TorqueSpecsRef",      w(0.427) },
@@ -204,15 +204,15 @@ if dist.MechanicShelfBooks and dist.MechanicShelfBooks.items then
     })
 end
 
-if dist.MechanicShelfBrakes and dist.MechanicShelfBrakes.items then
+if dist.MechanicShelfBrakes and dist.MechanicShelfBrakes.items then  -- target ~10
     addToItems(dist.MechanicShelfBrakes.items, "WK_BrakeServiceRef", w(3.0694))
 end
 
-if dist.MechanicShelfElectric and dist.MechanicShelfElectric.items then
+if dist.MechanicShelfElectric and dist.MechanicShelfElectric.items then  -- target ~20
     addToItems(dist.MechanicShelfElectric.items, "WK_AutoElecDiagRef", w(2.2134))
 end
 
-if dist.CarDealerFilingCabinet and dist.CarDealerFilingCabinet.items then
+if dist.CarDealerFilingCabinet and dist.CarDealerFilingCabinet.items then  -- target ~20
     addMany(dist.CarDealerFilingCabinet.items, {
         { "WK_OBDIICodeRef",         w(0.8879)   },
         { "WK_TorqueSpecsRef",       w(0.8879)   },
@@ -224,7 +224,7 @@ if dist.CarDealerFilingCabinet and dist.CarDealerFilingCabinet.items then
 end
 
 -- ── Electrician ───────────────────────────────────────────────────────────────
-if dist.ElectricianTools and dist.ElectricianTools.items then
+if dist.ElectricianTools and dist.ElectricianTools.items then  -- target ~10
     addMany(dist.ElectricianTools.items, {
         { "WK_NECArticleRef",            w(0.7048) },
         { "WK_WireGaugeAmpacityRef",     w(0.7048) },
@@ -246,7 +246,7 @@ end
 -- Skipping until TIS populates this pool — adding to it now would give 100% hit rate.
 
 -- ── Farming / Agriculture ─────────────────────────────────────────────────────
-if dist.ToolCabinetFarming and dist.ToolCabinetFarming.items then
+if dist.ToolCabinetFarming and dist.ToolCabinetFarming.items then  -- target ~10
     addMany(dist.ToolCabinetFarming.items, {
         { "WK_KnoxExtensionGuide",      w(0.2529)   },
         { "WK_SoilTestInterpretRef",    w(0.2529)   },
@@ -282,7 +282,7 @@ if dist.ToolCabinetFarming and dist.ToolCabinetFarming.items then
 end
 
 -- ── Butcher ───────────────────────────────────────────────────────────────────
-if dist.ButcherLiterature and dist.ButcherLiterature.items then
+if dist.ButcherLiterature and dist.ButcherLiterature.items then  -- target ~10
     addMany(dist.ButcherLiterature.items, {
         { "WK_USDAMeatGradingRef",    w(0.084) },
         { "WK_PrimalSubPrimalRef",    w(0.084) },
@@ -305,7 +305,7 @@ if dist.ButcherLiterature and dist.ButcherLiterature.items then
 end
 
 -- ── Tool Store (back room) ────────────────────────────────────────────────────
-if dist.ToolStoreMisc and dist.ToolStoreMisc.items then
+if dist.ToolStoreMisc and dist.ToolStoreMisc.items then  -- target ~10
     addMany(dist.ToolStoreMisc.items, {
         { "WK_FramingHammerCard",      w(0.197)   },
         { "WK_CrowbarApplicationsRef", w(0.197)   },
@@ -351,7 +351,7 @@ if dist.ToolStoreMisc and dist.ToolStoreMisc.items then
 end
 
 -- ── Fishing Store ─────────────────────────────────────────────────────────────
-if dist.FishingStoreGear and dist.FishingStoreGear.items then
+if dist.FishingStoreGear and dist.FishingStoreGear.items then  -- target ~10
     addMany(dist.FishingStoreGear.items, {
         { "WK_FishIdentificationRef", w(1.7443) },  -- Fishing
         { "WK_RiggingTackleRef",      w(1.7443) },  -- Fishing
@@ -359,16 +359,15 @@ if dist.FishingStoreGear and dist.FishingStoreGear.items then
 end
 
 -- ── Plumbing ──────────────────────────────────────────────────────────────────
-if dist.PlumbingSupplies and dist.PlumbingSupplies.items then
+if dist.PlumbingSupplies and dist.PlumbingSupplies.items then  -- target ~10
     addMany(dist.PlumbingSupplies.items, {
         { "WK_PlumbingQuickClearRef", w(4.6975) },  -- SmallBlunt
     })
 end
 
 -- ── Generic Desk ─────────────────────────────────────────────────────────────
--- Weight 0.07 per item: ~44 items → cumulative ~3.1 WK weight.
--- At base pool ~80 with 3 rolls: ~10% chance of a doc per desk.
-if dist.DeskGeneric and dist.DeskGeneric.items then
+-- target ~10
+if dist.DeskGeneric and dist.DeskGeneric.items then  -- target ~10
     addMany(dist.DeskGeneric.items, {
         { "WK_GolfSwingRef",           w(0.0189) },
         { "WK_BaseballSwingRef",       w(0.0189) },
@@ -418,9 +417,8 @@ if dist.DeskGeneric and dist.DeskGeneric.items then
 end
 
 -- ── Filing Cabinet (Generic) ──────────────────────────────────────────────────
--- Weight 0.02 per item: 213 items → cumulative ~4.26 WK weight.
--- Vanilla pool weight ~340, 4 rolls: ~5% chance of a doc per cabinet (~20 cabinets on average).
-if dist.FilingCabinetGeneric and dist.FilingCabinetGeneric.items then
+-- target ~10
+if dist.FilingCabinetGeneric and dist.FilingCabinetGeneric.items then  -- target ~10
     addMany(dist.FilingCabinetGeneric.items, {
         -- Carpentry / construction
         { "WK_LumberYardManual",          w(0.0426) },
