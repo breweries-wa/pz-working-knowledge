@@ -1,6 +1,24 @@
 -- Add Working Knowledge documents to relevant loot tables.
 -- This file runs after vanilla distribution tables are loaded.
 
+-- ── Spawn rate multiplier ─────────────────────────────────────────────────────
+-- Reads the SpawnRate sandbox option (1–5) and converts to a weight multiplier.
+-- 1=Very Rare (×0.25), 2=Rare (×0.5), 3=Normal (×1), 4=Common (×2), 5=Abundant (×4)
+local _spawnMult = 1.0
+local _opts = getSandboxOptions and getSandboxOptions()
+if _opts then
+    local _o = _opts:getOptionByName("WorkingKnowledge.SpawnRate")
+    if _o then
+        local _level = _o:getValue()  -- returns 1–5
+        local _levels = { 0.25, 0.5, 1.0, 2.0, 4.0 }
+        _spawnMult = _levels[_level] or 1.0
+    end
+end
+
+local function w(weight)
+    return weight * _spawnMult
+end
+
 local function addToItems(itemsTable, typeName, weight)
     table.insert(itemsTable, typeName)
     table.insert(itemsTable, weight)
@@ -19,18 +37,18 @@ local dist = ProceduralDistributions.list
 --   Already carries vanilla skill books, so WK docs fit naturally.
 if dist.ArmySurplusLiterature and dist.ArmySurplusLiterature.items then
     addMany(dist.ArmySurplusLiterature.items, {
-        { "WK_VietnamRiflemanNotes",    0.25   },  -- Aiming
-        { "WK_NavalGunnersManual",      0.25   },  -- Reloading
-        { "WK_GuardForceWeaponsManual", 0.25   },  -- Reloading
-        { "WK_CombatShootingDrills",    0.25   },  -- Reloading
-        { "WK_TacticalReloadRef",       0.25   },  -- Reloading
-        { "WK_WWIIBayonetTraining",     0.25   },  -- Spear
-        { "WK_ArmyAPFTManual",          0.25   },  -- Sprinting
-        { "WK_ArmyCombatMedic",         0.25   },  -- First Aid
-        { "WK_ArmyCombatLifter",        0.25   },  -- Strength
-        { "WK_NavySEALReconPamph",      0.25   },  -- Tracking
-        { "WK_SARTrackingTraining",     0.12 },  -- Tracking
-        { "WK_ArmyMessHallSOP",         0.12 },  -- Cooking
+        { "WK_VietnamRiflemanNotes",    w(0.25)   },  -- Aiming
+        { "WK_NavalGunnersManual",      w(0.25)   },  -- Reloading
+        { "WK_GuardForceWeaponsManual", w(0.25)   },  -- Reloading
+        { "WK_CombatShootingDrills",    w(0.25)   },  -- Reloading
+        { "WK_TacticalReloadRef",       w(0.25)   },  -- Reloading
+        { "WK_WWIIBayonetTraining",     w(0.25)   },  -- Spear
+        { "WK_ArmyAPFTManual",          w(0.25)   },  -- Sprinting
+        { "WK_ArmyCombatMedic",         w(0.25)   },  -- First Aid
+        { "WK_ArmyCombatLifter",        w(0.25)   },  -- Strength
+        { "WK_NavySEALReconPamph",      w(0.25)   },  -- Tracking
+        { "WK_SARTrackingTraining",     w(0.12) },  -- Tracking
+        { "WK_ArmyMessHallSOP",         w(0.12) },  -- Cooking
     })
 end
 
@@ -38,340 +56,340 @@ end
 -- ArmyBunkerLockers: personal lockers — fitness manuals, field notes, personal copies.
 if dist.ArmyBunkerLockers and dist.ArmyBunkerLockers.items then
     addMany(dist.ArmyBunkerLockers.items, {
-        { "WK_ArmyAPFTManual",          0.25   },  -- Sprinting
-        { "WK_ArmyCombatLifter",        0.25   },  -- Strength
-        { "WK_VietnamRiflemanNotes",    0.12 },  -- Aiming
-        { "WK_ArmyCombatMedic",         0.12 },  -- First Aid
-        { "WK_NavySEALReconPamph",      0.12 },  -- Tracking
+        { "WK_ArmyAPFTManual",          w(0.25)   },  -- Sprinting
+        { "WK_ArmyCombatLifter",        w(0.25)   },  -- Strength
+        { "WK_VietnamRiflemanNotes",    w(0.12) },  -- Aiming
+        { "WK_ArmyCombatMedic",         w(0.12) },  -- First Aid
+        { "WK_NavySEALReconPamph",      w(0.12) },  -- Tracking
     })
 end
 
 -- ArmyBunkerStorage: supply storage — a few tactical and maintenance references.
 if dist.ArmyBunkerStorage and dist.ArmyBunkerStorage.items then
     addMany(dist.ArmyBunkerStorage.items, {
-        { "WK_NavalGunnersManual",      0.12 },  -- Reloading
-        { "WK_ArmyCombatMedic",         0.12 },  -- First Aid
-        { "WK_GuardForceWeaponsManual", 0.12 },  -- Reloading
+        { "WK_NavalGunnersManual",      w(0.12) },  -- Reloading
+        { "WK_ArmyCombatMedic",         w(0.12) },  -- First Aid
+        { "WK_GuardForceWeaponsManual", w(0.12) },  -- Reloading
     })
 end
 
 -- ── Police / Law Enforcement ─────────────────────────────────────────────────
 if dist.PoliceFilingCabinet and dist.PoliceFilingCabinet.items then
     addMany(dist.PoliceFilingCabinet.items, {
-        { "WK_KCPDFirearmsQual",        0.25   },
-        { "WK_RangeSafetyOfficerRef",   0.25   },
-        { "WK_DefensiveHandgunRef",     0.25   },
-        { "WK_SheriffQualLog",          0.25   },
-        { "WK_TacticalReloadRef",       0.25   },
-        { "WK_MagazineDrillCard",       0.25   },
-        { "WK_ArmorersWeaponsRef",      0.25   },
-        { "WK_ImpactWeaponMaintSOP",    0.25   },
-        { "WK_KCPDImpactWeaponsRef",    0.25   },
-        { "WK_LEFitnessStandardsRef",   0.25   },
-        { "WK_NRAPistolInstructorMan",  0.12 },
-        { "WK_KYConcealedCarryGuide",   0.25   },
-        { "WK_FBIQualScorebook",        0.25   },
-        { "WK_PoliceAcademyHandgun",    0.25   },
-        { "WK_RevolverSpeedloaderCard", 0.25   },
-        { "WK_RangemasterDrillBook",    0.12 },
-        { "WK_NightstickTrainingMan",   0.25   },
-        { "WK_RiotBatonInstructorRef",  0.25   },
-        { "WK_PoliceRecruitFitness",    0.25   },
-        { "WK_BloodhoundHandlerCard",   0.25   },
+        { "WK_KCPDFirearmsQual",        w(0.25)   },
+        { "WK_RangeSafetyOfficerRef",   w(0.25)   },
+        { "WK_DefensiveHandgunRef",     w(0.25)   },
+        { "WK_SheriffQualLog",          w(0.25)   },
+        { "WK_TacticalReloadRef",       w(0.25)   },
+        { "WK_MagazineDrillCard",       w(0.25)   },
+        { "WK_ArmorersWeaponsRef",      w(0.25)   },
+        { "WK_ImpactWeaponMaintSOP",    w(0.25)   },
+        { "WK_KCPDImpactWeaponsRef",    w(0.25)   },
+        { "WK_LEFitnessStandardsRef",   w(0.25)   },
+        { "WK_NRAPistolInstructorMan",  w(0.12) },
+        { "WK_KYConcealedCarryGuide",   w(0.25)   },
+        { "WK_FBIQualScorebook",        w(0.25)   },
+        { "WK_PoliceAcademyHandgun",    w(0.25)   },
+        { "WK_RevolverSpeedloaderCard", w(0.25)   },
+        { "WK_RangemasterDrillBook",    w(0.12) },
+        { "WK_NightstickTrainingMan",   w(0.25)   },
+        { "WK_RiotBatonInstructorRef",  w(0.25)   },
+        { "WK_PoliceRecruitFitness",    w(0.25)   },
+        { "WK_BloodhoundHandlerCard",   w(0.25)   },
     })
 end
 
 if dist.PoliceDesk and dist.PoliceDesk.items then
     addMany(dist.PoliceDesk.items, {
-        { "WK_KCPDFirearmsQual",        0.25   },
-        { "WK_DefensiveHandgunRef",     0.25   },
-        { "WK_TacticalReloadRef",       0.25   },
-        { "WK_MagazineDrillCard",       0.25   },
-        { "WK_ImpactWeaponMaintSOP",    0.25   },
-        { "WK_KCPDImpactWeaponsRef",    0.25   },
-        { "WK_PoliceAcademyHandgun",    0.12 },
-        { "WK_CombatShootingDrills",    0.12 },
-        { "WK_PoliceRecruitFitness",    0.12 },
+        { "WK_KCPDFirearmsQual",        w(0.25)   },
+        { "WK_DefensiveHandgunRef",     w(0.25)   },
+        { "WK_TacticalReloadRef",       w(0.25)   },
+        { "WK_MagazineDrillCard",       w(0.25)   },
+        { "WK_ImpactWeaponMaintSOP",    w(0.25)   },
+        { "WK_KCPDImpactWeaponsRef",    w(0.25)   },
+        { "WK_PoliceAcademyHandgun",    w(0.12) },
+        { "WK_CombatShootingDrills",    w(0.12) },
+        { "WK_PoliceRecruitFitness",    w(0.12) },
     })
 end
 
 -- ── Gun Store ────────────────────────────────────────────────────────────────
 if dist.GunStoreCounter and dist.GunStoreCounter.items then
     addMany(dist.GunStoreCounter.items, {
-        { "WK_RangeSafetyOfficerRef",   0.25   },
-        { "WK_MagazineDrillCard",       0.25   },
-        { "WK_ArmorersWeaponsRef",      0.25   },
-        { "WK_PracticalShootingRef",    0.25   },
-        { "WK_NRAPistolInstructorMan",  0.25   },
-        { "WK_BullseyeMatchProgramme",  0.25   },
-        { "WK_KYConcealedCarryGuide",   0.12 },
-        { "WK_USPSARulebook",           0.25   },
-        { "WK_VietnamRiflemanNotes",    0.12 },
-        { "WK_HighPowerNewsletter",     0.25   },
-        { "WK_RevolverSpeedloaderCard", 0.12 },
-        { "WK_CombatShootingDrills",    0.25   },
-        { "WK_GunsmithStripping",       0.25   },
-        { "WK_ShotgunReloadingCard",    0.25   },
-        { "WK_RangemasterDrillBook",    0.25   },
+        { "WK_RangeSafetyOfficerRef",   w(0.25)   },
+        { "WK_MagazineDrillCard",       w(0.25)   },
+        { "WK_ArmorersWeaponsRef",      w(0.25)   },
+        { "WK_PracticalShootingRef",    w(0.25)   },
+        { "WK_NRAPistolInstructorMan",  w(0.25)   },
+        { "WK_BullseyeMatchProgramme",  w(0.25)   },
+        { "WK_KYConcealedCarryGuide",   w(0.12) },
+        { "WK_USPSARulebook",           w(0.25)   },
+        { "WK_VietnamRiflemanNotes",    w(0.12) },
+        { "WK_HighPowerNewsletter",     w(0.25)   },
+        { "WK_RevolverSpeedloaderCard", w(0.12) },
+        { "WK_CombatShootingDrills",    w(0.25)   },
+        { "WK_GunsmithStripping",       w(0.25)   },
+        { "WK_ShotgunReloadingCard",    w(0.25)   },
+        { "WK_RangemasterDrillBook",    w(0.25)   },
     })
 end
 
 -- ── Fire Station ─────────────────────────────────────────────────────────────
 if dist.FireStorageTools and dist.FireStorageTools.items then
     addMany(dist.FireStorageTools.items, {
-        { "WK_ForcibleEntryRef",        0.25 },
-        { "WK_FirefighterHandToolSOP",  0.25 },
-        { "WK_CPRAEDRef",               0.25 },
-        { "WK_EmergencyTriageRef",      0.25 },
-        { "WK_FireAcademyFitnessRef",   0.25 },
-        { "WK_WorkplaceFirstAidSOP",    0.25 },
-        { "WK_EngineCompanyAxeRef",     0.25 },
-        { "WK_EMTRescueKnifeCard",      0.25 },
-        { "WK_FirefighterHaliganRef",   0.25 },
-        { "WK_PulaskiSwingScale",       0.25 },
-        { "WK_ParamedicProtocolMan",    0.25 },
-        { "WK_ArmyCombatMedic",         0.25 },
-        { "WK_SARTrackingTraining",     0.25 },
+        { "WK_ForcibleEntryRef",        w(0.25) },
+        { "WK_FirefighterHandToolSOP",  w(0.25) },
+        { "WK_CPRAEDRef",               w(0.25) },
+        { "WK_EmergencyTriageRef",      w(0.25) },
+        { "WK_FireAcademyFitnessRef",   w(0.25) },
+        { "WK_WorkplaceFirstAidSOP",    w(0.25) },
+        { "WK_EngineCompanyAxeRef",     w(0.25) },
+        { "WK_EMTRescueKnifeCard",      w(0.25) },
+        { "WK_FirefighterHaliganRef",   w(0.25) },
+        { "WK_PulaskiSwingScale",       w(0.25) },
+        { "WK_ParamedicProtocolMan",    w(0.25) },
+        { "WK_ArmyCombatMedic",         w(0.25) },
+        { "WK_SARTrackingTraining",     w(0.25) },
     })
 end
 
 -- ── Blacksmith / Metal Shop ───────────────────────────────────────────────────
 if dist.WildWestBlacksmith and dist.WildWestBlacksmith.items then
     addMany(dist.WildWestBlacksmith.items, {
-        { "WK_ASTMMaterialSpecRef",      0.25 },
-        { "WK_ForgeHeatTreatGuide",      0.25 },
-        { "WK_IndustrialMetalworkRef",   0.25 },
-        { "WK_BlacksmithGuildStandards", 0.25 },
-        { "WK_ABANANewsletter",          0.25 },
-        { "WK_FarrierShoeingNotes",      0.25 },
-        { "WK_FrontierForgeRef",         0.25 },
-        { "WK_SwordsmithApprDiary",      0.25 },
-        { "WK_ColonialIronworker",       0.25 },
+        { "WK_ASTMMaterialSpecRef",      w(0.25) },
+        { "WK_ForgeHeatTreatGuide",      w(0.25) },
+        { "WK_IndustrialMetalworkRef",   w(0.25) },
+        { "WK_BlacksmithGuildStandards", w(0.25) },
+        { "WK_ABANANewsletter",          w(0.25) },
+        { "WK_FarrierShoeingNotes",      w(0.25) },
+        { "WK_FrontierForgeRef",         w(0.25) },
+        { "WK_SwordsmithApprDiary",      w(0.25) },
+        { "WK_ColonialIronworker",       w(0.25) },
     })
 end
 
 if dist.MetalShopTools and dist.MetalShopTools.items then
     addMany(dist.MetalShopTools.items, {
-        { "WK_ASTMMaterialSpecRef",    0.25   },
-        { "WK_ForgeHeatTreatGuide",    0.25   },
-        { "WK_IndustrialMetalworkRef", 0.25   },
-        { "WK_EdgeToolSharpeningRef",  0.25   },
-        { "WK_WhetstoneSelectionRef",  0.25   },
-        { "WK_BladesmithToolCare",     0.25   },
-        { "WK_KnifemakerTestCutLog",   0.25   },
-        { "WK_BlacksmithHammerCard",   0.25   },
-        { "WK_SteelmillProcessRef",    0.25   },
-        { "WK_KnifemakerForgeWeld",    0.25   },
-        { "WK_MotorControlSchem",      0.12 },
-        { "WK_NSFBladeSafetyRef",      0.25   },  -- SmallBlade
+        { "WK_ASTMMaterialSpecRef",    w(0.25)   },
+        { "WK_ForgeHeatTreatGuide",    w(0.25)   },
+        { "WK_IndustrialMetalworkRef", w(0.25)   },
+        { "WK_EdgeToolSharpeningRef",  w(0.25)   },
+        { "WK_WhetstoneSelectionRef",  w(0.25)   },
+        { "WK_BladesmithToolCare",     w(0.25)   },
+        { "WK_KnifemakerTestCutLog",   w(0.25)   },
+        { "WK_BlacksmithHammerCard",   w(0.25)   },
+        { "WK_SteelmillProcessRef",    w(0.25)   },
+        { "WK_KnifemakerForgeWeld",    w(0.25)   },
+        { "WK_MotorControlSchem",      w(0.12) },
+        { "WK_NSFBladeSafetyRef",      w(0.25)   },  -- SmallBlade
     })
 end
 
 -- ── Welding Shop ─────────────────────────────────────────────────────────────
 if dist.WeldingWorkshopTools and dist.WeldingWorkshopTools.items then
     addMany(dist.WeldingWorkshopTools.items, {
-        { "WK_AWSD11WeldingRef",        0.25 },
-        { "WK_WeldingProcSpecRef",      0.25 },
-        { "WK_ElectrodeFillMetalRef",   0.25 },
-        { "WK_WeldInspectionRef",       0.25 },
-        { "WK_OSHAWeldingSafety",       0.25 },
-        { "WK_AWSCertWelderManual",     0.25 },
-        { "WK_PipefittersWelding",      0.25 },
-        { "WK_AluminumMIGRef",          0.25 },
-        { "WK_UAWWeldingShopSOP",       0.25 },
-        { "WK_StickRodSelectionGuide",  0.25 },
-        { "WK_AerospaceTIGNotes",       0.25 },
+        { "WK_AWSD11WeldingRef",        w(0.25) },
+        { "WK_WeldingProcSpecRef",      w(0.25) },
+        { "WK_ElectrodeFillMetalRef",   w(0.25) },
+        { "WK_WeldInspectionRef",       w(0.25) },
+        { "WK_OSHAWeldingSafety",       w(0.25) },
+        { "WK_AWSCertWelderManual",     w(0.25) },
+        { "WK_PipefittersWelding",      w(0.25) },
+        { "WK_AluminumMIGRef",          w(0.25) },
+        { "WK_UAWWeldingShopSOP",       w(0.25) },
+        { "WK_StickRodSelectionGuide",  w(0.25) },
+        { "WK_AerospaceTIGNotes",       w(0.25) },
     })
 end
 
 -- ── Auto Shop / Mechanic ──────────────────────────────────────────────────────
 if dist.MechanicShelfBooks and dist.MechanicShelfBooks.items then
     addMany(dist.MechanicShelfBooks.items, {
-        { "WK_OBDIICodeRef",        0.25 },
-        { "WK_TorqueSpecsRef",      0.25 },
-        { "WK_BrakeServiceRef",     0.25 },
-        { "WK_AutoElecDiagRef",     0.25 },
-        { "WK_FleetMaintenanceLog", 0.25 },
-        { "WK_AutoBodyHammerNotes", 0.25 },
-        { "WK_ASEStudyGuide",       0.25 },
-        { "WK_KYVehicleInspection", 0.25 },
-        { "WK_BriggsStrattonRepair",1 },
-        { "WK_DieselTroubleshoot",  0.25 },
-        { "WK_FordPickupShopMan",   0.25 },
-        { "WK_ChevyTechServiceBull",1 },
-        { "WK_AutoBodyWeldingRef",  0.25 },
+        { "WK_OBDIICodeRef",        w(0.25) },
+        { "WK_TorqueSpecsRef",      w(0.25) },
+        { "WK_BrakeServiceRef",     w(0.25) },
+        { "WK_AutoElecDiagRef",     w(0.25) },
+        { "WK_FleetMaintenanceLog", w(0.25) },
+        { "WK_AutoBodyHammerNotes", w(0.25) },
+        { "WK_ASEStudyGuide",       w(0.25) },
+        { "WK_KYVehicleInspection", w(0.25) },
+        { "WK_BriggsStrattonRepair",w(1) },
+        { "WK_DieselTroubleshoot",  w(0.25) },
+        { "WK_FordPickupShopMan",   w(0.25) },
+        { "WK_ChevyTechServiceBull",w(1) },
+        { "WK_AutoBodyWeldingRef",  w(0.25) },
     })
 end
 
 if dist.MechanicShelfBrakes and dist.MechanicShelfBrakes.items then
-    addToItems(dist.MechanicShelfBrakes.items, "WK_BrakeServiceRef", 1)
+    addToItems(dist.MechanicShelfBrakes.items, "WK_BrakeServiceRef", w(1))
 end
 
 if dist.MechanicShelfElectric and dist.MechanicShelfElectric.items then
-    addToItems(dist.MechanicShelfElectric.items, "WK_AutoElecDiagRef", 1)
+    addToItems(dist.MechanicShelfElectric.items, "WK_AutoElecDiagRef", w(1))
 end
 
 if dist.CarDealerFilingCabinet and dist.CarDealerFilingCabinet.items then
     addMany(dist.CarDealerFilingCabinet.items, {
-        { "WK_OBDIICodeRef",         0.25   },
-        { "WK_TorqueSpecsRef",       0.25   },
-        { "WK_FleetMaintenanceLog",  0.25   },
-        { "WK_ASEStudyGuide",        0.12 },
-        { "WK_ChevyTechServiceBull", 0.12 },
-        { "WK_TruckingFleetPMSched", 0.25   },
+        { "WK_OBDIICodeRef",         w(0.25)   },
+        { "WK_TorqueSpecsRef",       w(0.25)   },
+        { "WK_FleetMaintenanceLog",  w(0.25)   },
+        { "WK_ASEStudyGuide",        w(0.12) },
+        { "WK_ChevyTechServiceBull", w(0.12) },
+        { "WK_TruckingFleetPMSched", w(0.25)   },
     })
 end
 
 -- ── Electrician ───────────────────────────────────────────────────────────────
 if dist.ElectricianTools and dist.ElectricianTools.items then
     addMany(dist.ElectricianTools.items, {
-        { "WK_NECArticleRef",            0.25 },
-        { "WK_WireGaugeAmpacityRef",     0.25 },
-        { "WK_OSHAElectricalSafety",     0.25 },
-        { "WK_ConduitFillRef",           0.25 },
-        { "WK_PanelInspectionChecklist", 0.25 },
-        { "WK_IBEWApprentBook",          0.25 },
-        { "WK_ResWiringText",            0.25 },
-        { "WK_MotorControlSchem",        0.25 },
-        { "WK_TransformerNamePlate",     0.25 },
-        { "WK_GroundingBondingRef",      0.25 },
-        { "WK_KYStateLicensingMan",      0.25 },
-        { "WK_UndergroundCableRef",      0.25 },
+        { "WK_NECArticleRef",            w(0.25) },
+        { "WK_WireGaugeAmpacityRef",     w(0.25) },
+        { "WK_OSHAElectricalSafety",     w(0.25) },
+        { "WK_ConduitFillRef",           w(0.25) },
+        { "WK_PanelInspectionChecklist", w(0.25) },
+        { "WK_IBEWApprentBook",          w(0.25) },
+        { "WK_ResWiringText",            w(0.25) },
+        { "WK_MotorControlSchem",        w(0.25) },
+        { "WK_TransformerNamePlate",     w(0.25) },
+        { "WK_GroundingBondingRef",      w(0.25) },
+        { "WK_KYStateLicensingMan",      w(0.25) },
+        { "WK_UndergroundCableRef",      w(0.25) },
     })
 end
 
 -- ── Glassmaking ───────────────────────────────────────────────────────────────
 if dist.UniversityFilingCabinet_Glassmaking and dist.UniversityFilingCabinet_Glassmaking.items then
     addMany(dist.UniversityFilingCabinet_Glassmaking.items, {
-        { "WK_GlassAnnealingRef",    0.25 },
-        { "WK_KilnFormingRef",       0.25 },
-        { "WK_FloatGlassManufRef",   0.25 },
-        { "WK_PenlandStudioGlass",   0.25 },
-        { "WK_CorningEngineering",   0.25 },
-        { "WK_BorosilicateLampwork",   0.25 },
-        { "WK_KilnFiringScheduleRef",  0.25 },  -- Pottery
-        { "WK_GlazeChemistryRef",      0.25 },  -- Pottery
-        { "WK_ClayBodyFormulationRef", 0.25 },  -- Pottery
+        { "WK_GlassAnnealingRef",    w(0.25) },
+        { "WK_KilnFormingRef",       w(0.25) },
+        { "WK_FloatGlassManufRef",   w(0.25) },
+        { "WK_PenlandStudioGlass",   w(0.25) },
+        { "WK_CorningEngineering",   w(0.25) },
+        { "WK_BorosilicateLampwork",   w(0.25) },
+        { "WK_KilnFiringScheduleRef",  w(0.25) },  -- Pottery
+        { "WK_GlazeChemistryRef",      w(0.25) },  -- Pottery
+        { "WK_ClayBodyFormulationRef", w(0.25) },  -- Pottery
     })
 end
 
 -- ── Farming / Agriculture ─────────────────────────────────────────────────────
 if dist.ToolCabinetFarming and dist.ToolCabinetFarming.items then
     addMany(dist.ToolCabinetFarming.items, {
-        { "WK_KnoxExtensionGuide",      0.25   },
-        { "WK_SoilTestInterpretRef",    0.25   },
-        { "WK_PesticideApplicationRef", 0.25   },
-        { "WK_IrrigationSchedulingRef", 0.25   },
-        { "WK_LivestockHealthRef",      0.25   },
-        { "WK_VaccinationDosageRef",    0.25   },
-        { "WK_KDALivestockRef",         0.25   },
-        { "WK_BushHogOperatorRef",      0.25   },
-        { "WK_CornDetasselingCard",     0.25   },
-        { "WK_KaiserBladeFieldRef",     0.12 },
-        { "WK_FarrierShoeingNotes",     0.12 },
-        { "WK_KYExtensionCookbook",     0.12 },
-        { "WK_BriggsStrattonRepair",    0.12 },
-        { "WK_FFAVocAgText",            0.25   },
-        { "WK_KYExtensionAgBull",       0.25   },
-        { "WK_FertSpreaderCalCard",     0.25   },
-        { "WK_USDACropRotation",        0.25   },
-        { "WK_NoTillFarmingMan",        0.25   },
-        { "WK_KYTobaccoGrowGuide",      0.25   },
-        { "WK_KYCattlemensNews",        0.25   },
-        { "WK_FFALivestockJudging",     0.25   },
-        { "WK_TysonPoultryGrower",      0.25   },
-        { "WK_SheepGoatBreeder",        0.25   },
-        { "WK_SwineProductionMan",      0.25   },
-        { "WK_DairyHerdMgmt",           0.25   },
-        { "WK_DeerProcessorGuide",      0.12 },
-        { "WK_WildGameProcessor",       0.12 },
-        { "WK_FarmStrengthManual",      0.25   },
-        { "WK_KYWildflowerGuide",       0.25   },
-        { "WK_USDAAnimalDamage",        0.25   },
+        { "WK_KnoxExtensionGuide",      w(0.25)   },
+        { "WK_SoilTestInterpretRef",    w(0.25)   },
+        { "WK_PesticideApplicationRef", w(0.25)   },
+        { "WK_IrrigationSchedulingRef", w(0.25)   },
+        { "WK_LivestockHealthRef",      w(0.25)   },
+        { "WK_VaccinationDosageRef",    w(0.25)   },
+        { "WK_KDALivestockRef",         w(0.25)   },
+        { "WK_BushHogOperatorRef",      w(0.25)   },
+        { "WK_CornDetasselingCard",     w(0.25)   },
+        { "WK_KaiserBladeFieldRef",     w(0.12) },
+        { "WK_FarrierShoeingNotes",     w(0.12) },
+        { "WK_KYExtensionCookbook",     w(0.12) },
+        { "WK_BriggsStrattonRepair",    w(0.12) },
+        { "WK_FFAVocAgText",            w(0.25)   },
+        { "WK_KYExtensionAgBull",       w(0.25)   },
+        { "WK_FertSpreaderCalCard",     w(0.25)   },
+        { "WK_USDACropRotation",        w(0.25)   },
+        { "WK_NoTillFarmingMan",        w(0.25)   },
+        { "WK_KYTobaccoGrowGuide",      w(0.25)   },
+        { "WK_KYCattlemensNews",        w(0.25)   },
+        { "WK_FFALivestockJudging",     w(0.25)   },
+        { "WK_TysonPoultryGrower",      w(0.25)   },
+        { "WK_SheepGoatBreeder",        w(0.25)   },
+        { "WK_SwineProductionMan",      w(0.25)   },
+        { "WK_DairyHerdMgmt",           w(0.25)   },
+        { "WK_DeerProcessorGuide",      w(0.12) },
+        { "WK_WildGameProcessor",       w(0.12) },
+        { "WK_FarmStrengthManual",      w(0.25)   },
+        { "WK_KYWildflowerGuide",       w(0.25)   },
+        { "WK_USDAAnimalDamage",        w(0.25)   },
     })
 end
 
 -- ── Butcher ───────────────────────────────────────────────────────────────────
 if dist.ButcherLiterature and dist.ButcherLiterature.items then
     addMany(dist.ButcherLiterature.items, {
-        { "WK_USDAMeatGradingRef",    0.25 },
-        { "WK_PrimalSubPrimalRef",    0.25 },
-        { "WK_HACCPMeatProcessing",   0.25 },
-        { "WK_MeatFabricationRef",    0.25 },
-        { "WK_ButchersBoningGuide",   0.25 },
-        { "WK_UFCWCutleryTechRef",    0.25 },
-        { "WK_UnionStockyardsCut",    0.25 },
-        { "WK_DeerProcessorGuide",    0.25 },
-        { "WK_SausageProductionNotes",1 },
-        { "WK_SmallSlaughterhouseSOP",1 },
-        { "WK_KosherButcheringRef",   0.25 },
-        { "WK_CharcuterieProduction", 0.25 },
-        { "WK_HolidayTurkeyCard",     0.25 },
-        { "WK_CharcutierApprDiary",   0.25 },
-        { "WK_WildGameProcessor",     0.25 },
-        { "WK_FishFabricationRef",    0.25 },  -- SmallBlade
-        { "WK_SauceStockLog",         0.25 },  -- Cooking
+        { "WK_USDAMeatGradingRef",    w(0.25) },
+        { "WK_PrimalSubPrimalRef",    w(0.25) },
+        { "WK_HACCPMeatProcessing",   w(0.25) },
+        { "WK_MeatFabricationRef",    w(0.25) },
+        { "WK_ButchersBoningGuide",   w(0.25) },
+        { "WK_UFCWCutleryTechRef",    w(0.25) },
+        { "WK_UnionStockyardsCut",    w(0.25) },
+        { "WK_DeerProcessorGuide",    w(0.25) },
+        { "WK_SausageProductionNotes",w(1) },
+        { "WK_SmallSlaughterhouseSOP",w(1) },
+        { "WK_KosherButcheringRef",   w(0.25) },
+        { "WK_CharcuterieProduction", w(0.25) },
+        { "WK_HolidayTurkeyCard",     w(0.25) },
+        { "WK_CharcutierApprDiary",   w(0.25) },
+        { "WK_WildGameProcessor",     w(0.25) },
+        { "WK_FishFabricationRef",    w(0.25) },  -- SmallBlade
+        { "WK_SauceStockLog",         w(0.25) },  -- Cooking
     })
 end
 
 -- ── Tool Store (back room) ────────────────────────────────────────────────────
 if dist.ToolStoreMisc and dist.ToolStoreMisc.items then
     addMany(dist.ToolStoreMisc.items, {
-        { "WK_FramingHammerCard",      0.25   },
-        { "WK_CrowbarApplicationsRef", 0.25   },
-        { "WK_FramingSquareCard",      0.25   },
-        { "WK_EdgeToolSharpeningRef",  0.25   },
-        { "WK_WhetstoneSelectionRef",  0.25   },
-        { "WK_WoodenHandleShaftRef",   0.25   },
-        { "WK_KnifeHandleFittingRef",  0.25   },
-        { "WK_MortarMixRef",           0.25   },
-        { "WK_HandToolConditionRef",   0.25   },
-        { "WK_OSHAHandToolSafety",     0.25   },
-        { "WK_TimberCruiserHandbook",  0.25   },
-        { "WK_AppalachianFellingNotes",1   },
-        { "WK_MountainRescueIceAxe",   0.25   },
-        { "WK_BackcountryHatchetCard", 0.25   },
-        { "WK_TechnicalRescueAxeRef",  0.12 },
-        { "WK_KaiserBladeFieldRef",    0.25   },
-        { "WK_JewelersFileCard",       0.25   },
-        { "WK_ShopApprenticeToolLog",  0.25   },
-        { "WK_BowSawSetGuide",         0.25   },
-        { "WK_ProductionFramerCard",   0.25   },
-        { "WK_MasonsHammerRef",        0.25   },
-        { "WK_RoofersFlashingCard",    0.25   },
-        { "WK_LandClearingMaul",       0.25   },
-        { "WK_BIATraditionalBrick",    0.25   },
-        { "WK_StonecutterApprenNote",  0.25   },
-        { "WK_ConcreteFinishersRef",   0.25   },
-        { "WK_FieldstoneWalls",        0.25   },
-        { "WK_PavingStoneInstall",     0.25   },
-        { "WK_CabinetmakerJoinery",    0.25   },
-        { "WK_RoofFramingCalcCard",    0.25   },
-        { "WK_LogHomeBuildersRef",     0.25   },
-        { "WK_FurnitureMakerNotes",    0.25   },
-        { "WK_ArboristFieldGuide",     0.25   },  -- Axe
-        { "WK_BrushClearingRef",       0.25   },  -- LongBlade
-        { "WK_MacheteUseGuide",        0.25   },  -- LongBlade
-        { "WK_ForestryContractorSOP",  0.25   },  -- LongBlade
-        { "WK_DemolitionHandToolRef",  0.25   },  -- Blunt
-        { "WK_FieldExpedientToolRef",  0.25   },  -- Carving
-        { "WK_TrapperBoneToolRef",     0.25   },  -- Carving
-        { "WK_ArchaeologicalToolNotes",0.25   },  -- Carving
+        { "WK_FramingHammerCard",      w(0.25)   },
+        { "WK_CrowbarApplicationsRef", w(0.25)   },
+        { "WK_FramingSquareCard",      w(0.25)   },
+        { "WK_EdgeToolSharpeningRef",  w(0.25)   },
+        { "WK_WhetstoneSelectionRef",  w(0.25)   },
+        { "WK_WoodenHandleShaftRef",   w(0.25)   },
+        { "WK_KnifeHandleFittingRef",  w(0.25)   },
+        { "WK_MortarMixRef",           w(0.25)   },
+        { "WK_HandToolConditionRef",   w(0.25)   },
+        { "WK_OSHAHandToolSafety",     w(0.25)   },
+        { "WK_TimberCruiserHandbook",  w(0.25)   },
+        { "WK_AppalachianFellingNotes",w(1)   },
+        { "WK_MountainRescueIceAxe",   w(0.25)   },
+        { "WK_BackcountryHatchetCard", w(0.25)   },
+        { "WK_TechnicalRescueAxeRef",  w(0.12) },
+        { "WK_KaiserBladeFieldRef",    w(0.25)   },
+        { "WK_JewelersFileCard",       w(0.25)   },
+        { "WK_ShopApprenticeToolLog",  w(0.25)   },
+        { "WK_BowSawSetGuide",         w(0.25)   },
+        { "WK_ProductionFramerCard",   w(0.25)   },
+        { "WK_MasonsHammerRef",        w(0.25)   },
+        { "WK_RoofersFlashingCard",    w(0.25)   },
+        { "WK_LandClearingMaul",       w(0.25)   },
+        { "WK_BIATraditionalBrick",    w(0.25)   },
+        { "WK_StonecutterApprenNote",  w(0.25)   },
+        { "WK_ConcreteFinishersRef",   w(0.25)   },
+        { "WK_FieldstoneWalls",        w(0.25)   },
+        { "WK_PavingStoneInstall",     w(0.25)   },
+        { "WK_CabinetmakerJoinery",    w(0.25)   },
+        { "WK_RoofFramingCalcCard",    w(0.25)   },
+        { "WK_LogHomeBuildersRef",     w(0.25)   },
+        { "WK_FurnitureMakerNotes",    w(0.25)   },
+        { "WK_ArboristFieldGuide",     w(0.25)   },  -- Axe
+        { "WK_BrushClearingRef",       w(0.25)   },  -- LongBlade
+        { "WK_MacheteUseGuide",        w(0.25)   },  -- LongBlade
+        { "WK_ForestryContractorSOP",  w(0.25)   },  -- LongBlade
+        { "WK_DemolitionHandToolRef",  w(0.25)   },  -- Blunt
+        { "WK_FieldExpedientToolRef",  w(0.25)   },  -- Carving
+        { "WK_TrapperBoneToolRef",     w(0.25)   },  -- Carving
+        { "WK_ArchaeologicalToolNotes",w(0.25)   },  -- Carving
     })
 end
 
 -- ── Fishing Store ─────────────────────────────────────────────────────────────
 if dist.FishingStoreGear and dist.FishingStoreGear.items then
     addMany(dist.FishingStoreGear.items, {
-        { "WK_FishIdentificationRef", 0.25 },  -- Fishing
-        { "WK_RiggingTackleRef",      0.25 },  -- Fishing
+        { "WK_FishIdentificationRef", w(0.25) },  -- Fishing
+        { "WK_RiggingTackleRef",      w(0.25) },  -- Fishing
     })
 end
 
 -- ── Plumbing ──────────────────────────────────────────────────────────────────
 if dist.PlumbingSupplies and dist.PlumbingSupplies.items then
     addMany(dist.PlumbingSupplies.items, {
-        { "WK_PlumbingQuickClearRef", 0.25 },  -- SmallBlunt
+        { "WK_PlumbingQuickClearRef", w(0.25) },  -- SmallBlunt
     })
 end
 
@@ -380,50 +398,50 @@ end
 -- At base pool ~80 with 3 rolls: ~10% chance of a doc per desk.
 if dist.DeskGeneric and dist.DeskGeneric.items then
     addMany(dist.DeskGeneric.items, {
-        { "WK_GolfSwingRef",           0.07 },
-        { "WK_BaseballSwingRef",       0.07 },
-        { "WK_LEFitnessStandardsRef",  0.07 },
-        { "WK_BullseyeMatchProgramme", 0.07 },
-        { "WK_BoyScoutRiflery",        0.07 },
-        { "WK_HighPowerNewsletter",    0.07 },
-        { "WK_BoyScoutAxemanship",     0.07 },
-        { "WK_SCAHeavyFightCard",      0.07 },
-        { "WK_LarpFightChoreography",  0.07 },
-        { "WK_ScoutTroopToolCare",     0.07 },
-        { "WK_ScoutCampcraftKnife",    0.07 },
-        { "WK_CricketBowlersGuide",    0.07 },
-        { "WK_LacrosseCoachManual",    0.07 },
-        { "WK_HockeyStickHandling",    0.07 },
-        { "WK_SCAPolearmRef",          0.07 },
-        { "WK_TrackPoleVaultCard",     0.07 },
-        { "WK_KarateBoStaffMan",       0.07 },
-        { "WK_ScoutsPolearmDemo",      0.07 },
-        { "WK_ScoutMetalwork",         0.07 },
-        { "WK_SpoonCarvingNotes",      0.07 },
-        { "WK_ChipCarvingPattern",     0.07 },
-        { "WK_WaldenWoodcrafter",      0.07 },
-        { "WK_JuniorHighWoodshop",     0.07 },
-        { "WK_AppalachianFolkArt",     0.07 },
-        { "WK_KilnFusedJewelry",       0.07 },
-        { "WK_BeadSocietyLampwork",    0.07 },
-        { "WK_RendezvousMtnMan",       0.07 },
-        { "WK_BSAPrimitiveSurvival",   0.07 },
-        { "WK_ChildrenPotteryLesson",  0.07 },
-        { "WK_BeginnerWheelNotes",     0.07 },
-        { "WK_HomeEcSewingText",       0.07 },
-        { "WK_AgEdJudgingCard",        0.07 },
-        { "WK_HSTrackCoachManual",     0.07 },
-        { "WK_KYHSAARulebook",         0.07 },
-        { "WK_SprintIntervalCard",     0.07 },
-        { "WK_CrossCountryRef",        0.07 },
-        { "WK_HSFootballCondition",    0.07 },
-        { "WK_BMXRacingTraining",      0.07 },
-        { "WK_RugbyStrengthMan",       0.07 },
-        { "WK_HSWrestlingStrength",    0.07 },
-        { "WK_PediatricFirstAid",      0.07 },
-        { "WK_ScoutCarpentryMerit",    0.07 },
-        { "WK_StageCombatSpearRef",    0.07 },  -- Spear (theatre/drama)
-        { "WK_JavelinCoachingRef",     0.07 },  -- Spear (athletics)
+        { "WK_GolfSwingRef",           w(0.07) },
+        { "WK_BaseballSwingRef",       w(0.07) },
+        { "WK_LEFitnessStandardsRef",  w(0.07) },
+        { "WK_BullseyeMatchProgramme", w(0.07) },
+        { "WK_BoyScoutRiflery",        w(0.07) },
+        { "WK_HighPowerNewsletter",    w(0.07) },
+        { "WK_BoyScoutAxemanship",     w(0.07) },
+        { "WK_SCAHeavyFightCard",      w(0.07) },
+        { "WK_LarpFightChoreography",  w(0.07) },
+        { "WK_ScoutTroopToolCare",     w(0.07) },
+        { "WK_ScoutCampcraftKnife",    w(0.07) },
+        { "WK_CricketBowlersGuide",    w(0.07) },
+        { "WK_LacrosseCoachManual",    w(0.07) },
+        { "WK_HockeyStickHandling",    w(0.07) },
+        { "WK_SCAPolearmRef",          w(0.07) },
+        { "WK_TrackPoleVaultCard",     w(0.07) },
+        { "WK_KarateBoStaffMan",       w(0.07) },
+        { "WK_ScoutsPolearmDemo",      w(0.07) },
+        { "WK_ScoutMetalwork",         w(0.07) },
+        { "WK_SpoonCarvingNotes",      w(0.07) },
+        { "WK_ChipCarvingPattern",     w(0.07) },
+        { "WK_WaldenWoodcrafter",      w(0.07) },
+        { "WK_JuniorHighWoodshop",     w(0.07) },
+        { "WK_AppalachianFolkArt",     w(0.07) },
+        { "WK_KilnFusedJewelry",       w(0.07) },
+        { "WK_BeadSocietyLampwork",    w(0.07) },
+        { "WK_RendezvousMtnMan",       w(0.07) },
+        { "WK_BSAPrimitiveSurvival",   w(0.07) },
+        { "WK_ChildrenPotteryLesson",  w(0.07) },
+        { "WK_BeginnerWheelNotes",     w(0.07) },
+        { "WK_HomeEcSewingText",       w(0.07) },
+        { "WK_AgEdJudgingCard",        w(0.07) },
+        { "WK_HSTrackCoachManual",     w(0.07) },
+        { "WK_KYHSAARulebook",         w(0.07) },
+        { "WK_SprintIntervalCard",     w(0.07) },
+        { "WK_CrossCountryRef",        w(0.07) },
+        { "WK_HSFootballCondition",    w(0.07) },
+        { "WK_BMXRacingTraining",      w(0.07) },
+        { "WK_RugbyStrengthMan",       w(0.07) },
+        { "WK_HSWrestlingStrength",    w(0.07) },
+        { "WK_PediatricFirstAid",      w(0.07) },
+        { "WK_ScoutCarpentryMerit",    w(0.07) },
+        { "WK_StageCombatSpearRef",    w(0.07) },  -- Spear (theatre/drama)
+        { "WK_JavelinCoachingRef",     w(0.07) },  -- Spear (athletics)
     })
 end
 
@@ -434,251 +452,251 @@ end
 if dist.FilingCabinetGeneric and dist.FilingCabinetGeneric.items then
     addMany(dist.FilingCabinetGeneric.items, {
         -- Carpentry / construction
-        { "WK_LumberYardManual",          0.01 },
-        { "WK_SpanTablesRef",             0.01 },
-        { "WK_NDSWoodConstruction",       0.01 },
-        { "WK_FinishCarpentryNotes",      0.01 },
-        { "WK_FramingSquareCard",         0.01 },
+        { "WK_LumberYardManual",          w(0.01) },
+        { "WK_SpanTablesRef",             w(0.01) },
+        { "WK_NDSWoodConstruction",       w(0.01) },
+        { "WK_FinishCarpentryNotes",      w(0.01) },
+        { "WK_FramingSquareCard",         w(0.01) },
         -- Aiming / law enforcement
-        { "WK_SheriffQualLog",            0.01 },
-        { "WK_FBIQualScorebook",          0.01 },
-        { "WK_BoyScoutRiflery",           0.01 },
-        { "WK_VietnamRiflemanNotes",      0.01 },
-        { "WK_NavalGunnersManual",        0.01 },
-        { "WK_GuardForceWeaponsManual",   0.01 },
+        { "WK_SheriffQualLog",            w(0.01) },
+        { "WK_FBIQualScorebook",          w(0.01) },
+        { "WK_BoyScoutRiflery",           w(0.01) },
+        { "WK_VietnamRiflemanNotes",      w(0.01) },
+        { "WK_NavalGunnersManual",        w(0.01) },
+        { "WK_GuardForceWeaponsManual",   w(0.01) },
         -- Maintenance / tool care
-        { "WK_KnifeMaintenanceLog",       0.01 },
-        { "WK_HandToolConditionRef",      0.01 },
-        { "WK_ShopApprenticeToolLog",     0.01 },
-        { "WK_BarberRazorStropping",      0.01 },
-        { "WK_AntiqueDealerCare",         0.01 },
-        { "WK_UFCWCutleryTechRef",        0.01 },
+        { "WK_KnifeMaintenanceLog",       w(0.01) },
+        { "WK_HandToolConditionRef",      w(0.01) },
+        { "WK_ShopApprenticeToolLog",     w(0.01) },
+        { "WK_BarberRazorStropping",      w(0.01) },
+        { "WK_AntiqueDealerCare",         w(0.01) },
+        { "WK_UFCWCutleryTechRef",        w(0.01) },
         -- OSHA / workplace safety
-        { "WK_OSHALoggingRef",            0.01 },
-        { "WK_OSHAHandToolSafety",        0.01 },
-        { "WK_OSHAElectricalSafety",      0.01 },
-        { "WK_OSHAWeldingSafety",         0.01 },
-        { "WK_OSHAFirstAidRef",           0.01 },
+        { "WK_OSHALoggingRef",            w(0.01) },
+        { "WK_OSHAHandToolSafety",        w(0.01) },
+        { "WK_OSHAElectricalSafety",      w(0.01) },
+        { "WK_OSHAWeldingSafety",         w(0.01) },
+        { "WK_OSHAFirstAidRef",           w(0.01) },
         -- Construction / masonry
-        { "WK_MortarMixRef",              0.01 },
-        { "WK_ASTMC90MasonryRef",         0.01 },
-        { "WK_BrickBlockInspectionRef",   0.01 },
-        { "WK_ConcreteMixRef",            0.01 },
-        { "WK_BIATraditionalBrick",       0.01 },
-        { "WK_ChimneySweepInspect",       0.01 },
-        { "WK_HistoricPointingMan",       0.01 },
-        { "WK_KCMasonsLocalNews",         0.01 },
+        { "WK_MortarMixRef",              w(0.01) },
+        { "WK_ASTMC90MasonryRef",         w(0.01) },
+        { "WK_BrickBlockInspectionRef",   w(0.01) },
+        { "WK_ConcreteMixRef",            w(0.01) },
+        { "WK_BIATraditionalBrick",       w(0.01) },
+        { "WK_ChimneySweepInspect",       w(0.01) },
+        { "WK_HistoricPointingMan",       w(0.01) },
+        { "WK_KCMasonsLocalNews",         w(0.01) },
         -- Electrical
-        { "WK_NECArticleRef",             0.01 },
-        { "WK_WireGaugeAmpacityRef",      0.01 },
-        { "WK_ConduitFillRef",            0.01 },
-        { "WK_PanelInspectionChecklist",  0.01 },
-        { "WK_IBEWApprentBook",           0.01 },
-        { "WK_GroundingBondingRef",       0.01 },
-        { "WK_KYStateLicensingMan",       0.01 },
+        { "WK_NECArticleRef",             w(0.01) },
+        { "WK_WireGaugeAmpacityRef",      w(0.01) },
+        { "WK_ConduitFillRef",            w(0.01) },
+        { "WK_PanelInspectionChecklist",  w(0.01) },
+        { "WK_IBEWApprentBook",           w(0.01) },
+        { "WK_GroundingBondingRef",       w(0.01) },
+        { "WK_KYStateLicensingMan",       w(0.01) },
         -- Mechanics / fleet
-        { "WK_FleetMaintenanceLog",       0.01 },
-        { "WK_KYVehicleInspection",       0.01 },
-        { "WK_TruckingFleetPMSched",      0.01 },
+        { "WK_FleetMaintenanceLog",       w(0.01) },
+        { "WK_KYVehicleInspection",       w(0.01) },
+        { "WK_TruckingFleetPMSched",      w(0.01) },
         -- Cooking / food safety
-        { "WK_HACCPFoodSafetyPlan",       0.01 },
-        { "WK_TempTimeControlChart",      0.01 },
-        { "WK_ServSafeRef",               0.01 },
-        { "WK_LineCookStationRef",        0.01 },
-        { "WK_SullivanCulinaryText",      0.01 },
-        { "WK_KYExtensionCookbook",       0.01 },
-        { "WK_ArmyMessHallSOP",           0.01 },
-        { "WK_SchoolCafeteriaRef",        0.01 },
-        { "WK_PitBossBBQManual",          0.01 },
-        { "WK_HeritageCookbook1957",      0.01 },
-        { "WK_TruckStopGriddleNotes",     0.01 },
+        { "WK_HACCPFoodSafetyPlan",       w(0.01) },
+        { "WK_TempTimeControlChart",      w(0.01) },
+        { "WK_ServSafeRef",               w(0.01) },
+        { "WK_LineCookStationRef",        w(0.01) },
+        { "WK_SullivanCulinaryText",      w(0.01) },
+        { "WK_KYExtensionCookbook",       w(0.01) },
+        { "WK_ArmyMessHallSOP",           w(0.01) },
+        { "WK_SchoolCafeteriaRef",        w(0.01) },
+        { "WK_PitBossBBQManual",          w(0.01) },
+        { "WK_HeritageCookbook1957",      w(0.01) },
+        { "WK_TruckStopGriddleNotes",     w(0.01) },
         -- First Aid / medical
-        { "WK_WorkplaceFirstAidSOP",      0.01 },
-        { "WK_CPRAEDRef",                 0.01 },
-        { "WK_EmergencyTriageRef",        0.01 },
-        { "WK_ParamedicProtocolMan",      0.01 },
-        { "WK_ERTriageTextbook",          0.01 },
-        { "WK_NursingFundamentals",       0.01 },
-        { "WK_PharmacistDispensing",      0.01 },
-        { "WK_ArmyCombatMedic",           0.01 },
-        { "WK_NursingHomeCareMan",        0.01 },
-        { "WK_WoundCareSuturing",         0.01 },
-        { "WK_PediatricFirstAid",         0.01 },
+        { "WK_WorkplaceFirstAidSOP",      w(0.01) },
+        { "WK_CPRAEDRef",                 w(0.01) },
+        { "WK_EmergencyTriageRef",        w(0.01) },
+        { "WK_ParamedicProtocolMan",      w(0.01) },
+        { "WK_ERTriageTextbook",          w(0.01) },
+        { "WK_NursingFundamentals",       w(0.01) },
+        { "WK_PharmacistDispensing",      w(0.01) },
+        { "WK_ArmyCombatMedic",           w(0.01) },
+        { "WK_NursingHomeCareMan",        w(0.01) },
+        { "WK_WoundCareSuturing",         w(0.01) },
+        { "WK_PediatricFirstAid",         w(0.01) },
         -- Tailoring / textile industry
-        { "WK_PatternGradingRef",         0.01 },
-        { "WK_IndustrialSewingRef",       0.01 },
-        { "WK_FiberFabricRef",            0.01 },
-        { "WK_GarmentQualityRef",         0.01 },
-        { "WK_SearsPatternCatalog",       0.01 },
-        { "WK_CarhartUnionShop",          0.01 },
-        { "WK_AlterationsTailorCard",     0.01 },
-        { "WK_HomeEcSewingText",          0.01 },
-        { "WK_TheatricalCostumeShop",     0.01 },
-        { "WK_HancockFabricsManual",      0.01 },
-        { "WK_UpholstererGuide",          0.01 },
-        { "WK_BridalSeamstressNotes",     0.01 },
+        { "WK_PatternGradingRef",         w(0.01) },
+        { "WK_IndustrialSewingRef",       w(0.01) },
+        { "WK_FiberFabricRef",            w(0.01) },
+        { "WK_GarmentQualityRef",         w(0.01) },
+        { "WK_SearsPatternCatalog",       w(0.01) },
+        { "WK_CarhartUnionShop",          w(0.01) },
+        { "WK_AlterationsTailorCard",     w(0.01) },
+        { "WK_HomeEcSewingText",          w(0.01) },
+        { "WK_TheatricalCostumeShop",     w(0.01) },
+        { "WK_HancockFabricsManual",      w(0.01) },
+        { "WK_UpholstererGuide",          w(0.01) },
+        { "WK_BridalSeamstressNotes",     w(0.01) },
         -- Agriculture / extension office
-        { "WK_KnoxExtensionGuide",        0.01 },
-        { "WK_SoilTestInterpretRef",      0.01 },
-        { "WK_PesticideApplicationRef",   0.01 },
-        { "WK_IrrigationSchedulingRef",   0.01 },
-        { "WK_FFAVocAgText",              0.01 },
-        { "WK_KYExtensionAgBull",         0.01 },
-        { "WK_UKAgEconNotes",             0.01 },
-        { "WK_KYTobaccoGrowGuide",        0.01 },
-        { "WK_RodaleOrganicPamph",        0.01 },
+        { "WK_KnoxExtensionGuide",        w(0.01) },
+        { "WK_SoilTestInterpretRef",      w(0.01) },
+        { "WK_PesticideApplicationRef",   w(0.01) },
+        { "WK_IrrigationSchedulingRef",   w(0.01) },
+        { "WK_FFAVocAgText",              w(0.01) },
+        { "WK_KYExtensionAgBull",         w(0.01) },
+        { "WK_UKAgEconNotes",             w(0.01) },
+        { "WK_KYTobaccoGrowGuide",        w(0.01) },
+        { "WK_RodaleOrganicPamph",        w(0.01) },
         -- Animal Care (vet clinic, farm office)
-        { "WK_LivestockHealthRef",        0.01 },
-        { "WK_VaccinationDosageRef",      0.01 },
-        { "WK_ReproductiveMgmtBinder",    0.01 },
-        { "WK_KDALivestockRef",           0.01 },
-        { "WK_KYCattlemensNews",          0.01 },
-        { "WK_TysonPoultryGrower",        0.01 },
-        { "WK_TrackVetDailyLog",          0.01 },
+        { "WK_LivestockHealthRef",        w(0.01) },
+        { "WK_VaccinationDosageRef",      w(0.01) },
+        { "WK_ReproductiveMgmtBinder",    w(0.01) },
+        { "WK_KDALivestockRef",           w(0.01) },
+        { "WK_KYCattlemensNews",          w(0.01) },
+        { "WK_TysonPoultryGrower",        w(0.01) },
+        { "WK_TrackVetDailyLog",          w(0.01) },
         -- Butchering / food processing
-        { "WK_USDAMeatGradingRef",        0.01 },
-        { "WK_HACCPMeatProcessing",       0.01 },
-        { "WK_UnionStockyardsCut",        0.01 },
-        { "WK_SmallSlaughterhouseSOP",    0.01 },
-        { "WK_CharcuterieProduction",     0.01 },
+        { "WK_USDAMeatGradingRef",        w(0.01) },
+        { "WK_HACCPMeatProcessing",       w(0.01) },
+        { "WK_UnionStockyardsCut",        w(0.01) },
+        { "WK_SmallSlaughterhouseSOP",    w(0.01) },
+        { "WK_CharcuterieProduction",     w(0.01) },
         -- Running / fitness
-        { "WK_LEFitnessStandardsRef",     0.01 },
-        { "WK_FireAcademyFitnessRef",     0.01 },
-        { "WK_NCAAStrengthCondition",     0.01 },
-        { "WK_BostonMarathonTrain",       0.01 },
-        { "WK_ArmyAPFTManual",            0.01 },
+        { "WK_LEFitnessStandardsRef",     w(0.01) },
+        { "WK_FireAcademyFitnessRef",     w(0.01) },
+        { "WK_NCAAStrengthCondition",     w(0.01) },
+        { "WK_BostonMarathonTrain",       w(0.01) },
+        { "WK_ArmyAPFTManual",            w(0.01) },
         -- Strength / ergonomics
-        { "WK_NIOSHLiftingRef",           0.01 },
-        { "WK_ManualMaterialsHandRef",    0.01 },
-        { "WK_USPFPowerlifting",          0.01 },
-        { "WK_OlympicLiftingNotes",       0.01 },
-        { "WK_StrongmanTrainingMan",      0.01 },
-        { "WK_MuscleBuilderMag",          0.01 },
-        { "WK_ArmyCombatLifter",          0.01 },
-        { "WK_FreightDockLiftCard",       0.01 },
-        { "WK_CollegeStrengthLog",        0.01 },
+        { "WK_NIOSHLiftingRef",           w(0.01) },
+        { "WK_ManualMaterialsHandRef",    w(0.01) },
+        { "WK_USPFPowerlifting",          w(0.01) },
+        { "WK_OlympicLiftingNotes",       w(0.01) },
+        { "WK_StrongmanTrainingMan",      w(0.01) },
+        { "WK_MuscleBuilderMag",          w(0.01) },
+        { "WK_ArmyCombatLifter",          w(0.01) },
+        { "WK_FreightDockLiftCard",       w(0.01) },
+        { "WK_CollegeStrengthLog",        w(0.01) },
         -- Fishing
-        { "WK_KYFishingRegs",             0.01 },
-        { "WK_CommercialFishingSafetyRef",0.01 },
-        { "WK_KYBassFishingClub",         0.01 },
-        { "WK_CrappieAnglersGuide",       0.01 },
-        { "WK_KYTroutStocking",           0.01 },
-        { "WK_FlyTyingPattern",           0.01 },
-        { "WK_KYRiverCatfishing",         0.01 },
-        { "WK_WalleyeFishingRef",         0.01 },
-        { "WK_NoodlingHandfishing",       0.01 },
-        { "WK_KYMusselRegs",              0.01 },
+        { "WK_KYFishingRegs",             w(0.01) },
+        { "WK_CommercialFishingSafetyRef",w(0.01) },
+        { "WK_KYBassFishingClub",         w(0.01) },
+        { "WK_CrappieAnglersGuide",       w(0.01) },
+        { "WK_KYTroutStocking",           w(0.01) },
+        { "WK_FlyTyingPattern",           w(0.01) },
+        { "WK_KYRiverCatfishing",         w(0.01) },
+        { "WK_WalleyeFishingRef",         w(0.01) },
+        { "WK_NoodlingHandfishing",       w(0.01) },
+        { "WK_KYMusselRegs",              w(0.01) },
         -- Foraging / botany
-        { "WK_EdiblePlantsRef",           0.01 },
-        { "WK_ToxicPlantRef",             0.01 },
-        { "WK_KYWildflowerGuide",         0.01 },
-        { "WK_StalkingWildAsparagus",     0.01 },
-        { "WK_HerbalPharmacyEnc",         0.01 },
-        { "WK_WildMushroomHunt",          0.01 },
-        { "WK_BackyardForaging",          0.01 },
-        { "WK_EthnobotanyText",           0.01 },
-        { "WK_TraditionalAppPlants",      0.01 },
-        { "WK_HunterGatherersRef",        0.01 },
-        { "WK_WildEdiblesCookbook",       0.01 },
+        { "WK_EdiblePlantsRef",           w(0.01) },
+        { "WK_ToxicPlantRef",             w(0.01) },
+        { "WK_KYWildflowerGuide",         w(0.01) },
+        { "WK_StalkingWildAsparagus",     w(0.01) },
+        { "WK_HerbalPharmacyEnc",         w(0.01) },
+        { "WK_WildMushroomHunt",          w(0.01) },
+        { "WK_BackyardForaging",          w(0.01) },
+        { "WK_EthnobotanyText",           w(0.01) },
+        { "WK_TraditionalAppPlants",      w(0.01) },
+        { "WK_HunterGatherersRef",        w(0.01) },
+        { "WK_WildEdiblesCookbook",       w(0.01) },
         -- Tracking / wildlife management
-        { "WK_KDFWRGameMgmtRef",          0.01 },
-        { "WK_ApacheScoutTracking",       0.01 },
-        { "WK_KYCoonHunting",             0.01 },
-        { "WK_SARTrackingTraining",       0.01 },
-        { "WK_TurkeyHuntingRef",          0.01 },
-        { "WK_WildlifeBiologyText",       0.01 },
-        { "WK_BowHunterCamoMan",          0.01 },
-        { "WK_NavySEALReconPamph",        0.01 },
-        { "WK_SignReadingNotes",          0.01 },
+        { "WK_KDFWRGameMgmtRef",          w(0.01) },
+        { "WK_ApacheScoutTracking",       w(0.01) },
+        { "WK_KYCoonHunting",             w(0.01) },
+        { "WK_SARTrackingTraining",       w(0.01) },
+        { "WK_TurkeyHuntingRef",          w(0.01) },
+        { "WK_WildlifeBiologyText",       w(0.01) },
+        { "WK_BowHunterCamoMan",          w(0.01) },
+        { "WK_NavySEALReconPamph",        w(0.01) },
+        { "WK_SignReadingNotes",          w(0.01) },
         -- Axe / forestry
-        { "WK_TimberCruiserHandbook",     0.01 },
-        { "WK_BoyScoutAxemanship",        0.01 },
-        { "WK_BackcountryHatchetCard",    0.01 },
-        { "WK_TechnicalRescueAxeRef",     0.01 },
-        { "WK_KDFWRDeadwoodPamph",        0.01 },
-        { "WK_KYHighwayBrushControl",     0.01 },
+        { "WK_TimberCruiserHandbook",     w(0.01) },
+        { "WK_BoyScoutAxemanship",        w(0.01) },
+        { "WK_BackcountryHatchetCard",    w(0.01) },
+        { "WK_TechnicalRescueAxeRef",     w(0.01) },
+        { "WK_KDFWRDeadwoodPamph",        w(0.01) },
+        { "WK_KYHighwayBrushControl",     w(0.01) },
         -- Long Blade / brush clearing
-        { "WK_CornDetasselingCard",       0.01 },
-        { "WK_AppalachianHerbalCutting",  0.01 },
-        { "WK_StateParksTrailCrew",       0.01 },
-        { "WK_CaneCuttingManual",         0.01 },
+        { "WK_CornDetasselingCard",       w(0.01) },
+        { "WK_AppalachianHerbalCutting",  w(0.01) },
+        { "WK_StateParksTrailCrew",       w(0.01) },
+        { "WK_CaneCuttingManual",         w(0.01) },
         -- Short Blade
-        { "WK_SushiChefKnifeBook",        0.01 },
-        { "WK_TaxidermistCapingRef",      0.01 },
-        { "WK_SurgeonScalpelRef",         0.01 },
-        { "WK_NorthwoodsFilletCard",      0.01 },
+        { "WK_SushiChefKnifeBook",        w(0.01) },
+        { "WK_TaxidermistCapingRef",      w(0.01) },
+        { "WK_SurgeonScalpelRef",         w(0.01) },
+        { "WK_NorthwoodsFilletCard",      w(0.01) },
         -- Short Blunt / heavy tools
-        { "WK_RailroadSpikeMaul",         0.01 },
-        { "WK_CaverHammerPickRef",        0.01 },
-        { "WK_TrackMaintenanceSledge",    0.01 },
+        { "WK_RailroadSpikeMaul",         w(0.01) },
+        { "WK_CaverHammerPickRef",        w(0.01) },
+        { "WK_TrackMaintenanceSledge",    w(0.01) },
         -- Spear / pole weapons
-        { "WK_KDFWRBowfishingRef",        0.01 },
-        { "WK_CherokeeFishSpear",         0.01 },
-        { "WK_WWIIBayonetTraining",       0.01 },
-        { "WK_PrimitiveSpearfishing",     0.01 },
+        { "WK_KDFWRBowfishingRef",        w(0.01) },
+        { "WK_CherokeeFishSpear",         w(0.01) },
+        { "WK_WWIIBayonetTraining",       w(0.01) },
+        { "WK_PrimitiveSpearfishing",     w(0.01) },
         -- Blacksmithing / metalwork
-        { "WK_ABANANewsletter",           0.01 },
-        { "WK_SteelmillProcessRef",       0.01 },
-        { "WK_ASTMMaterialSpecRef",       0.01 },
-        { "WK_IndustrialMetalworkRef",    0.01 },
+        { "WK_ABANANewsletter",           w(0.01) },
+        { "WK_SteelmillProcessRef",       w(0.01) },
+        { "WK_ASTMMaterialSpecRef",       w(0.01) },
+        { "WK_IndustrialMetalworkRef",    w(0.01) },
         -- Welding
-        { "WK_WeldingProcSpecRef",        0.01 },
-        { "WK_WeldInspectionRef",         0.01 },
-        { "WK_AWSCertWelderManual",       0.01 },
-        { "WK_UAWWeldingShopSOP",         0.01 },
+        { "WK_WeldingProcSpecRef",        w(0.01) },
+        { "WK_WeldInspectionRef",         w(0.01) },
+        { "WK_AWSCertWelderManual",       w(0.01) },
+        { "WK_UAWWeldingShopSOP",         w(0.01) },
         -- Carving / woodcraft
-        { "WK_CountryCarversBook",        0.01 },
-        { "WK_AppalachianFolkArt",        0.01 },
-        { "WK_BowyerTilleringNotes",      0.01 },
+        { "WK_CountryCarversBook",        w(0.01) },
+        { "WK_AppalachianFolkArt",        w(0.01) },
+        { "WK_BowyerTilleringNotes",      w(0.01) },
         -- Glassmaking
-        { "WK_CorningEngineering",        0.01 },
-        { "WK_StainedGlassChurch",        0.01 },
-        { "WK_AntiqueBottleCollect",      0.01 },
-        { "WK_TiffanyMethodRef",          0.01 },
-        { "WK_NeonSignBenders",           0.01 },
+        { "WK_CorningEngineering",        w(0.01) },
+        { "WK_StainedGlassChurch",        w(0.01) },
+        { "WK_AntiqueBottleCollect",      w(0.01) },
+        { "WK_TiffanyMethodRef",          w(0.01) },
+        { "WK_NeonSignBenders",           w(0.01) },
         -- Knapping
-        { "WK_CherokeeArrowhead",         0.01 },
-        { "WK_FieldArchKnapping",         0.01 },
-        { "WK_PrimBowhunterFlint",        0.01 },
-        { "WK_AmateurArchPamph",          0.01 },
-        { "WK_ObsidianSourceRef",         0.01 },
-        { "WK_KCMuseumLithicCat",         0.01 },
-        { "WK_ToolStoneQualityCard",      0.01 },
-        { "WK_LithicTechnologyRef",       0.01 },
-        { "WK_PrimitiveSkillsKnappingRef",0.01 },
-        { "WK_LithicAnalysisStandards",   0.01 },
+        { "WK_CherokeeArrowhead",         w(0.01) },
+        { "WK_FieldArchKnapping",         w(0.01) },
+        { "WK_PrimBowhunterFlint",        w(0.01) },
+        { "WK_AmateurArchPamph",          w(0.01) },
+        { "WK_ObsidianSourceRef",         w(0.01) },
+        { "WK_KCMuseumLithicCat",         w(0.01) },
+        { "WK_ToolStoneQualityCard",      w(0.01) },
+        { "WK_LithicTechnologyRef",       w(0.01) },
+        { "WK_PrimitiveSkillsKnappingRef",w(0.01) },
+        { "WK_LithicAnalysisStandards",   w(0.01) },
         -- Pottery / ceramics
-        { "WK_UnivCeramicsText",          0.01 },
-        { "WK_PenlandWheelRef",           0.01 },
-        { "WK_RakuFiringNotes",           0.01 },
-        { "WK_SaltGlazeStoneware",        0.01 },
-        { "WK_AppFolkPotteryPamph",       0.01 },
-        { "WK_StudioKilnRepair",          0.01 },
-        { "WK_CommercialPotteryProc",     0.01 },
+        { "WK_UnivCeramicsText",          w(0.01) },
+        { "WK_PenlandWheelRef",           w(0.01) },
+        { "WK_RakuFiringNotes",           w(0.01) },
+        { "WK_SaltGlazeStoneware",        w(0.01) },
+        { "WK_AppFolkPotteryPamph",       w(0.01) },
+        { "WK_StudioKilnRepair",          w(0.01) },
+        { "WK_CommercialPotteryProc",     w(0.01) },
         -- Trapping
-        { "WK_KDFWRTrapperRegs",          0.01 },
-        { "WK_NTAFurHandlersGuide",       0.01 },
-        { "WK_KYBeaverTrapPamph",         0.01 },
-        { "WK_FoxHolerLureRecipes",       0.01 },
-        { "WK_ConibearSetTechnique",      0.01 },
-        { "WK_FootholdStakingRef",        0.01 },
-        { "WK_USDAAnimalDamage",          0.01 },
-        { "WK_KDFWRNuisanceWild",         0.01 },
-        { "WK_MuskratPeltStretch",        0.01 },
-        { "WK_FurAuctionGrading",         0.01 },
-        { "WK_WildlifeTrappingGuide",     0.01 },
-        { "WK_FurbearerRef",              0.01 },
+        { "WK_KDFWRTrapperRegs",          w(0.01) },
+        { "WK_NTAFurHandlersGuide",       w(0.01) },
+        { "WK_KYBeaverTrapPamph",         w(0.01) },
+        { "WK_FoxHolerLureRecipes",       w(0.01) },
+        { "WK_ConibearSetTechnique",      w(0.01) },
+        { "WK_FootholdStakingRef",        w(0.01) },
+        { "WK_USDAAnimalDamage",          w(0.01) },
+        { "WK_KDFWRNuisanceWild",         w(0.01) },
+        { "WK_MuskratPeltStretch",        w(0.01) },
+        { "WK_FurAuctionGrading",         w(0.01) },
+        { "WK_WildlifeTrappingGuide",     w(0.01) },
+        { "WK_FurbearerRef",              w(0.01) },
         -- Tracking
-        { "WK_WildlifeTrackSignRef",      0.01 },
-        { "WK_DeerMovementRef",           0.01 },
+        { "WK_WildlifeTrackSignRef",      w(0.01) },
+        { "WK_DeerMovementRef",           w(0.01) },
         -- Spear / primitive weapons
-        { "WK_KDFWRPrimitiveWeapons",     0.01 },
-        { "WK_AtlatlSpearRef",            0.01 },
+        { "WK_KDFWRPrimitiveWeapons",     w(0.01) },
+        { "WK_AtlatlSpearRef",            w(0.01) },
         -- Foraging / herbalism
-        { "WK_WildcraftHerbalistRef",     0.01 },
+        { "WK_WildcraftHerbalistRef",     w(0.01) },
         -- Carpentry / timber framing
-        { "WK_LogHomeBuildersRef",        0.01 },
-        { "WK_AppTimberFramePamph",       0.01 },
-        { "WK_VocSchoolBuildTrades",      0.01 },
+        { "WK_LogHomeBuildersRef",        w(0.01) },
+        { "WK_AppTimberFramePamph",       w(0.01) },
+        { "WK_VocSchoolBuildTrades",      w(0.01) },
     })
 end
