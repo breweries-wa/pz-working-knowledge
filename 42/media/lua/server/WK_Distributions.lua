@@ -421,19 +421,19 @@ if dist.RangerBooks and dist.RangerBooks.items then  -- target ~10
 end
 
 -- ── Medical Office ────────────────────────────────────────────────────────────
-if dist.MedicalOfficeBooks and dist.MedicalOfficeBooks.items then  -- target ~10
-    addMany(dist.MedicalOfficeBooks.items, {
-        { "WK_WorkplaceFirstAidSOP",     w(0.2620) },
-        { "WK_CPRAEDRef",                w(0.2620) },
-        { "WK_EmergencyTriageRef",       w(0.2620) },
-        { "WK_ParamedicProtocolMan",     w(0.2620) },
-        { "WK_ERTriageTextbook",         w(0.2620) },
-        { "WK_NursingFundamentals",      w(0.2620) },
-        { "WK_PharmacistDispensing",     w(0.2620) },
-        { "WK_WoundCareSuturing",        w(0.2620) },
-        { "WK_ArmyCombatMedic",          w(0.2620) },
-        { "WK_NursingHomeCareMan",       w(0.2620) },
-        { "WK_PediatricFirstAid",        w(0.2620) },
+if dist.MedicalOfficeDesk and dist.MedicalOfficeDesk.items then  -- target ~10
+    addMany(dist.MedicalOfficeDesk.items, {
+        { "WK_WorkplaceFirstAidSOP",     w(0.2904) },
+        { "WK_CPRAEDRef",                w(0.2904) },
+        { "WK_EmergencyTriageRef",       w(0.2904) },
+        { "WK_ParamedicProtocolMan",     w(0.2904) },
+        { "WK_ERTriageTextbook",         w(0.2904) },
+        { "WK_NursingFundamentals",      w(0.2904) },
+        { "WK_PharmacistDispensing",     w(0.2904) },
+        { "WK_WoundCareSuturing",        w(0.2904) },
+        { "WK_ArmyCombatMedic",          w(0.2904) },
+        { "WK_NursingHomeCareMan",       w(0.2904) },
+        { "WK_PediatricFirstAid",        w(0.2904) },
     })
 end
 

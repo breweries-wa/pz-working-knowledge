@@ -57,7 +57,7 @@ $Pools = [ordered]@{
     BlacksmithLiterature               = "Blacksmith (Literature Rack)"
     TailoringLiterature                = "Tailoring / Fabric Store (Literature)"
     RangerBooks                        = "Ranger Station (Books)"
-    MedicalOfficeBooks                 = "Medical Office (Books)"
+    MedicalOfficeDesk                  = "Medical Office (Desk)"
     GardenStoreMisc                    = "Garden / Nursery Store (Misc)"
     # ── Generic fallbacks ─────────────────────────────────────────────────────
     DeskGeneric                        = "Generic Desk"
