@@ -365,6 +365,97 @@ if dist.PlumbingSupplies and dist.PlumbingSupplies.items then  -- target ~10
     })
 end
 
+-- ── Office Desks ─────────────────────────────────────────────────────────────
+-- Generic business office: OSHA manuals, workplace safety, fleet references.
+if dist.OfficeDesk and dist.OfficeDesk.items then  -- target ~10
+    addMany(dist.OfficeDesk.items, {
+        { "WK_WorkplaceFirstAidSOP",     w(0.1844) },
+        { "WK_CPRAEDRef",                w(0.1844) },
+        { "WK_OSHAHandToolSafety",       w(0.1844) },
+        { "WK_OSHAElectricalSafety",     w(0.1844) },
+        { "WK_OSHAFirstAidRef",          w(0.1844) },
+        { "WK_NIOSHLiftingRef",          w(0.1844) },
+        { "WK_ManualMaterialsHandRef",   w(0.1844) },
+        { "WK_FreightDockLiftCard",      w(0.1844) },
+        { "WK_FleetMaintenanceLog",      w(0.1844) },
+        { "WK_KYVehicleInspection",      w(0.1844) },
+    })
+end
+
+-- Home office: personal hobby and health references.
+if dist.OfficeDeskHome and dist.OfficeDeskHome.items then  -- target ~10
+    addMany(dist.OfficeDeskHome.items, {
+        { "WK_GolfSwingRef",             w(0.5294) },
+        { "WK_BaseballSwingRef",         w(0.5294) },
+        { "WK_SprintIntervalCard",       w(0.5294) },
+        { "WK_CrossCountryRef",          w(0.5294) },
+        { "WK_WorkplaceFirstAidSOP",     w(0.5294) },
+        { "WK_PediatricFirstAid",        w(0.5294) },
+        { "WK_KYFishingRegs",            w(0.5294) },
+        { "WK_KYBassFishingClub",        w(0.5294) },
+    })
+end
+
+-- Classy home office: upscale sport, fitness, and business references.
+if dist.OfficeDeskHomeClassy and dist.OfficeDeskHomeClassy.items then  -- target ~10
+    addMany(dist.OfficeDeskHomeClassy.items, {
+        { "WK_GolfSwingRef",             w(0.8204) },
+        { "WK_BullseyeMatchProgramme",   w(0.8204) },
+        { "WK_BostonMarathonTrain",      w(0.8204) },
+        { "WK_NCAAStrengthCondition",    w(0.8204) },
+        { "WK_OlympicLiftingNotes",      w(0.8204) },
+        { "WK_NIOSHLiftingRef",          w(0.8204) },
+        { "WK_FleetMaintenanceLog",      w(0.8204) },
+        { "WK_TruckingFleetPMSched",     w(0.8204) },
+    })
+end
+
+-- ── Waiting Room / Reception ──────────────────────────────────────────────────
+-- Medical reception desk: lighter medical references than the doctor's office.
+if dist.WaitingRoomDesk and dist.WaitingRoomDesk.items then  -- target ~10
+    addMany(dist.WaitingRoomDesk.items, {
+        { "WK_WorkplaceFirstAidSOP",     w(0.5919) },
+        { "WK_CPRAEDRef",                w(0.5919) },
+        { "WK_EmergencyTriageRef",       w(0.5919) },
+        { "WK_NursingFundamentals",      w(0.5919) },
+        { "WK_PharmacistDispensing",     w(0.5919) },
+        { "WK_PediatricFirstAid",        w(0.5919) },
+        { "WK_NursingHomeCareMan",       w(0.5919) },
+        { "WK_OSHAFirstAidRef",          w(0.5919) },
+    })
+end
+
+-- ── Classroom Desks ───────────────────────────────────────────────────────────
+-- Elementary: Boy Scout merit booklets and youth program handouts.
+if dist.ClassroomDesk and dist.ClassroomDesk.items then  -- target ~10
+    addMany(dist.ClassroomDesk.items, {
+        { "WK_BoyScoutRiflery",          w(1.1996) },
+        { "WK_BoyScoutAxemanship",       w(1.1996) },
+        { "WK_ScoutTroopToolCare",       w(1.1996) },
+        { "WK_ScoutCampcraftKnife",      w(1.1996) },
+        { "WK_ScoutMetalwork",           w(1.1996) },
+        { "WK_ScoutCarpentryMerit",      w(1.1996) },
+        { "WK_BSAPrimitiveSurvival",     w(1.1996) },
+        { "WK_AgEdJudgingCard",          w(1.1996) },
+    })
+end
+
+-- Secondary: high school athletics, home ec, and vocational handouts.
+if dist.ClassroomSecondaryDesk and dist.ClassroomSecondaryDesk.items then  -- target ~10
+    addMany(dist.ClassroomSecondaryDesk.items, {
+        { "WK_JuniorHighWoodshop",       w(0.9643) },
+        { "WK_HomeEcSewingText",         w(0.9643) },
+        { "WK_HSTrackCoachManual",       w(0.9643) },
+        { "WK_KYHSAARulebook",           w(0.9643) },
+        { "WK_SprintIntervalCard",       w(0.9643) },
+        { "WK_CrossCountryRef",          w(0.9643) },
+        { "WK_HSFootballCondition",      w(0.9643) },
+        { "WK_BMXRacingTraining",        w(0.9643) },
+        { "WK_HSWrestlingStrength",      w(0.9643) },
+        { "WK_AgEdJudgingCard",          w(0.9643) },
+    })
+end
+
 -- ── Blacksmith Literature Rack ───────────────────────────────────────────────
 if dist.BlacksmithLiterature and dist.BlacksmithLiterature.items then  -- target ~10
     addMany(dist.BlacksmithLiterature.items, {
