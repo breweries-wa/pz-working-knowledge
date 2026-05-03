@@ -54,6 +54,11 @@ $Pools = [ordered]@{
     ToolStoreMisc                      = "Tool Store (Misc)"
     FishingStoreGear                   = "Fishing Store (Gear)"
     PlumbingSupplies                   = "Plumbing (Supplies)"
+    BlacksmithLiterature               = "Blacksmith (Literature Rack)"
+    TailoringLiterature                = "Tailoring / Fabric Store (Literature)"
+    RangerBooks                        = "Ranger Station (Books)"
+    MedicalOfficeBooks                 = "Medical Office (Books)"
+    GardenStoreMisc                    = "Garden / Nursery Store (Misc)"
     # ── Generic fallbacks ─────────────────────────────────────────────────────
     DeskGeneric                        = "Generic Desk"
     FilingCabinetGeneric               = "Generic Filing Cabinet"
@@ -64,7 +69,7 @@ $Pools = [ordered]@{
 function Get-VanillaPool {
     param([string] $Text, [string] $PoolName)
 
-    $startPattern = "(?m)^\t$([regex]::Escape($PoolName))\s*=\s*\{"
+    $startPattern = "(?m)^[ \t]+$([regex]::Escape($PoolName))\s*=\s*\{"
     $startMatch   = [regex]::Match($Text, $startPattern)
     if (-not $startMatch.Success) { return $null }
 

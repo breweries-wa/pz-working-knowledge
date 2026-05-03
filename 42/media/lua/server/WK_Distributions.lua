@@ -365,6 +365,99 @@ if dist.PlumbingSupplies and dist.PlumbingSupplies.items then  -- target ~10
     })
 end
 
+-- ── Blacksmith Literature Rack ───────────────────────────────────────────────
+if dist.BlacksmithLiterature and dist.BlacksmithLiterature.items then  -- target ~10
+    addMany(dist.BlacksmithLiterature.items, {
+        { "WK_ABANANewsletter",          w(0.1806) },
+        { "WK_ForgeHeatTreatGuide",      w(0.1806) },
+        { "WK_BlacksmithGuildStandards", w(0.1806) },
+        { "WK_IndustrialMetalworkRef",   w(0.1806) },
+        { "WK_ASTMMaterialSpecRef",      w(0.1806) },
+        { "WK_SteelmillProcessRef",      w(0.1806) },
+        { "WK_ColonialIronworker",       w(0.1806) },
+        { "WK_FrontierForgeRef",         w(0.1806) },
+        { "WK_SwordsmithApprDiary",      w(0.1806) },
+        { "WK_FarrierShoeingNotes",      w(0.1806) },
+    })
+end
+
+-- ── Tailoring / Fabric Store ──────────────────────────────────────────────────
+if dist.TailoringLiterature and dist.TailoringLiterature.items then  -- target ~10
+    addMany(dist.TailoringLiterature.items, {
+        { "WK_PatternGradingRef",        w(0.2802) },
+        { "WK_IndustrialSewingRef",      w(0.2802) },
+        { "WK_FiberFabricRef",           w(0.2802) },
+        { "WK_GarmentQualityRef",        w(0.2802) },
+        { "WK_SearsPatternCatalog",      w(0.2802) },
+        { "WK_CarhartUnionShop",         w(0.2802) },
+        { "WK_AlterationsTailorCard",    w(0.2802) },
+        { "WK_HomeEcSewingText",         w(0.2802) },
+        { "WK_TheatricalCostumeShop",    w(0.2802) },
+        { "WK_HancockFabricsManual",     w(0.2802) },
+        { "WK_UpholstererGuide",         w(0.2802) },
+        { "WK_BridalSeamstressNotes",    w(0.2802) },
+    })
+end
+
+-- ── Ranger Station ────────────────────────────────────────────────────────────
+if dist.RangerBooks and dist.RangerBooks.items then  -- target ~10
+    addMany(dist.RangerBooks.items, {
+        { "WK_KDFWRGameMgmtRef",         w(0.3381) },
+        { "WK_ApacheScoutTracking",      w(0.3381) },
+        { "WK_WildlifeTrackSignRef",     w(0.3381) },
+        { "WK_DeerMovementRef",          w(0.3381) },
+        { "WK_SARTrackingTraining",      w(0.3381) },
+        { "WK_TurkeyHuntingRef",         w(0.3381) },
+        { "WK_WildlifeBiologyText",      w(0.3381) },
+        { "WK_KDFWRTrapperRegs",         w(0.3381) },
+        { "WK_NTAFurHandlersGuide",      w(0.3381) },
+        { "WK_WildlifeTrappingGuide",    w(0.3381) },
+        { "WK_FurbearerRef",             w(0.3381) },
+        { "WK_EdiblePlantsRef",          w(0.3381) },
+        { "WK_KYWildflowerGuide",        w(0.3381) },
+        { "WK_WildMushroomHunt",         w(0.3381) },
+        { "WK_HunterGatherersRef",       w(0.3381) },
+    })
+end
+
+-- ── Medical Office ────────────────────────────────────────────────────────────
+if dist.MedicalOfficeBooks and dist.MedicalOfficeBooks.items then  -- target ~10
+    addMany(dist.MedicalOfficeBooks.items, {
+        { "WK_WorkplaceFirstAidSOP",     w(0.2620) },
+        { "WK_CPRAEDRef",                w(0.2620) },
+        { "WK_EmergencyTriageRef",       w(0.2620) },
+        { "WK_ParamedicProtocolMan",     w(0.2620) },
+        { "WK_ERTriageTextbook",         w(0.2620) },
+        { "WK_NursingFundamentals",      w(0.2620) },
+        { "WK_PharmacistDispensing",     w(0.2620) },
+        { "WK_WoundCareSuturing",        w(0.2620) },
+        { "WK_ArmyCombatMedic",          w(0.2620) },
+        { "WK_NursingHomeCareMan",       w(0.2620) },
+        { "WK_PediatricFirstAid",        w(0.2620) },
+    })
+end
+
+-- ── Garden / Nursery Store ────────────────────────────────────────────────────
+if dist.GardenStoreMisc and dist.GardenStoreMisc.items then  -- target ~10
+    addMany(dist.GardenStoreMisc.items, {
+        { "WK_KnoxExtensionGuide",       w(0.5142) },
+        { "WK_SoilTestInterpretRef",     w(0.5142) },
+        { "WK_PesticideApplicationRef",  w(0.5142) },
+        { "WK_IrrigationSchedulingRef",  w(0.5142) },
+        { "WK_KYExtensionAgBull",        w(0.5142) },
+        { "WK_FFAVocAgText",             w(0.5142) },
+        { "WK_RodaleOrganicPamph",       w(0.5142) },
+        { "WK_KYTobaccoGrowGuide",       w(0.5142) },
+        { "WK_EdiblePlantsRef",          w(0.5142) },
+        { "WK_KYWildflowerGuide",        w(0.5142) },
+        { "WK_BackyardForaging",         w(0.5142) },
+        { "WK_StalkingWildAsparagus",    w(0.5142) },
+        { "WK_UKAgEconNotes",            w(0.5142) },
+        { "WK_HerbalPharmacyEnc",        w(0.5142) },
+        { "WK_EthnobotanyText",          w(0.5142) },
+    })
+end
+
 -- ── Generic Desk ─────────────────────────────────────────────────────────────
 -- target ~10
 if dist.DeskGeneric and dist.DeskGeneric.items then  -- target ~10
