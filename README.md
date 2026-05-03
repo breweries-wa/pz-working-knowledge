@@ -26,13 +26,15 @@ Both options are found under **Working Knowledge** in the Sandbox settings when 
 
 Controls how often WK documents appear in loot containers.
 
-| Setting | Multiplier | Effect |
+There are two tiers of container. **Generic** containers — everyday desks and filing cabinets found throughout Knox County — carry the full document catalogue at a low weight, so any document could turn up anywhere. **Specific** containers — the police filing cabinet, the fire station tool locker, the ranger station bookshelf — carry only documents relevant to that location, and are calibrated to spawn them at roughly twice the rate of generics. The table below reflects the generic baseline; expect to find documents about twice as often in a thematically matched specific container.
+
+| Setting | Multiplier | Generic containers per document |
 |---|---|---|
-| Very Rare | 0.25× | ~40 containers expected per document |
-| Rare | 0.5× | ~20 containers expected per document |
-| **Normal** | **1×** | **~10 containers expected (default)** |
-| Common | 2× | ~5 containers expected |
-| Abundant | 4× | ~3 containers expected |
+| Very Rare | 0.25× | ~80 |
+| Rare | 0.5× | ~40 |
+| **Normal** | **1×** | **~20 (default)** |
+| Common | 2× | ~10 |
+| Abundant | 4× | ~5 |
 
 Changing this setting mid-save only affects containers generated after the change — already-looted areas are not retroactively updated.
 
