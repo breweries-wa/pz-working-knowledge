@@ -10,6 +10,10 @@ Events.OnClientCommand.Add(function(module, command, player, args)
         if modData[readKey] then return end
 
         modData[readKey] = true
+        -- Keep the vanilla readMap in sync so the inventory checkmark survives
+        -- the next server→client modData sync on hosted/dedicated servers.
+        if not modData.readMap then modData.readMap = {} end
+        modData.readMap["Base." .. itemType] = true
 
         local ok, perk = pcall(function() return Perks[perkStr] end)
         if not ok or not perk then return end
