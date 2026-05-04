@@ -1,0 +1,22 @@
+VERSION = 1,
+
+option WorkingKnowledge.SpawnRate
+{
+	type = enum,
+	numValues = 5,
+	default = 3,
+
+	page = WorkingKnowledge,
+	translation = WorkingKnowledge_SpawnRate,
+}
+
+option WorkingKnowledge.XPGrant
+{
+	type = integer,
+	min = 0,
+	max = 500,
+	default = 50,
+
+	page = WorkingKnowledge,
+	translation = WorkingKnowledge_XPGrant,
+}
