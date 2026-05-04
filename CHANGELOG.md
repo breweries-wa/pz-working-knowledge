@@ -2,6 +2,14 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [0.6] - 2026-05-04
+
+### Fixed
+- Sandbox options (Document Spawn Rate, XP Grant) now appear correctly in the
+  Custom Sandbox screen with proper labels and tooltips; the translation file
+  was not being found because the sandbox translation scanner only reads from
+  the Steam Workshop content path, not the local mods folder
+
 ## [0.5] - 2026-05-03
 
 ### Fixed

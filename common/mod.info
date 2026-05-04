@@ -2,5 +2,5 @@ name=Working Knowledge
 id=WorkingKnowledge
 description=Adds workplace documents found in filing cabinets across Knox County. Reading one grants a one-time skill XP boost — practical knowledge preserved from before the outbreak.
 author=Ryan
-modversion=0.5
+modversion=0.6
 pzversion=42
