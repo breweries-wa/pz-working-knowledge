@@ -431,32 +431,37 @@ end
 -- Grant XP when a WK document finishes reading.
 local origISReadABookPerform = ISReadABook.perform
 function ISReadABook:perform()
-    origISReadABookPerform(self)
-    if not self.item then return end
+    -- For non-WK items, pass straight through.
+    if not self.item then return origISReadABookPerform(self) end
     local ok, itemType = pcall(function() return self.item:getType() end)
-    if not ok or not itemType then return end
+    if not ok or not itemType then return origISReadABookPerform(self) end
     local bareType = itemType:match("%.(.+)$") or itemType
     local perkName = getWKDocs()[bareType]
-    if not perkName then return end
+    if not perkName then return origISReadABookPerform(self) end
 
     local modData = self.character:getModData()
     local readKey = "WK_read_" .. bareType
-    if modData[readKey] then return end  -- already granted XP this session
+    if modData[readKey] then return origISReadABookPerform(self) end
 
+    -- Update read state BEFORE calling the vanilla perform so that any
+    -- inventory refresh it triggers already sees readMap and draws the
+    -- checkmark on the first read rather than requiring a second pass.
     modData[readKey] = true
-    sendClientCommand(self.character, "WorkingKnowledge", "ReadDocument", {
-        perk     = perkName,
-        itemType = bareType,
-    })
     local fullType = "Base." .. bareType
     if not modData.readMap then modData.readMap = {} end
     modData.readMap[fullType] = true
-    -- Stamp literatureTitle so the checkmark persists after this session.
     local okMd, itemMd = pcall(function() return self.item:getModData() end)
     if okMd and itemMd then
         itemMd.literatureTitle = itemMd.literatureTitle or fullType
     end
     pcall(function() syncItemFields(self.character, self.item) end)
+
+    sendClientCommand(self.character, "WorkingKnowledge", "ReadDocument", {
+        perk     = perkName,
+        itemType = bareType,
+    })
+
+    origISReadABookPerform(self)
 end
 
 -- ── Literature tagging ───────────────────────────────────────────────────────

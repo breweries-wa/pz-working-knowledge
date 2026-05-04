@@ -2,6 +2,13 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [0.4] - 2026-05-03
+
+### Fixed
+- Inventory checkmark now appears immediately on the first read in multiplayer (hosted and
+  dedicated servers); previously the checkmark required a second read to draw because the
+  vanilla inventory refresh was triggered before the mod had written the read state
+
 ## [0.3] - 2026-05-03
 
 ### Added
