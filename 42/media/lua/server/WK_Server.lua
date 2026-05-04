@@ -4,12 +4,17 @@ Events.OnClientCommand.Add(function(module, command, player, args)
     if command == "ReadDocument" then
         local perkStr  = args.perk
         local itemType = args.itemType
-        local readKey  = "WK_read_" .. itemType
+
+        -- Use a server-only key for the XP-grant guard.  The client sets
+        -- WK_read_* for its own UI state, and in singleplayer both sides
+        -- share the same modData Java object — so if we checked WK_read_*
+        -- here the client's pre-emptive write would block every XP grant.
+        local xpKey = "WK_xp_" .. itemType
 
         local modData = player:getModData()
-        if modData[readKey] then return end
+        if modData[xpKey] then return end
 
-        modData[readKey] = true
+        modData[xpKey] = true
         -- Keep the vanilla readMap in sync so the inventory checkmark survives
         -- the next server→client modData sync on hosted/dedicated servers.
         if not modData.readMap then modData.readMap = {} end
@@ -26,7 +31,7 @@ Events.OnClientCommand.Add(function(module, command, player, args)
         if lvl ~= "Admin" and lvl ~= "Moderator" then return end
         local modData = player:getModData()
         for k, _ in pairs(modData) do
-            if string.find(k, "^WK_read_") then
+            if string.find(k, "^WK_read_") or string.find(k, "^WK_xp_") then
                 modData[k] = nil
             end
         end

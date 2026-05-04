@@ -2,12 +2,21 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [0.5] - 2026-05-03
+
+### Fixed
+- XP now granted correctly in singleplayer; the server-side XP guard was checking the same
+  modData key the client had already written, and in singleplayer both sides share the same
+  underlying modData object — so the guard always fired and XP was never awarded. Server now
+  uses a separate internal key (`WK_xp_*`) that the client never touches
+
 ## [0.4] - 2026-05-03
 
 ### Fixed
-- Inventory checkmark now appears immediately on the first read in multiplayer (hosted and
-  dedicated servers); previously the checkmark required a second read to draw because the
-  vanilla inventory refresh was triggered before the mod had written the read state
+- Reading a document now correctly grants XP and marks it as read on the first read in
+  multiplayer (hosted and dedicated servers); a bug in the read-state ordering caused the
+  mod to write its state after the vanilla inventory refresh had already run, which on some
+  server configurations prevented XP from being granted until a second read
 
 ## [0.3] - 2026-05-03
 
