@@ -2,6 +2,12 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [0.7] - 2026-05-04
+
+### Fixed
+- Sandbox option labels now display correctly instead of showing raw translation keys;
+  B42.15 switched from `Sandbox_EN.txt` to `Sandbox.json` format and we now ship both
+
 ## [0.6] - 2026-05-04
 
 ### Fixed
