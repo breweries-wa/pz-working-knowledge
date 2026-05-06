@@ -14,35 +14,35 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 
 *Knox County law enforcement agencies ran on documented procedure — officers qualified on paper, remediated on paper, and carried laminated scoring cards. That documentation is still in police filing cabinets and desks across the county. A survivor who studies it doesn't just learn to point and shoot; they learn what disciplined shooting actually requires.*
 
-- **KCPD Patrol Firearms Qualification Standards** — Knox County Police Department patrol qualification rubric. Keys: `PoliceFilingCabinet`, `PoliceDesk`
+- **KCPD Patrol Firearms Qualification Standards** — Proper grip techniques are circled in red ink. Keys: `PoliceFilingCabinet`, `PoliceDesk`
 - **Range Safety Officer Field Reference** — Live-fire range commands and safety procedures. Keys: `PoliceFilingCabinet`, `GunStoreCounter`
-- **Defensive Handgun Reference** — Law enforcement threat assessment and shooting criteria. Keys: `PoliceFilingCabinet`, `PoliceDesk`
+- **Defensive Handgun Reference** — Detailed sketches on 'stopping power' and center-mass hits. Keys: `PoliceFilingCabinet`, `PoliceDesk`
 - **Sheriff's Duty Weapon Qual Log** — Pencil-marked scores and remediation notes for officers who flunked. Keys: `PoliceFilingCabinet`, `FilingCabinetGeneric`
-- **NRA Pistol Instructor Course Manual** — National Rifle Association certified instructor coursework. Range-grade binder. Keys: `GunStoreCounter`, `PoliceFilingCabinet`
-- **NRA Conventional Pistol Match Programme** — Round-robin bullseye match course of fire. Keys: `DeskGeneric`, `GunStoreCounter`
-- **Kentucky CCDW Permit Course Manual** — State concealed carry coursework. Knox County stamp. Keys: `GunStoreCounter`, `PoliceFilingCabinet`
-- **Resident Agent's FBI Qualification Scorebook** — Federal Bureau of Investigation qualification course. Pencil annotations from a frustrated agent. Keys: `FilingCabinetGeneric`, `PoliceFilingCabinet`
-- **USPSA Production Division Rulebook** — United States Practical Shooting Association Production division rules. Keys: `GunStoreCounter`
-- **Boy Scout Rifle Shooting Merit Badge Pamphlet** — Council camp riflery curriculum. Faded. Keys: `DeskGeneric`, `FilingCabinetGeneric`
-- **Veteran's Annotated USMC Rifleman Notes** — United States Marine Corps service rifle drills, heavily annotated. Keys: `FilingCabinetGeneric`, `GunStoreCounter`
-- **Knox County High Power Rifle Club Newsletter** — Position shooting tips and match results. Keys: `DeskGeneric`, `GunStoreCounter`
+- **NRA Pistol Instructor Course Manual** — Deeply technical breakdowns of the perfect trigger squeeze. Keys: `GunStoreCounter`, `PoliceFilingCabinet`
+- **NRA Conventional Pistol Match Programme** — Instructions for hitting moving targets under pressure. Keys: `DeskGeneric`, `GunStoreCounter`
+- **Kentucky CCDW Permit Course Manual** — Heavy focus on drawing from a holster without snagging. Keys: `GunStoreCounter`, `PoliceFilingCabinet`
+- **Resident Agent's FBI Qualification Scorebook** — Annotated: 'I can't hit a damn thing with this new issue.' Keys: `FilingCabinetGeneric`, `PoliceFilingCabinet`
+- **USPSA Production Division Rulebook** — Target transition rules from the US Practical Shooting Association. Keys: `GunStoreCounter`
+- **Boy Scout Rifle Shooting Merit Badge Pamphlet** — Hand-drawn diagrams for a steady prone position. Faded. Keys: `DeskGeneric`, `FilingCabinetGeneric`
+- **Veteran's Annotated USMC Rifleman Notes** — Scribbled reminder on each page: 'watch your breathing, Marine.' Keys: `FilingCabinetGeneric`, `GunStoreCounter`
+- **Knox County High Power Rifle Club Newsletter** — Old-timer tips on accounting for windage and elevation. Keys: `DeskGeneric`, `GunStoreCounter`
 
 ### Reloading
 
 *Every law enforcement agency, military branch, and competitive shooting organization has standardized weapon manipulation in writing. Speed reloads and malfunction clearances are trained from documented references — not picked up by feel. Those references don't expire just because the world did.*
 
 - **Law Enforcement Tactical Reload Procedures** — Speed, admin, and retention reload drill sequences. Keys: `PoliceFilingCabinet`, `PoliceDesk`
-- **Weapons Handling Drill Card** — Draw-and-load sequences and malfunction clearance steps. Keys: `PoliceFilingCabinet`, `PoliceDesk`, `GunStoreCounter`
+- **Weapons Handling Drill Card** — Diagrams illustrating how to 'Tap, Rack, and Bang' to clear a jam. Keys: `PoliceFilingCabinet`, `PoliceDesk`, `GunStoreCounter`
 - **Armorer's Weapons Manipulation Reference** — Function checks and magazine inspection by service-grade weapon. Keys: `PoliceFilingCabinet`, `GunStoreCounter`
 - **Practical Shooting Stage Procedures** — Competition reload rules and start positions. Keys: `GunStoreCounter`
-- **Police Academy Handgun Manual** — Twelve-week curriculum from grip orientation to weapon retention. Keys: `PoliceDesk`, `PoliceFilingCabinet`
-- **Service Revolver Speedloader Drill Card** — K-frame and L-frame service revolver drills. Keys: `GunStoreCounter`, `PoliceFilingCabinet`
+- **Police Academy Handgun Manual** — Weeks 4 through 6 focus entirely on drawing and indexing a fresh mag. Keys: `PoliceDesk`, `PoliceFilingCabinet`
+- **Service Revolver Speedloader Drill Card** — Focuses on the 'gravity drop' technique for ejecting spent brass. Keys: `GunStoreCounter`, `PoliceFilingCabinet`
 - **Defensive Pistol Drill Card Set** — Par times and dry-practice drills. Coffee stained. Keys: `GunStoreCounter`, `PoliceDesk`
 - **Gunsmith's Stripping and Reassembly Notes** — Field-strip sequences for service-grade pistols. Keys: `GunStoreCounter`
-- **Navy Gunner's Mate Manipulation Manual** — Service-issue M9 and 1911 procedures. Salt-water warped corner. Keys: `FilingCabinetGeneric`
+- **Navy Gunner's Mate Manipulation Manual** — Corrosion-resistant procedures for the M9 and the venerable 1911. Keys: `FilingCabinetGeneric`
 - **Match Shotgun Tube Reload Drill Card** — Side-saddle and 4-shell reload technique. Keys: `GunStoreCounter`
-- **Rangemaster Certification Drillbook** — Covers an intensive three-day training course. Embossed crest. Keys: `GunStoreCounter`, `PoliceFilingCabinet`
-- **Loomis Armored Vehicle Weapons SOP** — Standard operating procedure handbook. Cigar burn. Keys: `FilingCabinetGeneric`
+- **Rangemaster Certification Drillbook** — Advanced drills for clearing complex double-feed malfunctions. Embossed crest. Keys: `GunStoreCounter`, `PoliceFilingCabinet`
+- **Loomis Armored Vehicle Weapons SOP** — Procedures for a 'combat reload' within the tight confines of a truck. Keys: `FilingCabinetGeneric`
 
 ---
 
@@ -53,50 +53,50 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 *Logging, arboriculture, and firefighting all depend on controlled axe work, and all three generate written procedure. OSHA mandates it for logging operations; fire departments SOP every hand tool deployment. The skill extends to meat cleavers, hatchets, and pickaxes — but the documentation trail runs through the woods and the firehouse.*
 
 - **OSHA Logging Operations Reference** — Federal logging safety: felling and escape routes. Keys: `FilingCabinetGeneric`
-- **Certified Arborist Tree Assessment Field Guide** — Hazard tree felling angles and notch geometry.
+- **Certified Arborist Tree Assessment Field Guide** — Advanced geometry for Humboldt and open-face notch cuts.
 - **NFPA 1 Forcible Entry Operations Reference** — Fire department door-breaching technique with axes. Keys: `FireStorageTools`
 - **Firefighter Hand Tool Operations SOP** — Standard operating procedure for axes, halligan bars, and pike poles. Keys: `FireStorageTools`
 - **Timber Cruiser's Pocket Handbook** — Stand assessment and felling-direction notes. Keys: `FilingCabinetGeneric`, `ToolStoreMisc`
-- **Appalachian Logger's Felling Notes** — Hardwood felling cuts on steep ground. Keys: `ToolStoreMisc`
-- **Boy Scout Axemanship Merit Badge Pamphlet** — Counselor axe and saw fundamentals. Sap stain. Keys: `DeskGeneric`, `FilingCabinetGeneric`
-- **Mountain Rescue Ice Axe Manual** — Self-arrest technique and crevasse extraction. Glacier-stained. Keys: `ToolStoreMisc`
-- **Backcountry Hatchet Field Card** — Pack-axe technique for trail clearing and shelter building. Keys: `FilingCabinetGeneric`, `ToolStoreMisc`
-- **Technical Rescue Axe Reference** — Vehicle extrication and confined-space breaching with axes. Keys: `FilingCabinetGeneric`, `ToolStoreMisc`
-- **Engine Company Forcible Entry Axe Reference** — Engine-company forcible-entry tool reference. Keys: `FireStorageTools`
-- **KDFWR Hunter's Deadwood Removal Pamphlet** — Stand-clearing and shooting-lane pamphlet. Keys: `FilingCabinetGeneric`
+- **Appalachian Logger's Felling Notes** — Hand-drawn diagrams for swinging a tree against its natural lean. Keys: `ToolStoreMisc`
+- **Boy Scout Axemanship Merit Badge Pamphlet** — Fundamental checks to ensure a secure head-to-shaft fit. Keys: `DeskGeneric`, `FilingCabinetGeneric`
+- **Mountain Rescue Ice Axe Manual** — Self-arrest technique and crevasse extraction. Keys: `ToolStoreMisc`
+- **Backcountry Hatchet Field Card** — Efficient 'V-notch' limb removal to prevent binding the blade. Keys: `FilingCabinetGeneric`, `ToolStoreMisc`
+- **Technical Rescue Axe Reference** — Breaching reinforced barriers using targeted strikes on corner anchors. Keys: `FilingCabinetGeneric`, `ToolStoreMisc`
+- **Engine Company Forcible Entry Axe Reference** — Drills for clearing debris-blocked exits using synchronized axe-work. Keys: `FireStorageTools`
+- **KDFWR Hunter's Deadwood Removal Pamphlet** — Clean-cut techniques for clearing shooting lanes without snagging gear. Keys: `FilingCabinetGeneric`
 
 ### Long Blade
 
 *Machetes are agricultural and forestry tools first — for crop harvesting, trail clearing, and brush removal. Extension offices, parks departments, and land-clearing contractors all documented proper technique. The swords and katanas in Knox County don't have a paper trail; the machetes do.*
 
 - **Brush Clearing Trail Reference** — State parks machete technique and blade care.
-- **Agricultural Machete Safety Guide** — Extension service guide to machete grip and swing.
-- **Forestry Contractor Brush SOP** — Standard operating procedure for brush blade land-clearing operations.
+- **Agricultural Machete Safety Guide** — Illustrates the 'danger circle' and proper wrist-locking to prevent fatigue.
+- **Forestry Contractor Brush SOP** — Guidelines for sharpening different zones of the blade for specific wood densities.
 - **Bush Hog Rotary Cutter Operator Manual** — Tractor implement operation and PTO safety. Keys: `ToolCabinetFarming`
-- **KY Highway Dept. Roadside Vegetation Manual** — Roadside crew procedures for medians and right-of-way clearing. Keys: `FilingCabinetGeneric`
-- **Corn Detasseling Crew Leader Card** — Seasonal detasseling crew leader notes. Keys: `FilingCabinetGeneric`, `ToolCabinetFarming`
-- **Appalachian Wildcrafter's Cutting Reference** — Plant harvest blade techniques. Earthy smell. Keys: `FilingCabinetGeneric`
-- **KY State Parks Trail Crew Brushing SOP** — Standard operating procedure for trail-clearing crews. Coffee-stained. Keys: `FilingCabinetGeneric`
-- **Kaiser Blade Field Reference** — Bush hook brush technique. Sweat-stained. Keys: `ToolCabinetFarming`, `ToolStoreMisc`
+- **KY Highway Dept. Roadside Vegetation Manual** — Techniques for using a brush hook to clear thickets without over-extending. Keys: `FilingCabinetGeneric`
+- **Corn Detasseling Crew Leader Card** — Handwritten tips on managing blade weight for 10-hour shifts in the sun. Keys: `FilingCabinetGeneric`, `ToolCabinetFarming`
+- **Appalachian Wildcrafter's Cutting Reference** — Manual for identifying grain direction to ensure a clean, one-hit harvest. Keys: `FilingCabinetGeneric`
+- **KY State Parks Trail Crew Brushing SOP** — Techniques for removing overhanging 'limbers' without the blade binding.. Keys: `FilingCabinetGeneric`
+- **Kaiser Blade Field Reference** — Gravity-assisted swing techniques for the heavy, double-edged bush hook. Keys: `ToolCabinetFarming`, `ToolStoreMisc`
 - **SCA Heavy Combat Sword Practice Card** — Society for Creative Anachronism practice card. Keys: `DeskGeneric`
-- **Sugar Cane Crew Cutting Manual** — Vintage cane-cutting technique manual. Keys: `FilingCabinetGeneric`
-- **LARP Combat Choreography Notes** — Foam-sword fight choreography. Earnest fan. Keys: `DeskGeneric`
+- **Sugar Cane Crew Cutting Manual** — The 'low-pivot' swing: how to sever thick stalks at the base with minimal effort. Keys: `FilingCabinetGeneric`
+- **LARP Combat Choreography Notes** — Basics of the 'cross-guard' block and transitioning between striking zones. Keys: `DeskGeneric`
 
 ### Maintenance
 
 *Any trade that depends on a conditioned edge or a reliable striking surface maintains a sharpening and inspection culture — and that culture produces laminated charts, maintenance logs, and specification sheets. Edge failure has consequences whether you're a chef, a tradesperson, or a department armorer.*
 
-- **Commercial Kitchen Knife Maintenance Log** — Commercial kitchen knife sharpening schedule and angles. Keys: `FilingCabinetGeneric`
+- **Commercial Kitchen Knife Maintenance Log** — Daily honing schedule for maintaining a razor edge on prep blades. Keys: `FilingCabinetGeneric`
 - **Edge Tool Sharpening Reference** — Sharpening angles and grit progression by tool type. Keys: `MetalShopTools`, `ToolStoreMisc`
 - **Hand Tool Condition and Care Reference** — Inspection and rust prevention for hand tools. Keys: `ToolStoreMisc`, `FilingCabinetGeneric`
-- **Police Department Impact Weapon Maintenance SOP** — Standard operating procedure for baton inspection and serviceability. Keys: `PoliceFilingCabinet`, `PoliceDesk`
+- **Police Department Impact Weapon Maintenance SOP** — Checklist for inspecting the retention spring and tip integrity. Keys: `PoliceFilingCabinet`, `PoliceDesk`
 - **Whetstone and Grinding Stone Selection Reference** — Stone grits and lubricants by tool category. Keys: `MetalShopTools`, `ToolStoreMisc`
-- **Jeweler's File and Burnisher Reference** — Precision file selection by metal type. Keys: `ToolStoreMisc`
-- **Shop Apprentice Tool Maintenance Log** — Apprenticeship daily tool care log. Keys: `FilingCabinetGeneric`, `ToolStoreMisc`
-- **Barber's Razor Stropping Card** — Straight razor stropping notes. Aftershave note. Keys: `FilingCabinetGeneric`
-- **Scout Troop Tool Care Card** — Camp tool sharpening and rust card. Keys: `DeskGeneric`
-- **Bladesmith's Tool Care Notes** — Bladesmith tool maintenance manual. Keys: `MetalShopTools`
-- **Tooth-Set and Saw Sharpening Guide** — Saw-set angle and stroke pattern guide. Keys: `ToolStoreMisc`
+- **Jeweler's File and Burnisher Reference** — Selecting 'cut' grades for fine-tuning precision mechanical parts. Keys: `ToolStoreMisc`
+- **Shop Apprentice Tool Maintenance Log** — Daily checklist for oiling wooden handles to prevent cracking. Keys: `FilingCabinetGeneric`, `ToolStoreMisc`
+- **Barber's Razor Stropping Card** — Techniques for using leather and canvas strops to realign a rolled edge. Keys: `FilingCabinetGeneric`
+- **Scout Troop Tool Care Card** — Hand-drawn guide for using a puck-style stone on a dull hatchet. Keys: `DeskGeneric`
+- **Bladesmith's Tool Care Notes** — Maintaining the anvil face and hammer profiles for clean metalwork. Keys: `MetalShopTools`
+- **Tooth-Set and Saw Sharpening Guide** — Precise file angles for sharpening both rip and cross-cut saw teeth. Keys: `ToolStoreMisc`
 - **Antique Dealer's Edged Tool Care Manual** — Patina retention and rust prevention notes. Keys: `FilingCabinetGeneric`
 
 ### Short Blade
@@ -106,32 +106,32 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Meat Fabrication Cuts Reference** — USDA primal cut diagram with knife angles by species. Keys: `ButcherLiterature`
 - **NSF Blade Safety & Sanitation Reference** — National Sanitation Foundation knife handling and sanitation rules.
 - **Fish Fabrication Field Reference** — Commercial filleting, skinning, and portioning reference.
-- **Sushi Chef's Yanagiba Technique Manual** — Yanagiba and deba knife technique notes. Keys: `FilingCabinetGeneric`
-- **Taxidermist's Caping Knife Reference** — Cape skinning technique by species. Keys: `FilingCabinetGeneric`
-- **EMT Rescue Knife Field Card** — Seatbelt-cut and patient-extraction technique. Keys: `FireStorageTools`
-- **Butcher's Boning Knife Technique Guide** — Hot boning and seam-cut technique guide. Keys: `ButcherLiterature`
-- **Surgical Scalpel Handling Reference** — OR scalpel handling and disposal protocol. Keys: `FilingCabinetGeneric`
+- **Sushi Chef's Yanagiba Technique Manual** — The art of the single-motion draw cut to prevent bruising the protein. Keys: `FilingCabinetGeneric`
+- **Taxidermist's Caping Knife Reference** — Procedures for degloving tails and ears without piercing the hide. Keys: `FilingCabinetGeneric`
+- **EMT Rescue Knife Field Card** — Techniques for using the serrated edge to shear through seatbelts. Keys: `FireStorageTools`
+- **Butcher's Boning Knife Technique Guide** — Techniques for hot boning: stripping meat from the carcass while still warm. Keys: `ButcherLiterature`
+- **Surgical Scalpel Handling Reference** — Outlines the pencil-grip and fingertip-grip for varied incision depths. Keys: `FilingCabinetGeneric`
 - **Boy Scout Campcraft Knife Pamphlet** — Camp counselor knife handling pamphlet. Keys: `DeskGeneric`
-- **UFCW Cutlery Worker Technique Reference** — Union member cutlery handling reference. Keys: `ButcherLiterature`, `FilingCabinetGeneric`
+- **UFCW Cutlery Worker Technique Reference** — Standardized ergonomic wrist angles to prevent injury during repetitive slicing. Keys: `ButcherLiterature`, `FilingCabinetGeneric`
 - **Custom Knifemaker's Test Cutting Log** — Edge geometry test results by steel type. Keys: `MetalShopTools`
-- **Northwoods Fish Camp Fillet Card** — Walleye and northern pike fillet technique. Keys: `FilingCabinetGeneric`
+- **Northwoods Fish Camp Fillet Card** — The 'Y-bone' removal technique for cleaning northern pike. Keys: `FilingCabinetGeneric`
 
 ### Short Blunt
 
 *Construction sites document hammer use for OSHA compliance. Police departments write procedure for impact weapons. Even kitchen and plumbing work generates written references. The short blunt category is wide — hammers, pipes, wrenches, batons, frying pans — and so is the documentation, scattered across job sites and filing cabinets in equal measure.*
 
-- **KCPD Impact Weapons Reference** — Knox County Police Department baton grip and targeting zones. Keys: `PoliceFilingCabinet`, `PoliceDesk`
-- **OSHA Hand Tool Safety Reference** — OSHA standard for construction hand tool use. Keys: `ToolStoreMisc`, `FilingCabinetGeneric`
+- **KCPD Impact Weapons Reference** — Descriptions of department-approved grip techniques and defensive stances. Keys: `PoliceFilingCabinet`, `PoliceDesk`
+- **OSHA Hand Tool Safety Reference** — Guidelines for wrist-alignment and grip tension to prevent repetitive strain. Keys: `ToolStoreMisc`, `FilingCabinetGeneric`
 - **Framing Hammer Use and Safety Card** — Grip positions and nail-driving technique for framers. Keys: `ToolStoreMisc`
 - **Plumbing Quick-Clear Reference** — Plunger technique by fixture type and escalation steps.
-- **Police Nightstick Instructor Manual** — Beat cop nightstick instructor manual. Keys: `PoliceFilingCabinet`
-- **Railroad Spike Maul Technique Card** — Section gang spike-driving technique notes. Keys: `FilingCabinetGeneric`
-- **Auto Body Hammer and Dolly Notes** — Dent repair hammer and dolly technique. Keys: `MechanicShelfBooks`
-- **Production Framer's Nailing Card** — Production nailing technique and pace. Keys: `ToolStoreMisc`
+- **Police Nightstick Instructor Manual** — Safety protocols for batons and standardized carry methods. Keys: `PoliceFilingCabinet`
+- **Railroad Spike Maul Technique Card** — The mechanics of the 'full-arc' swing for maximum kinetic energy. Keys: `FilingCabinetGeneric`
+- **Auto Body Hammer and Dolly Notes** — Describes using planishing strikes to smooth metal surfaces. Keys: `MechanicShelfBooks`
+- **Production Framer's Nailing Card** —  Methods for maintaining momentum to increase efficiency in high-volume framing. Keys: `ToolStoreMisc`
 - **Blacksmith's Cross-Pein Hammer Card** — Hammer-angle reference by stock thickness. Keys: `MetalShopTools`
-- **Mason's Hammer and Trowel Reference** — Brick-set and tile-chipping technique. Keys: `ToolStoreMisc`
+- **Mason's Hammer and Trowel Reference** — Using specialized hammer ends for detail-chipping on stone or tile. Keys: `ToolStoreMisc`
 - **NSS Caver's Hammer and Pick Reference** — National Speleological Society tool handling. Keys: `FilingCabinetGeneric`
-- **Roofer's Slate Hammer Flashing Card** — Slate hammer technique on copper flashing. Keys: `ToolStoreMisc`
+- **Roofer's Slate Hammer Flashing Card** — Using the integrated punch feature to create clean holes in brittle materials. Keys: `ToolStoreMisc`
 
 ### Long Blunt
 
@@ -139,33 +139,33 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 
 - **Athletic Swing Mechanics Reference: Baseball** — Youth league coaching card: stance and follow-through. Keys: `DeskGeneric`
 - **Demolition and Breaching Hand Tool Reference** — Sledgehammer grip and swing for controlled demolition.
-- **Golf Swing Mechanics and Club Technique** — Country club pro shop swing reference. Corner office vibes. Keys: `DeskGeneric`
+- **Golf Swing Mechanics and Club Technique** — Diagrams on the rotational physics of the long-game drive. Keys: `DeskGeneric`
 - **Crowbar and Pry Tool Applications Reference** — Demolition contractor guide to pry tool leverage points. Keys: `ToolStoreMisc`
-- **Track Maintenance Sledge Manual** — Railroad sledge maintenance procedure. Keys: `FilingCabinetGeneric`
+- **Track Maintenance Sledge Manual** — Diagrams of the standardized arc for driving track bolts. Keys: `FilingCabinetGeneric`
 - **Police Riot Baton Instructor Reference** — Long baton crowd-control reference. Keys: `PoliceFilingCabinet`
-- **Cricket Bowler's Coaching Card** — Cricket bowling coaching pamphlet. Pretentious. Keys: `DeskGeneric`
-- **Boys Lacrosse Coach's Stick Manual** — High school lacrosse coaching manual. Keys: `DeskGeneric`
-- **High School Hockey Stickhandling Card** — Hockey skill curriculum card. Keys: `DeskGeneric`
-- **Firefighter Halligan Bar Reference** — Halligan-axe set technique reference. Keys: `FireStorageTools`
-- **Land Clearing Splitting Maul Notes** — Splitting maul technique for land clearing. Keys: `ToolStoreMisc`
-- **USFS Pulaski Tool Swing Scale** — Forest service pulaski swing scale notes. Keys: `FireStorageTools`
+- **Cricket Bowler's Coaching Card** — The mechanics of the straight-arm delivery to maintain ball velocity. Keys: `DeskGeneric`
+- **Boys Lacrosse Coach's Stick Manual** — Leverage techniques for long-pole checks and defensive positioning. Keys: `DeskGeneric`
+- **High School Hockey Stickhandling Card** — Techniques for loading the stick to snap shots with maximum flex power. Keys: `DeskGeneric`
+- **Firefighter Halligan Bar Reference** — Techniques on using the forked end to create a gap. Keys: `FireStorageTools`
+- **Land Clearing Splitting Maul Notes** — Utilizing the weight of the head to let gravity do the work on the downstroke. Keys: `ToolStoreMisc`
+- **USFS Pulaski Tool Swing Scale** — The dual-purpose swing: transitioning between digging and chopping arcs. Keys: `FireStorageTools`
 
 ### Spear
 
 *Spear technique shows up in places you wouldn't expect. Kentucky has a primitive weapons hunting season — the KDFWR regulates it. Track and field programs document javelin mechanics for coaching. Wilderness survival schools teach shaft construction and throwing as formal curriculum. Stage combat instructors write it down so nobody gets hurt. None of these people were preparing for the apocalypse, but the documentation they left behind is useful anyway.*
 
-- **KDFWR Primitive Weapons Hunting Regulations** — Department of Fish & Wildlife Resources rules for primitive weapon seasons.
-- **Track and Field Coaching Reference: Javelin** — High school javelin: grip, approach, and release angle.
-- **Atlatl and Spear Construction Field Reference** — Survival school guide to atlatl and spear throwing.
-- **Stage Combat Spear Reference** — Theatrical spear handling and thrusting drill work.
-- **KDFWR Bowfishing Regulations Pamphlet** — Bowfishing rules and species. Mildewed. Keys: `FilingCabinetGeneric`
-- **SCA Pole Weapons Practice Reference** — Society for Creative Anachronism practice ref. Keys: `DeskGeneric`
+- **KDFWR Primitive Weapons Hunting Regulations** — Detailed notes on the limitations of primitive equipment.
+- **Track and Field Coaching Reference: Javelin** — High school guide for footwork and grip.
+- **Atlatl and Spear Construction Field Reference** — Survival school guide to ensure shaft remains straight.
+- **Stage Combat Spear Reference** — How to maintain consistent spacing and footwork while executing theatrical lunges.
+- **KDFWR Bowfishing Regulations Pamphlet** — Techniques for quick-reaction aiming in shallow-water environments. Keys: `FilingCabinetGeneric`
+- **SCA Pole Weapons Practice Reference** — Historical leverage techniques for using a long shaft for defensive positioning. Keys: `DeskGeneric`
 - **Cherokee Heritage Fish Spear Notes** — Three-prong leister technique for river-fishing tradition. Keys: `FilingCabinetGeneric`
-- **Track Coach's Pole Vault Card** — Pole vault coaching card. Misfiled here. Keys: `DeskGeneric`
-- **WWII Bayonet Training Manual** — Issued infantry bayonet training manual. Keys: `FilingCabinetGeneric`
-- **Karate Dojo Bo Staff Manual** — Strip-mall dojo bo staff curriculum. Keys: `DeskGeneric`
-- **Scout Demo Team Polearm Notes** — Scout demonstration team polearm notes. Keys: `DeskGeneric`
-- **Primitive Skills Spearfishing Reference** — Survival school spearfishing reference. Keys: `FilingCabinetGeneric`
+- **Track Coach's Pole Vault Card** — Drills for grip strength and upper-body coordination under high-tension loads. Keys: `DeskGeneric`
+- **WWII Bayonet Training Manual** — Archival diagrams showing historical parrying stances and recovery drills. Keys: `FilingCabinetGeneric`
+- **Karate Dojo Bo Staff Manual** — Using the full length of the staff to manage personal space and distance. Keys: `DeskGeneric`
+- **Scout Demo Team Polearm Notes** — Basics of the 'port-arms' carry for transporting long equipment. Keys: `DeskGeneric`
+- **Primitive Skills Spearfishing Reference** — How to lead a target and compensate for water resistance during a strike. Keys: `FilingCabinetGeneric`
 
 ---
 
