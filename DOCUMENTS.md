@@ -76,7 +76,7 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **KY Highway Dept. Roadside Vegetation Manual** — Techniques for using a brush hook to clear thickets without over-extending. Keys: `FilingCabinetGeneric`
 - **Corn Detasseling Crew Leader Card** — Handwritten tips on managing blade weight for 10-hour shifts in the sun. Keys: `FilingCabinetGeneric`, `ToolCabinetFarming`
 - **Appalachian Wildcrafter's Cutting Reference** — Manual for identifying grain direction to ensure a clean, one-hit harvest. Keys: `FilingCabinetGeneric`
-- **KY State Parks Trail Crew Brushing SOP** — Techniques for removing overhanging 'limbers' without the blade binding.. Keys: `FilingCabinetGeneric`
+- **KY State Parks Trail Crew Brushing SOP** — Techniques for removing overhanging 'limbers' without the blade binding. Keys: `FilingCabinetGeneric`
 - **Kaiser Blade Field Reference** — Gravity-assisted swing techniques for the heavy, double-edged bush hook. Keys: `ToolCabinetFarming`, `ToolStoreMisc`
 - **SCA Heavy Combat Sword Practice Card** — Society for Creative Anachronism practice card. Keys: `DeskGeneric`
 - **Sugar Cane Crew Cutting Manual** — The 'low-pivot' swing: how to sever thick stalks at the base with minimal effort. Keys: `FilingCabinetGeneric`
