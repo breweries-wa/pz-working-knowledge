@@ -215,20 +215,23 @@ for ($i = 0; $i -lt $inputLines.Count; $i++) {
                 $poolTags = ($pools | ForEach-Object { "``$_``" }) -join ' '
             }
 
-            # Output formatted block
-            $outputLines.Add("**$title**")
+            # Output formatted block.
+            # Trailing two spaces on each line (except the last) force markdown <br>.
+            $outputLines.Add("**$title**  ")
             $boldCount++
 
             # Flavor text: split on newline if present
             if ($flavor -ne '') {
                 $flavorParts = $flavor -split "`n", 2
-                $outputLines.Add($flavorParts[0].Trim())
                 if ($flavorParts.Count -gt 1 -and $flavorParts[1].Trim() -ne '') {
-                    $outputLines.Add($flavorParts[1].Trim())
+                    $outputLines.Add($flavorParts[0].Trim() + "  ")
+                    $outputLines.Add($flavorParts[1].Trim() + "  ")
+                } else {
+                    $outputLines.Add($flavorParts[0].Trim() + "  ")
                 }
             }
 
-            # Pool tags line (empty string if no pools found)
+            # Pool tags line — no trailing spaces needed, blank line follows
             $outputLines.Add($poolTags)
 
             # Blank line after entry — suppress if pool tags was already blank
