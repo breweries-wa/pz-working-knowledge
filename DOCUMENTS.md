@@ -59,8 +59,8 @@ Hand-drawn diagrams for a steady prone position. Faded.
 `ClassroomDesk` `DeskGeneric` `FilingCabinetGeneric`
 
 **Veteran's Annotated USMC Rifleman Notes**  
-Scribbled on every page:  
-'watch your breathing, Marine.'  
+Scribbled on every page: 'watch your  
+breathing, Marine.'  
 `ArmySurplusLiterature` `ArmyBunkerLockers` `FilingCabinetGeneric`
 
 **Knox County High Power Rifle Club Newsletter**  
@@ -342,8 +342,8 @@ through seatbelts.
 `FireStorageTools`
 
 **Butcher's Boning Knife Technique Guide**  
-Techniques for hot boning:  
-stripping meat from the carcass while still warm.  
+Techniques for hot boning: stripping meat from the  
+carcass while still warm.  
 `ButcherLiterature`
 
 **Surgical Scalpel Handling Reference**  
@@ -485,8 +485,8 @@ work on the downstroke.
 `ToolStoreMisc`
 
 **USFS Pulaski Tool Swing Scale**  
-The dual-purpose swing:  
-transitioning between digging and chopping arcs.  
+The dual-purpose swing: transitioning between digging  
+and chopping arcs.  
 `FireStorageTools`
 
 ### Spear
@@ -660,8 +660,8 @@ engineering tables.
 `FilingCabinetGeneric`
 
 **Boy Scout Carpentry Merit Badge Pamphlet**  
-Marking gauges, chisels,  
-and reading grain before striking.  
+Marking gauges, chisels, and reading grain  
+before striking.  
 `ClassroomDesk` `DeskGeneric`
 
 **Furniture Maker's Field Notes**  
@@ -670,8 +670,8 @@ and case goods.
 `ToolStoreMisc`
 
 **Vocational School Building Trades Text**  
-Framing: wall, floor,  
-and roof layout by someone who built houses.  
+Framing: wall, floor, and roof layout by  
+someone who built houses.  
 `FilingCabinetGeneric`
 
 ### Carving
@@ -704,8 +704,8 @@ Grain-reading diagrams for tear-out on inside curves.
 `DeskGeneric`
 
 **Country Carver's Whittling Book**  
-Knife grips, thumb-push cuts,  
-and stop cuts with dated projects.  
+Knife grips, thumb-push cuts, and stop cuts  
+with dated projects.  
 `FilingCabinetGeneric`
 
 **Chip Carving Pattern Guide**  
@@ -758,8 +758,8 @@ Food handler temperature and cross-contamination rules.
 `FilingCabinetGeneric`
 
 **Sullivan University Culinary Text**  
-Stocks, mother sauces,  
-and derivatives as working reference.  
+Stocks, mother sauces, and derivatives as  
+working reference.  
 `FilingCabinetGeneric`
 
 **KY Cooperative Extension Home Cookbook**  
@@ -773,8 +773,8 @@ conditions. Faded mimeo.
 `ArmySurplusLiterature` `FilingCabinetGeneric`
 
 **School Cafeteria Worker's Reference**  
-USDA portions and temps.  
-Calorie tables work for rationing too.  
+USDA portions and temps. Calorie tables work  
+for rationing too.  
 `FilingCabinetGeneric`
 
 **Pit Boss Competition BBQ Manual**  
@@ -796,8 +796,8 @@ sound on steel.
 *Electrical work is governed by the National Electrical Code and enforced by inspection. Every permitted job generates paperwork — permits, load calculations, code compliance checklists. Journeymen carry laminated reference cards; the rest stays in filing cabinets and job site binders.*
 
 **NEC Article Quick Reference Card**  
-Most-cited NEC articles.  
-Every journeyman's pocket reference.  
+Most-cited NEC articles. Every journeyman's  
+pocket reference.  
 `ElectricianTools` `FilingCabinetGeneric`
 
 **Wire Gauge and Ampacity Reference**  
@@ -840,8 +840,8 @@ Read before touching.
 `ElectricianTools` `FilingCabinetGeneric`
 
 **KY State Electrician Licensing Manual**  
-NEC practice questions.  
-Voltage drop and conductor sizing drills.  
+NEC practice questions. Voltage drop and  
+conductor sizing drills.  
 `ElectricianTools` `FilingCabinetGeneric`
 
 **Underground Service Cable Reference**  
@@ -868,8 +868,8 @@ Master-class notes on reactive glass under
 reduction atmospheres.  
 
 **Corning Glass Engineering Standard**  
-Optical borosilicate spec:  
-refractive index and stress tolerances.  
+Optical borosilicate spec: refractive index and  
+stress tolerances.  
 `FilingCabinetGeneric`
 
 **Stained Glass Church Restoration Notes**  
@@ -895,8 +895,8 @@ panel construction.
 `FilingCabinetGeneric`
 
 **Neon Sign Bender's Field Reference**  
-Electrode mounting, gas fill sequences,  
-and bombarder settings for standard neon tubes.  
+Electrode mounting, gas fill sequences, and bombarder  
+settings for standard neon tubes.  
 `FilingCabinetGeneric`
 
 **Bead Society Lampworking Manual**  
@@ -1023,8 +1023,8 @@ stable stacking.
 `ToolStoreMisc`
 
 **Paving Stone Installation Manual**  
-Compaction, sand bed depth,  
-and edge restraint for vehicular paving.  
+Compaction, sand bed depth, and edge restraint for  
+vehicular paving.  
 `ToolStoreMisc`
 
 ### Mechanics
@@ -1058,13 +1058,13 @@ Fills knowledge gaps.
 `MechanicShelfBooks` `CarDealerFilingCabinet`
 
 **Kentucky Vehicle Inspection Manual**  
-Brake minimums, tread gauges,  
-and lighting compliance by system.  
+Brake minimums, tread gauges, and lighting  
+compliance by system.  
 `MechanicShelfBooks` `OfficeDesk` `FilingCabinetGeneric`
 
 **Briggs Stratton Small Engine Manual**  
-Carburetor, ignition timing,  
-and valve clearance for small engines.  
+Carburetor, ignition timing, and valve clearance  
+for small engines.  
 `MechanicShelfBooks` `ToolCabinetFarming`
 
 **Diesel Engine Troubleshooting Card**  
@@ -1101,8 +1101,8 @@ Flux ratios and colorant percentages by glaze type.
 Shrinkage rates and cone compatibility for clay bodies.  
 
 **University Ceramics Studio Textbook**  
-Centering, opening, pulling,  
-collaring — illustrated sequences.  
+Centering, opening, pulling, collaring —  
+illustrated sequences.  
 `FilingCabinetGeneric`
 
 **Penland Wheel-Throwing Reference**  
@@ -1126,13 +1126,13 @@ mountain tradition.
 `FilingCabinetGeneric`
 
 **Studio Kiln Repair Field Notes**  
-Element swap, thermocouple,  
-and soft brick patching for electric kilns.  
+Element swap, thermocouple, and soft brick patching  
+for electric kilns.  
 `FilingCabinetGeneric`
 
 **Commercial Pottery Production Manual**  
-Slip casting and jigger sequences.  
-Plaster mold and slip gravity notes.  
+Slip casting and jigger sequences. Plaster mold and  
+slip gravity notes.  
 `FilingCabinetGeneric`
 
 **Children's Pottery Lesson Plans**  
@@ -1176,13 +1176,13 @@ pocket reinforcement.
 `TailoringLiterature` `FilingCabinetGeneric`
 
 **Alterations Tailor's Reference Card**  
-Take-in limits, hem allowances,  
-and sleeve adjustment by seam type.  
+Take-in limits, hem allowances, and sleeve adjustment  
+by seam type.  
 `TailoringLiterature` `FilingCabinetGeneric`
 
 **Home Economics Sewing Textbook**  
-Seam allowances, basting,  
-and hand-stitches for first-time sewers.  
+Seam allowances, basting, and hand-stitches for  
+first-time sewers.  
 `ClassroomSecondaryDesk` `TailoringLiterature` `DeskGeneric` `FilingCabinetGeneric`
 
 **Theatrical Costume Shop Reference**  
@@ -1196,8 +1196,8 @@ and care label standards.
 `TailoringLiterature` `FilingCabinetGeneric`
 
 **Furniture Upholsterer's Guide**  
-Spring tying, webbing tension,  
-and deck fabric for upholstered frames.  
+Spring tying, webbing tension, and deck fabric for  
+upholstered frames.  
 `TailoringLiterature` `FilingCabinetGeneric`
 
 **Bridal Seamstress Alteration Notes**  
@@ -1247,8 +1247,8 @@ Spool gun setup and pre-flow times for thin aluminum.
 `WeldingWorkshopTools`
 
 **UAW Welding Shop Safety SOP**  
-Fume extraction, fire watch,  
-and hot-work permits for production shops.  
+Fume extraction, fire watch, and hot-work permits for  
+production shops.  
 `WeldingWorkshopTools` `FilingCabinetGeneric`
 
 **Auto Body Shop Welding Reference**  
@@ -1301,8 +1301,8 @@ scouting thresholds.
 `ToolCabinetFarming` `GardenStoreMisc` `FilingCabinetGeneric`
 
 **University of Kentucky Ag Economics Notes**  
-Scribbled class notes.  
-Conversion tables and yield estimation still apply.  
+Scribbled class notes. Conversion tables and yield  
+estimation still apply.  
 `GardenStoreMisc` `FilingCabinetGeneric`
 
 **Fertilizer Spreader Calibration Card**  
@@ -1325,8 +1325,8 @@ and topping for air-cured leaf.
 `ToolCabinetFarming` `GardenStoreMisc` `FilingCabinetGeneric`
 
 **Rodale Organic Farming Pamphlet**  
-Compost rates, cover crops,  
-and IPM alternatives without modern inputs.  
+Compost rates, cover crops, and IPM alternatives  
+without modern inputs.  
 `GardenStoreMisc` `FilingCabinetGeneric`
 
 ### Animal Care
@@ -1362,8 +1362,8 @@ identification by species.
 `ToolCabinetFarming`
 
 **Tyson Poultry Grower Reference**  
-Ventilation, litter management,  
-and feed conversion targets for broiler production.  
+Ventilation, litter management, and feed conversion  
+targets for broiler production.  
 `ToolCabinetFarming` `FilingCabinetGeneric`
 
 **Race Track Veterinarian's Daily Log**  
@@ -1438,8 +1438,8 @@ dry-cured products.
 `ButcherLiterature` `FilingCabinetGeneric`
 
 **Holiday Turkey Processor's Crew Card**  
-Scalding temps, pin feather,  
-and evisceration for high-volume poultry.  
+Scalding temps, pin feather, and evisceration for  
+high-volume poultry.  
 `ButcherLiterature`
 
 **Charcutier's Apprentice Diary**  
@@ -1489,8 +1489,8 @@ Pace charts on every page.
 `OfficeDeskHomeClassy` `FilingCabinetGeneric`
 
 **Sprint Interval Training Card**  
-Tabata-style timing tables.  
-Whistle marks on the laminate.  
+Tabata-style timing tables. Whistle marks  
+on the laminate.  
 `OfficeDeskHome` `ClassroomSecondaryDesk` `DeskGeneric`
 
 **Cross Country Running Reference**  
@@ -1532,8 +1532,8 @@ Lift technique and load assessment for industrial work.
 `OfficeDesk` `FilingCabinetGeneric`
 
 **USPF Powerlifting Reference**  
-Squat depth, bench contact,  
-and deadlift lockout. Warm-up tables.  
+Squat depth, bench contact, and deadlift  
+lockout. Warm-up tables.  
 `FilingCabinetGeneric`
 
 **Olympic Weightlifting Coach Notes**  
@@ -1542,8 +1542,8 @@ power position, pull-under.
 `OfficeDeskHomeClassy` `FilingCabinetGeneric`
 
 **Strongman Training Manual**  
-Atlas stones, log press,  
-frame carry — transfers to real-world hauling.  
+Atlas stones, log press, frame carry — transfers to  
+real-world hauling.  
 `FilingCabinetGeneric`
 
 **Muscle Builder Magazine Issue**  
@@ -1556,8 +1556,8 @@ barrier breaching.
 `ArmySurplusLiterature` `ArmyBunkerLockers` `FilingCabinetGeneric`
 
 **Farm Strength and Endurance Manual**  
-Log lifting, stone loading,  
-grip work for sustained farm labor.  
+Log lifting, stone loading, grip work for  
+sustained farm labor.  
 `ToolCabinetFarming`
 
 **Rugby Strength Training Manual**  
@@ -1620,13 +1620,13 @@ post-hospital world.
 `WaitingRoomDesk` `MedicalOfficeDesk` `FilingCabinetGeneric`
 
 **Pharmacist's Dispensing Manual**  
-OTC interactions, dosing maximums,  
-antibiotic duration and failure signs.  
+OTC interactions, dosing maximums, antibiotic duration  
+and failure signs.  
 `WaitingRoomDesk` `MedicalOfficeDesk` `FilingCabinetGeneric`
 
 **Army Combat Medic Manual**  
-Tourniquet, needle decompression,  
-wound packing without hospital backup.  
+Tourniquet, needle decompression, wound packing without  
+hospital backup.  
 `ArmySurplusLiterature` `ArmyBunkerLockers` `ArmyBunkerStorage` `FireStorageTools` `MedicalOfficeDesk` `FilingCabinetGeneric`
 
 **Nursing Home Care Manual**  
@@ -1659,13 +1659,13 @@ and jaw features.
 `FishingStoreGear`
 
 **Rigging and Terminal Tackle Reference**  
-Knots, leader construction,  
-and rig assembly. Water-stained.  
+Knots, leader construction, and rig  
+assembly. Water-stained.  
 `FishingStoreGear`
 
 **Commercial Fishing Vessel Safety Reference**  
-Coast Guard flotation, flare,  
-and emergency procedures for small vessels.  
+Coast Guard flotation, flare, and emergency procedures  
+for small vessels.  
 `FilingCabinetGeneric`
 
 **Kentucky Bass Fishing Club Newsletter**  
@@ -1711,8 +1711,8 @@ shells from protected.
 *Professional foragers, extension herbalists, and wildlife educators maintain field identification references as working tools — not for hobbyist reading, but for reliable harvest and safe species discrimination. The KDFWR and university extension programs produced and distributed them, and copies ended up in farm offices, conservation offices, and university filing cabinets.*
 
 **Edible Plants of the Eastern Woodlands**  
-Eastern woodland edibles.  
-Some entries circled and starred.  
+Eastern woodland edibles. Some entries  
+circled and starred.  
 `RangerBooks` `GardenStoreMisc` `FilingCabinetGeneric`
 
 **Toxic Plant Look-Alikes Guide**  
@@ -1753,13 +1753,13 @@ and fiber by community.
 `GardenStoreMisc` `FilingCabinetGeneric`
 
 **Traditional Appalachian Plant Uses**  
-Ramps, poke, bloodroot,  
-elder — with processing notes for toxic species.  
+Ramps, poke, bloodroot, elder — with processing notes  
+for toxic species.  
 `FilingCabinetGeneric`
 
 **Hunter-Gatherer Plants of NA**  
-Roots in fall, greens in spring,  
-seeds in summer — season by season.  
+Roots in fall, greens in spring, seeds in summer —  
+season by season.  
 `RangerBooks` `FilingCabinetGeneric`
 
 **Wild Edibles Cookbook**  
@@ -1810,8 +1810,8 @@ Written for deputies.
 `PoliceFilingCabinet`
 
 **Wildlife Biology Textbook**  
-Home range, habitat corridors,  
-and seasonal movement — the ecological why.  
+Home range, habitat corridors, and seasonal movement —  
+the ecological why.  
 `RangerBooks` `FilingCabinetGeneric`
 
 **Bow Hunter's Camouflage Manual**  
@@ -1886,7 +1886,7 @@ One page, laminated.
 `FilingCabinetGeneric`
 
 **Fur Auction Grading Notes**  
-Grade-cut standards by species.  
-Primeness calendar for harvest timing.  
+Grade-cut standards by species. Primeness calendar  
+for harvest timing.  
 `FilingCabinetGeneric`
 
