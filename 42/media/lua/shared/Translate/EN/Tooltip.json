@@ -100,7 +100,7 @@
     "Tooltip_WK_FireAcademyFitnessRef": "Fire academy aerobic conditioning benchmarks.\n\nTrains: Running",
     "Tooltip_WK_NIOSHLiftingRef": "Federal occupational safety lifting limits for warehouse and manufacturing.\n\nTrains: Strength",
     "Tooltip_WK_ManualMaterialsHandRef": "Lift technique and load assessment for industrial work.\n\nTrains: Strength",
-    "Tooltip_WK_WorkplaceFirstAidSOP": "Standard operating procedure for wound care and shock response.\n\nTrains: First Aid",
+    "Tooltip_WK_WorkplaceFirstAidSOP": "Standard operating procedure for wound care\nand shock response.\n\nTrains: First Aid",
     "Tooltip_WK_CPRAEDRef": "CPR compression ratios, AED operation, and rescue breathing.\n\nTrains: First Aid",
     "Tooltip_WK_OSHAFirstAidRef": "OSHA required supplies and trained responder ratios.\n\nTrains: First Aid",
     "Tooltip_WK_EmergencyTriageRef": "START triage protocol and patient priority classification.\n\nTrains: First Aid",
