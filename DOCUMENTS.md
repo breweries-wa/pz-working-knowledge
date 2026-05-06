@@ -178,15 +178,15 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **ASTM Material Specifications Quick Reference** — Steel grades, hardness, and heat treatment ranges. Keys: `WildWestBlacksmith`, `MetalShopTools`, `FilingCabinetGeneric`
 - **Forge Welding and Heat Treatment Field Guide** — Quenching media and tempering colors for forge work. Keys: `WildWestBlacksmith`, `MetalShopTools`
 - **Industrial Metalworking Process Reference** — Metal properties and cutting speeds for metalworking. Keys: `WildWestBlacksmith`, `MetalShopTools`, `FilingCabinetGeneric`
-- **Blacksmith Trade Guild Technical Standards** — Guild standards for ironwork joinery and finish. Keys: `WildWestBlacksmith`
-- **ABANA Traditional Smithing Newsletter** — Artist-Blacksmith Association quarterly. Keys: `FilingCabinetGeneric`, `WildWestBlacksmith`
-- **Farrier's Hot Shoeing Notes** — Farrier hot-shoeing technique notes. Keys: `ToolCabinetFarming`, `WildWestBlacksmith`
-- **Frontier Forge Reconstruction Reference** — Reconstruction blueprints for an 1840s blacksmith shop. Keys: `WildWestBlacksmith`
-- **US Steel Hot Working Process Reference** — Industrial steel mill process notes. Keys: `FilingCabinetGeneric`, `MetalShopTools`
-- **Custom Knifemaker's Forge Welding Notes** — Knife forge-welding technique notes. Keys: `MetalShopTools`
-- **Boy Scout Metalwork Merit Badge Pamphlet** — Counselor metalworking merit badge pamphlet. Keys: `DeskGeneric`
-- **Swordsmith Apprentice's Journal** — Apprentice diary. Earnest margin notes. Keys: `WildWestBlacksmith`
-- **Colonial Williamsburg Ironworker Notes** — Williamsburg-style demonstrator notes for visiting school groups. Keys: `WildWestBlacksmith`
+- **Blacksmith Trade Guild Technical Standards** — Fit tolerances for hammer eyes, drift sizes, and collar fits — the dimensions a working smith would commit to muscle memory. Keys: `WildWestBlacksmith`
+- **ABANA Traditional Smithing Newsletter** — Back issues with reader-submitted notes on power hammer selection and anvil height. Someone circled the classified ads. Keys: `FilingCabinetGeneric`, `WildWestBlacksmith`
+- **Farrier's Hot Shoeing Notes** — Fitting angles and nail placement by hoof conformation. Notes on reading the burn mark to check for flat contact. Keys: `ToolCabinetFarming`, `WildWestBlacksmith`
+- **Frontier Forge Reconstruction Reference** — Dimensioned drawings for a working bellows-fed forge, post vise mount, and quench trough — enough to rebuild a functional shop from scratch. Keys: `WildWestBlacksmith`
+- **US Steel Hot Working Process Reference** — Rolling mill temperature logs and reduction ratios for hot-worked bar stock. More industrial than most smiths will need, but the metallurgy notes are sound. Keys: `FilingCabinetGeneric`, `MetalShopTools`
+- **Custom Knifemaker's Forge Welding Notes** — Pattern-welded billet construction: layer count, draw ratios, and twist timing before the weld sets. Keys: `MetalShopTools`
+- **Boy Scout Metalwork Merit Badge Pamphlet** — Basic hammer control and fire management for young smiths. The section on drawing out a nail from bar stock covers more fundamentals than it looks like. Keys: `DeskGeneric`
+- **Swordsmith Apprentice's Journal** — Months of failed bevels and heat-treatment disasters — with handwritten corrections from whoever was teaching him. The corrections are more useful than the entries. Keys: `WildWestBlacksmith`
+- **Colonial Williamsburg Ironworker Notes** — Scripted demonstrations for the public — but the preparation notes in the back cover traditional joinery sequences and fire management in detail no school group would care about. Keys: `WildWestBlacksmith`
 
 ### Carpentry
 
@@ -197,13 +197,13 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Finish Carpentry Field Notes** — Trim joint and coping notes. Handwritten margins. Keys: `FilingCabinetGeneric`
 - **NDS Wood Construction Field Summary** — Structural wood connections and fastener schedules. Keys: `FilingCabinetGeneric`
 - **Framing Square Reference Card** — Roof pitch, stair stringers, and rafter layout card. Keys: `ToolStoreMisc`, `FilingCabinetGeneric`
-- **Cabinetmaker's Joinery Reference** — Cabinetmaker joinery reference. Keys: `ToolStoreMisc`
+- **Cabinetmaker's Joinery Reference** — Dimensioned drawings for dovetail, box, and mortise-and-tenon proportions by wood species. The kind of reference that turns rough cuts into fitted joints. Keys: `ToolStoreMisc`
 - **Roof Framing Calculator Card** — Pitch tables and rafter overrun for hip and gable roofs. Keys: `ToolStoreMisc`
 - **Log Home Builders' Reference** — Notch types, sill construction, and chinking specifications. Keys: `ToolStoreMisc`
-- **Appalachian Timber Frame Pamphlet** — Timber frame construction pamphlet.
-- **Boy Scout Carpentry Merit Badge Pamphlet** — Counselor carpentry merit badge pamphlet.
+- **Appalachian Timber Frame Pamphlet** — Hand-drawn details for pegged mortise-and-tenon bents and bent-raising sequences. Shows how to size a timber by span without modern engineering tables.
+- **Boy Scout Carpentry Merit Badge Pamphlet** — Basic layout and hand-tool technique — marking gauges, chisels, and the importance of reading grain direction before striking.
 - **Furniture Maker's Field Notes** — Mortise-and-tenon dimensions for casework and case goods. Keys: `ToolStoreMisc`
-- **Vocational School Building Trades Text** — Curriculum covering framing, plumbing, and electrical basics.
+- **Vocational School Building Trades Text** — The framing chapters cover wall, floor, and roof layout in sequence. Everything else is introductory — but the framing section was clearly taught by someone who built houses.
 
 ### Carving
 
@@ -214,12 +214,12 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Archaeological Primitive Tool Replication Notes** — University notes on hafting and bone tool production.
 - **Trapper's Gear and Bone Tool Reference** — Trapper's guide to bone awls and wooden toggles.
 - **Custom Knife Handle Fitting Reference** — Wood selection and shaping for knife handle fabrication. Keys: `ToolStoreMisc`
-- **Spoon Carver's Pocket Notes** — Folk craft spoon carving notes. Keys: `DeskGeneric`
-- **Country Carver's Whittling Book** — Sears mail-order whittling book. Hokey. Keys: `FilingCabinetGeneric`
+- **Spoon Carver's Pocket Notes** — Grain-reading diagrams for avoiding tear-out on the inside curve. Short, but explains why carved spoons split at the handle if you rush the drying. Keys: `DeskGeneric`
+- **Country Carver's Whittling Book** — Illustrated sequences for knife grips, thumb-push cuts, and stop cuts. The projects are dated but the hand positions are correct. Keys: `FilingCabinetGeneric`
 - **Chip Carving Pattern Guide** — Geometric chip carving pattern guide. Keys: `DeskGeneric`
-- **Walden Pond Woodcrafter Notes** — New England carver pamphlet. Pretentious. Keys: `DeskGeneric`
-- **Junior High Woodshop Project Pamphlet** — Adolescent shop class projects. Goofy diagrams. Keys: `DeskGeneric`
-- **Appalachian Folk Art Whittling Pamphlet** — Mountain artisan whittling pamphlet. Keys: `DeskGeneric`, `FilingCabinetGeneric`
+- **Walden Pond Woodcrafter Notes** — Grain selection and tool geometry for green-wood carving. Overwritten, but the sections on using a scorp and inshave are worth reading despite the author. Keys: `DeskGeneric`
+- **Junior High Woodshop Project Pamphlet** — The projects are embarrassingly simple, but the tool safety and chisel sharpening sections were written for a teacher who actually knew what they were doing. Keys: `DeskGeneric`
+- **Appalachian Folk Art Whittling Pamphlet** — Passed-down technique for wood selection and rough-out sequences. No pretension — just what works with a jackknife. Keys: `DeskGeneric`, `FilingCabinetGeneric`
 - **Self-Bow Carver's Tillering Notes** — Self-bow tillering process notes. Keys: `FilingCabinetGeneric`
 
 ### Cooking
@@ -231,13 +231,13 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Line Cook Station Reference** — Mise en place setup and ticket-flow procedures for line cooks. Keys: `FilingCabinetGeneric`
 - **Sauce and Stock Production Log** — Restaurant base recipes and batch scaling for stocks.
 - **ServSafe Food Handler Quick Reference** — Food handler temperature and cross-contamination rules. Keys: `FilingCabinetGeneric`
-- **Sullivan University Culinary Text** — Louisville culinary program textbook. Keys: `FilingCabinetGeneric`
-- **KY Cooperative Extension Home Cookbook** — State extension service home cookbook. Keys: `FilingCabinetGeneric`, `ToolCabinetFarming`
-- **Army Mess Hall Standard Operating Procedure** — Field kitchen procedures and rationing schedules. Faded mimeo. Keys: `FilingCabinetGeneric`
-- **School Cafeteria Worker's Reference** — K-12 school lunch program reference. Keys: `FilingCabinetGeneric`
+- **Sullivan University Culinary Text** — The classical technique sections — stocks, mother sauces, and sauce derivatives — read like reference material even in a curriculum format. A working cook could use this. Keys: `FilingCabinetGeneric`
+- **KY Cooperative Extension Home Cookbook** — Extension-tested recipes built around what Kentucky gardens and root cellars actually produce. The preserving section — pickling, canning, and cold storage — is the part worth keeping. Keys: `FilingCabinetGeneric`, `ToolCabinetFarming`
+- **Army Mess Hall Standard Operating Procedure** — Batch-scale cooking for 100+ personnel under field conditions — water rationing, fuel management, and substitution lists for supply shortfalls. More relevant now than it looked. Faded mimeo. Keys: `FilingCabinetGeneric`
+- **School Cafeteria Worker's Reference** — USDA portion and temperature compliance for institutional cooking. The calorie and protein tracking tables work just as well for rationing as for school lunch. Keys: `FilingCabinetGeneric`
 - **Pit Boss Competition BBQ Manual** — Memphis-style competition BBQ manual. Keys: `FilingCabinetGeneric`
-- **1957 Heritage Methodist Cookbook** — Church potluck cookbook. Hand-annotated. Keys: `FilingCabinetGeneric`
-- **Truck Stop Diner Griddle Notes** — Roadside diner cook's griddle notes. Keys: `FilingCabinetGeneric`
+- **1957 Heritage Methodist Cookbook** — Recipes for feeding large groups without refrigeration. Someone crossed out an ingredient in half the casseroles and wrote 'not available' — substitutions noted. Keys: `FilingCabinetGeneric`
+- **Truck Stop Diner Griddle Notes** — High-volume breakfast technique: temperature staging, cook-time staggering, and how to tell doneness by sound on a seasoned steel griddle. Keys: `FilingCabinetGeneric`
 
 ### Electrical
 
@@ -248,12 +248,12 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **OSHA 1910 Electrical Safety in the Workplace** — Lockout/tagout and arc flash PPE requirements. Keys: `ElectricianTools`, `FilingCabinetGeneric`
 - **Conduit Fill and Box Fill Reference Card** — Conduit and box fill limits by wire gauge. Keys: `ElectricianTools`, `FilingCabinetGeneric`
 - **Residential Panel Inspection Checklist** — Load calculations and circuit labeling code reference. Keys: `ElectricianTools`, `FilingCabinetGeneric`
-- **IBEW Apprenticeship Workbook** — Union electrical apprentice training workbook. Keys: `ElectricianTools`, `FilingCabinetGeneric`
-- **Trade School Residential Wiring Textbook** — Vocational residential wiring textbook. Keys: `ElectricianTools`
+- **IBEW Apprenticeship Workbook** — Practical exercises for service-entrance work, panel layout, and conduit installation — the kind of instruction that fills gaps left by watching someone else do it. Keys: `ElectricianTools`, `FilingCabinetGeneric`
+- **Trade School Residential Wiring Textbook** — Room-by-room residential wiring sequences from service entrance to outlet. Code-compliant box fill, circuit layout, and device wiring — the workflow a journeyman does by reflex. Keys: `ElectricianTools`
 - **Motor Control Schematic Reference** — Three-phase motor control schematics. Keys: `ElectricianTools`, `MetalShopTools`
 - **Transformer Nameplate Reading Card** — Pad-mount transformer ID and rating card. Keys: `ElectricianTools`
-- **Equipment Grounding and Bonding Reference** — Grounding and bonding requirements pamphlet. Keys: `ElectricianTools`, `FilingCabinetGeneric`
-- **KY State Electrician Licensing Manual** — State licensing exam preparation manual. Keys: `FilingCabinetGeneric`
+- **Equipment Grounding and Bonding Reference** — Conductor sizing for equipment grounding and service bonding by system voltage. Required reading before touching a panel in a building you didn't wire. Keys: `ElectricianTools`, `FilingCabinetGeneric`
+- **KY State Electrician Licensing Manual** — Practice questions organized by NEC article and trade math. The voltage drop and conductor sizing calculation drills are more useful than the test prep framing suggests. Keys: `FilingCabinetGeneric`
 - **Underground Service Cable Reference** — Underground residential distribution cable specs and burial depths. Keys: `ElectricianTools`
 
 ### Glassmaking
@@ -263,31 +263,31 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Glass Annealing Temperature Reference** — Annealing curves by glass type and thickness. Keys: `UniversityFilingCabinet_Glassmaking`
 - **Float Glass Manufacturing Process Reference** — Tin bath temps and draw rates for float glass. Keys: `UniversityFilingCabinet_Glassmaking`
 - **Kiln-Forming Techniques: Studio Reference** — Fusing temps and COE compatibility charts for studio work. Keys: `UniversityFilingCabinet_Glassmaking`
-- **Penland School Studio Glass Notes** — Master class notes from a residency at the studio. Keys: `UniversityFilingCabinet_Glassmaking`
-- **Corning Glass Engineering Standard** — Corning corporate technical standard. Keys: `FilingCabinetGeneric`, `UniversityFilingCabinet_Glassmaking`
+- **Penland School Studio Glass Notes** — Handwritten process notes from a master class on reactive glasses — how specific colorants shift under reduction versus oxidation atmospheres. More technical than any published reference. Keys: `UniversityFilingCabinet_Glassmaking`
+- **Corning Glass Engineering Standard** — Internal quality spec for optical-grade borosilicate: refractive index tolerances, thermal coefficient targets, and stress measurement criteria. Industrial precision, not studio craft. Keys: `FilingCabinetGeneric`, `UniversityFilingCabinet_Glassmaking`
 - **Stained Glass Church Restoration Notes** — Lead came restoration for a 1920s sanctuary window. Keys: `FilingCabinetGeneric`
-- **Borosilicate Lampwork Reference** — Scientific glassblowing reference. Keys: `UniversityFilingCabinet_Glassmaking`
+- **Borosilicate Lampwork Reference** — Sealing procedures for glass-to-metal transitions and vacuum line work. Explains why borosilicate requires a specific flame chemistry to avoid internal stress fractures. Keys: `UniversityFilingCabinet_Glassmaking`
 - **Antique Bottle Collector's Manual** — Bottle ID and dating manual. Hobbyist. Keys: `FilingCabinetGeneric`
-- **Kiln-Fused Glass Jewelry Notes** — Hobbyist kiln-fused jewelry notes. Keys: `DeskGeneric`
-- **Tiffany Studios Method Reference** — Reproduction Tiffany lamp method reference. Keys: `FilingCabinetGeneric`
-- **Neon Sign Bender's Field Reference** — Neon glass-bending technique reference.
+- **Kiln-Fused Glass Jewelry Notes** — COE matching tests and shelf primer comparisons for small-batch fusing. The firing logs track temperature holds and results by glass brand — methodical despite the hobby context. Keys: `DeskGeneric`
+- **Tiffany Studios Method Reference** — Lead came gauges and solder ratios for curved panel construction. The section on patina chemistry uses materials that still turn up in hardware stores. Keys: `FilingCabinetGeneric`
+- **Neon Sign Bender's Field Reference** — Electrode mounting, gas fill sequences, and bombarder settings for standard neon tubes. Cross-fire and ribbon burner technique for sharp bends without devitrification.
 - **Bead Society Lampworking Manual** — Glass rod chemistry and torch flame chemistry. Earnest hobbyist. Keys: `DeskGeneric`
 
 ### Knapping
 
 *Flint-knapping is documented primarily by archaeologists and wilderness educators — researchers who need replicable technique for lithic analysis, and instructors who teach primitive skills in structured programs. It's not the kind of reference that turns up in a gun store, but it does turn up in anthropology departments and survival schools.*
 
-- **Lithic Technology Field Reference** — University notes on flake production and tool typology.
-- **Primitive Skills Instructor's Knapping Reference** — Survival school flint selection and percussion technique.
+- **Lithic Technology Field Reference** — Percussion vs. pressure techniques for controlled flake removal, with diagrams on platform preparation and angle requirements. University-level, but the mechanics are practical.
+- **Primitive Skills Instructor's Knapping Reference** — Evaluating raw stone by sound and fracture pattern — the knap test, and what a conchoidal break looks like when the material is worth working.
 - **Archaeological Lithic Analysis Standards** — Classifying knapped tools by technique and use-wear.
 - **Cherokee Heritage Arrowhead Notes** — Eastern Band notching styles and source quarries. Sweetgrass scent.
-- **Field Archaeologist's Knapping Notes** — University field-school knapping notes.
-- **Primitive Bowhunter's Flinting Manual** — Traditional bowhunter flinting manual.
-- **Society for Amateur Archaeology Pamphlet** — Amateur dig site pamphlet.
+- **Field Archaeologist's Knapping Notes** — Replication experiments for biface thinning: the body mechanics of controlled pressure flaking and how to avoid hinge fractures. Written for demonstration, not armchair analysis.
+- **Primitive Bowhunter's Flinting Manual** — Hafting sequences for trade-point replicas, with binding material selection and adhesive options using natural materials.
+- **Society for Amateur Archaeology Pamphlet** — Basic site recording procedures — but the primer on identifying worked stone versus natural fracture is useful for anyone trying to assess raw material finds in the field.
 - **Obsidian Source Identification Reference** — Obsidian source archaeometric reference.
-- **Mountain Man Rendezvous Knapping Notes** — Living history rendezvous knapping notes.
+- **Mountain Man Rendezvous Knapping Notes** — Camp-context knapping from a living-history event: billet selection, antler pressure flakers, and which stone types perform under demonstration conditions. More practical than academic.
 - **Kentucky State Museum Lithic Catalog** — Knox County Museum lithic identification catalog.
-- **BSA Primitive Skills Survival Pamphlet** — Scout primitive survival pamphlet.
+- **BSA Primitive Skills Survival Pamphlet** — Stone tool basics written for a one-day field session — platform angles, hammerstone grip, and why you wear eye protection. Starts at zero.
 - **Tool Stone Quality Assessment Card** — Cherty stone quality field card.
 
 ### Masonry
@@ -298,14 +298,14 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **ASTM C90 Concrete Masonry Standards Reference** — Concrete masonry unit strength and dimensional tolerances. Keys: `FilingCabinetGeneric`
 - **Brick and Block Masonry Inspection Checklist** — Joint profiles and coursing tolerances for masonry work. Keys: `FilingCabinetGeneric`
 - **Concrete Mix Design Field Reference** — Water-cement ratios and slump specs by application. Keys: `FilingCabinetGeneric`
-- **Brick Industry Association Bricklayer Manual** — Brick Industry Association traditional bricklayer manual. Keys: `ToolStoreMisc`
-- **Stonecutter Apprentice's Notebook** — Stonecutter apprentice notebook. Keys: `ToolStoreMisc`
+- **Brick Industry Association Bricklayer Manual** — Layout, story pole use, and lead-building sequence — the reference a second-year apprentice would keep in their apron pocket until it fell apart. Keys: `ToolStoreMisc`
+- **Stonecutter Apprentice's Notebook** — Chiseling sequences for splitting along grain, driving plugs and feathers, and finishing rough faces. Handwritten corrections from a journeyman in red pen throughout. Keys: `ToolStoreMisc`
 - **Chimney Sweep's Inspection Manual** — Creosote class identification and cap-to-thimble inspection.
-- **Historic Building Pointing Manual** — Restoration pointing pamphlet.
-- **Concrete Finisher's Tools Reference** — Concrete finishing tool reference. Keys: `ToolStoreMisc`
-- **Knox County Masons Local Newsletter** — Knox County Masons union local newsletter and trade tips.
-- **Field Stone Wall Builder's Guide** — Dry-stack stone wall building guide. Keys: `ToolStoreMisc`
-- **Paving Stone Installation Manual** — Decorative paver installation manual. Keys: `ToolStoreMisc`
+- **Historic Building Pointing Manual** — Lime mortar mix ratios for historic tuck pointing and when to use natural cement instead of portland. Explains why matching the original mortar hardness prevents long-term spalling.
+- **Concrete Finisher's Tools Reference** — Bull float timing, edger sequences, and how to read bleed water to judge when to begin troweling. The surface finish techniques aren't in most textbooks. Keys: `ToolStoreMisc`
+- **Knox County Masons Local Newsletter** — Job site dispatches and trade tips from Knox County bricklayers, including notes on working with local limestone and the best mortar mix for the county's freeze-thaw cycles.
+- **Field Stone Wall Builder's Guide** — Through-stone placement, bond course spacing, and how to read irregular fieldstone for stable stacking without mortar. More structural content than the rural aesthetic suggests. Keys: `ToolStoreMisc`
+- **Paving Stone Installation Manual** — Base compaction requirements, sand setting bed depth, and edge restraint options for vehicular-rated paving. The drainage calculation section is the part that matters. Keys: `ToolStoreMisc`
 
 ### Mechanics
 
@@ -316,13 +316,13 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Brake System Inspection and Service Reference** — Rotor minimums, inspection, and bleed procedures. Keys: `MechanicShelfBooks`, `MechanicShelfBrakes`
 - **Automotive Electrical Diagnosis Field Guide** — Wiring fault tracing and electrical component testing. Keys: `MechanicShelfBooks`, `MechanicShelfElectric`
 - **Fleet Vehicle Maintenance and Inspection Log** — Fleet service intervals, fluid specs, and inspection forms. Keys: `MechanicShelfBooks`, `CarDealerFilingCabinet`, `FilingCabinetGeneric`
-- **ASE Certification Study Guide** — Automotive Service Excellence certification study guide. Keys: `CarDealerFilingCabinet`, `MechanicShelfBooks`
-- **Kentucky Vehicle Inspection Manual** — State safety inspection manual. Keys: `MechanicShelfBooks`
-- **Briggs Stratton Small Engine Manual** — Small engine field repair manual. Keys: `MechanicShelfBooks`, `ToolCabinetFarming`
-- **Diesel Engine Troubleshooting Card** — Heavy diesel troubleshooting card. Keys: `MechanicShelfBooks`
-- **Ford F-Series Pickup Shop Manual** — Ford pickup shop manual. Greasy fingerprints. Keys: `MechanicShelfBooks`
-- **Chevrolet Technical Service Bulletin** — Late-80s Chevy service bulletin. Keys: `CarDealerFilingCabinet`, `MechanicShelfBooks`
-- **Trucking Co. Fleet PM Schedule** — Trucking fleet preventive maintenance schedule. Keys: `CarDealerFilingCabinet`
+- **ASE Certification Study Guide** — Eight-systems breakdown — engine, transmission, brakes, suspension, electrical, HVAC, engine performance, and manual drivetrain. Written to fill knowledge gaps, not just pass a test. Keys: `CarDealerFilingCabinet`, `MechanicShelfBooks`
+- **Kentucky Vehicle Inspection Manual** — Kentucky state inspection criteria by system — brake measurement minimums, tire tread gauges, and lighting compliance. A checklist for whether a vehicle is safe to drive, not just legal. Keys: `MechanicShelfBooks`
+- **Briggs Stratton Small Engine Manual** — Carburetor adjustment, ignition timing, and valve clearance procedures for the flathead and overhead-valve engines in most small equipment. Covers generator and pump sets. Keys: `MechanicShelfBooks`, `ToolCabinetFarming`
+- **Diesel Engine Troubleshooting Card** — Fault tree diagnostics for no-start, low power, and smoke conditions on mechanical-injection diesels. Fuel system priming sequence and injector bleed are on the back. Keys: `MechanicShelfBooks`
+- **Ford F-Series Pickup Shop Manual** — Wiring diagrams, transmission service, and axle specs for the most common pickup in the county. The greasy fingerprints are on the starter and alternator sections — someone was here before. Keys: `MechanicShelfBooks`
+- **Chevrolet Technical Service Bulletin** — Factory-issued corrections for known failure modes in late-80s small-block engines and TH350 transmissions — the kind of information that doesn't make it into aftermarket manuals. Keys: `CarDealerFilingCabinet`, `MechanicShelfBooks`
+- **Trucking Co. Fleet PM Schedule** — Mileage-based service intervals for heavy-truck engines, differentials, and brake systems — with fluid specifications and inspection sign-off forms still attached. Keys: `CarDealerFilingCabinet`
 
 ### Pottery
 
@@ -331,14 +331,14 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Kiln Firing Schedule Reference** — Temperature ramp rates and cooling curves for kilns.
 - **Glaze Chemistry Quick Reference** — Flux ratios and colorant percentages by glaze type.
 - **Clay Body Formulation and Firing Reference** — Shrinkage rates and cone compatibility for clay bodies.
-- **University Ceramics Studio Textbook** — University clay program textbook.
-- **Penland Wheel-Throwing Reference** — Penland School wheel reference.
-- **Raku Firing Studio Notes** — Studio raku firing notes. Smoke smell.
-- **Salt-Glaze Stoneware Reference** — Salt-glazed stoneware tradition reference.
-- **Appalachian Folk Pottery Pamphlet** — Mountain folk pottery pamphlet.
-- **Studio Kiln Repair Field Notes** — Studio kiln repair field notes.
-- **Commercial Pottery Production Manual** — Industrial production pottery manual.
-- **Children's Pottery Lesson Plans** — Elementary art teacher lesson plans.
+- **University Ceramics Studio Textbook** — The throwing and trimming chapters are illustrated with sequences a beginner can follow — centering, opening, pulling, collaring. More thorough than most workshop instruction.
+- **Penland Wheel-Throwing Reference** — Master-class notes on reading wall thickness by feel, rib pressure for compressing the floor, and how to recognize when a form is about to collapse.
+- **Raku Firing Studio Notes** — Reduction chamber timing and post-fire reduction technique — when to pull from the kiln and how long to hold in the combustible. Smoke smell embedded in the cover.
+- **Salt-Glaze Stoneware Reference** — Salt introduction timing and kiln loading patterns for even vapor distribution. Explains the reaction between salt, silica, and alumina that creates the characteristic orange-peel surface.
+- **Appalachian Folk Pottery Pamphlet** — Regional clay sourcing and natural ash glaze composition from mountain traditions. Several recipes use wood ash and feldspar found locally.
+- **Studio Kiln Repair Field Notes** — Element replacement, thermocouple swap, and soft brick patching procedures for electric kilns. Includes a note on using kiln wash to prevent shelf contamination from runny glazes.
+- **Commercial Pottery Production Manual** — Slip casting and jigger production sequences for high-volume ware. The section on plaster mold maintenance and slip specific gravity is more useful than it sounds.
+- **Children's Pottery Lesson Plans** — Pinch pot and coil-building progressions for beginners — the same fundamentals any potter learns before the wheel. Diagrams are clear despite the audience.
 - **Beginner Wheel-Throwing Notes** — Centering, opening, and pulling fundamentals. Earnest sketches.
 
 ### Tailoring
@@ -349,14 +349,14 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Industrial Sewing Machine Adjustment Reference** — Thread tension and stitch settings by fabric weight. Keys: `FilingCabinetGeneric`
 - **Fiber and Fabric Properties Quick Reference** — Fabric behavior and seam allowances by material type. Keys: `FilingCabinetGeneric`
 - **Garment Inspection and Quality Standards** — Seam strength and construction tolerances for garments. Keys: `FilingCabinetGeneric`
-- **Sears Sewing Pattern Catalog** — Pattern catalog with measurements.
-- **Carhartt Union Shop Sewing Manual** — Workwear factory sewing manual.
-- **Alterations Tailor's Reference Card** — Mall alterations tailor reference card.
-- **Home Economics Sewing Textbook** — Junior high home ec sewing text.
-- **Theatrical Costume Shop Reference** — Community theater costume shop reference.
-- **Hancock Fabrics Employee Manual** — Fabric store employee manual.
-- **Furniture Upholsterer's Guide** — Couch and chair upholstery guide.
-- **Bridal Seamstress Alteration Notes** — Wedding gown alteration notes.
+- **Sears Sewing Pattern Catalog** — Grading tables and ease allowances for period-standard sizing — the foundation for cutting from scratch when commercial patterns run out.
+- **Carhartt Union Shop Sewing Manual** — Heavy-duty construction sequences for bar-tacked stress points, triple-stitched seams, and pocket reinforcement. Built for the machines, but the technique translates to hand-sewing.
+- **Alterations Tailor's Reference Card** — Take-in and let-out limits by seam type, hem allowances, and sleeve length adjustment procedures. The kind of quick-reference a tailor memorizes after a year on the job.
+- **Home Economics Sewing Textbook** — Seam allowances, basting, and hand-stitch types illustrated for students who've never touched a needle. The basics are explained more clearly here than in most adult references.
+- **Theatrical Costume Shop Reference** — Quick-construction techniques for period costumes: no-pattern sloper adaptation, quick-felling, and how to make something look structurally correct without being so.
+- **Hancock Fabrics Employee Manual** — Fiber content identification by burn test, fabric weights by yard, and care label standards. The reference that answers 'what is this material?' when there's no label.
+- **Furniture Upholsterer's Guide** — Spring tying patterns, webbing tension, and deck fabric attachment sequences for upholstered frames. The hand-tool appendix covers working with heavy fabric without an industrial machine.
+- **Bridal Seamstress Alteration Notes** — Techniques for letting out structured bodices without disturbing the boning — and a section on repairing lace by hand that documents stitches you won't find in a standard reference.
 
 ### Welding
 
@@ -367,11 +367,11 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Electrode and Filler Metal Selection Guide** — Electrode types matched to base metals and positions. Keys: `WeldingWorkshopTools`
 - **Weld Inspection and Acceptance Criteria** — Visual weld inspection standards and defect classification. Keys: `WeldingWorkshopTools`, `FilingCabinetGeneric`
 - **OSHA 1910.252 Welding Safety Reference** — Welding ventilation, fire watch, and PPE requirements. Keys: `WeldingWorkshopTools`, `FilingCabinetGeneric`
-- **AWS Certified Welder Test Manual** — American Welding Society certification test preparation manual. Keys: `WeldingWorkshopTools`
-- **Pipefitter's Welding Manual** — Pipefitter welding procedure manual. Keys: `WeldingWorkshopTools`
+- **AWS Certified Welder Test Manual** — Practice tests for the 3G and 4G position qualifications — the overhead and vertical welds that most self-taught welders avoid. The test prep framing doesn't make it less useful. Keys: `WeldingWorkshopTools`
+- **Pipefitter's Welding Manual** — Open-root pipe weld technique: key-hole management, hood bead sequence, and vertical fill passes for pressure-rated joints. The pass sequence diagrams are on laminated inserts. Keys: `WeldingWorkshopTools`
 - **Aluminum MIG Welding Reference** — Spool gun setup and pre-flow times for thin aluminum. Keys: `WeldingWorkshopTools`
-- **UAW Welding Shop Safety SOP** — United Auto Workers shop safety standard operating procedure. Keys: `WeldingWorkshopTools`
-- **Auto Body Shop Welding Reference** — Body shop welding reference card. Keys: `MechanicShelfBooks`
+- **UAW Welding Shop Safety SOP** — Fume extraction requirements, fire watch protocols, and hot-work permit procedures for production welding environments. Written to keep a shop from burning down. Keys: `WeldingWorkshopTools`
+- **Auto Body Shop Welding Reference** — Panel patch techniques, plug weld spacing for structural sections, and squeeze-type spot welder calibration. Focuses on working with thin-gauge steel without burn-through. Keys: `MechanicShelfBooks`
 - **Stick Welding Rod Selection Guide** — 6011 vs 7018 selection guide. Keys: `WeldingWorkshopTools`
 - **Aerospace TIG Welding Notes** — Inert atmosphere requirements and titanium pre-cleaning. Keys: `WeldingWorkshopTools`
 
@@ -387,14 +387,14 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Soil Test Interpretation Reference** — Reading soil tests and calculating lime and fertilizer. Keys: `ToolCabinetFarming`, `FilingCabinetGeneric`
 - **Pesticide Application and Safety Reference** — Application rates and PPE requirements by chemical class. Keys: `ToolCabinetFarming`, `FilingCabinetGeneric`
 - **Irrigation Scheduling and Water Management Guide** — Evapotranspiration tables and soil moisture targets. Keys: `ToolCabinetFarming`, `FilingCabinetGeneric`
-- **FFA Vocational Agriculture Textbook** — Future Farmers of America vocational agriculture textbook. Keys: `ToolCabinetFarming`
-- **KY Cooperative Extension Ag Bulletin** — Extension service agricultural bulletin. Keys: `ToolCabinetFarming`
-- **University of Kentucky Ag Economics Notes** — UK ag econ class notes.
+- **FFA Vocational Agriculture Textbook** — Soil preparation, transplanting, and fertility management for field crops — plus livestock nutrition basics in the second half. Written to pass a contest, but the agronomic content is substantive. Keys: `ToolCabinetFarming`
+- **KY Cooperative Extension Ag Bulletin** — Season-specific pest and disease alerts for Knox County row crops, with field scouting thresholds and treatment windows. Dated, but the biology doesn't change. Keys: `ToolCabinetFarming`
+- **University of Kentucky Ag Economics Notes** — Hand-scribbled class notes on yield-per-acre calculations and input cost analysis. Most of it is irrelevant now, but the conversion tables and yield estimation methods still apply.
 - **Fertilizer Spreader Calibration Card** — Spreader calibration field card. Keys: `ToolCabinetFarming`
-- **USDA Corn Belt Crop Rotation Guide** — USDA crop rotation pamphlet. Keys: `ToolCabinetFarming`
-- **No-Till Farming Practice Manual** — No-till practice manual. Forward-thinking. Keys: `ToolCabinetFarming`
-- **KY Burley Tobacco Growers' Guide** — Burley tobacco production guide. Keys: `ToolCabinetFarming`
-- **Rodale Organic Farming Pamphlet** — Organic farming association pamphlet.
+- **USDA Corn Belt Crop Rotation Guide** — Two- and four-year corn-soybean and small grain sequences with nitrogen credit tables. Explains how to rebuild soil structure after heavy row-crop years. Keys: `ToolCabinetFarming`
+- **No-Till Farming Practice Manual** — Reduced-tillage establishment and cover crop termination sequences for soil-building without powered equipment. Forward-thinking when it was written; more relevant now. Keys: `ToolCabinetFarming`
+- **KY Burley Tobacco Growers' Guide** — Float-bed seedling production, transplanting windows, and topping timing for air-cured leaf. The drying and housing sections are practical reference for any large-leaf crop. Keys: `ToolCabinetFarming`
+- **Rodale Organic Farming Pamphlet** — Compost application rates, cover crop species selection, and integrated pest management alternatives. The soil fertility section doesn't require inputs that no longer exist.
 
 ### Animal Care
 
@@ -404,12 +404,12 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Vaccination and Medication Dosage Reference** — Species-specific dosing and withdrawal times for livestock. Keys: `ToolCabinetFarming`, `FilingCabinetGeneric`
 - **Reproductive Management and Breeding Records** — Livestock breeding dates and parturition records. Keys: `FilingCabinetGeneric`
 - **KDA Livestock Compliance Reference** — Department of Agriculture tagging and transport rules for livestock. Keys: `ToolCabinetFarming`, `FilingCabinetGeneric`
-- **KY Cattlemen's Association Newsletter** — Cattle producers' association newsletter. Keys: `ToolCabinetFarming`
-- **FFA Livestock Judging Manual** — Future Farmers showmanship scoring and evaluation criteria. Keys: `ToolCabinetFarming`
-- **Tyson Poultry Grower Reference** — Industrial poultry grower manual. Keys: `ToolCabinetFarming`
-- **Race Track Veterinarian's Daily Log** — Track vet daily log. Bourbon-stained.
-- **Sheep and Goat Breeders' Manual** — Small ruminant breeder manual. Keys: `ToolCabinetFarming`
-- **Swine Confinement Production Manual** — Hog farm production manual. Keys: `ToolCabinetFarming`
+- **KY Cattlemen's Association Newsletter** — Member letters and technical columns from cattle producers — the back pages have a reader-submitted Q&A on treating pinkeye and foot rot without a vet call. Keys: `ToolCabinetFarming`
+- **FFA Livestock Judging Manual** — Body condition scoring, conformation assessment, and structural fault identification by species. The scoring criteria are how you distinguish a healthy animal from one that's failing to thrive. Keys: `ToolCabinetFarming`
+- **Tyson Poultry Grower Reference** — Ventilation, litter management, and feed conversion targets for broiler production. The flock health section covers respiratory disease identification without a vet on call. Keys: `ToolCabinetFarming`
+- **Race Track Veterinarian's Daily Log** — Pre-race lameness assessments and medication notes in a racing vet's handwriting. The lameness scoring system in the front cover is worth keeping. Bourbon-stained.
+- **Sheep and Goat Breeders' Manual** — Kidding and lambing assistance procedures, hoof trimming sequences, and internal parasite load assessment by FAMACHA eye scoring. Keys: `ToolCabinetFarming`
+- **Swine Confinement Production Manual** — Feed ration formulation, farrowing crate management, and weaning protocols for commercial hog operations. The health section covers respiratory disease identification and treatment options. Keys: `ToolCabinetFarming`
 - **Dairy Herd Management Reference** — Heat detection, breeding records, and parlor protocols. Keys: `ToolCabinetFarming`
 - **Ag Education Livestock Judging Card** — Score sheet from a county FFA livestock contest. Coffee ring.
 
@@ -420,15 +420,15 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **USDA Meat Grading and Inspection Reference** — USDA grading standards posted in every inspected facility. Keys: `ButcherLiterature`, `FilingCabinetGeneric`
 - **Primal and Sub-Primal Cut Reference** — Carcass breakdown and fabrication sequences by species. Keys: `ButcherLiterature`
 - **HACCP Plan for Small Meat Processing Operations** — Small processor critical control points and temp logs. Keys: `ButcherLiterature`, `FilingCabinetGeneric`
-- **Union Stockyards Cutting Manual** — Chicago Union Stockyards cutter manual. Keys: `ButcherLiterature`
-- **Local Deer Processor's Cutting Guide** — Deer processor cutting guide. Game-blood smell. Keys: `ButcherLiterature`, `ToolCabinetFarming`
-- **Sausage Maker's Production Notes** — Sausage line production notes. Keys: `ButcherLiterature`
+- **Union Stockyards Cutting Manual** — High-volume beef splitting and primal breakdown sequences from Chicago's industrial era — the knife patterns and saw angles were optimized for tonnage, not appearance, and that's exactly what you want. Keys: `ButcherLiterature`
+- **Local Deer Processor's Cutting Guide** — Field-dressed-to-packaged sequences for whitetail: skinning, quartering, and deboning for vacuum bags. Notes on freezer-burn prevention and aging temperature. Game-blood smell. Keys: `ButcherLiterature`, `ToolCabinetFarming`
+- **Sausage Maker's Production Notes** — Bind ratios and fat percentages by product — fresh breakfast, summer sausage, and pepperoni — with grind sequences and casing prep. Temperature logs on every page. Keys: `ButcherLiterature`
 - **Small Slaughterhouse Inspection SOP** — Standard operating procedure for inspection cycles and carcass disposition. Keys: `ButcherLiterature`
 - **Kosher Butchering Reference** — Kashrut requirements and forequarter cuts. Hebrew margin notes. Keys: `ButcherLiterature`
 - **Charcuterie Production Manual** — Cure ratios and humidity targets for dry-cured products. Keys: `ButcherLiterature`
-- **Holiday Turkey Processor's Crew Card** — Holiday turkey processing crew card. Keys: `ButcherLiterature`
-- **Charcutier's Apprentice Diary** — Charcutier apprentice diary. Hand-written. Keys: `ButcherLiterature`
-- **Wild Game Processor's Reference** — Wild game processing reference. Keys: `ButcherLiterature`, `ToolCabinetFarming`
+- **Holiday Turkey Processing Crew Card** — Scalding temperatures, pin feather technique, and evisceration sequence for high-volume poultry. Written for a seasonal crew that needs to be production-ready in one shift. Keys: `ButcherLiterature`
+- **Charcutier's Apprentice Diary** — A year of curing records — salt percentages, equilibration times, and tasting notes on what went wrong. The corrections, circled in red, are the part worth reading. Keys: `ButcherLiterature`
+- **Wild Game Processor's Reference** — Skinning and deboning sequences for the species a rural Kentucky processor actually sees — deer, turkey, rabbit, squirrel, and wild hog. Handling notes for tainted meat are in the appendix. Keys: `ButcherLiterature`, `ToolCabinetFarming`
 
 ---
 
@@ -441,13 +441,13 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **LE Physical Fitness Standards** — Police and sheriff fitness assessment scoring tables. Keys: `PoliceFilingCabinet`, `DeskGeneric`, `FilingCabinetGeneric`
 - **Fire Academy Cardiovascular Fitness Requirements** — Fire academy aerobic conditioning benchmarks. Keys: `FireStorageTools`, `FilingCabinetGeneric`
 - **High School Track Coach Manual** — Workout periodization and event-by-event drills. Dog-eared.
-- **NCAA Strength and Conditioning Notes** — University strength and conditioning program notes.
+- **NCAA Strength and Conditioning Notes** — Periodization for Division I athletes — base, build, peak, and taper phases with weekly mileage targets. The speed development section focuses on acceleration mechanics and drive-phase posture.
 - **Kentucky HS Athletic Association Rule Book** — Eligibility, transfer, and recruiting rules. Compliance officer's stamp.
 - **Boston Marathon Training Pamphlet** — Eighteen-week qualifying program. Pace charts on every page.
 - **Sprint Interval Training Card** — Tabata-style timing tables. Whistle marks on the laminate.
 - **Cross Country Running Reference** — Hill repeats and pack-running drills for high school distance teams.
 - **Police Recruit Physical Training Manual** — Twelve-week academy fitness program with weekly benchmarks. Keys: `PoliceDesk`, `PoliceFilingCabinet`
-- **Army APFT Field Manual** — Army Physical Fitness Test manual.
+- **Army APFT Field Manual** — Two-mile run, push-up, and sit-up standards by age and gender — with supplemental physical training exercises from the back half that most soldiers skipped.
 - **HS Football Conditioning Manual** — Off-season weight room and gasser sequences. Pen in the spine.
 - **BMX Racing Training Card** — Sprint and corner technique drills. Mud flecks on the back.
 
@@ -457,12 +457,12 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 
 - **NIOSH Lifting Equation Field Reference** — Federal occupational safety lifting limits for warehouse and manufacturing. Keys: `FilingCabinetGeneric`
 - **Manual Materials Handling Safety Reference** — Lift technique and load assessment for industrial work. Keys: `FilingCabinetGeneric`
-- **USPF Powerlifting Reference** — United States Powerlifting Federation rules and meet protocols.
-- **Olympic Weightlifting Coach Notes** — Olympic lifting coach notes.
-- **Strongman Training Manual** — Strongman training pamphlet. Niche.
+- **USPF Powerlifting Reference** — Competition standards for squat depth, bench contact, and deadlift lockout — strict enough that meeting them in training builds real strength. The warm-up percentage tables are useful regardless of competitive intent.
+- **Olympic Weightlifting Coach Notes** — The snatch and clean-and-jerk broken into positional checkpoints: hip hinge, power position, extension, and pull-under. Written for correcting athletes who've already learned the basics wrong.
+- **Strongman Training Manual** — Event-specific training for atlas stones, log press, and frame carry — movements that transfer directly to loading, hauling, and lifting under real-world conditions. Niche audience, broad application.
 - **Muscle Builder Magazine Issue** — Joe Weider muscle magazine. Tan and orange.
-- **Army Combat Lifter Reference** — Army combat lifter reference.
-- **Farm Strength and Endurance Manual** — Farm-strength traditions manual. Keys: `ToolCabinetFarming`
+- **Army Combat Lifter Reference** — Load-bearing strength requirements for combat tasks — casualty carries, ammunition hauling, and barrier breaching. Includes the body-weight strength ratios the Army considered mission-essential.
+- **Farm Strength and Endurance Manual** — Pre-gym strength traditions: log lifting, stone loading, and grip conditioning for sustained farm work. Rooted in what made people capable before anyone had a barbell. Keys: `ToolCabinetFarming`
 - **Rugby Strength Training Manual** — Scrum-pack and back-line conditioning by position.
 - **Freight Dock Worker's Lift Card** — Freight dock lift card. Sweat-stained.
 - **College Athletic Strength Log** — Weekly bench, squat, and clean numbers. Pencil annotations.
@@ -480,31 +480,31 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **CPR and AED Quick Reference Card** — CPR compression ratios, AED operation, and rescue breathing. Keys: `FireStorageTools`, `FilingCabinetGeneric`
 - **OSHA 1910.151 First Aid Compliance Reference** — OSHA required supplies and trained responder ratios. Keys: `FilingCabinetGeneric`
 - **Emergency Triage Field Reference** — START triage protocol and patient priority classification. Keys: `FireStorageTools`, `FilingCabinetGeneric`
-- **Paramedic Field Protocol Manual** — State paramedic protocol manual. Keys: `FireStorageTools`
-- **Emergency Department Triage Textbook** — Emergency department triage textbook.
-- **Nursing Fundamentals Textbook** — Nursing school fundamentals textbook.
-- **Pharmacist's Dispensing Manual** — Retail pharmacy dispensing manual.
-- **Army Combat Medic Manual** — Army combat medic field manual. Keys: `FireStorageTools`
-- **Nursing Home Care Manual** — Long-term care nursing manual.
-- **Wound Care and Suturing Reference** — Wound care and suturing reference.
-- **Pediatric First Aid Reference** — Pediatric first aid reference card.
+- **Paramedic Field Protocol Manual** — Medication dosing, airway management sequences, and cardiac protocol for field paramedics. The drug reference section covers epinephrine, morphine, and glucose administration. Keys: `FireStorageTools`
+- **Emergency Department Triage Textbook** — Triage scoring systems and initial assessment sequences for mass-casualty events. The chapter on damage control — stopping what kills in the first hour — is the one that applies now.
+- **Nursing Fundamentals Textbook** — Wound assessment, dressing techniques, and vital sign interpretation for new nurses. The infection recognition chapter is the most immediately useful section in a post-hospital world.
+- **Pharmacist's Dispensing Manual** — Drug interactions, contraindications, and dosing maximums for over-the-counter medications. The antibiotic section covers duration of therapy and signs of treatment failure.
+- **Army Combat Medic Manual** — Tactical casualty care: tourniquet application, needle decompression, and wound packing under fire. The trauma management sequences are written for conditions without hospital backup. Keys: `FireStorageTools`
+- **Nursing Home Care Manual** — Pressure ulcer prevention, tube feeding management, and infection control for patients who can't advocate for themselves. The wound staging system applies to any chronic wound care situation.
+- **Wound Care and Suturing Reference** — Debridement technique, closure options by wound depth and contamination level, and the signs of wound infection that indicate reopening and repacking. Illustrated suture placement.
+- **Pediatric First Aid Reference** — Dosing tables by weight for common medications, pediatric CPR ratios, and fever management without medication. Includes the signs that distinguish a sick child from a critically ill one.
 
 ### Fishing
 
 *Kentucky Fish and Wildlife publishes annual regulations booklets, and commercial operators maintain compliance documentation beyond that. The regulations alone were distributed widely enough that copies turn up almost anywhere near water — in tackle shop back rooms, game warden offices, and marina filing cabinets.*
 
 - **Kentucky Fish and Wildlife Fishing Regulations** — Kentucky seasons, size limits, and bag limits by species. Keys: `FilingCabinetGeneric`
-- **Fish Identification and Assessment Field Guide** — Kentucky species ID reference for officers and operators.
+- **Fish Identification and Assessment Field Guide** — Species-by-species identification keys for Kentucky's game fish — distinguishing legal from sublegal, edible from marginal, by scale pattern, fin placement, and jaw structure.
 - **Rigging and Terminal Tackle Reference** — Knots, leader construction, and rig assembly. Water-stained.
 - **Commercial Fishing Vessel Safety Reference** — Coast Guard flotation, flare, and emergency procedures for small vessels. Keys: `FilingCabinetGeneric`
-- **Kentucky Bass Fishing Club Newsletter** — Local bass club newsletter.
-- **Crappie Anglers' Field Guide** — Crappie fishing pulp guide.
+- **Kentucky Bass Fishing Club Newsletter** — Member trip reports with the GPS coordinates edited out — but the seasonal pattern notes and depth references for local impoundments are still there between the fish stories.
+- **Crappie Anglers' Field Guide** — Structure fishing for crappie: timber depth, brush pile spacing, and vertical jigging technique. The spawn timing section has hand-annotated water temperature thresholds.
 - **KY Trout Stocking Schedule** — Fish & Wildlife Resources stocking schedule by stream.
 - **Fly Tying Pattern Book** — Match-the-hatch patterns with fur and feather sources noted.
 - **Kentucky River Catfishing Guide** — Limb lines, jugs, and river-bend bait placement.
 - **Walleye Fishing Field Reference** — Reef fishing technique and depth selection. Polarized lens scratches.
-- **Noodling and Handfishing Pamphlet** — Noodling pamphlet. Handpainted cover.
-- **KY Commercial Mussel Fishing Regulations** — Commercial mussel fishing regulations.
+- **Noodling and Handfishing Pamphlet** — Flat-rock and hollow-log technique for bare-hand catfish harvest — how to work the fingers into a den without getting bitten, and how to tell by feel whether there's a fish or a snapping turtle inside. Handpainted cover.
+- **KY Commercial Mussel Fishing Regulations** — Season restrictions and legal gear for commercial freshwater mussel harvest — plus the species identification section that separates marketable shells from protected species.
 
 ### Foraging
 
@@ -513,15 +513,15 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Edible Plants of the Eastern Woodlands** — Eastern woodland edibles. Some entries circled and starred. Keys: `FilingCabinetGeneric`
 - **Toxic Plant Look-Alikes Guide** — Dangerous species that resemble edible plants. Keys: `FilingCabinetGeneric`
 - **Wildcraft Herbalist's Field Reference** — Harvest windows and preparation for woodland species.
-- **Kentucky Wildflower Field Guide** — State wildflower field guide. Keys: `ToolCabinetFarming`
-- **Stalking the Wild Asparagus** — Euell Gibbons classic. Hippie aesthetic.
+- **Kentucky Wildflower Field Guide** — Color-plate identification guide for Kentucky natives — includes habitat notes and bloom timing that help locate specific species by season. Keys: `ToolCabinetFarming`
+- **Stalking the Wild Asparagus** — Gibbons' species-by-species harvest notes: where to find them, what part to take, and when. More practically useful than the writing style suggests. Hippie aesthetic.
 - **Herbal Pharmacy Encyclopedia** — Tincture preparations and dosage notes. Cracked spine.
 - **Wild Mushroom Hunting Reference** — Spore prints and look-alike warnings. Several pages folded over.
-- **Backyard Foraging Pamphlet** — Sears Roebuck mail-order pamphlet.
-- **University Ethnobotany Textbook** — University ethnobotany textbook.
-- **Traditional Appalachian Plant Uses** — Mountain plant tradition pamphlet.
-- **Hunter-Gatherer Plants of NA** — Survival hunter-gatherer reference.
-- **Wild Edibles Cookbook** — Wild edibles cookbook.
+- **Backyard Foraging Pamphlet** — Lawn-to-table species guide for dandelion, purslane, wood sorrel, and plantain — common plants most people walk past. Published by Sears, of all places.
+- **University Ethnobotany Textbook** — Cultural plant use records organized by region and use type — food, medicine, and fiber. The Eastern Woodlands chapter covers species documented by indigenous communities across the region.
+- **Traditional Appalachian Plant Uses** — Documented plant uses from mountain communities — ramps, poke, bloodroot, and elder. Includes processing notes that eliminate the toxicity of species that can't be eaten raw.
+- **Hunter-Gatherer Plants of NA** — Season-by-season harvest sequences organized by plant part — roots in fall, greens in spring, seeds in summer. Built around what a person actually needs to eat, not what's interesting to study.
+- **Wild Edibles Cookbook** — Recipes organized by species: how to make dock leaves edible, what to do with acorn flour, and why cattail pollen works as a baking substitute. Bridges the gap between identifying a plant and eating it.
 
 ### Tracking
 
@@ -530,12 +530,12 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Wildlife Track and Sign Identification Reference** — Track morphology and gait patterns by species.
 - **Deer Movement and Habitat Assessment Guide** — Terrain reading and travel corridors for whitetail deer.
 - **KDFWR Game Management Field Reference** — Fish & Wildlife officer population assessment and habitat methods. Keys: `FilingCabinetGeneric`
-- **Apache Scout Tracking Manual** — Tom Brown Jr. tracker school manual.
-- **KY Raccoon Hunting Pamphlet** — Coon hunting pamphlet. Twangy.
-- **Search and Rescue Tracking Training Notes** — SAR tracking training notes. Keys: `FireStorageTools`
+- **Apache Scout Tracking Manual** — Pressure release analysis and micro-track reading from the Tom Brown tracking tradition — how to determine direction of travel, speed, and gait from deformation patterns in soft substrate.
+- **KY Raccoon Hunting Pamphlet** — Night-hunting technique for coon with dogs — but the sign-reading and tree-detection notes apply equally without them. Twangy.
+- **Search and Rescue Tracking Training Notes** — Lost-person behavior patterns and probability-of-area analysis — how people move when disoriented, and where to look first. The sign-cutting technique appendix is the operational core. Keys: `FireStorageTools`
 - **Turkey Hunting Field Reference** — Calling cadences, decoy spreads, and roost reading.
-- **Bloodhound Handler's Card** — Sheriff bloodhound handler card. Keys: `PoliceFilingCabinet`
-- **Wildlife Biology Textbook** — Population dynamics and habitat use. Library binding.
+- **Bloodhound Handler's Card** — Scent article handling, age assessment, and cast-off recovery procedures for a trailing bloodhound. Written for deputies, not dog trainers. Keys: `PoliceFilingCabinet`
+- **Wildlife Biology Textbook** — Home range theory, habitat corridor use, and seasonal movement patterns — the ecological framework behind why animals are where they are. Library binding.
 - **Bow Hunter's Camouflage Manual** — Stand placement and silhouette-breaking technique by season.
 - **Navy SEAL Reconnaissance Pamphlet** — Hide-site construction and tracking countermeasures.
 - **Tracking Workshop Sign Reading Notes** — Pressure release diagrams and aging cues. Vest-pocket folded.
@@ -547,12 +547,12 @@ Multiple options are listed per skill. Spawn keys are noted where confirmed agai
 - **Wildlife Management Trapping Field Guide** — KDFWR trap types and set construction by target species.
 - **Furbearer Identification and Harvest Reference** — Pelt quality assessment and prime time by species.
 - **KDFWR Trapper Regulations** — Fish & Wildlife Resources legal set requirements and species restrictions. Keys: `FilingCabinetGeneric`
-- **National Trappers Assoc. Fur Handlers Guide** — National Trappers Association handling and grading standards.
+- **National Trappers Assoc. Fur Handlers Guide** — Pelt handling sequences: when to case versus open-pelt skin, stretcher sizing by species, and the difference between a prime pelt and one that'll grade out at a fraction of the price.
 - **KY Beaver Trapping Pamphlet** — Pond-set and slide-set technique. Pamphlet smells of castor.
-- **Fox Holer's Lure Recipes** — Trapper's lure recipes. Reek of skunk.
+- **Fox Holer's Lure Recipes** — Gland and food lure formulas by season and target species — including the urine-to-skunk-essence ratios that work on fox in the rut. Reek of skunk.
 - **Conibear Trap Set Technique Notes** — Body-grip set placement and trigger sensitivity tuning.
-- **Foothold Trap Staking Reference** — Foothold staking technique reference.
+- **Foothold Trap Staking Reference** — Stake-and-swivel configurations for different substrates — rock, sand, and frozen ground — with drag hook placement for sets where stakes won't hold.
 - **USDA Animal Damage Control Manual** — Federal Animal and Plant Health Inspection Service damage control manual. Keys: `ToolCabinetFarming`
-- **KDFWR Nuisance Wildlife Manual** — Nuisance wildlife operator manual.
-- **Muskrat Pelt Stretcher Guide** — Muskrat pelt stretcher guide.
-- **Fur Auction Grading Notes** — Auction-house fur grading notes.
+- **KDFWR Nuisance Wildlife Manual** — Exclusion and live-trap techniques for nuisance wildlife species — beavers, coyotes, and groundhogs — with disposition options for each. Designed for operators who get paid to make the problem go away.
+- **Muskrat Pelt Stretcher Guide** — Wire stretcher sizing by carcass weight, fleshing depth, and drying time by ambient temperature. One page, laminated, everything a rat trapper needs at the skinning board.
+- **Fur Auction Grading Notes** — Grade-cut standards for the major fur auction houses — primeness, size, and fur quality by species. Irrelevant to anyone selling now, but the species primeness calendar is still a useful harvest-timing reference.
