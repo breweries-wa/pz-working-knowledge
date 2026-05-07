@@ -1,18 +1,18 @@
-# Working Knowledge — Document Catalogue
+# Working Knowledge: Document Catalogue
 
-Reference materials for people actually doing the work — code books, compliance guides, technical field references, SOPs. Not training manuals or beginner's guides.
+Reference materials for people actually doing the work: code books, compliance guides, technical field references, SOPs. Not training manuals or beginner's guides.
 
-**Spawn philosophy:** These appear in filing cabinets, office desks, lockers, and back-room storage — not on bookstore shelves or book display racks. A gun store's counter drawer might have a firearms compliance reference; the display rack wouldn't. Each entry notes likely container keys; verify room context against game distribution files before implementing.
+**Spawn philosophy:** These appear in filing cabinets, office desks, lockers, and back-room storage, not on bookstore shelves or book display racks. A gun store's counter drawer might have a firearms compliance reference; the display rack wouldn't. Each entry notes likely container keys; verify room context against game distribution files before implementing.
 
 Multiple options are listed per skill. Spawn keys are noted where confirmed against game distribution files.
 
 ---
 
-## Combat — Firearms
+## Combat: Firearms
 
 ### Aiming
 
-*Knox County law enforcement agencies ran on documented procedure — officers qualified on paper, remediated on paper, and carried laminated scoring cards. That documentation is still in police filing cabinets and desks across the county. A survivor who studies it doesn't just learn to point and shoot; they learn what disciplined shooting actually requires.*
+*Knox County law enforcement agencies ran on documented procedure; officers qualified on paper, remediated on paper, and carried laminated scoring cards. That documentation is still in police filing cabinets and desks across the county. A survivor who studies it doesn't just learn to point and shoot; they learn what disciplined shooting actually requires.*
 
 **KCPD Patrol Firearms Qualification Standards**  
 Proper grip techniques are circled in red ink.  
@@ -69,7 +69,7 @@ Old-timer tips on accounting for windage and elevation.
 
 ### Reloading
 
-*Every law enforcement agency, military branch, and competitive shooting organization has standardized weapon manipulation in writing. Speed reloads and malfunction clearances are trained from documented references — not picked up by feel. Those references don't expire just because the world did.*
+*Every law enforcement agency, military branch, and competitive shooting organization has standardized weapon manipulation in writing. Speed reloads and malfunction clearances are trained from documented references, not picked up by feel. Those references don't expire just because the world did.*
 
 **Law Enforcement Tactical Reload Procedures**  
 Speed, admin, and retention reload drill sequences.  
@@ -125,11 +125,11 @@ confines of a truck.
 
 ---
 
-## Combat — Melee
+## Combat: Melee
 
 ### Axe
 
-*Logging, arboriculture, and firefighting all depend on controlled axe work, and all three generate written procedure. OSHA mandates it for logging operations; fire departments SOP every hand tool deployment. The skill extends to meat cleavers, hatchets, and pickaxes — but the documentation trail runs through the woods and the firehouse.*
+*Logging, arboriculture, and firefighting all depend on controlled axe work, and all three generate written procedure. OSHA mandates it for logging operations; fire departments SOP every hand tool deployment. The skill extends to meat cleavers, hatchets, and pickaxes, but the documentation trail runs through the woods and the firehouse.*
 
 **OSHA Logging Operations Reference**  
 Federal logging safety: felling and escape routes.  
@@ -189,7 +189,7 @@ without snagging gear.
 
 ### Long Blade
 
-*Machetes are agricultural and forestry tools first — for crop harvesting, trail clearing, and brush removal. Extension offices, parks departments, and land-clearing contractors all documented proper technique. The swords and katanas in Knox County don't have a paper trail; the machetes do.*
+*Machetes are agricultural and forestry tools first, used for crop harvesting, trail clearing, and brush removal. Extension offices, parks departments, and land-clearing contractors all documented proper technique. The swords and katanas in Knox County don't have a paper trail; the machetes do.*
 
 **Brush Clearing Trail Reference**  
 State parks machete technique and blade care.  
@@ -250,7 +250,7 @@ between striking zones.
 
 ### Maintenance
 
-*Any trade that depends on a conditioned edge or a reliable striking surface maintains a sharpening and inspection culture — and that culture produces laminated charts, maintenance logs, and specification sheets. Edge failure has consequences whether you're a chef, a tradesperson, or a department armorer.*
+*Any trade that depends on a conditioned edge or a reliable striking surface maintains a sharpening and inspection culture, and that culture produces laminated charts, maintenance logs, and specification sheets. Edge failure has consequences whether you're a chef, a tradesperson, or a department armorer.*
 
 **Commercial Kitchen Knife Maintenance Log**  
 Daily honing schedule for maintaining a razor edge  
@@ -310,7 +310,7 @@ Patina retention and rust prevention notes.
 
 ### Short Blade
 
-*Commercial kitchens are among the most procedurally documented workplaces in the county — HACCP compliance, sanitation procedures, and knife handling protocols are all legally required and all in writing. Butcher shops and fish processing operations add their own layer. The short blade skill covers knives, scissors, and screwdrivers, but the documentation lives in the kitchen.*
+*Commercial kitchens are among the most procedurally documented workplaces in the county; HACCP compliance, sanitation procedures, and knife handling protocols are all legally required and all in writing. Butcher shops and fish processing operations add their own layer. The short blade skill covers knives, scissors, and screwdrivers, but the documentation lives in the kitchen.*
 
 **Meat Fabrication Cuts Reference**  
 USDA primal cut diagram with knife angles by species.  
@@ -371,7 +371,7 @@ cleaning northern pike.
 
 ### Short Blunt
 
-*Construction sites document hammer use for OSHA compliance. Police departments write procedure for impact weapons. Even kitchen and plumbing work generates written references. The short blunt category is wide — hammers, pipes, wrenches, batons, frying pans — and so is the documentation, scattered across job sites and filing cabinets in equal measure.*
+*Construction sites document hammer use for OSHA compliance. Police departments write procedure for impact weapons. Even kitchen and plumbing work generates written references. The short blunt category is wide: hammers, pipes, wrenches, batons, frying pans. The documentation is, scattered across job sites and filing cabinets in equal measure.*
 
 **KCPD Impact Weapons Reference**  
 Descriptions of department-approved grip techniques and  
@@ -431,7 +431,7 @@ holes in brittle materials.
 
 ### Long Blunt
 
-*The long blunt category spans demolition, construction, groundskeeping, and sport — which is why documentation for it turns up in construction offices, gyms, and country clubs alike. Swing mechanics and tool selection were documented for training and liability reasons in all of those contexts, and those references are still out there.*
+*The long blunt category spans demolition, construction, groundskeeping, and sport, which is why documentation for it turns up in construction offices, gyms, and country clubs alike. Swing mechanics and tool selection were documented for training and liability reasons in all of those contexts, and those references are still out there.*
 
 **Athletic Swing Mechanics Reference: Baseball**  
 Youth league coaching card: stance and follow-through.  
@@ -491,7 +491,7 @@ and chopping arcs.
 
 ### Spear
 
-*Spear technique shows up in places you wouldn't expect. Kentucky has a primitive weapons hunting season — the KDFWR regulates it. Track and field programs document javelin mechanics for coaching. Wilderness survival schools teach shaft construction and throwing as formal curriculum. Stage combat instructors write it down so nobody gets hurt. None of these people were preparing for the apocalypse, but the documentation they left behind is useful anyway.*
+*Spear technique shows up in places you wouldn't expect. Kentucky has a primitive weapons hunting season; the KDFWR regulates it. Track and field programs document javelin mechanics for coaching. Wilderness survival schools teach shaft construction and throwing as formal curriculum. Stage combat instructors write it down so nobody gets hurt. None of these people were preparing for the apocalypse, but the documentation they left behind is useful anyway.*
 
 **KDFWR Primitive Weapons Hunting Regulations**  
 Detailed notes on the limitations of  
@@ -557,7 +557,7 @@ resistance during a strike.
 
 ### Blacksmithing
 
-*Industrial metalworking is governed by ASTM material standards, heat treatment specifications, and supplier technical data sheets. Forge operations keep these references at the workbench — not because OSHA necessarily requires it, but because temperature margins don't forgive guesswork.*
+*Industrial metalworking is governed by ASTM material standards, heat treatment specifications, and supplier technical data sheets. Forge operations keep these references at the workbench, not because OSHA necessarily requires it, but because temperature margins don't forgive guesswork.*
 
 **ASTM Material Specifications Quick Reference**  
 Steel grades, hardness, and heat treatment ranges.  
@@ -606,8 +606,8 @@ Drawing a nail from bar stock.
 `ClassroomDesk` `DeskGeneric`
 
 **Swordsmith Apprentice's Journal**  
-Failed bevels and heat disasters — corrections  
-circled in red.  
+Failed bevels and heat disasters,  
+corrections circled in red.  
 `WildWestBlacksmith` `BlacksmithLiterature`
 
 **Colonial Williamsburg Ironworker Notes**  
@@ -617,7 +617,7 @@ fire management.
 
 ### Carpentry
 
-*Building permits require documentation. Engineers produce span tables and load calculations. Contractors develop field notes and SOPs. The paper trail behind every framed wall and finished floor runs from the AWC to the job site — and a lot of it ends up in filing cabinets that are still intact.*
+*Building permits require documentation. Engineers produce span tables and load calculations. Contractors develop field notes and SOPs. The paper trail behind every framed wall and finished floor runs from the AWC to the job site, and a lot of it ends up in filing cabinets that are still intact.*
 
 **Lumber Yard Safety Manual**  
 Lumber yard tool safety and material grading guide.  
@@ -676,7 +676,7 @@ someone who built houses.
 
 ### Carving
 
-*The production of wooden handles, tool shafts, and replacement parts is a real trade — smaller than it once was, but documented by toolmakers, archaeological programs, and wilderness survival schools. The skill covers bone tools as well as wood, and the documentation stretches from anthropology departments to trapper's field references.*
+*The production of wooden handles, tool shafts, and replacement parts is a real trade, smaller than it once was, but documented by toolmakers, archaeological programs, and wilderness survival schools. The skill covers bone tools as well as wood, and the documentation stretches from anthropology departments to trapper's field references.*
 
 **Wooden Handle and Shaft Fabrication Reference**  
 Wood selection and shaping for tool handles and hafts.  
@@ -723,8 +723,8 @@ someone who knew.
 `ClassroomSecondaryDesk` `DeskGeneric`
 
 **Appalachian Folk Art Whittling Pamphlet**  
-Passed-down wood selection and rough-out —  
-just what works.  
+Passed-down wood selection and rough-out.  
+Just what works.  
 `DeskGeneric` `FilingCabinetGeneric`
 
 **Self-Bow Carver's Tillering Notes**  
@@ -733,7 +733,7 @@ Self-bow tillering process notes.
 
 ### Cooking
 
-*Commercial kitchens are legally required to maintain HACCP documentation, food safety plans, and compliance records. The references that support those requirements — temperature charts, sanitation procedures, station SOPs — are still in the filing cabinets of every restaurant and cafeteria that closed when Knox County did.*
+*Commercial kitchens are legally required to maintain HACCP documentation, food safety plans, and compliance records. The references that support those requirements (temperature charts, sanitation procedures, station SOPs) are still in the filing cabinets of every restaurant and cafeteria that closed when Knox County did.*
 
 **HACCP Food Safety Plan**  
 Commercial kitchen critical control points  
@@ -793,7 +793,7 @@ sound on steel.
 
 ### Electrical
 
-*Electrical work is governed by the National Electrical Code and enforced by inspection. Every permitted job generates paperwork — permits, load calculations, code compliance checklists. Journeymen carry laminated reference cards; the rest stays in filing cabinets and job site binders.*
+*Electrical work is governed by the National Electrical Code and enforced by inspection. Every permitted job generates paperwork: permits, load calculations, code compliance checklists. Journeymen carry laminated reference cards; the rest stays in filing cabinets and job site binders.*
 
 **NEC Article Quick Reference Card**  
 Most-cited NEC articles. Every journeyman's  
@@ -906,7 +906,7 @@ Earnest hobbyist.
 
 ### Knapping
 
-*Flint-knapping is documented primarily by archaeologists and wilderness educators — researchers who need replicable technique for lithic analysis, and instructors who teach primitive skills in structured programs. It's not the kind of reference that turns up in a gun store, but it does turn up in anthropology departments and survival schools.*
+*Flint-knapping is documented primarily by archaeologists and wilderness educators, researchers who need replicable technique for lithic analysis, and instructors who teach primitive skills in structured programs. It's not the kind of reference that turns up in a gun store, but it does turn up in anthropology departments and survival schools.*
 
 **Lithic Technology Field Reference**  
 Percussion and pressure flaking with  
@@ -966,7 +966,7 @@ Cherty stone quality field card.
 
 ### Masonry
 
-*Building codes, ASTM material standards, and inspection checklists govern masonry construction at every level. Mix ratios, coursing tolerances, and compressive strength requirements are published and enforced — and the references that document them were on construction sites and in contractor offices across the county.*
+*Building codes, ASTM material standards, and inspection checklists govern masonry construction at every level. Mix ratios, coursing tolerances, and compressive strength requirements are published and enforced, and the references that document them were on construction sites and in contractor offices across the county.*
 
 **Mortar Mix and Application Reference**  
 Mortar mix ratios and curing  
@@ -988,8 +988,8 @@ Water-cement ratios and slump specs by application.
 `FilingCabinetGeneric`
 
 **Brick Industry Association Bricklayer Manual**  
-Layout, story pole, and lead-building — the  
-apprentice's pocket ref.  
+Layout, story pole, and lead-building:  
+the apprentice's pocket ref.  
 `ToolStoreMisc` `FilingCabinetGeneric`
 
 **Stonecutter Apprentice's Notebook**  
@@ -1029,7 +1029,7 @@ vehicular paving.
 
 ### Mechanics
 
-*Automotive repair runs on published technical data — OBD codes, torque specifications, brake service intervals. Every shop maintains reference materials; manufacturers publish them. The information doesn't become less useful when the car isn't running anymore.*
+*Automotive repair runs on published technical data: OBD codes, torque specifications, brake service intervals. Every shop maintains reference materials; manufacturers publish them. The information doesn't become less useful when the car isn't running anymore.*
 
 **OBD-II Diagnostic Trouble Code Reference**  
 OBD-II diagnostic codes organized by system. Well-worn.  
@@ -1101,7 +1101,7 @@ Flux ratios and colorant percentages by glaze type.
 Shrinkage rates and cone compatibility for clay bodies.  
 
 **University Ceramics Studio Textbook**  
-Centering, opening, pulling, collaring —  
+Centering, opening, pulling, and collaring:  
 illustrated sequences.  
 `FilingCabinetGeneric`
 
@@ -1147,7 +1147,7 @@ Earnest sketches.
 
 ### Tailoring
 
-*Garment manufacturing is a precision trade governed by sizing standards, construction tolerances, and material specifications. Production environments document these requirements because consistency across hundreds of units demands it — and that documentation stayed in the filing cabinets when the factories closed.*
+*Garment manufacturing is a precision trade governed by sizing standards, construction tolerances, and material specifications. Production environments document these requirements because consistency across hundreds of units demands it, and that documentation stayed in the filing cabinets when the factories closed.*
 
 **Pattern Grading and Sizing Reference**  
 Garment grade rules for production pattern scaling.  
@@ -1233,8 +1233,8 @@ Welding ventilation, fire watch, and PPE requirements.
 `WeldingWorkshopTools` `FilingCabinetGeneric`
 
 **AWS Certified Welder Test Manual**  
-Practice tests for 3G and 4G — the welds most  
-self-taught avoid.  
+Practice tests for 3G and 4G: the welds  
+most self-taught avoid.  
 `WeldingWorkshopTools` `FilingCabinetGeneric`
 
 **Pipefitter's Welding Manual**  
@@ -1443,8 +1443,8 @@ high-volume poultry.
 `ButcherLiterature`
 
 **Charcutier's Apprentice Diary**  
-A year of salt percentages and failures — corrections  
-circled in red.  
+A year of salt percentages and failures,  
+corrections circled in red.  
 `ButcherLiterature`
 
 **Wild Game Processor's Reference**  
@@ -1458,7 +1458,7 @@ squirrel, wild hog.
 
 ### Running *(Sprinting)*
 
-*Law enforcement and fire service agencies document physical fitness requirements with the same rigor they apply to everything else. The qualification standards that measured Knox County's officers and firefighters are still in personnel files and department filing cabinets — evidence of what the job demanded before everything changed.*
+*Law enforcement and fire service agencies document physical fitness requirements with the same rigor they apply to everything else. The qualification standards that measured Knox County's officers and firefighters are still in personnel files and department filing cabinets, evidence of what the job demanded before everything changed.*
 
 **LE Physical Fitness Standards**  
 Police and sheriff fitness assessment scoring tables.  
@@ -1504,8 +1504,8 @@ weekly benchmarks.
 `PoliceFilingCabinet` `PoliceDesk`
 
 **Army APFT Field Manual**  
-Two-mile run and push-up standards by age — plus  
-back-half PT drills.  
+Two-mile run and push-up standards by age,  
+plus back-half PT drills.  
 `ArmySurplusLiterature` `ArmyBunkerLockers` `FilingCabinetGeneric`
 
 **HS Football Conditioning Manual**  
@@ -1520,7 +1520,7 @@ Mud flecks on the back.
 
 ### Strength
 
-*Occupational safety programs produce lifting requirement references for exactly the environments where heavy work happens — warehouses, factories, loading docks. NIOSH published the lifting equation; employers were required to post it.*
+*Occupational safety programs produce lifting requirement references for exactly the environments where heavy work happens: warehouses, factories, loading docks. NIOSH published the lifting equation; employers were required to post it.*
 
 **NIOSH Lifting Equation Field Reference**  
 Federal occupational safety lifting limits for  
@@ -1542,8 +1542,8 @@ power position, pull-under.
 `OfficeDeskHomeClassy` `FilingCabinetGeneric`
 
 **Strongman Training Manual**  
-Atlas stones, log press, frame carry — transfers to  
-real-world hauling.  
+Atlas stones, log press, frame carry:  
+transfers to real-world hauling.  
 `FilingCabinetGeneric`
 
 **Muscle Builder Magazine Issue**  
@@ -1583,7 +1583,7 @@ Cutting weight strategies and grip strength routines.
 
 ### First Aid
 
-*OSHA requires employers to maintain workplace first aid capacity and documentation. The laminated reference cards, compliance checklists, and emergency response SOPs that fulfilled that requirement are in office filing cabinets and factory first aid stations across the county — still sealed in their plastic sleeves.*
+*OSHA requires employers to maintain workplace first aid capacity and documentation. The laminated reference cards, compliance checklists, and emergency response SOPs that fulfilled that requirement are in office filing cabinets and factory first aid stations across the county, still sealed in their plastic sleeves.*
 
 **Workplace First Aid and Emergency Response SOP**  
 Standard operating procedure for wound care  
@@ -1605,8 +1605,8 @@ priority classification.
 `FireStorageTools` `WaitingRoomDesk` `MedicalOfficeDesk` `FilingCabinetGeneric`
 
 **Paramedic Field Protocol Manual**  
-Epi, morphine, glucose — dosing and cardiac protocol  
-for field medics.  
+Epi, morphine, glucose: dosing and cardiac  
+protocol for field medics.  
 `FireStorageTools` `MedicalOfficeDesk` `FilingCabinetGeneric`
 
 **Emergency Department Triage Textbook**  
@@ -1646,7 +1646,7 @@ and sick-versus-critical signs.
 
 ### Fishing
 
-*Kentucky Fish and Wildlife publishes annual regulations booklets, and commercial operators maintain compliance documentation beyond that. The regulations alone were distributed widely enough that copies turn up almost anywhere near water — in tackle shop back rooms, game warden offices, and marina filing cabinets.*
+*Kentucky Fish and Wildlife publishes annual regulations booklets, and commercial operators maintain compliance documentation beyond that. The regulations alone were distributed widely enough that copies turn up almost anywhere near water, in tackle shop back rooms, game warden offices, and marina filing cabinets.*
 
 **Kentucky Fish and Wildlife Fishing Regulations**  
 Kentucky seasons, size limits,  
@@ -1669,7 +1669,7 @@ for small vessels.
 `FilingCabinetGeneric`
 
 **Kentucky Bass Fishing Club Newsletter**  
-GPS edited out — seasonal patterns and depth  
+GPS edited out. Seasonal patterns and depth  
 references remain.  
 `OfficeDeskHome` `FilingCabinetGeneric`
 
@@ -1697,7 +1697,7 @@ Polarized lens scratches.
 `FilingCabinetGeneric`
 
 **Noodling and Handfishing Pamphlet**  
-Flat-rock and hollow-log — fish or snapping  
+Flat-rock and hollow-log: fish or snapping  
 turtle by feel.  
 `FilingCabinetGeneric`
 
@@ -1708,7 +1708,7 @@ shells from protected.
 
 ### Foraging
 
-*Professional foragers, extension herbalists, and wildlife educators maintain field identification references as working tools — not for hobbyist reading, but for reliable harvest and safe species discrimination. The KDFWR and university extension programs produced and distributed them, and copies ended up in farm offices, conservation offices, and university filing cabinets.*
+*Professional foragers, extension herbalists, and wildlife educators maintain field identification references as working tools, not for hobbyist reading, but for reliable harvest and safe species discrimination. The KDFWR and university extension programs produced and distributed them, and copies ended up in farm offices, conservation offices, and university filing cabinets.*
 
 **Edible Plants of the Eastern Woodlands**  
 Eastern woodland edibles. Some entries  
@@ -1753,23 +1753,23 @@ and fiber by community.
 `GardenStoreMisc` `FilingCabinetGeneric`
 
 **Traditional Appalachian Plant Uses**  
-Ramps, poke, bloodroot, elder — with processing notes  
-for toxic species.  
+Ramps, poke, bloodroot, and elder, with  
+processing notes for toxic species.  
 `FilingCabinetGeneric`
 
 **Hunter-Gatherer Plants of NA**  
-Roots in fall, greens in spring, seeds in summer —  
-season by season.  
+Roots in fall, greens in spring, seeds in summer.  
+Season by season.  
 `RangerBooks` `FilingCabinetGeneric`
 
 **Wild Edibles Cookbook**  
-Dock, acorn flour, cattail pollen — bridging ID  
-to actual cooking.  
+Dock, acorn flour, and cattail pollen:  
+bridging ID to actual cooking.  
 `FilingCabinetGeneric`
 
 ### Tracking
 
-*Wildlife officers, professional hunting guides, and wildlife managers use field identification references for population assessment and habitat evaluation. The KDFWR produces technical guides for professional use that go well beyond what hunting magazines cover — and those guides end up in wildlife offices and conservation filing cabinets.*
+*Wildlife officers, professional hunting guides, and wildlife managers use field identification references for population assessment and habitat evaluation. The KDFWR produces technical guides for professional use that go well beyond what hunting magazines cover, and those guides end up in wildlife offices and conservation filing cabinets.*
 
 **Wildlife Track and Sign Identification Reference**  
 Track morphology and gait patterns by species.  
@@ -1810,8 +1810,8 @@ Written for deputies.
 `PoliceFilingCabinet`
 
 **Wildlife Biology Textbook**  
-Home range, habitat corridors, and seasonal movement —  
-the ecological why.  
+Home range, habitat corridors, and seasonal  
+movement: the ecological why.  
 `RangerBooks` `FilingCabinetGeneric`
 
 **Bow Hunter's Camouflage Manual**  
@@ -1857,7 +1857,7 @@ Pamphlet smells of castor.
 `FilingCabinetGeneric`
 
 **Fox Holer's Lure Recipes**  
-Gland and food lures by season — urine-to-skunk  
+Gland and food lures by season: urine-to-skunk  
 ratios for fox.  
 `FilingCabinetGeneric`
 
