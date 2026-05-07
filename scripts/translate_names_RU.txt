@@ -1,0 +1,372 @@
+WK_KCPDFirearmsQual | Стандарты квалификации по огнестрельному оружию патрульных KCPD
+WK_RangeSafetyOfficerRef | Полевой справочник офицера безопасности на стрельбище
+WK_DefensiveHandgunRef | Справочник по защитному применению пистолета
+WK_SheriffQualLog | Журнал квалификации по табельному оружию шерифа
+WK_TacticalReloadRef | Тактические процедуры перезарядки для сотрудников полиции
+WK_MagazineDrillCard | Карточка учебных упражнений по обращению с оружием
+WK_ArmorersWeaponsRef | Справочник оружейника по обращению с оружием
+WK_PracticalShootingRef | Процедуры прохождения этапов практической стрельбы
+WK_OSHALoggingRef | Справочник OSHA по безопасности при лесозаготовке
+WK_ArboristFieldGuide | Полевой справочник сертифицированного арбориста по оценке деревьев
+WK_ForcibleEntryRef | Справочник NFPA 1 по операциям принудительного вскрытия
+WK_FirefighterHandToolSOP | СОП пожарного по работе с ручным инструментом
+WK_BrushClearingRef | Справочник по расчистке кустарника на тропах
+WK_MacheteUseGuide | Руководство по безопасному использованию сельскохозяйственного мачете
+WK_ForestryContractorSOP | СОП подрядчика по расчистке кустарника в лесном хозяйстве
+WK_KnifeMaintenanceLog | Журнал технического обслуживания ножей в коммерческой кухне
+WK_EdgeToolSharpeningRef | Справочник по заточке режущего инструмента
+WK_HandToolConditionRef | Справочник по состоянию и уходу за ручным инструментом
+WK_ImpactWeaponMaintSOP | СОП отдела полиции по обслуживанию ударного оружия
+WK_WhetstoneSelectionRef | Справочник по выбору точильных и шлифовальных камней
+WK_MeatFabricationRef | Справочник по разделке мяса
+WK_NSFBladeSafetyRef | Справочник NSF по безопасности ножей и санитарии
+WK_FishFabricationRef | Полевой справочник по разделке рыбы
+WK_KCPDImpactWeaponsRef | Справочник KCPD по ударному оружию
+WK_OSHAHandToolSafety | Справочник OSHA по безопасности ручного инструмента
+WK_FramingHammerCard | Карточка по применению и безопасности плотницкого молотка
+WK_PlumbingQuickClearRef | Краткий справочник по устранению засоров в сантехнике
+WK_BaseballSwingRef | Справочник по механике спортивного удара: бейсбол
+WK_DemolitionHandToolRef | Справочник по ручному инструменту для сноса и пролома
+WK_GolfSwingRef | Механика удара в гольфе и техника работы с клюшкой
+WK_CrowbarApplicationsRef | Справочник по применению монтировки и рычажных инструментов
+WK_KDFWRPrimitiveWeapons | Правила охоты с примитивным оружием KDFWR
+WK_JavelinCoachingRef | Тренерский справочник по лёгкой атлетике: метание копья
+WK_AtlatlSpearRef | Полевой справочник по изготовлению атлатля и копья
+WK_StageCombatSpearRef | Справочник по сценическому фехтованию на копьях
+WK_ASTMMaterialSpecRef | Краткий справочник по материальным спецификациям ASTM
+WK_ForgeHeatTreatGuide | Полевой справочник по кузнечной сварке и термообработке
+WK_IndustrialMetalworkRef | Справочник по промышленной обработке металлов
+WK_BlacksmithGuildStandards | Технические стандарты кузнечного торгового цеха
+WK_LumberYardManual | Руководство по безопасности на лесопилке
+WK_SpanTablesRef | Таблицы пролётов для балок и стропил
+WK_FinishCarpentryNotes | Полевые заметки по чистовой плотницкой отделке
+WK_NDSWoodConstruction | Полевое резюме NDS по деревянным конструкциям
+WK_FramingSquareCard | Карточка-справочник по угольнику для разметки
+WK_WoodenHandleShaftRef | Справочник по изготовлению деревянных рукояток и древков
+WK_FieldExpedientToolRef | Справочник по изготовлению инструментов в полевых условиях
+WK_ArchaeologicalToolNotes | Примечания по воспроизведению примитивных инструментов в археологии
+WK_TrapperBoneToolRef | Справочник охотника по костяным инструментам и снаряжению
+WK_KnifeHandleFittingRef | Справочник по изготовлению рукоятки ножа на заказ
+WK_HACCPFoodSafetyPlan | План пищевой безопасности ХАССП
+WK_TempTimeControlChart | Краткий справочник по контролю температуры и времени
+WK_LineCookStationRef | Справочник повара горячего цеха по организации рабочего места
+WK_SauceStockLog | Журнал производства соусов и бульонов
+WK_ServSafeRef | Краткий справочник ServSafe для работников пищевой промышленности
+WK_NECArticleRef | Карточка-справочник по статьям NEC
+WK_WireGaugeAmpacityRef | Справочник по сечению проводов и допустимым токам
+WK_OSHAElectricalSafety | Электробезопасность на производстве по OSHA 1910
+WK_ConduitFillRef | Карточка-справочник по заполнению труб и коробок
+WK_PanelInspectionChecklist | Контрольный список проверки жилого распределительного щита
+WK_GlassAnnealingRef | Справочник по температурам отжига стекла
+WK_FloatGlassManufRef | Справочник по технологии производства флоат-стекла
+WK_KilnFormingRef | Техники формовки в печи: студийный справочник
+WK_LithicTechnologyRef | Полевой справочник по литической технологии
+WK_PrimitiveSkillsKnappingRef | Справочник инструктора по примитивным навыкам: кремнёвые орудия
+WK_LithicAnalysisStandards | Стандарты анализа литических орудий в археологии
+WK_MortarMixRef | Справочник по составам растворов и требованиям к укладке
+WK_ASTMC90MasonryRef | Справочник стандарта ASTM C90 по каменной кладке
+WK_BrickBlockInspectionRef | Контрольный список проверки кирпичной и блочной кладки
+WK_ConcreteMixRef | Полевой справочник по проектированию бетонных смесей
+WK_OBDIICodeRef | Справочник по диагностическим кодам OBD-II
+WK_TorqueSpecsRef | Краткий справочник по моментам затяжки
+WK_BrakeServiceRef | Справочник по проверке и обслуживанию тормозной системы
+WK_AutoElecDiagRef | Полевой справочник по диагностике электрики автомобиля
+WK_FleetMaintenanceLog | Журнал технического обслуживания и проверки парка автомобилей
+WK_KilnFiringScheduleRef | Справочник по расписанию обжига в печи
+WK_GlazeChemistryRef | Краткий справочник по химии глазурей
+WK_ClayBodyFormulationRef | Справочник по рецептуре и обжигу керамических масс
+WK_PatternGradingRef | Справочник по градации и размерной шкале выкроек
+WK_IndustrialSewingRef | Справочник по настройке промышленной швейной машины
+WK_FiberFabricRef | Краткий справочник по свойствам волокон и тканей
+WK_GarmentQualityRef | Стандарты проверки и качества одежды
+WK_AWSD11WeldingRef | Справочник по стандарту сварки конструкций AWS D1.1
+WK_WeldingProcSpecRef | Папка со спецификациями сварочных процедур
+WK_ElectrodeFillMetalRef | Руководство по выбору электродов и присадочных металлов
+WK_WeldInspectionRef | Критерии проверки и приёмки сварных швов
+WK_OSHAWeldingSafety | Справочник OSHA 1910.252 по безопасности при сварке
+WK_KnoxExtensionGuide | Руководство по возделыванию культур округа Нокс
+WK_SoilTestInterpretRef | Справочник по интерпретации результатов анализа почвы
+WK_PesticideApplicationRef | Справочник по применению и безопасности пестицидов
+WK_IrrigationSchedulingRef | Руководство по составлению графиков полива и управлению водными ресурсами
+WK_LivestockHealthRef | Полевой справочник по оценке здоровья скота
+WK_VaccinationDosageRef | Справочник по дозировке вакцин и препаратов для скота
+WK_ReproductiveMgmtBinder | Документация по воспроизводству и племенной работе
+WK_KDALivestockRef | Справочник KDA по нормам содержания скота
+WK_USDAMeatGradingRef | Справочник по стандартам сортировки и проверки мяса USDA
+WK_PrimalSubPrimalRef | Справочник по первичной и вторичной разделке туш
+WK_HACCPMeatProcessing | План ХАССП для малых предприятий по переработке мяса
+WK_LEFitnessStandardsRef | Стандарты физической подготовки сотрудников полиции
+WK_FireAcademyFitnessRef | Требования к кардиоподготовке в пожарной академии
+WK_NIOSHLiftingRef | Полевой справочник NIOSH по нормам подъёма грузов
+WK_ManualMaterialsHandRef | Справочник по безопасному ручному перемещению материалов
+WK_WorkplaceFirstAidSOP | СОП по оказанию первой помощи и реагированию на ЧС на производстве
+WK_CPRAEDRef | Карточка-справочник по СЛР и АНД
+WK_OSHAFirstAidRef | Справочник OSHA 1910.151 по соблюдению норм первой помощи
+WK_EmergencyTriageRef | Полевой справочник по сортировке пострадавших при ЧС
+WK_KYFishingRegs | Правила рыболовства штата Кентукки
+WK_FishIdentificationRef | Полевой справочник по определению рыб и их оценке
+WK_RiggingTackleRef | Справочник по оснастке и концевой такелажной арматуре
+WK_CommercialFishingSafetyRef | Справочник по безопасности на коммерческих рыболовных судах
+WK_EdiblePlantsRef | Съедобные растения восточных лесов
+WK_ToxicPlantRef | Справочник по ядовитым двойникам съедобных растений
+WK_WildcraftHerbalistRef | Полевой справочник травника-дикороса
+WK_WildlifeTrackSignRef | Полевой справочник по следам и признакам присутствия животных
+WK_DeerMovementRef | Руководство по оценке перемещений оленя и среды обитания
+WK_KDFWRGameMgmtRef | Полевой справочник KDFWR по управлению охотничьим хозяйством
+WK_WildlifeTrappingGuide | Полевой справочник KDFWR по отлову диких животных
+WK_FurbearerRef | Справочник по определению пушных зверей и срокам добычи
+WK_KDFWRTrapperRegs | Правила охоты на пушных зверей KDFWR
+WK_NRAPistolInstructorMan | Учебное пособие инструктора NRA по пистолету
+WK_BullseyeMatchProgramme | Программа соревнований по стрельбе на меткость NRA
+WK_KYConcealedCarryGuide | Учебное пособие по разрешению CCDW штата Кентукки
+WK_FBIQualScorebook | Книжка оценки квалификации агента ФБР
+WK_USPSARulebook | Регламент дивизиона «Стандарт» USPSA
+WK_BoyScoutRiflery | Памятка бойскаутов по стрельбе из винтовки
+WK_VietnamRiflemanNotes | Аннотированные заметки ветерана: стрелок КМП США
+WK_HighPowerNewsletter | Вестник клуба высококалиберной стрельбы округа Нокс
+WK_PoliceAcademyHandgun | Учебник пистолета полицейской академии
+WK_RevolverSpeedloaderCard | Карточка по быстрой перезарядке служебного револьвера
+WK_CombatShootingDrills | Набор карточек упражнений по защитной стрельбе
+WK_GunsmithStripping | Заметки оружейника по разборке и сборке
+WK_NavalGunnersManual | Инструкция артиллерийского офицера ВМС по обращению с оружием
+WK_ShotgunReloadingCard | Карточка тренировки перезарядки спортивного дробовика
+WK_RangemasterDrillBook | Учебная книга инструктора-тренера на стрельбище
+WK_GuardForceWeaponsManual | СОП по оружию для охранников бронеавтомобилей Loomis
+WK_TimberCruiserHandbook | Карманный справочник таксатора леса
+WK_AppalachianFellingNotes | Заметки аппалачского лесоруба по валке деревьев
+WK_BoyScoutAxemanship | Памятка бойскаутов по работе с топором
+WK_MountainRescueIceAxe | Инструкция по применению ледоруба в горноспасательных операциях
+WK_BackcountryHatchetCard | Полевая карточка по применению туристического топорика
+WK_TechnicalRescueAxeRef | Справочник по применению топора в техническом спасении
+WK_EngineCompanyAxeRef | Справочник пожарного расчёта по принудительному вскрытию топором
+WK_KDFWRDeadwoodPamph | Памятка охотника KDFWR по удалению сухостоя
+WK_BushHogOperatorRef | Руководство оператора роторной косилки Bush Hog
+WK_KYHighwayBrushControl | Руководство дорожного департамента Кентукки по управлению придорожной растительностью
+WK_CornDetasselingCard | Карточка бригадира по удалению метёлок кукурузы
+WK_AppalachianHerbalCutting | Справочник аппалачского сборщика трав по резке
+WK_StateParksTrailCrew | СОП бригады по расчистке троп в государственных парках Кентукки
+WK_KaiserBladeFieldRef | Полевой справочник по инструменту «кайзер блейд»
+WK_SCAHeavyFightCard | Карточка практики тяжёлого боя SCA
+WK_CaneCuttingManual | Руководство бригады по резке сахарного тростника
+WK_LarpFightChoreography | Заметки по постановке боёв в LARP
+WK_JewelersFileCard | Карточка ювелира по напильникам и полировальным инструментам
+WK_ShopApprenticeToolLog | Журнал обслуживания инструмента ученика мастерской
+WK_BarberRazorStropping | Карточка парикмахера по правке бритвы на ремне
+WK_ScoutTroopToolCare | Карточка отряда скаутов по уходу за инструментом
+WK_BladesmithToolCare | Заметки кузнеца-ножовщика по уходу за инструментом
+WK_BowSawSetGuide | Руководство по разводке и заточке зубьев пилы
+WK_AntiqueDealerCare | Руководство антиквара по уходу за режущим инструментом
+WK_SushiChefKnifeBook | Учебник повара суши по технике работы с ножом янагиба
+WK_TaxidermistCapingRef | Справочник таксидермиста по работе с ножом для снятия шкуры
+WK_EMTRescueKnifeCard | Полевая карточка медика-спасателя по аварийному ножу
+WK_ButchersBoningGuide | Руководство мясника по технике обвалочного ножа
+WK_SurgeonScalpelRef | Справочник по работе с хирургическим скальпелем
+WK_ScoutCampcraftKnife | Памятка бойскаутов по обращению с ножом в лагере
+WK_UFCWCutleryTechRef | Справочник UFCW по технике работы с ножами
+WK_KnifemakerTestCutLog | Журнал испытательных порезов кастомного ножевщика
+WK_NorthwoodsFilletCard | Карточка рыбного лагеря Northwoods по разделке
+WK_NightstickTrainingMan | Инструкция инструктора полиции по дубинке
+WK_RailroadSpikeMaul | Карточка по технике работы кувалдой при забивке костылей
+WK_AutoBodyHammerNotes | Заметки по работе с молотком и поддоном при рихтовке кузова
+WK_ProductionFramerCard | Карточка каркасника по гвоздезабивке в потоке
+WK_BlacksmithHammerCard | Карточка кузнеца по работе с крест-пейном
+WK_MasonsHammerRef | Справочник каменщика по молотку и кельме
+WK_CaverHammerPickRef | Справочник NSS по молотку и кирке спелеолога
+WK_RoofersFlashingCard | Карточка кровельщика по сланцевому молотку и гидроизоляции
+WK_TrackMaintenanceSledge | Инструкция по работе с кувалдой при обслуживании пути
+WK_RiotBatonInstructorRef | Справочник инструктора по полицейской дубинке для разгона толпы
+WK_CricketBowlersGuide | Тренерская карточка боулера по крикету
+WK_LacrosseCoachManual | Тренерское руководство по клюшке в мужском лакроссе
+WK_HockeyStickHandling | Карточка по владению клюшкой в школьном хоккее
+WK_FirefighterHaliganRef | Справочник пожарного по работе с ломом Хэллигана
+WK_LandClearingMaul | Заметки по использованию колуна при расчистке земли
+WK_PulaskiSwingScale | Шкала маха инструментом Путласки USFS
+WK_KDFWRBowfishingRef | Памятка KDFWR по правилам стрельбы по рыбе из лука
+WK_SCAPolearmRef | Справочник SCA по работе с древковым оружием
+WK_CherokeeFishSpear | Заметки чероки по традиционному рыболовному копью
+WK_TrackPoleVaultCard | Карточка тренера по прыжкам с шестом
+WK_WWIIBayonetTraining | Учебное пособие по штыковому бою Второй мировой войны
+WK_KarateBoStaffMan | Руководство додзё каратэ по работе с шестом бо
+WK_ScoutsPolearmDemo | Заметки демонстрационной команды скаутов по древковому оружию
+WK_PrimitiveSpearfishing | Справочник по рыбалке с копьём примитивными методами
+WK_ABANANewsletter | Вестник ABANA о традиционном кузнечном деле
+WK_FarrierShoeingNotes | Заметки коваля по горячей ковке лошадей
+WK_FrontierForgeRef | Справочник по воссозданию фронтирной кузни
+WK_SteelmillProcessRef | Справочник US Steel по горячей обработке металлов
+WK_KnifemakerForgeWeld | Заметки ножевщика по кузнечной сварке
+WK_ScoutMetalwork | Памятка бойскаутов по работе с металлом
+WK_SwordsmithApprDiary | Дневник ученика мечника
+WK_ColonialIronworker | Заметки кузнеца Colonial Williamsburg
+WK_SpoonCarvingNotes | Карманные заметки резчика ложек
+WK_CountryCarversBook | Книга деревенского резчика по вырезанию ножом
+WK_ChipCarvingPattern | Справочник по узорам плоскорельефной резьбы
+WK_WaldenWoodcrafter | Заметки резчика из Уолдена
+WK_JuniorHighWoodshop | Памятка по школьным урокам деревообработки
+WK_AppalachianFolkArt | Памятка аппалачского народного художника по резьбе
+WK_BowyerTilleringNotes | Заметки резчика по выверке само-лука
+WK_SullivanCulinaryText | Учебник по кулинарии Университета Салливана
+WK_KYExtensionCookbook | Домашняя кулинарная книга кооперативной службы Кентукки
+WK_ArmyMessHallSOP | СОП армейской столовой
+WK_SchoolCafeteriaRef | Справочник работника школьной столовой
+WK_PitBossBBQManual | Руководство по соревновательному барбекю в стиле Мемфис
+WK_HeritageCookbook1957 | Кулинарная книга методистской церкви 1957 года
+WK_TruckStopGriddleNotes | Заметки по работе на гриле придорожного кафе
+WK_IBEWApprentBook | Рабочая тетрадь ученика электромонтажника IBEW
+WK_ResWiringText | Учебник по жилой электропроводке торгового колледжа
+WK_MotorControlSchem | Справочник по схемам управления электродвигателями
+WK_TransformerNamePlate | Карточка-идентификатор трансформатора
+WK_GroundingBondingRef | Справочник по заземлению и уравниванию потенциалов
+WK_KYStateLicensingMan | Учебное пособие по лицензированию электриков штата Кентукки
+WK_UndergroundCableRef | Справочник по подземным кабелям электроснабжения
+WK_PenlandStudioGlass | Заметки мастер-класса по студийному стеклу школы Пенленд
+WK_CorningEngineering | Инженерный стандарт Corning Glass
+WK_StainedGlassChurch | Заметки по реставрации витражей в церкви
+WK_BorosilicateLampwork | Справочник по лэмпворку из боросиликатного стекла
+WK_AntiqueBottleCollect | Руководство коллекционера старинных бутылок
+WK_KilnFusedJewelry | Заметки по изготовлению украшений из спечённого стекла
+WK_TiffanyMethodRef | Справочник по методу Тиффани
+WK_NeonSignBenders | Полевой справочник мастера неоновых вывесок
+WK_BeadSocietyLampwork | Руководство общества бисероплетения по лэмпворку
+WK_CherokeeArrowhead | Заметки чероки о наконечниках стрел
+WK_FieldArchKnapping | Заметки полевого археолога по отжимной ретуши
+WK_PrimBowhunterFlint | Руководство охотника с луком по кремнёвым наконечникам
+WK_AmateurArchPamph | Памятка общества любителей археологии
+WK_ObsidianSourceRef | Справочник по источникам обсидиана
+WK_RendezvousMtnMan | Заметки горного охотника по кремнёвым орудиям
+WK_KCMuseumLithicCat | Каталог литических орудий Государственного музея Кентукки
+WK_BSAPrimitiveSurvival | Памятка BSA по примитивным навыкам выживания
+WK_ToolStoneQualityCard | Карточка по оценке качества камня для орудий
+WK_BIATraditionalBrick | Руководство Ассоциации кирпичной промышленности для каменщиков
+WK_StonecutterApprenNote | Тетрадь ученика камнереза
+WK_ChimneySweepInspect | Руководство трубочиста по проверке дымохода
+WK_HistoricPointingMan | Руководство по расшивке швов исторических зданий
+WK_ConcreteFinishersRef | Справочник отделочника по инструментам для бетонных работ
+WK_KCMasonsLocalNews | Вестник местного отделения каменщиков округа Нокс
+WK_FieldstoneWalls | Руководство по строительству стен из полевого камня
+WK_PavingStoneInstall | Руководство по укладке тротуарной плитки
+WK_ASEStudyGuide | Учебное пособие для сертификации ASE
+WK_KYVehicleInspection | Руководство по техническому осмотру транспортных средств Кентукки
+WK_BriggsStrattonRepair | Руководство по ремонту малых двигателей Briggs Stratton
+WK_DieselTroubleshoot | Карточка по диагностике дизельного двигателя
+WK_FordPickupShopMan | Сервисное руководство для пикапов Ford серии F
+WK_ChevyTechServiceBull | Технический сервисный бюллетень Chevrolet
+WK_TruckingFleetPMSched | График планового техобслуживания парка грузовиков
+WK_UnivCeramicsText | Учебник по керамике для студий университета
+WK_PenlandWheelRef | Справочник школы Пенленд по работе на гончарном круге
+WK_RakuFiringNotes | Студийные заметки по обжигу в технике раку
+WK_SaltGlazeStoneware | Справочник по солевому обжигу керамики
+WK_AppFolkPotteryPamph | Памятка по народной гончарной традиции Аппалачей
+WK_StudioKilnRepair | Полевые заметки по ремонту студийной печи
+WK_CommercialPotteryProc | Руководство по промышленному производству керамики
+WK_ChildrenPotteryLesson | Планы уроков гончарного дела для детей
+WK_BeginnerWheelNotes | Заметки для начинающих по работе на гончарном круге
+WK_SearsPatternCatalog | Каталог выкроек Sears
+WK_CarhartUnionShop | Руководство швейного цеха Carhartt
+WK_AlterationsTailorCard | Карточка-справочник портного по подгонке
+WK_HomeEcSewingText | Учебник по шитью для уроков домоводства
+WK_TheatricalCostumeShop | Справочник театральной костюмерной мастерской
+WK_HancockFabricsManual | Руководство сотрудника магазина Hancock Fabrics
+WK_UpholstererGuide | Руководство мебельного обивщика
+WK_BridalSeamstressNotes | Заметки свадебной портнихи по подгонке
+WK_AWSCertWelderManual | Учебник сертифицированного сварщика AWS
+WK_PipefittersWelding | Руководство трубопроводчика по сварке
+WK_AluminumMIGRef | Справочник по сварке алюминия методом MIG
+WK_UAWWeldingShopSOP | СОП профсоюза UAW по безопасности сварочного цеха
+WK_AutoBodyWeldingRef | Справочник по сварке в кузовном цехе
+WK_StickRodSelectionGuide | Руководство по выбору электродов для ручной дуговой сварки
+WK_AerospaceTIGNotes | Заметки по аргонодуговой сварке в авиакосмической отрасли
+WK_FFAVocAgText | Учебник сельскохозяйственного профобразования FFA
+WK_KYExtensionAgBull | Агрономический бюллетень кооперативной службы Кентукки
+WK_UKAgEconNotes | Конспекты по аграрной экономике Университета Кентукки
+WK_FertSpreaderCalCard | Карточка по калибровке разбрасывателя удобрений
+WK_USDACropRotation | Руководство USDA по чередованию культур в кукурузном поясе
+WK_NoTillFarmingMan | Руководство по нулевой обработке почвы
+WK_KYTobaccoGrowGuide | Руководство кентуккийских табаководов по выращиванию берли
+WK_RodaleOrganicPamph | Памятка Rodale по органическому земледелию
+WK_KYCattlemensNews | Вестник Ассоциации скотоводов Кентукки
+WK_FFALivestockJudging | Руководство FFA по оценке скота
+WK_TysonPoultryGrower | Справочник фермера по птицеводству Tyson
+WK_TrackVetDailyLog | Ежедневный журнал ипподромного ветеринара
+WK_SheepGoatBreeder | Руководство по разведению овец и коз
+WK_SwineProductionMan | Руководство по интенсивному свиноводству
+WK_DairyHerdMgmt | Справочник по управлению молочным стадом
+WK_AgEdJudgingCard | Карточка судьи конкурса скота FFA
+WK_UnionStockyardsCut | Руководство по разделке мяса на Union Stockyards
+WK_DeerProcessorGuide | Руководство местного предприятия по разделке оленины
+WK_SausageProductionNotes | Заметки по производству колбасных изделий
+WK_SmallSlaughterhouseSOP | СОП малой бойни по инспекции
+WK_KosherButcheringRef | Справочник по кошерному забою скота
+WK_CharcuterieProduction | Руководство по производству мясных деликатесов
+WK_HolidayTurkeyCard | Карточка бригады по переработке праздничных индеек
+WK_CharcutierApprDiary | Дневник ученика мясного деликатесного цеха
+WK_WildGameProcessor | Справочник по обработке дичи
+WK_HSTrackCoachManual | Руководство тренера школьной лёгкой атлетики
+WK_NCAAStrengthCondition | Заметки по силовой подготовке NCAA
+WK_KYHSAARulebook | Правила Ассоциации школьного спорта Кентукки
+WK_BostonMarathonTrain | Памятка по подготовке к Бостонскому марафону
+WK_SprintIntervalCard | Карточка интервальной спринтерской тренировки
+WK_CrossCountryRef | Справочник по кроссовому бегу
+WK_PoliceRecruitFitness | Руководство по физической подготовке полицейского курсанта
+WK_ArmyAPFTManual | Полевой устав по армейскому физическому тестированию APFT
+WK_HSFootballCondition | Руководство по физической подготовке школьных футболистов
+WK_BMXRacingTraining | Карточка по тренировке в BMX-гонках
+WK_USPFPowerlifting | Справочник USPF по пауэрлифтингу
+WK_OlympicLiftingNotes | Заметки тренера по олимпийской тяжёлой атлетике
+WK_StrongmanTrainingMan | Руководство по тренировке силачей
+WK_MuscleBuilderMag | Номер журнала «Строитель мышц»
+WK_ArmyCombatLifter | Справочник армии по перемещению раненых в бою
+WK_FarmStrengthManual | Руководство по силовой и выносливостной подготовке фермера
+WK_RugbyStrengthMan | Руководство по силовой подготовке регбистов
+WK_FreightDockLiftCard | Карточка подъёма для грузчика
+WK_CollegeStrengthLog | Журнал силовой подготовки студенческого спортсмена
+WK_HSWrestlingStrength | Справочник по силовой подготовке школьного борца
+WK_ParamedicProtocolMan | Полевой протокол фельдшера-парамедика
+WK_ERTriageTextbook | Учебник по сортировке пострадавших в приёмном покое
+WK_NursingFundamentals | Учебник по основам сестринского дела
+WK_PharmacistDispensing | Руководство фармацевта по отпуску препаратов
+WK_ArmyCombatMedic | Руководство армейского медика
+WK_NursingHomeCareMan | Руководство по уходу в доме престарелых
+WK_WoundCareSuturing | Справочник по уходу за ранами и наложению швов
+WK_PediatricFirstAid | Справочник по педиатрической первой помощи
+WK_KYBassFishingClub | Вестник клуба рыболовов-любителей ловли басса Кентукки
+WK_CrappieAnglersGuide | Полевой справочник рыболова по ловле краппи
+WK_KYTroutStocking | График зарыбления форелью в Кентукки
+WK_FlyTyingPattern | Книга образцов мушек для нахлыста
+WK_KYRiverCatfishing | Руководство по ловле сома на реках Кентукки
+WK_WalleyeFishingRef | Полевой справочник по ловле судака
+WK_NoodlingHandfishing | Памятка по ловле сома руками
+WK_KYMusselRegs | Правила промышленного сбора мидий в Кентукки
+WK_KYWildflowerGuide | Полевой справочник по дикорастущим цветам Кентукки
+WK_StalkingWildAsparagus | Охота за дикой спаржей
+WK_HerbalPharmacyEnc | Энциклопедия фитоаптеки
+WK_WildMushroomHunt | Справочник по поиску диких грибов
+WK_BackyardForaging | Памятка по собирательству на заднем дворе
+WK_EthnobotanyText | Учебник по этноботанике
+WK_TraditionalAppPlants | Традиционные растения Аппалачей и их применение
+WK_HunterGatherersRef | Растения охотников-собирателей Северной Америки
+WK_WildEdiblesCookbook | Кулинарная книга по диким съедобным растениям
+WK_ApacheScoutTracking | Руководство разведчика апачей по отслеживанию следов
+WK_KYCoonHunting | Памятка по охоте на енота в Кентукки
+WK_SARTrackingTraining | Учебные заметки по отслеживанию следов для ПСО
+WK_TurkeyHuntingRef | Полевой справочник по охоте на индейку
+WK_BloodhoundHandlerCard | Карточка проводника ищейки-бладхаунда
+WK_WildlifeBiologyText | Учебник по биологии диких животных
+WK_BowHunterCamoMan | Руководство охотника с луком по маскировке
+WK_NavySEALReconPamph | Памятка морского спецназа по разведке
+WK_SignReadingNotes | Заметки семинара по чтению следов
+WK_NTAFurHandlersGuide | Руководство Национальной ассоциации охотников по обращению с мехом
+WK_KYBeaverTrapPamph | Памятка по отлову бобров в Кентукки
+WK_FoxHolerLureRecipes | Рецепты приманок для охотника на лис
+WK_ConibearSetTechnique | Заметки по установке ловушек Конибер
+WK_FootholdStakingRef | Справочник по установке капканов с цепным якорем
+WK_USDAAnimalDamage | Руководство USDA по контролю ущерба от животных
+WK_KDFWRNuisanceWild | Руководство KDFWR по вредоносным диким животным
+WK_MuskratPeltStretch | Руководство по растяжке шкур ондатры
+WK_FurAuctionGrading | Заметки по сортировке мехов на аукционе
+WK_CabinetmakerJoinery | Справочник столяра-краснодеревщика по соединениям
+WK_RoofFramingCalcCard | Карточка расчёта стропильной системы крыши
+WK_LogHomeBuildersRef | Справочник строителя бревенчатого дома
+WK_AppTimberFramePamph | Памятка по каркасному строительству из бруса в Аппалачах
+WK_ScoutCarpentryMerit | Памятка бойскаутов по плотницкому делу
+WK_FurnitureMakerNotes | Полевые заметки мебельного мастера
+WK_VocSchoolBuildTrades | Учебник по строительным специальностям профессионального колледжа

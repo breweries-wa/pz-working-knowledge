@@ -1,0 +1,10 @@
+Sandbox_WorkingKnowledge | Рабочие знания
+Sandbox_WorkingKnowledge_SpawnRate | Частота появления документов
+Sandbox_WorkingKnowledge_SpawnRate_tooltip | Как часто документы Рабочих знаний появляются в контейнерах с лутом. Не влияет на уже сгенерированные контейнеры; только на новые, загруженные после применения настройки.
+Sandbox_WorkingKnowledge_SpawnRate_option1 | Очень редко
+Sandbox_WorkingKnowledge_SpawnRate_option2 | Редко
+Sandbox_WorkingKnowledge_SpawnRate_option3 | Обычно
+Sandbox_WorkingKnowledge_SpawnRate_option4 | Часто
+Sandbox_WorkingKnowledge_SpawnRate_option5 | Повсеместно
+Sandbox_WorkingKnowledge_XPGrant | Начисление опыта
+Sandbox_WorkingKnowledge_XPGrant_tooltip | Базовый опыт, начисляемый при первом прочтении документа персонажем. Масштабируется с игровой скоростью пассивного обучения. Установите 0 для отключения опыта. По умолчанию: 50.
