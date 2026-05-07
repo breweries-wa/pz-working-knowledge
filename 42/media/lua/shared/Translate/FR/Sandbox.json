@@ -1,0 +1,12 @@
+{
+    "Sandbox_WorkingKnowledge": "Working Knowledge",
+    "Sandbox_WorkingKnowledge_SpawnRate": "Taux d'apparition des documents",
+    "Sandbox_WorkingKnowledge_SpawnRate_tooltip": "Fréquence à laquelle les documents Working Knowledge apparaissent dans les conteneurs de butin. N'affecte pas les conteneurs déjà générés ; uniquement les nouveaux chargés après l'application de ce paramètre.",
+    "Sandbox_WorkingKnowledge_SpawnRate_option1": "Très rare",
+    "Sandbox_WorkingKnowledge_SpawnRate_option2": "Rare",
+    "Sandbox_WorkingKnowledge_SpawnRate_option3": "Normal",
+    "Sandbox_WorkingKnowledge_SpawnRate_option4": "Commun",
+    "Sandbox_WorkingKnowledge_SpawnRate_option5": "Abondant",
+    "Sandbox_WorkingKnowledge_XPGrant": "Octroi d'XP",
+    "Sandbox_WorkingKnowledge_XPGrant_tooltip": "XP de base accordée lorsqu'un personnage lit un document pour la première fois. Mise à l'échelle selon le taux de compétence passif du jeu. Mettre à 0 pour désactiver l'XP entièrement. Défaut : 50."
+}
