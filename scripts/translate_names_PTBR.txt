@@ -1,0 +1,372 @@
+WK_KCPDFirearmsQual | Padrões de Qualificação de Armas de Fogo da Patrulha KCPD
+WK_RangeSafetyOfficerRef | Referência de Campo do Oficial de Segurança do Estande
+WK_DefensiveHandgunRef | Referência de Pistola Defensiva
+WK_SheriffQualLog | Registro de Qualificação de Arma de Serviço do Xerife
+WK_TacticalReloadRef | Procedimentos de Recarga Tática para Agentes da Lei
+WK_MagazineDrillCard | Cartão de Treinamento de Manuseio de Armas
+WK_ArmorersWeaponsRef | Referência de Manipulação de Armas do Armeiro
+WK_PracticalShootingRef | Procedimentos de Etapa de Tiro Prático
+WK_OSHALoggingRef | Referência de Operações de Extração Madeireira OSHA
+WK_ArboristFieldGuide | Guia de Campo de Avaliação de Árvores do Arborista Certificado
+WK_ForcibleEntryRef | Referência de Operações de Entrada Forçada NFPA 1
+WK_FirefighterHandToolSOP | POP de Operações com Ferramentas Manuais para Bombeiros
+WK_BrushClearingRef | Referência de Limpeza de Trilhas com Roçadeira
+WK_MacheteUseGuide | Guia de Segurança do Facão Agrícola
+WK_ForestryContractorSOP | POP de Roçagem para Contratados Florestais
+WK_KnifeMaintenanceLog | Registro de Manutenção de Facas de Cozinha Comercial
+WK_EdgeToolSharpeningRef | Referência de Afiação de Ferramentas de Corte
+WK_HandToolConditionRef | Referência de Condição e Conservação de Ferramentas Manuais
+WK_ImpactWeaponMaintSOP | POP de Manutenção de Armas de Impacto do Departamento Policial
+WK_WhetstoneSelectionRef | Referência de Seleção de Pedras de Amolar e Esmeril
+WK_MeatFabricationRef | Referência de Cortes de Carnes
+WK_NSFBladeSafetyRef | Referência de Segurança e Higiene de Facas NSF
+WK_FishFabricationRef | Referência de Campo para Processamento de Peixes
+WK_KCPDImpactWeaponsRef | Referência de Armas de Impacto KCPD
+WK_OSHAHandToolSafety | Referência de Segurança com Ferramentas Manuais OSHA
+WK_FramingHammerCard | Cartão de Uso e Segurança do Martelo de Carpintaria
+WK_PlumbingQuickClearRef | Referência Rápida de Desentupimento Hidráulico
+WK_BaseballSwingRef | Referência de Mecânica de Batida Esportiva: Beisebol
+WK_DemolitionHandToolRef | Referência de Ferramentas Manuais para Demolição e Abertura
+WK_GolfSwingRef | Mecânica de Tacada de Golfe e Técnica de Taco
+WK_CrowbarApplicationsRef | Referência de Aplicações de Pé de Cabra e Ferramentas de Alavanca
+WK_KDFWRPrimitiveWeapons | Regulamentos de Caça com Armas Primitivas KDFWR
+WK_JavelinCoachingRef | Referência de Treinamento de Atletismo: Lançamento de Dardo
+WK_AtlatlSpearRef | Referência de Campo de Construção de Atlatl e Lança
+WK_StageCombatSpearRef | Referência de Combate Teatral com Lança
+WK_ASTMMaterialSpecRef | Referência Rápida de Especificações de Materiais ASTM
+WK_ForgeHeatTreatGuide | Guia de Campo de Soldagem na Forja e Tratamento Térmico
+WK_IndustrialMetalworkRef | Referência de Processos de Metalurgia Industrial
+WK_BlacksmithGuildStandards | Normas Técnicas da Guilda de Ferreiros
+WK_LumberYardManual | Manual de Segurança do Depósito de Madeira
+WK_SpanTablesRef | Tabelas de Vão para Vigas e Caibros
+WK_FinishCarpentryNotes | Notas de Campo de Carpintaria de Acabamento
+WK_NDSWoodConstruction | Resumo de Campo de Construção em Madeira NDS
+WK_FramingSquareCard | Cartão de Referência de Esquadro de Carpintaria
+WK_WoodenHandleShaftRef | Referência de Fabricação de Cabos e Hastes de Madeira
+WK_FieldExpedientToolRef | Referência de Construção de Ferramentas Improvisadas no Campo
+WK_ArchaeologicalToolNotes | Notas de Replicação de Ferramentas Primitivas Arqueológicas
+WK_TrapperBoneToolRef | Referência de Equipamentos de Armadilheiro e Ferramentas de Osso
+WK_KnifeHandleFittingRef | Referência de Ajuste de Cabo de Faca Personalizada
+WK_HACCPFoodSafetyPlan | Plano de Segurança Alimentar HACCP
+WK_TempTimeControlChart | Referência Rápida de Controle de Temperatura e Tempo
+WK_LineCookStationRef | Referência de Posto do Cozinheiro de Linha
+WK_SauceStockLog | Registro de Produção de Molhos e Fundos
+WK_ServSafeRef | Referência Rápida do Manipulador de Alimentos ServSafe
+WK_NECArticleRef | Cartão de Referência Rápida de Artigos do NEC
+WK_WireGaugeAmpacityRef | Referência de Bitola de Fio e Capacidade de Corrente
+WK_OSHAElectricalSafety | Segurança Elétrica no Trabalho OSHA 1910
+WK_ConduitFillRef | Cartão de Referência de Preenchimento de Eletroduto e Caixa
+WK_PanelInspectionChecklist | Lista de Verificação de Inspeção de Painel Residencial
+WK_GlassAnnealingRef | Referência de Temperatura de Recozimento de Vidro
+WK_FloatGlassManufRef | Referência de Processo de Fabricação de Vidro Float
+WK_KilnFormingRef | Técnicas de Conformação em Forno: Referência de Estúdio
+WK_LithicTechnologyRef | Referência de Campo de Tecnologia Lítica
+WK_PrimitiveSkillsKnappingRef | Referência de Lascamento do Instrutor de Habilidades Primitivas
+WK_LithicAnalysisStandards | Normas de Análise Lítica Arqueológica
+WK_MortarMixRef | Referência de Mistura e Aplicação de Argamassa
+WK_ASTMC90MasonryRef | Referência de Normas de Alvenaria em Concreto ASTM C90
+WK_BrickBlockInspectionRef | Lista de Verificação de Inspeção de Alvenaria de Tijolo e Bloco
+WK_ConcreteMixRef | Referência de Campo de Dosagem de Concreto
+WK_OBDIICodeRef | Referência de Códigos de Diagnóstico OBD-II
+WK_TorqueSpecsRef | Referência Rápida de Especificações de Torque
+WK_BrakeServiceRef | Referência de Inspeção e Manutenção do Sistema de Freios
+WK_AutoElecDiagRef | Guia de Campo de Diagnóstico Elétrico Automotivo
+WK_FleetMaintenanceLog | Registro de Manutenção e Inspeção de Frota de Veículos
+WK_KilnFiringScheduleRef | Referência de Programação de Queima em Forno
+WK_GlazeChemistryRef | Referência Rápida de Química de Esmaltes
+WK_ClayBodyFormulationRef | Referência de Formulação e Queima de Pastas de Argila
+WK_PatternGradingRef | Referência de Graduação e Dimensionamento de Moldes
+WK_IndustrialSewingRef | Referência de Regulagem de Máquina de Costura Industrial
+WK_FiberFabricRef | Referência Rápida de Propriedades de Fibras e Tecidos
+WK_GarmentQualityRef | Normas de Inspeção e Qualidade de Vestuário
+WK_AWSD11WeldingRef | Referência de Código de Soldagem Estrutural AWS D1.1
+WK_WeldingProcSpecRef | Pasta de Especificações de Procedimento de Soldagem
+WK_ElectrodeFillMetalRef | Guia de Seleção de Eletrodo e Metal de Adição
+WK_WeldInspectionRef | Critérios de Inspeção e Aceitação de Soldas
+WK_OSHAWeldingSafety | Referência de Segurança em Soldagem OSHA 1910.252
+WK_KnoxExtensionGuide | Guia de Cultivo do Escritório de Extensão Rural de Knox County
+WK_SoilTestInterpretRef | Referência de Interpretação de Análise de Solo
+WK_PesticideApplicationRef | Referência de Aplicação e Segurança com Agrotóxicos
+WK_IrrigationSchedulingRef | Guia de Programação de Irrigação e Manejo Hídrico
+WK_LivestockHealthRef | Guia de Campo de Avaliação da Saúde do Rebanho
+WK_VaccinationDosageRef | Referência de Dosagem de Vacinas e Medicamentos
+WK_ReproductiveMgmtBinder | Registros de Manejo Reprodutivo e Reprodução
+WK_KDALivestockRef | Referência de Conformidade Pecuária KDA
+WK_USDAMeatGradingRef | Referência de Classificação e Inspeção de Carnes USDA
+WK_PrimalSubPrimalRef | Referência de Cortes Primários e Secundários
+WK_HACCPMeatProcessing | Plano HACCP para Pequenos Abatedouros
+WK_LEFitnessStandardsRef | Padrões de Aptidão Física para Agentes da Lei
+WK_FireAcademyFitnessRef | Requisitos de Condicionamento Cardiovascular da Academia de Bombeiros
+WK_NIOSHLiftingRef | Referência de Campo da Equação de Levantamento NIOSH
+WK_ManualMaterialsHandRef | Referência de Segurança para Movimentação Manual de Materiais
+WK_WorkplaceFirstAidSOP | POP de Primeiros Socorros e Resposta a Emergências no Trabalho
+WK_CPRAEDRef | Cartão de Referência Rápida de RCP e DEA
+WK_OSHAFirstAidRef | Referência de Conformidade com Primeiros Socorros OSHA 1910.151
+WK_EmergencyTriageRef | Referência de Campo de Triagem de Emergência
+WK_KYFishingRegs | Regulamentos de Pesca e Vida Selvagem do Kentucky
+WK_FishIdentificationRef | Guia de Campo de Identificação e Avaliação de Peixes
+WK_RiggingTackleRef | Referência de Montagem e Equipamentos de Pesca
+WK_CommercialFishingSafetyRef | Referência de Segurança em Embarcações de Pesca Comercial
+WK_EdiblePlantsRef | Plantas Comestíveis das Matas do Leste
+WK_ToxicPlantRef | Guia de Espécies Tóxicas Semelhantes a Plantas Comestíveis
+WK_WildcraftHerbalistRef | Referência de Campo do Herbalista Silvestre
+WK_WildlifeTrackSignRef | Referência de Identificação de Rastros e Sinais de Vida Selvagem
+WK_DeerMovementRef | Guia de Avaliação de Movimentação e Habitat de Veados
+WK_KDFWRGameMgmtRef | Referência de Campo de Gestão de Fauna KDFWR
+WK_WildlifeTrappingGuide | Guia de Campo de Armadilhamento para Gestão de Fauna
+WK_FurbearerRef | Referência de Identificação e Colheita de Animais Pelíferos
+WK_KDFWRTrapperRegs | Regulamentos de Armadilheiros KDFWR
+WK_NRAPistolInstructorMan | Manual do Curso de Instrutor de Pistola NRA
+WK_BullseyeMatchProgramme | Programa de Competição de Pistola Convencional NRA
+WK_KYConcealedCarryGuide | Manual do Curso de Porte Velado CCDW do Kentucky
+WK_FBIQualScorebook | Caderno de Qualificação FBI do Agente Residente
+WK_USPSARulebook | Regulamento da Divisão de Produção USPSA
+WK_BoyScoutRiflery | Caderneta de Mérito de Tiro com Rifle dos Escoteiros
+WK_VietnamRiflemanNotes | Notas Anotadas de Fuzileiro USMC de Veterano do Vietnã
+WK_HighPowerNewsletter | Boletim do Clube de Rifle de Alta Potência de Knox County
+WK_PoliceAcademyHandgun | Manual de Pistola da Academia de Polícia
+WK_RevolverSpeedloaderCard | Cartão de Treinamento de Carregador Rápido de Revólver de Serviço
+WK_CombatShootingDrills | Conjunto de Cartões de Treinamento de Pistola Defensiva
+WK_GunsmithStripping | Notas de Desmontagem e Remontagem do Armeiro
+WK_NavalGunnersManual | Manual de Manipulação do Artilheiro Naval
+WK_ShotgunReloadingCard | Cartão de Treinamento de Recarga de Espingarda de Competição
+WK_RangemasterDrillBook | Caderno de Treinamentos de Certificação do Chefe de Estande
+WK_GuardForceWeaponsManual | POP de Armas de Veículos Blindados Loomis
+WK_TimberCruiserHandbook | Manual de Bolso do Avaliador de Madeira
+WK_AppalachianFellingNotes | Notas de Derrubada de Madeireiros dos Apalaches
+WK_BoyScoutAxemanship | Caderneta de Mérito de Uso do Machado dos Escoteiros
+WK_MountainRescueIceAxe | Manual de Picareta de Gelo para Resgate em Montanha
+WK_BackcountryHatchetCard | Cartão de Campo de Machadinha para Áreas Remotas
+WK_TechnicalRescueAxeRef | Referência de Machado para Resgate Técnico
+WK_EngineCompanyAxeRef | Referência de Machado para Entrada Forçada de Companhia de Bombeiros
+WK_KDFWRDeadwoodPamph | Folheto de Remoção de Madeira Morta para Caçadores KDFWR
+WK_BushHogOperatorRef | Manual do Operador de Roçadeira Rotativa Bush Hog
+WK_KYHighwayBrushControl | Manual de Vegetação à Beira de Estradas do Departamento de Estradas do KY
+WK_CornDetasselingCard | Cartão de Líder de Equipe de Despendoamento de Milho
+WK_AppalachianHerbalCutting | Referência de Corte do Catador de Ervas dos Apalaches
+WK_StateParksTrailCrew | POP de Roçagem da Equipe de Trilhas dos Parques Estaduais do KY
+WK_KaiserBladeFieldRef | Referência de Campo de Foice Kaiser
+WK_SCAHeavyFightCard | Cartão de Prática de Combate Pesado da SCA
+WK_CaneCuttingManual | Manual de Corte de Cana-de-Açúcar
+WK_LarpFightChoreography | Notas de Coreografia de Combate LARP
+WK_JewelersFileCard | Referência de Limas e Brunidores do Joalheiro
+WK_ShopApprenticeToolLog | Registro de Manutenção de Ferramentas do Aprendiz de Oficina
+WK_BarberRazorStropping | Cartão de Afiação de Navalha do Barbeiro
+WK_ScoutTroopToolCare | Cartão de Cuidado com Ferramentas da Tropa Escoteira
+WK_BladesmithToolCare | Notas de Cuidado com Ferramentas do Forjador de Facas
+WK_BowSawSetGuide | Guia de Regulagem de Dentes e Afiação de Serra
+WK_AntiqueDealerCare | Manual de Cuidado com Ferramentas de Corte do Negociante de Antiguidades
+WK_SushiChefKnifeBook | Manual de Técnica de Yanagiba do Chef de Sushi
+WK_TaxidermistCapingRef | Referência de Faca de Esfola do Taxidermista
+WK_EMTRescueKnifeCard | Cartão de Campo de Faca de Resgate do Paramédico
+WK_ButchersBoningGuide | Guia de Técnica de Faca de Desossa do Açougueiro
+WK_SurgeonScalpelRef | Referência de Manuseio de Bisturi Cirúrgico
+WK_ScoutCampcraftKnife | Folheto de Manuseio de Faca para Acampamento Escoteiro
+WK_UFCWCutleryTechRef | Referência de Técnica do Trabalhador de Cutelaria UFCW
+WK_KnifemakerTestCutLog | Registro de Testes de Corte do Fabricante de Facas Personalizadas
+WK_NorthwoodsFilletCard | Cartão de Filetagem do Acampamento de Pesca de Northwoods
+WK_NightstickTrainingMan | Manual de Instrutor de Cassetete Policial
+WK_RailroadSpikeMaul | Cartão de Técnica de Marreta para Cravo Ferroviário
+WK_AutoBodyHammerNotes | Notas de Martelo e Dolly para Funilaria Automotiva
+WK_ProductionFramerCard | Cartão de Pregos do Carpinteiro de Produção
+WK_BlacksmithHammerCard | Cartão de Martelo de Pena Cruzada do Ferreiro
+WK_MasonsHammerRef | Referência de Martelo e Colher do Pedreiro
+WK_CaverHammerPickRef | Referência de Martelo e Picareta do Espeleólogo NSS
+WK_RoofersFlashingCard | Cartão de Rufagem com Martelo de Lousa do Telhador
+WK_TrackMaintenanceSledge | Manual de Marreta de Manutenção de Trilhos
+WK_RiotBatonInstructorRef | Referência de Instrutor de Cassetete Antidistúrbio
+WK_CricketBowlersGuide | Cartão de Treinamento do Arremessador de Críquete
+WK_LacrosseCoachManual | Manual de Bastão do Treinador de Lacrosse Masculino
+WK_HockeyStickHandling | Cartão de Manejo de Bastão para o Ensino Médio de Hóquei
+WK_FirefighterHaliganRef | Referência de Barra Halligan para Bombeiros
+WK_LandClearingMaul | Notas de Marreta de Rachadeira para Limpeza de Terreno
+WK_PulaskiSwingScale | Escala de Balanço da Ferramenta Pulaski do USFS
+WK_KDFWRBowfishingRef | Folheto de Regulamentos de Pesca com Arco KDFWR
+WK_SCAPolearmRef | Referência de Prática de Armas de Haste da SCA
+WK_CherokeeFishSpear | Notas de Arpão de Pesca da Herança Cherokee
+WK_TrackPoleVaultCard | Cartão de Salto com Vara do Treinador de Atletismo
+WK_WWIIBayonetTraining | Manual de Treinamento de Baioneta da Segunda Guerra Mundial
+WK_KarateBoStaffMan | Manual de Bo Staff do Dojô de Karatê
+WK_ScoutsPolearmDemo | Notas de Armas de Haste da Equipe de Demonstração Escoteira
+WK_PrimitiveSpearfishing | Referência de Pesca com Lança por Habilidades Primitivas
+WK_ABANANewsletter | Boletim de Ferraria Tradicional da ABANA
+WK_FarrierShoeingNotes | Notas de Ferração a Quente do Ferrador
+WK_FrontierForgeRef | Referência de Reconstrução de Forja de Fronteira
+WK_SteelmillProcessRef | Referência de Processo de Conformação a Quente da US Steel
+WK_KnifemakerForgeWeld | Notas de Soldagem em Forja do Fabricante de Facas Personalizadas
+WK_ScoutMetalwork | Caderneta de Mérito de Trabalho em Metal dos Escoteiros
+WK_SwordsmithApprDiary | Diário do Aprendiz de Espadeiro
+WK_ColonialIronworker | Notas do Ferreiro Colonial de Williamsburg
+WK_SpoonCarvingNotes | Notas de Bolso do Entalhador de Colheres
+WK_CountryCarversBook | Livro de Entalhe Rústico
+WK_ChipCarvingPattern | Guia de Padrões de Entalhe em Chip
+WK_WaldenWoodcrafter | Notas do Artesão em Madeira de Walden Pond
+WK_JuniorHighWoodshop | Folheto de Projetos de Marcenaria do Ensino Fundamental
+WK_AppalachianFolkArt | Folheto de Entalhe em Madeira da Arte Popular dos Apalaches
+WK_BowyerTilleringNotes | Notas de Curvamento de Arco Artesanal
+WK_SullivanCulinaryText | Livro Didático de Culinária da Universidade Sullivan
+WK_KYExtensionCookbook | Livro de Receitas Domésticas da Extensão Cooperativa do KY
+WK_ArmyMessHallSOP | Procedimento Operacional Padrão do Rancho do Exército
+WK_SchoolCafeteriaRef | Referência do Trabalhador de Cantina Escolar
+WK_PitBossBBQManual | Manual de Churrasco de Competição Pit Boss
+WK_HeritageCookbook1957 | Livro de Receitas Metodista Heritage de 1957
+WK_TruckStopGriddleNotes | Notas de Chapa do Restaurante de Posto de Caminhoneiros
+WK_IBEWApprentBook | Caderno de Aprendizagem IBEW
+WK_ResWiringText | Livro Didático de Instalações Elétricas Residenciais
+WK_MotorControlSchem | Referência de Esquemas de Controle de Motores
+WK_TransformerNamePlate | Cartão de Leitura de Placa de Identificação de Transformador
+WK_GroundingBondingRef | Referência de Aterramento e Equipotencialização de Equipamentos
+WK_KYStateLicensingMan | Manual de Licenciamento de Eletricistas do Estado do KY
+WK_UndergroundCableRef | Referência de Cabos de Distribuição Subterrâneos
+WK_PenlandStudioGlass | Notas de Aula Magistral de Vidro de Estúdio da Escola Penland
+WK_CorningEngineering | Norma de Engenharia de Vidro da Corning
+WK_StainedGlassChurch | Notas de Restauração de Vitral de Igreja
+WK_BorosilicateLampwork | Referência de Trabalho com Lamparina em Borossilicato
+WK_AntiqueBottleCollect | Manual do Colecionador de Garrafas Antigas
+WK_KilnFusedJewelry | Notas de Joias em Vidro Fundido em Forno
+WK_TiffanyMethodRef | Referência do Método dos Estúdios Tiffany
+WK_NeonSignBenders | Referência de Campo do Dobrador de Letreiros de Neon
+WK_BeadSocietyLampwork | Manual de Trabalho com Lamparina da Sociedade de Miçangas
+WK_CherokeeArrowhead | Notas de Pontas de Flecha da Herança Cherokee
+WK_FieldArchKnapping | Notas de Lascamento do Arqueólogo de Campo
+WK_PrimBowhunterFlint | Manual de Sílex do Caçador de Arco Primitivo
+WK_AmateurArchPamph | Folheto da Sociedade de Arqueologia Amadora
+WK_ObsidianSourceRef | Referência de Identificação de Fontes de Obsidiana
+WK_RendezvousMtnMan | Notas de Lascamento do Encontro de Homem das Montanhas
+WK_KCMuseumLithicCat | Catálogo Lítico do Museu Estadual do Kentucky
+WK_BSAPrimitiveSurvival | Folheto de Sobrevivência com Habilidades Primitivas BSA
+WK_ToolStoneQualityCard | Cartão de Avaliação de Qualidade de Rocha para Ferramentas
+WK_BIATraditionalBrick | Manual do Oleiro da Associação da Indústria de Tijolos
+WK_StonecutterApprenNote | Caderno do Aprendiz de Cortador de Pedras
+WK_ChimneySweepInspect | Manual de Inspeção do Limpador de Chaminés
+WK_HistoricPointingMan | Manual de Rejuntamento de Edificações Históricas
+WK_ConcreteFinishersRef | Referência de Ferramentas do Acabador de Concreto
+WK_KCMasonsLocalNews | Boletim Local dos Pedreiros de Knox County
+WK_FieldstoneWalls | Guia do Construtor de Muros de Pedra Bruta
+WK_PavingStoneInstall | Manual de Instalação de Pedras de Pavimentação
+WK_ASEStudyGuide | Guia de Estudos para Certificação ASE
+WK_KYVehicleInspection | Manual de Inspeção de Veículos do Kentucky
+WK_BriggsStrattonRepair | Manual de Motor de Pequeno Porte Briggs Stratton
+WK_DieselTroubleshoot | Cartão de Diagnóstico de Motor a Diesel
+WK_FordPickupShopMan | Manual de Oficina da Picape Ford Série F
+WK_ChevyTechServiceBull | Boletim de Serviço Técnico da Chevrolet
+WK_TruckingFleetPMSched | Cronograma de Manutenção Preventiva de Frota de Caminhões
+WK_UnivCeramicsText | Livro Didático de Estúdio de Cerâmica Universitário
+WK_PenlandWheelRef | Referência de Torno de Oleiro da Escola Penland
+WK_RakuFiringNotes | Notas de Estúdio de Queima Raku
+WK_SaltGlazeStoneware | Referência de Grés com Esmalte Salino
+WK_AppFolkPotteryPamph | Folheto de Cerâmica Popular dos Apalaches
+WK_StudioKilnRepair | Notas de Campo de Reparo de Forno de Estúdio
+WK_CommercialPotteryProc | Manual de Produção de Cerâmica Comercial
+WK_ChildrenPotteryLesson | Planos de Aula de Cerâmica Infantil
+WK_BeginnerWheelNotes | Notas de Iniciante no Torno de Oleiro
+WK_SearsPatternCatalog | Catálogo de Moldes de Costura Sears
+WK_CarhartUnionShop | Manual de Costura da Fábrica Sindicalizada Carhartt
+WK_AlterationsTailorCard | Cartão de Referência do Alfaiate de Retoques
+WK_HomeEcSewingText | Livro Didático de Costura de Economia Doméstica
+WK_TheatricalCostumeShop | Referência da Oficina de Fantasias Teatrais
+WK_HancockFabricsManual | Manual do Funcionário da Hancock Fabrics
+WK_UpholstererGuide | Guia do Tapeceiro de Móveis
+WK_BridalSeamstressNotes | Notas de Ajuste da Costureira de Noivas
+WK_AWSCertWelderManual | Manual de Teste do Soldador Certificado AWS
+WK_PipefittersWelding | Manual de Soldagem do Montador de Tubulações
+WK_AluminumMIGRef | Referência de Soldagem MIG em Alumínio
+WK_UAWWeldingShopSOP | POP de Segurança da Oficina de Soldagem UAW
+WK_AutoBodyWeldingRef | Referência de Soldagem de Funilaria Automotiva
+WK_StickRodSelectionGuide | Guia de Seleção de Eletrodo para Soldagem com Bastão
+WK_AerospaceTIGNotes | Notas de Soldagem TIG Aeroespacial
+WK_FFAVocAgText | Livro Didático de Agricultura Vocacional FFA
+WK_KYExtensionAgBull | Boletim Agrícola da Extensão Cooperativa do KY
+WK_UKAgEconNotes | Notas de Economia Agrícola da Universidade do Kentucky
+WK_FertSpreaderCalCard | Cartão de Calibração do Distribuidor de Fertilizantes
+WK_USDACropRotation | Guia de Rotação de Culturas do Cinturão do Milho USDA
+WK_NoTillFarmingMan | Manual de Práticas de Plantio Direto
+WK_KYTobaccoGrowGuide | Guia de Produção de Fumo Burley do KY
+WK_RodaleOrganicPamph | Folheto de Agricultura Orgânica Rodale
+WK_KYCattlemensNews | Boletim da Associação de Pecuaristas do KY
+WK_FFALivestockJudging | Manual de Julgamento de Gado da FFA
+WK_TysonPoultryGrower | Referência do Produtor de Aves da Tyson
+WK_TrackVetDailyLog | Diário Diário do Veterinário do Hipódromo
+WK_SheepGoatBreeder | Manual de Criadores de Ovinos e Caprinos
+WK_SwineProductionMan | Manual de Produção Confinada de Suínos
+WK_DairyHerdMgmt | Referência de Manejo de Rebanho Leiteiro
+WK_AgEdJudgingCard | Cartão de Julgamento de Gado em Educação Agrícola
+WK_UnionStockyardsCut | Manual de Corte dos Frigoríficos Union Stockyards
+WK_DeerProcessorGuide | Guia de Corte do Processador Local de Veados
+WK_SausageProductionNotes | Notas de Produção do Fabricante de Embutidos
+WK_SmallSlaughterhouseSOP | POP de Inspeção de Pequeno Abatedouro
+WK_KosherButcheringRef | Referência de Abate Kosher
+WK_CharcuterieProduction | Manual de Produção de Charcutaria
+WK_HolidayTurkeyCard | Cartão de Equipe do Processador de Peru de Festas
+WK_CharcutierApprDiary | Diário do Aprendiz de Charcuteiro
+WK_WildGameProcessor | Referência do Processador de Caça Selvagem
+WK_HSTrackCoachManual | Manual do Treinador de Atletismo do Ensino Médio
+WK_NCAAStrengthCondition | Notas de Força e Condicionamento da NCAA
+WK_KYHSAARulebook | Livro de Regras da Associação Atlética do Ensino Médio do Kentucky
+WK_BostonMarathonTrain | Folheto de Treinamento para a Maratona de Boston
+WK_SprintIntervalCard | Cartão de Treinamento Intervalado de Sprint
+WK_CrossCountryRef | Referência de Corrida de Cross Country
+WK_PoliceRecruitFitness | Manual de Treinamento Físico para Recrutas de Polícia
+WK_ArmyAPFTManual | Manual de Campo do Teste de Aptidão Física do Exército
+WK_HSFootballCondition | Manual de Condicionamento de Futebol Americano do Ensino Médio
+WK_BMXRacingTraining | Cartão de Treinamento de Corrida BMX
+WK_USPFPowerlifting | Referência de Levantamento de Peso da USPF
+WK_OlympicLiftingNotes | Notas do Treinador de Halterofilismo Olímpico
+WK_StrongmanTrainingMan | Manual de Treinamento de Strongman
+WK_MuscleBuilderMag | Edição da Revista Muscle Builder
+WK_ArmyCombatLifter | Referência de Levantamento em Combate do Exército
+WK_FarmStrengthManual | Manual de Força e Resistência para o Trabalho Rural
+WK_RugbyStrengthMan | Manual de Treinamento de Força para Rugby
+WK_FreightDockLiftCard | Cartão de Levantamento do Trabalhador de Doca de Carga
+WK_CollegeStrengthLog | Registro de Força Atlética da Faculdade
+WK_HSWrestlingStrength | Referência de Força para Luta Livre do Ensino Médio
+WK_ParamedicProtocolMan | Manual de Protocolo de Campo do Paramédico
+WK_ERTriageTextbook | Livro Didático de Triagem do Pronto-Socorro
+WK_NursingFundamentals | Livro Didático de Fundamentos de Enfermagem
+WK_PharmacistDispensing | Manual de Dispensação do Farmacêutico
+WK_ArmyCombatMedic | Manual do Médico de Combate do Exército
+WK_NursingHomeCareMan | Manual de Cuidados em Casa de Repouso
+WK_WoundCareSuturing | Referência de Cuidado de Feridas e Sutura
+WK_PediatricFirstAid | Referência de Primeiros Socorros Pediátricos
+WK_KYBassFishingClub | Boletim do Clube de Pesca de Robalo do Kentucky
+WK_CrappieAnglersGuide | Guia de Campo de Pescadores de Crappi
+WK_KYTroutStocking | Calendário de Repovoamento de Truta do KY
+WK_FlyTyingPattern | Livro de Padrões de Moscas Artificiais
+WK_KYRiverCatfishing | Guia de Pesca de Bagre nos Rios do Kentucky
+WK_WalleyeFishingRef | Referência de Campo de Pesca de Robalo-Dourado
+WK_NoodlingHandfishing | Folheto de Pesca Manual de Bagre
+WK_KYMusselRegs | Regulamentos de Pesca Comercial de Mexilhões do KY
+WK_KYWildflowerGuide | Guia de Campo de Flores Silvestres do Kentucky
+WK_StalkingWildAsparagus | À Caça do Aspargo Selvagem
+WK_HerbalPharmacyEnc | Enciclopédia de Farmácia Herbal
+WK_WildMushroomHunt | Referência de Coleta de Cogumelos Silvestres
+WK_BackyardForaging | Folheto de Coleta no Quintal
+WK_EthnobotanyText | Livro Didático Universitário de Etnobotânica
+WK_TraditionalAppPlants | Usos Tradicionais de Plantas dos Apalaches
+WK_HunterGatherersRef | Plantas dos Caçadores-Coletores da América do Norte
+WK_WildEdiblesCookbook | Livro de Receitas de Alimentos Silvestres Comestíveis
+WK_ApacheScoutTracking | Manual de Rastreamento dos Batedores Apache
+WK_KYCoonHunting | Folheto de Caça ao Guaxinim do Kentucky
+WK_SARTrackingTraining | Notas de Treinamento de Rastreamento para Busca e Resgate
+WK_TurkeyHuntingRef | Referência de Campo de Caça ao Peru
+WK_BloodhoundHandlerCard | Cartão do Condutor de Sabujos
+WK_WildlifeBiologyText | Livro Didático de Biologia da Vida Selvagem
+WK_BowHunterCamoMan | Manual de Camuflagem para Caçadores de Arco
+WK_NavySEALReconPamph | Folheto de Reconhecimento dos Navy SEALs
+WK_SignReadingNotes | Notas de Leitura de Rastros do Workshop de Rastreamento
+WK_NTAFurHandlersGuide | Guia de Manuseio de Peles da Associação Nacional de Armadilheiros
+WK_KYBeaverTrapPamph | Folheto de Armadilhamento de Castores do KY
+WK_FoxHolerLureRecipes | Receitas de Iscas do Caçador de Raposas
+WK_ConibearSetTechnique | Notas de Técnica de Instalação de Armadilha Conibear
+WK_FootholdStakingRef | Referência de Fixação de Armadilha de Pé
+WK_USDAAnimalDamage | Manual de Controle de Danos por Animais USDA
+WK_KDFWRNuisanceWild | Manual de Fauna Problema KDFWR
+WK_MuskratPeltStretch | Guia de Esticagem de Pele de Rato Almiscarado
+WK_FurAuctionGrading | Notas de Classificação de Leilão de Peles
+WK_CabinetmakerJoinery | Referência de Marcenaria do Fabricante de Armários
+WK_RoofFramingCalcCard | Cartão de Cálculo de Estrutura de Telhado
+WK_LogHomeBuildersRef | Referência para Construtores de Casas de Troncos
+WK_AppTimberFramePamph | Folheto de Estrutura de Madeira dos Apalaches
+WK_ScoutCarpentryMerit | Caderneta de Mérito de Carpintaria dos Escoteiros
+WK_FurnitureMakerNotes | Notas de Campo do Fabricante de Móveis
+WK_VocSchoolBuildTrades | Livro Didático de Construção Civil da Escola Vocacional
