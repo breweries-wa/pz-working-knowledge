@@ -14,18 +14,8 @@
 .PARAMETER Locale
     PZ locale code, e.g. DE, ES, PT, RU. Must match a folder name PZ recognizes.
 
-.PARAMETER SingleNewline
-    Use for CJK locales (CN, CH, JP, KO). Enables two adjustments:
-      1. Puts the skill name FIRST so it is always visible. PZ word-wraps at
-         ASCII-to-CJK boundaries, which can send a trailing CJK skill name to
-         a line below the visible tooltip area.
-      2. Uses \n (not \n\n) between skill and flavor to conserve vertical space.
-
 .EXAMPLE
     .\import_translation.ps1 -Locale DE
-
-.EXAMPLE
-    .\import_translation.ps1 -Locale CN -SingleNewline
 
 .NOTES
     Source files live in scripts/translate_*.txt.
@@ -35,8 +25,7 @@
 
 param(
     [Parameter(Mandatory)]
-    [string]$Locale,
-    [switch]$SingleNewline
+    [string]$Locale
 )
 
 Set-StrictMode -Version Latest
@@ -265,14 +254,7 @@ foreach ($k in $tips.Keys) {
         }
     }
 
-    if ($SingleNewline) {
-        # CJK locales: put skill name first so it's always visible.
-        # PZ word-wraps at ASCII→CJK boundaries, which can push a trailing
-        # CJK skill name off the bottom of the tooltip box.
-        $tooltipJson["Tooltip_$k"] = $skill + '\n' + $broken
-    } else {
-        $tooltipJson["Tooltip_$k"] = $broken + '\n\n' + $skill
-    }
+    $tooltipJson["Tooltip_$k"] = $broken + '\n\n' + $skill
 }
 
 # Sandbox: keys are already full names
