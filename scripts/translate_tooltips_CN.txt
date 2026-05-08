@@ -1,372 +1,372 @@
-WK_KCPDFirearmsQual | 握持要领用红墨水圈出。 | 训练：瞄准
-WK_RangeSafetyOfficerRef | 实弹射击口令与靶场安全规程。 | 训练：瞄准
-WK_DefensiveHandgunRef | 详细绘制了制止力与质心命中示意图。 | 训练：瞄准
-WK_SheriffQualLog | 铅笔标注了考核成绩及不合格警员的补训说明。 | 训练：瞄准
-WK_TacticalReloadRef | 快速、行政及保留换弹的训练步骤。 | 训练：装填
-WK_MagazineDrillCard | 图解了排除卡壳的击、拉、射步骤。 | 训练：装填
-WK_ArmorersWeaponsRef | 按制式武器型号列出功能检查与弹匣检验程序。 | 训练：装填
-WK_PracticalShootingRef | 竞技换弹规则与起始姿态。 | 训练：装填
-WK_OSHALoggingRef | 联邦伐木安全规定：倒树与逃生路线。 | 训练：斧头
-WK_ArboristFieldGuide | 亨伯特缺口与开放缺口切割的高级几何原理。 | 训练：斧头
-WK_ForcibleEntryRef | 消防部门斧头破门技术。 | 训练：斧头
-WK_FirefighterHandToolSOP | 斧头、哈利根撬棍与钩杆的标准操作规程。 | 训练：斧头
-WK_BrushClearingRef | 州立公园大砍刀技术与刀刃养护。 | 训练：长刀
-WK_MacheteUseGuide | 图解了危险圈范围与防疲劳腕锁技术。 | 训练：长刀
-WK_ForestryContractorSOP | 针对不同木材密度磨砺刀刃各区域的操作指南。 | 训练：长刀
-WK_KnifeMaintenanceLog | 厨房刀具保持剃刀锋利的每日磨刀计划。 | 训练：维护
-WK_EdgeToolSharpeningRef | 按工具类型列出打磨角度与砂粒规格。 | 训练：维护
-WK_HandToolConditionRef | 手动工具检查与防锈处理。 | 训练：维护
-WK_ImpactWeaponMaintSOP | 保持弹片与端头完好性的检查清单。 | 训练：维护
-WK_WhetstoneSelectionRef | 按工具类别列出砂石粒度与润滑剂。 | 训练：维护
-WK_MeatFabricationRef | 附各物种刀角的USDA原始分割图。 | 训练：短刀
-WK_NSFBladeSafetyRef | 国家卫生基金会刀具操作与卫生规定。 | 训练：短刀
-WK_FishFabricationRef | 商业分鱼、去皮与分切参考手册。 | 训练：短刀
-WK_KCPDImpactWeaponsRef | 部门认可握持技术与防御姿态说明。 | 训练：短钝器
-WK_OSHAHandToolSafety | 预防重复性劳损的腕部对齐与握力指南。 | 训练：短钝器
-WK_FramingHammerCard | 建筑工的握持姿势与打钉技术。 | 训练：短钝器
-WK_PlumbingQuickClearRef | 按设备类型分类的吸盘技术与分级处理步骤。 | 训练：短钝器
-WK_BaseballSwingRef | 青少年联赛教练卡：站姿与随挥动作。 | 训练：长钝器
-WK_DemolitionHandToolRef | 受控拆除的大锤握持与挥击技术。 | 训练：长钝器
-WK_GolfSwingRef | 远距离击球旋转力学示意图。 | 训练：长钝器
-WK_CrowbarApplicationsRef | 拆除承包商的撬具支点使用指南。 | 训练：长钝器
-WK_KDFWRPrimitiveWeapons | 详述了原始装备的局限性。 | 训练：长矛
-WK_JavelinCoachingRef | 高中生步法与握持指南。 | 训练：长矛
-WK_AtlatlSpearRef | 确保矛轴保持笔直的生存学校指南。 | 训练：长矛
-WK_StageCombatSpearRef | 执行舞台刺击时保持间距与步法一致性的方法。 | 训练：长矛
-WK_ASTMMaterialSpecRef | 钢材等级、硬度与热处理范围。 | 训练：锻造
-WK_ForgeHeatTreatGuide | 锻造作业的淬火介质与回火色对照。 | 训练：锻造
-WK_IndustrialMetalworkRef | 金属加工的材料性能与切削速度。 | 训练：锻造
-WK_BlacksmithGuildStandards | 锤眼、冲头尺寸与套环配合公差。 | 训练：锻造
-WK_LumberYardManual | 木材场工具安全与材料分级指南。 | 训练：木工
-WK_SpanTablesRef | AWC托梁跨度、椽条与荷载计算表。 | 训练：木工
-WK_FinishCarpentryNotes | 装饰接缝与斜切笔记，页边有手写批注。 | 训练：木工
-WK_NDSWoodConstruction | 木结构连接件与紧固件计划表。 | 训练：木工
-WK_FramingSquareCard | 屋顶坡度、楼梯斜梁与椽条布局卡。 | 训练：木工
-WK_WoodenHandleShaftRef | 工具柄与杆件的木材选择与成型。 | 训练：雕刻
-WK_FieldExpedientToolRef | 野外学校以刀制作木制与骨制工具的方法。 | 训练：雕刻
-WK_ArchaeologicalToolNotes | 装柄方法与骨制工具制作的大学笔记。 | 训练：雕刻
-WK_TrapperBoneToolRef | 猎人制作骨锥与木制栓扣的指南。 | 训练：雕刻
-WK_KnifeHandleFittingRef | 刀柄制作的木材选择与成型。 | 训练：雕刻
-WK_HACCPFoodSafetyPlan | 商业厨房关键控制点与温度记录。 | 训练：烹饪
-WK_TempTimeControlChart | 按蛋白质类型列出的安全保温温度与烹饪最低温度。 | 训练：烹饪
-WK_LineCookStationRef | 备餐设置与备菜单流程。 | 训练：烹饪
-WK_SauceStockLog | 餐厅基础配方与高汤批量配比。 | 训练：烹饪
-WK_ServSafeRef | 食品操作员温度与交叉污染规定。 | 训练：烹饪
-WK_NECArticleRef | 最常引用的NEC条款。每位工程师的随身参考。 | 训练：电工
-WK_WireGaugeAmpacityRef | 按回路类型列出的导体规格与断路器额定值。 | 训练：电工
-WK_OSHAElectricalSafety | 上锁挂牌与电弧闪光个人防护设备要求。 | 训练：电工
-WK_ConduitFillRef | 按导线规格列出的导管与接线盒填充限值。 | 训练：电工
-WK_PanelInspectionChecklist | 负荷计算与回路标注规范参考。 | 训练：电工
-WK_GlassAnnealingRef | 按玻璃类型与厚度列出的退火曲线。 | 训练：玻璃制作
-WK_FloatGlassManufRef | 浮法玻璃锡浴温度与拉引速率。 | 训练：玻璃制作
-WK_KilnFormingRef | 工作室用烧融温度与热膨胀系数兼容性表。 | 训练：玻璃制作
-WK_LithicTechnologyRef | 附台面角示意图的打击与压制剥片技术。 | 训练：打制石器
-WK_PrimitiveSkillsKnappingRef | 通过敲击测试与贝壳状断裂评估原石质量。 | 训练：打制石器
-WK_LithicAnalysisStandards | 按技术与使用磨损对打制石器进行分类。 | 训练：打制石器
-WK_MortarMixRef | 按用途列出的砂浆配比与养护要求。 | 训练：砌砖
-WK_ASTMC90MasonryRef | 混凝土砌块强度与尺寸公差。 | 训练：砌砖
-WK_BrickBlockInspectionRef | 砌砖作业的灰缝轮廓与皮数公差。 | 训练：砌砖
-WK_ConcreteMixRef | 按用途列出的水灰比与坍落度规格。 | 训练：砌砖
-WK_OBDIICodeRef | 按系统分类的OBD-II诊断代码，磨损明显。 | 训练：技工
-WK_TorqueSpecsRef | 按车型与系统列出的紧固件扭矩值。 | 训练：技工
-WK_BrakeServiceRef | 制动盘最小厚度、检查与排气程序。 | 训练：技工
-WK_AutoElecDiagRef | 线路故障追踪与电气元件测试。 | 训练：技工
-WK_FleetMaintenanceLog | 车队保养周期、液体规格与检查表格。 | 训练：技工
-WK_KilnFiringScheduleRef | 窑炉温度升降速率与冷却曲线。 | 训练：陶艺
-WK_GlazeChemistryRef | 按釉料类型列出的助熔剂比例与着色剂含量。 | 训练：陶艺
-WK_ClayBodyFormulationRef | 坯料的收缩率与锥度兼容性。 | 训练：陶艺
-WK_PatternGradingRef | 生产纸样放码的规则与等级划分。 | 训练：缝纫
-WK_IndustrialSewingRef | 按面料重量列出的线张力与针迹设置。 | 训练：缝纫
-WK_FiberFabricRef | 按材料类型列出的织物特性与缝份。 | 训练：缝纫
-WK_GarmentQualityRef | 服装缝合强度与制作公差。 | 训练：缝纫
-WK_AWSD11WeldingRef | 美国焊接学会结构规范现场参考卡。 | 训练：金工
-WK_WeldingProcSpecRef | 经认证的焊接工艺、预热与检验标准。 | 训练：金工
-WK_ElectrodeFillMetalRef | 按母材与焊接位置匹配的焊条类型。 | 训练：金工
-WK_WeldInspectionRef | 目视焊缝检验标准与缺陷分类。 | 训练：金工
-WK_OSHAWeldingSafety | 焊接通风、火灾监察与个人防护设备要求。 | 训练：金工
-WK_KnoxExtensionGuide | 诺克斯县种植日历与病虫害管理。 | 训练：耕作
-WK_SoilTestInterpretRef | 读取土壤检测报告并计算石灰与化肥用量。 | 训练：耕作
-WK_PesticideApplicationRef | 按化学品类别列出的施用量与防护要求。 | 训练：耕作
-WK_IrrigationSchedulingRef | 蒸散量表与土壤湿度目标值。 | 训练：耕作
-WK_LivestockHealthRef | 按农场动物种类列出的生命体征与疾病症状。 | 训练：动物护理
-WK_VaccinationDosageRef | 按物种列出的牲畜用药剂量与停药期。 | 训练：动物护理
-WK_ReproductiveMgmtBinder | 牲畜配种日期与分娩记录。 | 训练：动物护理
-WK_KDALivestockRef | 肯塔基农业厅牲畜标签与运输规定。 | 训练：动物护理
-WK_USDAMeatGradingRef | 张贴于每个检验设施的USDA分级标准。 | 训练：屠宰
-WK_PrimalSubPrimalRef | 按物种列出的胴体分解与分割顺序。 | 训练：屠宰
-WK_HACCPMeatProcessing | 小型加工商关键控制点与温度记录。 | 训练：屠宰
-WK_LEFitnessStandardsRef | 警察与治安官体能评估评分表。 | 训练：奔跑
-WK_FireAcademyFitnessRef | 消防学院有氧体能基准测试。 | 训练：奔跑
-WK_NIOSHLiftingRef | 仓储与制造业的联邦职业安全搬运限额。 | 训练：力量
-WK_ManualMaterialsHandRef | 工业作业的搬举技术与负荷评估。 | 训练：力量
-WK_WorkplaceFirstAidSOP | 伤口处理与休克应对标准作业规程。 | 训练：急救
-WK_CPRAEDRef | CPR按压比例、AED操作与人工呼吸。 | 训练：急救
-WK_OSHAFirstAidRef | OSHA规定的物资要求与受训急救员配置比例。 | 训练：急救
-WK_EmergencyTriageRef | START检伤分类方案与患者优先级分类。 | 训练：急救
-WK_KYFishingRegs | 肯塔基各鱼种的垂钓季节、规格与限额。 | 训练：钓鱼
-WK_FishIdentificationRef | 肯塔基游钓鱼类鉴定要点：鳞片、鳍与颌部特征。 | 训练：钓鱼
-WK_RiggingTackleRef | 绑结、子线制作与钓组组装。有水渍。 | 训练：钓鱼
-WK_CommercialFishingSafetyRef | 海岸警卫队对小型渔船的浮力、信号弹与应急规程。 | 训练：钓鱼
-WK_EdiblePlantsRef | 东部林地可食植物。部分条目有圈注星标。 | 训练：搜寻
-WK_ToxicPlantRef | 与可食植物相似的有毒物种。 | 训练：搜寻
-WK_WildcraftHerbalistRef | 林地物种的采集时间窗与处理方法。 | 训练：搜寻
-WK_WildlifeTrackSignRef | 按物种列出的足迹形态与步态模式。 | 训练：追踪
-WK_DeerMovementRef | 白尾鹿的地形解读与活动廊道。 | 训练：追踪
-WK_KDFWRGameMgmtRef | 鱼类与野生动物官员的种群评估与栖息地方法。 | 训练：追踪
-WK_WildlifeTrappingGuide | KDFWR按目标物种列出的陷阱类型与设置方法。 | 训练：诱捕
-WK_FurbearerRef | 按物种列出的皮张质量评估与最佳捕获期。 | 训练：诱捕
-WK_KDFWRTrapperRegs | 鱼类与野生动物资源部的合法设置要求与物种限制。 | 训练：诱捕
-WK_NRAPistolInstructorMan | 对完美扣扳机动作的深度技术分析。 | 训练：瞄准
-WK_BullseyeMatchProgramme | 压力下击中移动靶的训练指南。 | 训练：瞄准
-WK_KYConcealedCarryGuide | 重点讲解从枪套顺畅出枪而不挂卡。 | 训练：瞄准
-WK_FBIQualScorebook | 有批注：这支新配枪我一枪都打不准。 | 训练：瞄准
-WK_USPSARulebook | 美国实战射击协会目标转换规则。 | 训练：瞄准
-WK_BoyScoutRiflery | 手绘的稳定卧射姿势示意图，已褪色。 | 训练：瞄准
-WK_VietnamRiflemanNotes | 每页都潦草写着：注意控制呼吸，陆战队员。 | 训练：瞄准
-WK_HighPowerNewsletter | 老枪手关于风偏与仰角修正的经验之谈。 | 训练：瞄准
-WK_PoliceAcademyHandgun | 第四至第六周完全专注于出枪与换弹动作。 | 训练：装填
-WK_RevolverSpeedloaderCard | 专注于弹出空弹壳的重力脱出技术。 | 训练：装填
-WK_CombatShootingDrills | 时限要求与干练习，有咖啡渍。 | 训练：装填
-WK_GunsmithStripping | 制式手枪的野外分解步骤。 | 训练：装填
-WK_NavalGunnersManual | M9与经典1911的防锈保养规程。 | 训练：装填
-WK_ShotgunReloadingCard | 侧弹仓与四发换弹技术。 | 训练：装填
-WK_RangemasterDrillBook | 清除复杂双重供弹故障的高级训练，有浮凸徽章。 | 训练：装填
-WK_GuardForceWeaponsManual | 在装甲车狭小空间内完成战斗换弹的规程。 | 训练：装填
-WK_TimberCruiserHandbook | 林分评估与倒树方向笔记。 | 训练：斧头
-WK_AppalachianFellingNotes | 逆树自然倾斜方向伐木的手绘示意图。 | 训练：斧头
-WK_BoyScoutAxemanship | 确保斧头与柄牢固结合的基本检查。 | 训练：斧头
-WK_MountainRescueIceAxe | 自我制动与冰缝救援技术。 | 训练：斧头
-WK_BackcountryHatchetCard | 高效V形切口去枝，防止刀刃卡入。 | 训练：斧头
-WK_TechnicalRescueAxeRef | 对角落支撑点定向打击以突破加固障碍。 | 训练：斧头
-WK_EngineCompanyAxeRef | 协同使用斧头清除堵塞出口的训练。 | 训练：斧头
-WK_KDFWRDeadwoodPamph | 清除射击通道时不挂装备的干净切割技术。 | 训练：斧头
-WK_BushHogOperatorRef | 拖拉机配套设备操作与动力输出轴安全。 | 训练：长刀
-WK_KYHighwayBrushControl | 使用灌木钩清除灌丛而不过度伸展的技术。 | 训练：长刀
-WK_CornDetasselingCard | 烈日下十小时轮班中控制刀具重量的手写技巧。 | 训练：长刀
-WK_AppalachianHerbalCutting | 识别纹理走向以确保一刀干净收割的操作手册。 | 训练：长刀
-WK_StateParksTrailCrew | 清除悬垂枝条而不卡刃的技术。 | 训练：长刀
-WK_KaiserBladeFieldRef | 重型双刃灌木钩的借重挥击技术。 | 训练：长刀
-WK_SCAHeavyFightCard | 创意历史重演协会练习卡。 | 训练：长刀
-WK_CaneCuttingManual | 低轴心挥击：以最小力气从根部截断粗茎。 | 训练：长刀
-WK_LarpFightChoreography | 十字护手格挡与攻击区转换基础。 | 训练：长刀
-WK_JewelersFileCard | 为精密机械零件微调选择锉齿等级。 | 训练：维护
-WK_ShopApprenticeToolLog | 涂抹木柄防止开裂的每日检查清单。 | 训练：维护
-WK_BarberRazorStropping | 使用皮革与帆布磨刀革修正卷刃的技术。 | 训练：维护
-WK_ScoutTroopToolCare | 用圆形磨刀石磨钝斧头的手绘指南。 | 训练：维护
-WK_BladesmithToolCare | 维护砧面与锤面以保证清洁金工成品。 | 训练：维护
-WK_BowSawSetGuide | 纵切与横切锯齿的精确锉磨角度。 | 训练：维护
-WK_AntiqueDealerCare | 包浆保护与防锈处理笔记。 | 训练：维护
-WK_SushiChefKnifeBook | 单次拉切动作的艺术，防止损伤食材纤维。 | 训练：短刀
-WK_TaxidermistCapingRef | 不刺穿兽皮的尾部与耳部剥皮程序。 | 训练：短刀
-WK_EMTRescueKnifeCard | 使用锯齿刃剪断安全带的技术。 | 训练：短刀
-WK_ButchersBoningGuide | 热剔骨技术：趁胴体余温未散时去肉。 | 训练：短刀
-WK_SurgeonScalpelRef | 铅笔握法与指尖握法在不同切口深度的应用。 | 训练：短刀
-WK_ScoutCampcraftKnife | 营地辅导员刀具操作手册。 | 训练：短刀
-WK_UFCWCutleryTechRef | 重复切片作业中预防伤害的标准人体工学腕部角度。 | 训练：短刀
-WK_KnifemakerTestCutLog | 按钢材类型记录的刃型几何测试结果。 | 训练：短刀
-WK_NorthwoodsFilletCard | 清理梭子鱼的Y形骨去除技术。 | 训练：短刀
-WK_NightstickTrainingMan | 警棍安全规程与标准携带方式。 | 训练：短钝器
-WK_RailroadSpikeMaul | 全弧挥击最大化动能的力学原理。 | 训练：短钝器
-WK_AutoBodyHammerNotes | 使用整形锤击法抚平金属表面。 | 训练：短钝器
-WK_ProductionFramerCard | 高效大批量建筑施工中保持锤击节奏的方法。 | 训练：短钝器
-WK_BlacksmithHammerCard | 按坯料厚度列出的锤角参考。 | 训练：短钝器
-WK_MasonsHammerRef | 使用专用锤端对石材或瓷砖进行细节凿刻。 | 训练：短钝器
-WK_CaverHammerPickRef | 国家洞穴探险协会工具操作规范。 | 训练：短钝器
-WK_RoofersFlashingCard | 使用一体式冲孔功能在脆性材料上开孔。 | 训练：短钝器
-WK_TrackMaintenanceSledge | 驱打轨道螺栓的标准弧形挥击示意图。 | 训练：长钝器
-WK_RiotBatonInstructorRef | 长警棍人群管控参考手册。 | 训练：长钝器
-WK_CricketBowlersGuide | 直臂投球保持球速的力学原理。 | 训练：长钝器
-WK_LacrosseCoachManual | 长杆检查与防守站位的杠杆技术。 | 训练：长钝器
-WK_HockeyStickHandling | 将球杆加载至最大弯曲力量击发的技术。 | 训练：长钝器
-WK_FirefighterHaliganRef | 使用叉形端撑开缝隙的技术。 | 训练：长钝器
-WK_LandClearingMaul | 下劈时借助头部重量让重力做功。 | 训练：长钝器
-WK_PulaskiSwingScale | 双功能挥击：在挖掘弧与砍伐弧之间切换。 | 训练：长钝器
-WK_KDFWRBowfishingRef | 浅水环境中快速反应瞄准的技术。 | 训练：长矛
-WK_SCAPolearmRef | 使用长柄进行防御站位的历史杠杆技术。 | 训练：长矛
-WK_CherokeeFishSpear | 河流传统捕鱼的三齿叉技术。 | 训练：长矛
-WK_TrackPoleVaultCard | 高张力负荷下握力与上肢协调训练。 | 训练：长矛
-WK_WWIIBayonetTraining | 展示历史格挡姿势与复位训练的档案图。 | 训练：长矛
-WK_KarateBoStaffMan | 使用棍的全长管控人身距离与空间。 | 训练：长矛
-WK_ScoutsPolearmDemo | 长器材携行端枪姿势基础。 | 训练：长矛
-WK_PrimitiveSpearfishing | 水中投击时如何提前预判目标并补偿水阻。 | 训练：长矛
-WK_ABANANewsletter | 读者关于动力锤选型与砧架高度的投稿笔记。 | 训练：锻造
-WK_FarrierShoeingNotes | 按蹄形列出的装蹄角度与钉子位置。 | 训练：锻造
-WK_FrontierForgeRef | 从零搭建风箱锻炉的尺寸图纸。 | 训练：锻造
-WK_SteelmillProcessRef | 轧机温度记录与棒材压缩比。 | 训练：锻造
-WK_KnifemakerForgeWeld | 花纹钢坯：层数、拉伸比与扭转时机。 | 训练：锻造
-WK_ScoutMetalwork | 锤击控制与火候管理，从条钢锻制钉子。 | 训练：锻造
-WK_SwordsmithApprDiary | 失败的斜面与热处理事故，修正处以红笔圈出。 | 训练：锻造
-WK_ColonialIronworker | 背面准备笔记涵盖榫接顺序与火候管理。 | 训练：锻造
-WK_SpoonCarvingNotes | 内曲面逆纹的纹理走向判读图。 | 训练：雕刻
-WK_CountryCarversBook | 刀握姿势、拇指推切与止切，附历史项目记录。 | 训练：雕刻
-WK_ChipCarvingPattern | 几何凿花雕刻图案指南。 | 训练：雕刻
-WK_WaldenWoodcrafter | 绿木雕刻的纹理选择，圆口刀与弯刃刀用法。 | 训练：雕刻
-WK_JuniorHighWoodshop | 工具安全与凿刀磨刃，出自真正懂行的人。 | 训练：雕刻
-WK_AppalachianFolkArt | 世代相传的选材与粗坯制作，只用管用的方法。 | 训练：雕刻
-WK_BowyerTilleringNotes | 自制弓弓臂调整过程笔记。 | 训练：雕刻
-WK_SullivanCulinaryText | 高汤、基础酱汁与衍生酱汁的实用参考。 | 训练：烹饪
-WK_KYExtensionCookbook | 推广配方，保存章节涵盖装罐与冷储方法。 | 训练：烹饪
-WK_ArmyMessHallSOP | 野战条件下百人以上规模的批量烹饪，油印件已褪色。 | 训练：烹饪
-WK_SchoolCafeteriaRef | USDA份量与温度规定，热量表同样适用于配给计算。 | 训练：烹饪
-WK_PitBossBBQManual | 孟菲斯风格竞技烧烤手册。 | 训练：烹饪
-WK_HeritageCookbook1957 | 无需冷藏的大批量食谱，附替代食材备注。 | 训练：烹饪
-WK_TruckStopGriddleNotes | 温度分区管理与凭铁板声音判断熟度。 | 训练：烹饪
-WK_IBEWApprentBook | 入户线、配电盘布局与穿管练习。 | 训练：电工
-WK_ResWiringText | 从入户线到插座的逐房间住宅布线步骤。 | 训练：电工
-WK_MotorControlSchem | 三相电机控制原理图。 | 训练：电工
-WK_TransformerNamePlate | 地面安装变压器识别与额定参数卡。 | 训练：电工
-WK_GroundingBondingRef | 按系统电压列出的接地导体规格，动手前必读。 | 训练：电工
-WK_KYStateLicensingMan | NEC模拟题，电压降与导体规格训练。 | 训练：电工
-WK_UndergroundCableRef | 地埋住宅配电电缆规格与埋深要求。 | 训练：电工
-WK_PenlandStudioGlass | 还原气氛下活性玻璃的大师课笔记。 | 训练：玻璃制作
-WK_CorningEngineering | 光学硼硅玻璃规格：折射率与应力公差。 | 训练：玻璃制作
-WK_StainedGlassChurch | 一座二十年代礼拜堂彩绘玻璃的铅条修复。 | 训练：玻璃制作
-WK_BorosilicateLampwork | 玻璃与金属封接及火焰化学防止玻璃破裂。 | 训练：玻璃制作
-WK_AntiqueBottleCollect | 古董瓶鉴定与断代手册，爱好者级别。 | 训练：玻璃制作
-WK_KilnFusedJewelry | 按玻璃品牌列出的热膨胀系数匹配与棚板粉记录，方法严谨。 | 训练：玻璃制作
-WK_TiffanyMethodRef | 弧形板材施工的铅条规格与焊锡比例。 | 训练：玻璃制作
-WK_NeonSignBenders | 电极安装、充气步骤与标准霓虹管轰击机参数。 | 训练：玻璃制作
-WK_BeadSocietyLampwork | 玻璃棒化学成分与灯工火焰化学，用心的爱好者。 | 训练：玻璃制作
-WK_CherokeeArrowhead | 东部部落缺口风格与石料产地，带甜草香气。 | 训练：打制石器
-WK_FieldArchKnapping | 压制剥片的身体力学及避免铰断裂的方法。 | 训练：打制石器
-WK_PrimBowhunterFlint | 使用天然黏合剂装配仿制镞头的步骤。 | 训练：打制石器
-WK_AmateurArchPamph | 识别人工打制石器与自然断裂纹理的入门手册。 | 训练：打制石器
-WK_ObsidianSourceRef | 黑曜石产地考古测量参考手册。 | 训练：打制石器
-WK_RendezvousMtnMan | 营地打石：锤棒选择、鹿角剥片器与石料类型。 | 训练：打制石器
-WK_KCMuseumLithicCat | 肯塔基州立博物馆石器鉴别目录。 | 训练：打制石器
-WK_BSAPrimitiveSurvival | 台面角度、锤石握法与护目，从零开始。 | 训练：打制石器
-WK_ToolStoneQualityCard | 燧石质量现场评估卡。 | 训练：打制石器
-WK_BIATraditionalBrick | 布局、皮数杆与铅直角砌：学徒袖珍参考手册。 | 训练：砌砖
-WK_StonecutterApprenNote | 顺纹劈石、塞楔与羽片，以及粗面收整。 | 训练：砌砖
-WK_ChimneySweepInspect | 焦油类型识别与烟帽至套管的检查。 | 训练：砌砖
-WK_HistoricPointingMan | 勾缝用石灰砂浆配比及何时放弃波特兰水泥。 | 训练：砌砖
-WK_ConcreteFinishersRef | 大抹板时机与抹灰前读取泌水情况。 | 训练：砌砖
-WK_KCMasonsLocalNews | 当地石灰岩与冻融砂浆配比的施工经验。 | 训练：砌砖
-WK_FieldstoneWalls | 穿石放置与读取野石以稳定堆叠。 | 训练：砌砖
-WK_PavingStoneInstall | 车行铺装的压实度、砂床厚度与边缘约束。 | 训练：砌砖
-WK_ASEStudyGuide | 八大系统分解：从发动机到传动系统，填补知识空白。 | 训练：技工
-WK_KYVehicleInspection | 制动盘最小值、胎纹深度计与灯光合规检查。 | 训练：技工
-WK_BriggsStrattonRepair | 化油器、点火正时与气门间隙调整。 | 训练：技工
-WK_DieselTroubleshoot | 无法启动与冒烟的故障树，燃油注入与喷油器排气。 | 训练：技工
-WK_FordPickupShopMan | 线路、变速箱与桥壳规格，起动机页面有油脂指印。 | 训练：技工
-WK_ChevyTechServiceBull | 八十年代末小缸径发动机与TH350变速箱故障的原厂修正。 | 训练：技工
-WK_TruckingFleetPMSched | 重型卡车保养周期，含液体规格与签字确认表。 | 训练：技工
-WK_UnivCeramicsText | 定心、开孔、拉坯与收口的图解步骤。 | 训练：陶艺
-WK_PenlandWheelRef | 凭手感与底板侧压读取坯壁厚度。 | 训练：陶艺
-WK_RakuFiringNotes | 还原箱时机与出窑判断，书页染有烟熏气味。 | 训练：陶艺
-WK_SaltGlazeStoneware | 盐的投入时机与窑内摆放方式以均匀气化分布。 | 训练：陶艺
-WK_AppFolkPotteryPamph | 山地传统的当地黏土产地与本地草木灰釉配方。 | 训练：陶艺
-WK_StudioKilnRepair | 电窑的发热体更换、热电偶与软质砖修补。 | 训练：陶艺
-WK_CommercialPotteryProc | 注浆与刀车成型步骤，石膏模具与泥浆重力注记。 | 训练：陶艺
-WK_ChildrenPotteryLesson | 捏塑与泥条盘筑基础，图解清晰。 | 训练：陶艺
-WK_BeginnerWheelNotes | 定心、开孔与拉坯基础，附认真的素描图。 | 训练：陶艺
-WK_SearsPatternCatalog | 从零剪裁的放码表与松量。 | 训练：缝纫
-WK_CarhartUnionShop | 加固缝受力点、三重缝线与口袋补强。 | 训练：缝纫
-WK_AlterationsTailorCard | 按缝线类型列出的收身量、卷边量与袖子调整。 | 训练：缝纫
-WK_HomeEcSewingText | 缝份、疏缝与手缝针法，适合初学者。 | 训练：缝纫
-WK_TheatricalCostumeShop | 无纸样原型调整与历史服装的快速下摆。 | 训练：缝纫
-WK_HancockFabricsManual | 燃烧测试纤维识别、面料克重与洗涤标签标准。 | 训练：缝纫
-WK_UpholstererGuide | 弹簧绑扎、织带张力与软包框架的底布。 | 训练：缝纫
-WK_BridalSeamstressNotes | 在不破坏鱼骨的情况下放大结构胸身，以及蕾丝修补。 | 训练：缝纫
-WK_AWSCertWelderManual | 3G与4G位置的模拟测试：自学者最不擅长的焊缝。 | 训练：金工
-WK_PipefittersWelding | 管道开根焊：锁孔、盖面弧、立向填充焊道。 | 训练：金工
-WK_AluminumMIGRef | 薄铝板的送丝轮枪设置与预通气时间。 | 训练：金工
-WK_UAWWeldingShopSOP | 生产车间的烟气抽排、火灾监察与动火许可。 | 训练：金工
-WK_AutoBodyWeldingRef | 薄钢板的贴片与塞焊间距，避免烧穿。 | 训练：金工
-WK_StickRodSelectionGuide | 6011与7018焊条选用指南。 | 训练：金工
-WK_AerospaceTIGNotes | 惰性气氛要求与钛材焊前清洁处理。 | 训练：金工
-WK_FFAVocAgText | 大田作物整地、移栽与施肥，兼含牲畜基础知识。 | 训练：耕作
-WK_KYExtensionAgBull | 诺克斯县作物病虫害预警与侦查阈值。 | 训练：耕作
-WK_UKAgEconNotes | 课堂潦草笔记，换算表与产量估算仍实用。 | 训练：耕作
-WK_FertSpreaderCalCard | 施肥机现场校准卡。 | 训练：耕作
-WK_USDACropRotation | 含固氮量表的两年与四年玉米大豆及小粮轮作方案。 | 训练：耕作
-WK_NoTillFarmingMan | 培育土壤的免耕与覆盖作物轮作。 | 训练：耕作
-WK_KYTobaccoGrowGuide | 漂浮育苗、移栽与气烤烟叶的打顶管理。 | 训练：耕作
-WK_RodaleOrganicPamph | 不使用现代农资的堆肥量、覆盖作物与综合防治。 | 训练：耕作
-WK_KYCattlemensNews | 后页：无兽医时治疗粉眼病与腐蹄病的问答。 | 训练：动物护理
-WK_FFALivestockJudging | 按物种列出的体况评分与缺陷识别。 | 训练：动物护理
-WK_TysonPoultryGrower | 肉鸡生产的通风、垫料管理与饲料转化目标。 | 训练：动物护理
-WK_TrackVetDailyLog | 兽医手写的赛前跛行评分记录，有波本威士忌渍。 | 训练：动物护理
-WK_SheepGoatBreeder | 接产助产、修蹄与FAMACHA寄生虫评分。 | 训练：动物护理
-WK_SwineProductionMan | 生猪的饲料配方、分娩围栏与断奶规程。 | 训练：动物护理
-WK_DairyHerdMgmt | 发情检测、配种记录与挤奶厅规程。 | 训练：动物护理
-WK_AgEdJudgingCard | 县级FFA牲畜竞赛评分表，有咖啡圈。 | 训练：动物护理
-WK_UnionStockyardsCut | 以吨位为先而非外观的牛肉分割与原始部位分解。 | 训练：屠宰
-WK_DeerProcessorGuide | 从剥皮到真空袋：分解、剔骨、排酸笔记，带猎血气味。 | 训练：屠宰
-WK_SausageProductionNotes | 早餐肠、夏季香肠与辣肉肠的脂肪比例与绞肉顺序。 | 训练：屠宰
-WK_SmallSlaughterhouseSOP | 检验周期与胴体处置标准作业规程。 | 训练：屠宰
-WK_KosherButcheringRef | 洁食要求与前腿部位分割，页边有希伯来文批注。 | 训练：屠宰
-WK_CharcuterieProduction | 干腌制品的腌料比例与湿度目标值。 | 训练：屠宰
-WK_HolidayTurkeyCard | 大批量家禽加工的烫毛温度、拔毛与去内脏。 | 训练：屠宰
-WK_CharcutierApprDiary | 一年的用盐比例记录与失败案例，修正处以红笔圈出。 | 训练：屠宰
-WK_WildGameProcessor | 鹿、火鸡、兔、松鼠与野猪的剥皮与剔骨。 | 训练：屠宰
-WK_HSTrackCoachManual | 训练周期化与各项目专项训练，书角有折痕。 | 训练：奔跑
-WK_NCAAStrengthCondition | 一级大学周期划分：基础、积累、顶峰、减量与加速。 | 训练：奔跑
-WK_KYHSAARulebook | 参赛资格、转学与招募规定，合规主任已盖章。 | 训练：奔跑
-WK_BostonMarathonTrain | 十八周达标训练计划，每页附配速图表。 | 训练：奔跑
-WK_SprintIntervalCard | Tabata式计时表，压膜上有哨声痕迹。 | 训练：奔跑
-WK_CrossCountryRef | 高中长跑队的坡道重复跑与集体跑训练。 | 训练：奔跑
-WK_PoliceRecruitFitness | 十二周学员体能训练计划，附每周基准目标。 | 训练：奔跑
-WK_ArmyAPFTManual | 按年龄分组的两英里跑与俯卧撑标准，附后半段体能训练。 | 训练：奔跑
-WK_HSFootballCondition | 休赛期力量房训练与冲刺组合，脊背夹有钢笔。 | 训练：奔跑
-WK_BMXRacingTraining | 短跑与过弯技术训练，背面有泥点。 | 训练：奔跑
-WK_USPFPowerlifting | 深蹲深度、卧推接触与硬拉锁定，含热身表。 | 训练：力量
-WK_OlympicLiftingNotes | 抓举与挺举：髋铰链、发力点与下沉接杠。 | 训练：力量
-WK_StrongmanTrainingMan | 阿特拉斯石、原木推举与框架行走：直接转化为实际搬运能力。 | 训练：力量
-WK_MuscleBuilderMag | 乔·韦德健美杂志，棕橙配色。 | 训练：力量
-WK_ArmyCombatLifter | 伤亡搬运与障碍突破的体重比例。 | 训练：力量
-WK_FarmStrengthManual | 原木举起、石块装载与握力训练，适用于持续农场劳动。 | 训练：力量
-WK_RugbyStrengthMan | 按位置划分的争球群与后卫体能训练。 | 训练：力量
-WK_FreightDockLiftCard | 货运码头搬运卡，有汗渍。 | 训练：力量
-WK_CollegeStrengthLog | 每周卧推、深蹲与上举数据，有铅笔批注。 | 训练：力量
-WK_HSWrestlingStrength | 控体重策略与握力训练。 | 训练：力量
-WK_ParamedicProtocolMan | 肾上腺素、吗啡、葡萄糖：野外急救人员的剂量与心脏规程。 | 训练：急救
-WK_ERTriageTextbook | 大规模伤亡的损害控制：第一个小时内的致命因素。 | 训练：急救
-WK_NursingFundamentals | 后医院时代的伤口评估与感染识别。 | 训练：急救
-WK_PharmacistDispensing | 非处方药相互作用、最大剂量、抗生素疗程与失效迹象。 | 训练：急救
-WK_ArmyCombatMedic | 止血带、针刺减压与无后送支援的伤口填塞。 | 训练：急救
-WK_NursingHomeCareMan | 压疮预防与慢性护理的伤口分期。 | 训练：急救
-WK_WoundCareSuturing | 清创、按污染程度选择缝合方式，附图解缝线位置。 | 训练：急救
-WK_PediatricFirstAid | 按体重的儿科用药剂量、儿童CPR比例与病重识别。 | 训练：急救
-WK_KYBassFishingClub | GPS坐标已划去，季节规律与水深参考保留。 | 训练：钓鱼
-WK_CrappieAnglersGuide | 沉木深度、丛枝间距与垂直抖钓，附注水温。 | 训练：钓鱼
-WK_KYTroutStocking | 鱼类与野生动物资源部按溪流列出的放流计划。 | 训练：钓鱼
-WK_FlyTyingPattern | 模仿水生昆虫的毛钩图案，附毛皮与羽毛来源记录。 | 训练：钓鱼
-WK_KYRiverCatfishing | 树枝线、浮筒与河湾弯处的饵料投放。 | 训练：钓鱼
-WK_WalleyeFishingRef | 礁石钓法与水深选择，偏光镜镜片有划痕。 | 训练：钓鱼
-WK_NoodlingHandfishing | 平石与空木：凭手感分辨鱼与鳄龟。 | 训练：钓鱼
-WK_KYMusselRegs | 分辨可销售贝壳与受保护物种的合法渔具与物种鉴定。 | 训练：钓鱼
-WK_KYWildflowerGuide | 肯塔基本地植物彩版图鉴，附栖息地与花期。 | 训练：搜寻
-WK_StalkingWildAsparagus | 吉本斯采集笔记：去哪找，取哪部分，何时采。 | 训练：搜寻
-WK_HerbalPharmacyEnc | 酊剂制备与用量笔记，书脊已裂。 | 训练：搜寻
-WK_WildMushroomHunt | 孢子印与相似种警告，多页已折角。 | 训练：搜寻
-WK_BackyardForaging | 从草坪到餐桌：蒲公英、马齿苋、酢浆草与车前草。 | 训练：搜寻
-WK_EthnobotanyText | 东部林地植物用途：按社群分类的食物、药物与纤维。 | 训练：搜寻
-WK_TraditionalAppPlants | 野韭、美洲商陆、血根草与接骨木，附有毒物种处理笔记。 | 训练：搜寻
-WK_HunterGatherersRef | 秋挖根、春采叶、夏收种，按季节分类。 | 训练：搜寻
-WK_WildEdiblesCookbook | 羊蹄草、橡子粉与宽叶香蒲花粉：从识别到实际烹饪。 | 训练：搜寻
-WK_ApacheScoutTracking | 压力释放形态与微痕读取，判断方向与速度。 | 训练：追踪
-WK_KYCoonHunting | 痕迹读取与上树判断，有无猎犬均可应用，带乡土气息。 | 训练：追踪
-WK_SARTrackingTraining | 失联者行为规律与区域概率，附横切痕迹附录。 | 训练：追踪
-WK_TurkeyHuntingRef | 鸣叫节奏、诱饵摆放与栖木读取。 | 训练：追踪
-WK_BloodhoundHandlerCard | 气味物品处理与绕行恢复追踪，专为副警长编写。 | 训练：追踪
-WK_WildlifeBiologyText | 活动范围、栖息廊道与季节迁移：生态背后的原因。 | 训练：追踪
-WK_BowHunterCamoMan | 按季节划分的站位布置与轮廓破除技术。 | 训练：追踪
-WK_NavySEALReconPamph | 隐蔽点构建与反追踪措施。 | 训练：追踪
-WK_SignReadingNotes | 压力释放示意图与痕迹老化判断，叠折成口袋大小。 | 训练：追踪
-WK_NTAFurHandlersGuide | 套筒剥皮与整皮，撑皮架尺寸及优质皮张与等外品的区别。 | 训练：诱捕
-WK_KYBeaverTrapPamph | 塘边设置与滑道设置技术，手册带有海狸香气味。 | 训练：诱捕
-WK_FoxHolerLureRecipes | 按季节配制的腺体与食物诱饵：狐狸用尿液与臭鼬的比例。 | 训练：诱捕
-WK_ConibearSetTechnique | 体型夹放置位置与扳机灵敏度调整。 | 训练：诱捕
-WK_FootholdStakingRef | 岩石、沙地与冻土上的固定桩与转环设置，以及拖钩选项。 | 训练：诱捕
-WK_USDAAnimalDamage | 联邦动植物健康检验服务局损害控制手册。 | 训练：诱捕
-WK_KDFWRNuisanceWild | 河狸、土狼与旱獭的活捕与排除措施及处置方式。 | 训练：诱捕
-WK_MuskratPeltStretch | 撑皮架规格、肉膜深度与干燥时间，单页压膜。 | 训练：诱捕
-WK_FurAuctionGrading | 按物种列出的分级标准，附猎获时机的成熟期日历。 | 训练：诱捕
-WK_CabinetmakerJoinery | 按木材种类列出的燕尾榫、箱形榫与榫卯比例。 | 训练：木工
-WK_RoofFramingCalcCard | 四坡顶与山墙顶的坡度表与椽条出檐。 | 训练：木工
-WK_LogHomeBuildersRef | 榫头类型、地梁施工与填缝规格。 | 训练：木工
-WK_AppTimberFramePamph | 无需工程图的楔销榫卯结构按跨度尺寸。 | 训练：木工
-WK_ScoutCarpentryMerit | 划线规、凿刀与顺纹下刀前的木纹读取。 | 训练：木工
-WK_FurnitureMakerNotes | 柜体与箱体家具的榫卯尺寸。 | 训练：木工
-WK_VocSchoolBuildTrades | 墙体、楼面与屋顶框架：来自真正建过房子的人。 | 训练：木工
+WK_KCPDFirearmsQual | 握持要领用红墨水圈出。 | 训练: 瞄准
+WK_RangeSafetyOfficerRef | 实弹射击口令与靶场安全规程。 | 训练: 瞄准
+WK_DefensiveHandgunRef | 详细绘制了制止力与质心命中示意图。 | 训练: 瞄准
+WK_SheriffQualLog | 铅笔标注了考核成绩及不合格警员的补训说明。 | 训练: 瞄准
+WK_TacticalReloadRef | 快速、行政及保留换弹的训练步骤。 | 训练: 装填
+WK_MagazineDrillCard | 图解了排除卡壳的击、拉、射步骤。 | 训练: 装填
+WK_ArmorersWeaponsRef | 按制式武器型号列出功能检查与弹匣检验程序。 | 训练: 装填
+WK_PracticalShootingRef | 竞技换弹规则与起始姿态。 | 训练: 装填
+WK_OSHALoggingRef | 联邦伐木安全规定：倒树与逃生路线。 | 训练: 斧头
+WK_ArboristFieldGuide | 亨伯特缺口与开放缺口切割的高级几何原理。 | 训练: 斧头
+WK_ForcibleEntryRef | 消防部门斧头破门技术。 | 训练: 斧头
+WK_FirefighterHandToolSOP | 斧头、哈利根撬棍与钩杆的标准操作规程。 | 训练: 斧头
+WK_BrushClearingRef | 州立公园大砍刀技术与刀刃养护。 | 训练: 长刀
+WK_MacheteUseGuide | 图解了危险圈范围与防疲劳腕锁技术。 | 训练: 长刀
+WK_ForestryContractorSOP | 针对不同木材密度磨砺刀刃各区域的操作指南。 | 训练: 长刀
+WK_KnifeMaintenanceLog | 厨房刀具保持剃刀锋利的每日磨刀计划。 | 训练: 维护
+WK_EdgeToolSharpeningRef | 按工具类型列出打磨角度与砂粒规格。 | 训练: 维护
+WK_HandToolConditionRef | 手动工具检查与防锈处理。 | 训练: 维护
+WK_ImpactWeaponMaintSOP | 保持弹片与端头完好性的检查清单。 | 训练: 维护
+WK_WhetstoneSelectionRef | 按工具类别列出砂石粒度与润滑剂。 | 训练: 维护
+WK_MeatFabricationRef | 附各物种刀角的USDA原始分割图。 | 训练: 短刀
+WK_NSFBladeSafetyRef | 国家卫生基金会刀具操作与卫生规定。 | 训练: 短刀
+WK_FishFabricationRef | 商业分鱼、去皮与分切参考手册。 | 训练: 短刀
+WK_KCPDImpactWeaponsRef | 部门认可握持技术与防御姿态说明。 | 训练: 短钝器
+WK_OSHAHandToolSafety | 预防重复性劳损的腕部对齐与握力指南。 | 训练: 短钝器
+WK_FramingHammerCard | 建筑工的握持姿势与打钉技术。 | 训练: 短钝器
+WK_PlumbingQuickClearRef | 按设备类型分类的吸盘技术与分级处理步骤。 | 训练: 短钝器
+WK_BaseballSwingRef | 青少年联赛教练卡：站姿与随挥动作。 | 训练: 长钝器
+WK_DemolitionHandToolRef | 受控拆除的大锤握持与挥击技术。 | 训练: 长钝器
+WK_GolfSwingRef | 远距离击球旋转力学示意图。 | 训练: 长钝器
+WK_CrowbarApplicationsRef | 拆除承包商的撬具支点使用指南。 | 训练: 长钝器
+WK_KDFWRPrimitiveWeapons | 详述了原始装备的局限性。 | 训练: 长矛
+WK_JavelinCoachingRef | 高中生步法与握持指南。 | 训练: 长矛
+WK_AtlatlSpearRef | 确保矛轴保持笔直的生存学校指南。 | 训练: 长矛
+WK_StageCombatSpearRef | 执行舞台刺击时保持间距与步法一致性的方法。 | 训练: 长矛
+WK_ASTMMaterialSpecRef | 钢材等级、硬度与热处理范围。 | 训练: 锻造
+WK_ForgeHeatTreatGuide | 锻造作业的淬火介质与回火色对照。 | 训练: 锻造
+WK_IndustrialMetalworkRef | 金属加工的材料性能与切削速度。 | 训练: 锻造
+WK_BlacksmithGuildStandards | 锤眼、冲头尺寸与套环配合公差。 | 训练: 锻造
+WK_LumberYardManual | 木材场工具安全与材料分级指南。 | 训练: 木工
+WK_SpanTablesRef | AWC托梁跨度、椽条与荷载计算表。 | 训练: 木工
+WK_FinishCarpentryNotes | 装饰接缝与斜切笔记，页边有手写批注。 | 训练: 木工
+WK_NDSWoodConstruction | 木结构连接件与紧固件计划表。 | 训练: 木工
+WK_FramingSquareCard | 屋顶坡度、楼梯斜梁与椽条布局卡。 | 训练: 木工
+WK_WoodenHandleShaftRef | 工具柄与杆件的木材选择与成型。 | 训练: 雕刻
+WK_FieldExpedientToolRef | 野外学校以刀制作木制与骨制工具的方法。 | 训练: 雕刻
+WK_ArchaeologicalToolNotes | 装柄方法与骨制工具制作的大学笔记。 | 训练: 雕刻
+WK_TrapperBoneToolRef | 猎人制作骨锥与木制栓扣的指南。 | 训练: 雕刻
+WK_KnifeHandleFittingRef | 刀柄制作的木材选择与成型。 | 训练: 雕刻
+WK_HACCPFoodSafetyPlan | 商业厨房关键控制点与温度记录。 | 训练: 烹饪
+WK_TempTimeControlChart | 按蛋白质类型列出的安全保温温度与烹饪最低温度。 | 训练: 烹饪
+WK_LineCookStationRef | 备餐设置与备菜单流程。 | 训练: 烹饪
+WK_SauceStockLog | 餐厅基础配方与高汤批量配比。 | 训练: 烹饪
+WK_ServSafeRef | 食品操作员温度与交叉污染规定。 | 训练: 烹饪
+WK_NECArticleRef | 最常引用的NEC条款。每位工程师的随身参考。 | 训练: 电工
+WK_WireGaugeAmpacityRef | 按回路类型列出的导体规格与断路器额定值。 | 训练: 电工
+WK_OSHAElectricalSafety | 上锁挂牌与电弧闪光个人防护设备要求。 | 训练: 电工
+WK_ConduitFillRef | 按导线规格列出的导管与接线盒填充限值。 | 训练: 电工
+WK_PanelInspectionChecklist | 负荷计算与回路标注规范参考。 | 训练: 电工
+WK_GlassAnnealingRef | 按玻璃类型与厚度列出的退火曲线。 | 训练: 玻璃制作
+WK_FloatGlassManufRef | 浮法玻璃锡浴温度与拉引速率。 | 训练: 玻璃制作
+WK_KilnFormingRef | 工作室用烧融温度与热膨胀系数兼容性表。 | 训练: 玻璃制作
+WK_LithicTechnologyRef | 附台面角示意图的打击与压制剥片技术。 | 训练: 打制石器
+WK_PrimitiveSkillsKnappingRef | 通过敲击测试与贝壳状断裂评估原石质量。 | 训练: 打制石器
+WK_LithicAnalysisStandards | 按技术与使用磨损对打制石器进行分类。 | 训练: 打制石器
+WK_MortarMixRef | 按用途列出的砂浆配比与养护要求。 | 训练: 砌砖
+WK_ASTMC90MasonryRef | 混凝土砌块强度与尺寸公差。 | 训练: 砌砖
+WK_BrickBlockInspectionRef | 砌砖作业的灰缝轮廓与皮数公差。 | 训练: 砌砖
+WK_ConcreteMixRef | 按用途列出的水灰比与坍落度规格。 | 训练: 砌砖
+WK_OBDIICodeRef | 按系统分类的OBD-II诊断代码，磨损明显。 | 训练: 技工
+WK_TorqueSpecsRef | 按车型与系统列出的紧固件扭矩值。 | 训练: 技工
+WK_BrakeServiceRef | 制动盘最小厚度、检查与排气程序。 | 训练: 技工
+WK_AutoElecDiagRef | 线路故障追踪与电气元件测试。 | 训练: 技工
+WK_FleetMaintenanceLog | 车队保养周期、液体规格与检查表格。 | 训练: 技工
+WK_KilnFiringScheduleRef | 窑炉温度升降速率与冷却曲线。 | 训练: 陶艺
+WK_GlazeChemistryRef | 按釉料类型列出的助熔剂比例与着色剂含量。 | 训练: 陶艺
+WK_ClayBodyFormulationRef | 坯料的收缩率与锥度兼容性。 | 训练: 陶艺
+WK_PatternGradingRef | 生产纸样放码的规则与等级划分。 | 训练: 缝纫
+WK_IndustrialSewingRef | 按面料重量列出的线张力与针迹设置。 | 训练: 缝纫
+WK_FiberFabricRef | 按材料类型列出的织物特性与缝份。 | 训练: 缝纫
+WK_GarmentQualityRef | 服装缝合强度与制作公差。 | 训练: 缝纫
+WK_AWSD11WeldingRef | 美国焊接学会结构规范现场参考卡。 | 训练: 金工
+WK_WeldingProcSpecRef | 经认证的焊接工艺、预热与检验标准。 | 训练: 金工
+WK_ElectrodeFillMetalRef | 按母材与焊接位置匹配的焊条类型。 | 训练: 金工
+WK_WeldInspectionRef | 目视焊缝检验标准与缺陷分类。 | 训练: 金工
+WK_OSHAWeldingSafety | 焊接通风、火灾监察与个人防护设备要求。 | 训练: 金工
+WK_KnoxExtensionGuide | 诺克斯县种植日历与病虫害管理。 | 训练: 耕作
+WK_SoilTestInterpretRef | 读取土壤检测报告并计算石灰与化肥用量。 | 训练: 耕作
+WK_PesticideApplicationRef | 按化学品类别列出的施用量与防护要求。 | 训练: 耕作
+WK_IrrigationSchedulingRef | 蒸散量表与土壤湿度目标值。 | 训练: 耕作
+WK_LivestockHealthRef | 按农场动物种类列出的生命体征与疾病症状。 | 训练: 动物护理
+WK_VaccinationDosageRef | 按物种列出的牲畜用药剂量与停药期。 | 训练: 动物护理
+WK_ReproductiveMgmtBinder | 牲畜配种日期与分娩记录。 | 训练: 动物护理
+WK_KDALivestockRef | 肯塔基农业厅牲畜标签与运输规定。 | 训练: 动物护理
+WK_USDAMeatGradingRef | 张贴于每个检验设施的USDA分级标准。 | 训练: 屠宰
+WK_PrimalSubPrimalRef | 按物种列出的胴体分解与分割顺序。 | 训练: 屠宰
+WK_HACCPMeatProcessing | 小型加工商关键控制点与温度记录。 | 训练: 屠宰
+WK_LEFitnessStandardsRef | 警察与治安官体能评估评分表。 | 训练: 奔跑
+WK_FireAcademyFitnessRef | 消防学院有氧体能基准测试。 | 训练: 奔跑
+WK_NIOSHLiftingRef | 仓储与制造业的联邦职业安全搬运限额。 | 训练: 力量
+WK_ManualMaterialsHandRef | 工业作业的搬举技术与负荷评估。 | 训练: 力量
+WK_WorkplaceFirstAidSOP | 伤口处理与休克应对标准作业规程。 | 训练: 急救
+WK_CPRAEDRef | CPR按压比例、AED操作与人工呼吸。 | 训练: 急救
+WK_OSHAFirstAidRef | OSHA规定的物资要求与受训急救员配置比例。 | 训练: 急救
+WK_EmergencyTriageRef | START检伤分类方案与患者优先级分类。 | 训练: 急救
+WK_KYFishingRegs | 肯塔基各鱼种的垂钓季节、规格与限额。 | 训练: 钓鱼
+WK_FishIdentificationRef | 肯塔基游钓鱼类鉴定要点：鳞片、鳍与颌部特征。 | 训练: 钓鱼
+WK_RiggingTackleRef | 绑结、子线制作与钓组组装。有水渍。 | 训练: 钓鱼
+WK_CommercialFishingSafetyRef | 海岸警卫队对小型渔船的浮力、信号弹与应急规程。 | 训练: 钓鱼
+WK_EdiblePlantsRef | 东部林地可食植物。部分条目有圈注星标。 | 训练: 搜寻
+WK_ToxicPlantRef | 与可食植物相似的有毒物种。 | 训练: 搜寻
+WK_WildcraftHerbalistRef | 林地物种的采集时间窗与处理方法。 | 训练: 搜寻
+WK_WildlifeTrackSignRef | 按物种列出的足迹形态与步态模式。 | 训练: 追踪
+WK_DeerMovementRef | 白尾鹿的地形解读与活动廊道。 | 训练: 追踪
+WK_KDFWRGameMgmtRef | 鱼类与野生动物官员的种群评估与栖息地方法。 | 训练: 追踪
+WK_WildlifeTrappingGuide | KDFWR按目标物种列出的陷阱类型与设置方法。 | 训练: 诱捕
+WK_FurbearerRef | 按物种列出的皮张质量评估与最佳捕获期。 | 训练: 诱捕
+WK_KDFWRTrapperRegs | 鱼类与野生动物资源部的合法设置要求与物种限制。 | 训练: 诱捕
+WK_NRAPistolInstructorMan | 对完美扣扳机动作的深度技术分析。 | 训练: 瞄准
+WK_BullseyeMatchProgramme | 压力下击中移动靶的训练指南。 | 训练: 瞄准
+WK_KYConcealedCarryGuide | 重点讲解从枪套顺畅出枪而不挂卡。 | 训练: 瞄准
+WK_FBIQualScorebook | 有批注：这支新配枪我一枪都打不准。 | 训练: 瞄准
+WK_USPSARulebook | 美国实战射击协会目标转换规则。 | 训练: 瞄准
+WK_BoyScoutRiflery | 手绘的稳定卧射姿势示意图，已褪色。 | 训练: 瞄准
+WK_VietnamRiflemanNotes | 每页都潦草写着：注意控制呼吸，陆战队员。 | 训练: 瞄准
+WK_HighPowerNewsletter | 老枪手关于风偏与仰角修正的经验之谈。 | 训练: 瞄准
+WK_PoliceAcademyHandgun | 第四至第六周完全专注于出枪与换弹动作。 | 训练: 装填
+WK_RevolverSpeedloaderCard | 专注于弹出空弹壳的重力脱出技术。 | 训练: 装填
+WK_CombatShootingDrills | 时限要求与干练习，有咖啡渍。 | 训练: 装填
+WK_GunsmithStripping | 制式手枪的野外分解步骤。 | 训练: 装填
+WK_NavalGunnersManual | M9与经典1911的防锈保养规程。 | 训练: 装填
+WK_ShotgunReloadingCard | 侧弹仓与四发换弹技术。 | 训练: 装填
+WK_RangemasterDrillBook | 清除复杂双重供弹故障的高级训练，有浮凸徽章。 | 训练: 装填
+WK_GuardForceWeaponsManual | 在装甲车狭小空间内完成战斗换弹的规程。 | 训练: 装填
+WK_TimberCruiserHandbook | 林分评估与倒树方向笔记。 | 训练: 斧头
+WK_AppalachianFellingNotes | 逆树自然倾斜方向伐木的手绘示意图。 | 训练: 斧头
+WK_BoyScoutAxemanship | 确保斧头与柄牢固结合的基本检查。 | 训练: 斧头
+WK_MountainRescueIceAxe | 自我制动与冰缝救援技术。 | 训练: 斧头
+WK_BackcountryHatchetCard | 高效V形切口去枝，防止刀刃卡入。 | 训练: 斧头
+WK_TechnicalRescueAxeRef | 对角落支撑点定向打击以突破加固障碍。 | 训练: 斧头
+WK_EngineCompanyAxeRef | 协同使用斧头清除堵塞出口的训练。 | 训练: 斧头
+WK_KDFWRDeadwoodPamph | 清除射击通道时不挂装备的干净切割技术。 | 训练: 斧头
+WK_BushHogOperatorRef | 拖拉机配套设备操作与动力输出轴安全。 | 训练: 长刀
+WK_KYHighwayBrushControl | 使用灌木钩清除灌丛而不过度伸展的技术。 | 训练: 长刀
+WK_CornDetasselingCard | 烈日下十小时轮班中控制刀具重量的手写技巧。 | 训练: 长刀
+WK_AppalachianHerbalCutting | 识别纹理走向以确保一刀干净收割的操作手册。 | 训练: 长刀
+WK_StateParksTrailCrew | 清除悬垂枝条而不卡刃的技术。 | 训练: 长刀
+WK_KaiserBladeFieldRef | 重型双刃灌木钩的借重挥击技术。 | 训练: 长刀
+WK_SCAHeavyFightCard | 创意历史重演协会练习卡。 | 训练: 长刀
+WK_CaneCuttingManual | 低轴心挥击：以最小力气从根部截断粗茎。 | 训练: 长刀
+WK_LarpFightChoreography | 十字护手格挡与攻击区转换基础。 | 训练: 长刀
+WK_JewelersFileCard | 为精密机械零件微调选择锉齿等级。 | 训练: 维护
+WK_ShopApprenticeToolLog | 涂抹木柄防止开裂的每日检查清单。 | 训练: 维护
+WK_BarberRazorStropping | 使用皮革与帆布磨刀革修正卷刃的技术。 | 训练: 维护
+WK_ScoutTroopToolCare | 用圆形磨刀石磨钝斧头的手绘指南。 | 训练: 维护
+WK_BladesmithToolCare | 维护砧面与锤面以保证清洁金工成品。 | 训练: 维护
+WK_BowSawSetGuide | 纵切与横切锯齿的精确锉磨角度。 | 训练: 维护
+WK_AntiqueDealerCare | 包浆保护与防锈处理笔记。 | 训练: 维护
+WK_SushiChefKnifeBook | 单次拉切动作的艺术，防止损伤食材纤维。 | 训练: 短刀
+WK_TaxidermistCapingRef | 不刺穿兽皮的尾部与耳部剥皮程序。 | 训练: 短刀
+WK_EMTRescueKnifeCard | 使用锯齿刃剪断安全带的技术。 | 训练: 短刀
+WK_ButchersBoningGuide | 热剔骨技术：趁胴体余温未散时去肉。 | 训练: 短刀
+WK_SurgeonScalpelRef | 铅笔握法与指尖握法在不同切口深度的应用。 | 训练: 短刀
+WK_ScoutCampcraftKnife | 营地辅导员刀具操作手册。 | 训练: 短刀
+WK_UFCWCutleryTechRef | 重复切片作业中预防伤害的标准人体工学腕部角度。 | 训练: 短刀
+WK_KnifemakerTestCutLog | 按钢材类型记录的刃型几何测试结果。 | 训练: 短刀
+WK_NorthwoodsFilletCard | 清理梭子鱼的Y形骨去除技术。 | 训练: 短刀
+WK_NightstickTrainingMan | 警棍安全规程与标准携带方式。 | 训练: 短钝器
+WK_RailroadSpikeMaul | 全弧挥击最大化动能的力学原理。 | 训练: 短钝器
+WK_AutoBodyHammerNotes | 使用整形锤击法抚平金属表面。 | 训练: 短钝器
+WK_ProductionFramerCard | 高效大批量建筑施工中保持锤击节奏的方法。 | 训练: 短钝器
+WK_BlacksmithHammerCard | 按坯料厚度列出的锤角参考。 | 训练: 短钝器
+WK_MasonsHammerRef | 使用专用锤端对石材或瓷砖进行细节凿刻。 | 训练: 短钝器
+WK_CaverHammerPickRef | 国家洞穴探险协会工具操作规范。 | 训练: 短钝器
+WK_RoofersFlashingCard | 使用一体式冲孔功能在脆性材料上开孔。 | 训练: 短钝器
+WK_TrackMaintenanceSledge | 驱打轨道螺栓的标准弧形挥击示意图。 | 训练: 长钝器
+WK_RiotBatonInstructorRef | 长警棍人群管控参考手册。 | 训练: 长钝器
+WK_CricketBowlersGuide | 直臂投球保持球速的力学原理。 | 训练: 长钝器
+WK_LacrosseCoachManual | 长杆检查与防守站位的杠杆技术。 | 训练: 长钝器
+WK_HockeyStickHandling | 将球杆加载至最大弯曲力量击发的技术。 | 训练: 长钝器
+WK_FirefighterHaliganRef | 使用叉形端撑开缝隙的技术。 | 训练: 长钝器
+WK_LandClearingMaul | 下劈时借助头部重量让重力做功。 | 训练: 长钝器
+WK_PulaskiSwingScale | 双功能挥击：在挖掘弧与砍伐弧之间切换。 | 训练: 长钝器
+WK_KDFWRBowfishingRef | 浅水环境中快速反应瞄准的技术。 | 训练: 长矛
+WK_SCAPolearmRef | 使用长柄进行防御站位的历史杠杆技术。 | 训练: 长矛
+WK_CherokeeFishSpear | 河流传统捕鱼的三齿叉技术。 | 训练: 长矛
+WK_TrackPoleVaultCard | 高张力负荷下握力与上肢协调训练。 | 训练: 长矛
+WK_WWIIBayonetTraining | 展示历史格挡姿势与复位训练的档案图。 | 训练: 长矛
+WK_KarateBoStaffMan | 使用棍的全长管控人身距离与空间。 | 训练: 长矛
+WK_ScoutsPolearmDemo | 长器材携行端枪姿势基础。 | 训练: 长矛
+WK_PrimitiveSpearfishing | 水中投击时如何提前预判目标并补偿水阻。 | 训练: 长矛
+WK_ABANANewsletter | 读者关于动力锤选型与砧架高度的投稿笔记。 | 训练: 锻造
+WK_FarrierShoeingNotes | 按蹄形列出的装蹄角度与钉子位置。 | 训练: 锻造
+WK_FrontierForgeRef | 从零搭建风箱锻炉的尺寸图纸。 | 训练: 锻造
+WK_SteelmillProcessRef | 轧机温度记录与棒材压缩比。 | 训练: 锻造
+WK_KnifemakerForgeWeld | 花纹钢坯：层数、拉伸比与扭转时机。 | 训练: 锻造
+WK_ScoutMetalwork | 锤击控制与火候管理，从条钢锻制钉子。 | 训练: 锻造
+WK_SwordsmithApprDiary | 失败的斜面与热处理事故，修正处以红笔圈出。 | 训练: 锻造
+WK_ColonialIronworker | 背面准备笔记涵盖榫接顺序与火候管理。 | 训练: 锻造
+WK_SpoonCarvingNotes | 内曲面逆纹的纹理走向判读图。 | 训练: 雕刻
+WK_CountryCarversBook | 刀握姿势、拇指推切与止切，附历史项目记录。 | 训练: 雕刻
+WK_ChipCarvingPattern | 几何凿花雕刻图案指南。 | 训练: 雕刻
+WK_WaldenWoodcrafter | 绿木雕刻的纹理选择，圆口刀与弯刃刀用法。 | 训练: 雕刻
+WK_JuniorHighWoodshop | 工具安全与凿刀磨刃，出自真正懂行的人。 | 训练: 雕刻
+WK_AppalachianFolkArt | 世代相传的选材与粗坯制作，只用管用的方法。 | 训练: 雕刻
+WK_BowyerTilleringNotes | 自制弓弓臂调整过程笔记。 | 训练: 雕刻
+WK_SullivanCulinaryText | 高汤、基础酱汁与衍生酱汁的实用参考。 | 训练: 烹饪
+WK_KYExtensionCookbook | 推广配方，保存章节涵盖装罐与冷储方法。 | 训练: 烹饪
+WK_ArmyMessHallSOP | 野战条件下百人以上规模的批量烹饪，油印件已褪色。 | 训练: 烹饪
+WK_SchoolCafeteriaRef | USDA份量与温度规定，热量表同样适用于配给计算。 | 训练: 烹饪
+WK_PitBossBBQManual | 孟菲斯风格竞技烧烤手册。 | 训练: 烹饪
+WK_HeritageCookbook1957 | 无需冷藏的大批量食谱，附替代食材备注。 | 训练: 烹饪
+WK_TruckStopGriddleNotes | 温度分区管理与凭铁板声音判断熟度。 | 训练: 烹饪
+WK_IBEWApprentBook | 入户线、配电盘布局与穿管练习。 | 训练: 电工
+WK_ResWiringText | 从入户线到插座的逐房间住宅布线步骤。 | 训练: 电工
+WK_MotorControlSchem | 三相电机控制原理图。 | 训练: 电工
+WK_TransformerNamePlate | 地面安装变压器识别与额定参数卡。 | 训练: 电工
+WK_GroundingBondingRef | 按系统电压列出的接地导体规格，动手前必读。 | 训练: 电工
+WK_KYStateLicensingMan | NEC模拟题，电压降与导体规格训练。 | 训练: 电工
+WK_UndergroundCableRef | 地埋住宅配电电缆规格与埋深要求。 | 训练: 电工
+WK_PenlandStudioGlass | 还原气氛下活性玻璃的大师课笔记。 | 训练: 玻璃制作
+WK_CorningEngineering | 光学硼硅玻璃规格：折射率与应力公差。 | 训练: 玻璃制作
+WK_StainedGlassChurch | 一座二十年代礼拜堂彩绘玻璃的铅条修复。 | 训练: 玻璃制作
+WK_BorosilicateLampwork | 玻璃与金属封接及火焰化学防止玻璃破裂。 | 训练: 玻璃制作
+WK_AntiqueBottleCollect | 古董瓶鉴定与断代手册，爱好者级别。 | 训练: 玻璃制作
+WK_KilnFusedJewelry | 按玻璃品牌列出的热膨胀系数匹配与棚板粉记录，方法严谨。 | 训练: 玻璃制作
+WK_TiffanyMethodRef | 弧形板材施工的铅条规格与焊锡比例。 | 训练: 玻璃制作
+WK_NeonSignBenders | 电极安装、充气步骤与标准霓虹管轰击机参数。 | 训练: 玻璃制作
+WK_BeadSocietyLampwork | 玻璃棒化学成分与灯工火焰化学，用心的爱好者。 | 训练: 玻璃制作
+WK_CherokeeArrowhead | 东部部落缺口风格与石料产地，带甜草香气。 | 训练: 打制石器
+WK_FieldArchKnapping | 压制剥片的身体力学及避免铰断裂的方法。 | 训练: 打制石器
+WK_PrimBowhunterFlint | 使用天然黏合剂装配仿制镞头的步骤。 | 训练: 打制石器
+WK_AmateurArchPamph | 识别人工打制石器与自然断裂纹理的入门手册。 | 训练: 打制石器
+WK_ObsidianSourceRef | 黑曜石产地考古测量参考手册。 | 训练: 打制石器
+WK_RendezvousMtnMan | 营地打石：锤棒选择、鹿角剥片器与石料类型。 | 训练: 打制石器
+WK_KCMuseumLithicCat | 肯塔基州立博物馆石器鉴别目录。 | 训练: 打制石器
+WK_BSAPrimitiveSurvival | 台面角度、锤石握法与护目，从零开始。 | 训练: 打制石器
+WK_ToolStoneQualityCard | 燧石质量现场评估卡。 | 训练: 打制石器
+WK_BIATraditionalBrick | 布局、皮数杆与铅直角砌：学徒袖珍参考手册。 | 训练: 砌砖
+WK_StonecutterApprenNote | 顺纹劈石、塞楔与羽片，以及粗面收整。 | 训练: 砌砖
+WK_ChimneySweepInspect | 焦油类型识别与烟帽至套管的检查。 | 训练: 砌砖
+WK_HistoricPointingMan | 勾缝用石灰砂浆配比及何时放弃波特兰水泥。 | 训练: 砌砖
+WK_ConcreteFinishersRef | 大抹板时机与抹灰前读取泌水情况。 | 训练: 砌砖
+WK_KCMasonsLocalNews | 当地石灰岩与冻融砂浆配比的施工经验。 | 训练: 砌砖
+WK_FieldstoneWalls | 穿石放置与读取野石以稳定堆叠。 | 训练: 砌砖
+WK_PavingStoneInstall | 车行铺装的压实度、砂床厚度与边缘约束。 | 训练: 砌砖
+WK_ASEStudyGuide | 八大系统分解：从发动机到传动系统，填补知识空白。 | 训练: 技工
+WK_KYVehicleInspection | 制动盘最小值、胎纹深度计与灯光合规检查。 | 训练: 技工
+WK_BriggsStrattonRepair | 化油器、点火正时与气门间隙调整。 | 训练: 技工
+WK_DieselTroubleshoot | 无法启动与冒烟的故障树，燃油注入与喷油器排气。 | 训练: 技工
+WK_FordPickupShopMan | 线路、变速箱与桥壳规格，起动机页面有油脂指印。 | 训练: 技工
+WK_ChevyTechServiceBull | 八十年代末小缸径发动机与TH350变速箱故障的原厂修正。 | 训练: 技工
+WK_TruckingFleetPMSched | 重型卡车保养周期，含液体规格与签字确认表。 | 训练: 技工
+WK_UnivCeramicsText | 定心、开孔、拉坯与收口的图解步骤。 | 训练: 陶艺
+WK_PenlandWheelRef | 凭手感与底板侧压读取坯壁厚度。 | 训练: 陶艺
+WK_RakuFiringNotes | 还原箱时机与出窑判断，书页染有烟熏气味。 | 训练: 陶艺
+WK_SaltGlazeStoneware | 盐的投入时机与窑内摆放方式以均匀气化分布。 | 训练: 陶艺
+WK_AppFolkPotteryPamph | 山地传统的当地黏土产地与本地草木灰釉配方。 | 训练: 陶艺
+WK_StudioKilnRepair | 电窑的发热体更换、热电偶与软质砖修补。 | 训练: 陶艺
+WK_CommercialPotteryProc | 注浆与刀车成型步骤，石膏模具与泥浆重力注记。 | 训练: 陶艺
+WK_ChildrenPotteryLesson | 捏塑与泥条盘筑基础，图解清晰。 | 训练: 陶艺
+WK_BeginnerWheelNotes | 定心、开孔与拉坯基础，附认真的素描图。 | 训练: 陶艺
+WK_SearsPatternCatalog | 从零剪裁的放码表与松量。 | 训练: 缝纫
+WK_CarhartUnionShop | 加固缝受力点、三重缝线与口袋补强。 | 训练: 缝纫
+WK_AlterationsTailorCard | 按缝线类型列出的收身量、卷边量与袖子调整。 | 训练: 缝纫
+WK_HomeEcSewingText | 缝份、疏缝与手缝针法，适合初学者。 | 训练: 缝纫
+WK_TheatricalCostumeShop | 无纸样原型调整与历史服装的快速下摆。 | 训练: 缝纫
+WK_HancockFabricsManual | 燃烧测试纤维识别、面料克重与洗涤标签标准。 | 训练: 缝纫
+WK_UpholstererGuide | 弹簧绑扎、织带张力与软包框架的底布。 | 训练: 缝纫
+WK_BridalSeamstressNotes | 在不破坏鱼骨的情况下放大结构胸身，以及蕾丝修补。 | 训练: 缝纫
+WK_AWSCertWelderManual | 3G与4G位置的模拟测试：自学者最不擅长的焊缝。 | 训练: 金工
+WK_PipefittersWelding | 管道开根焊：锁孔、盖面弧、立向填充焊道。 | 训练: 金工
+WK_AluminumMIGRef | 薄铝板的送丝轮枪设置与预通气时间。 | 训练: 金工
+WK_UAWWeldingShopSOP | 生产车间的烟气抽排、火灾监察与动火许可。 | 训练: 金工
+WK_AutoBodyWeldingRef | 薄钢板的贴片与塞焊间距，避免烧穿。 | 训练: 金工
+WK_StickRodSelectionGuide | 6011与7018焊条选用指南。 | 训练: 金工
+WK_AerospaceTIGNotes | 惰性气氛要求与钛材焊前清洁处理。 | 训练: 金工
+WK_FFAVocAgText | 大田作物整地、移栽与施肥，兼含牲畜基础知识。 | 训练: 耕作
+WK_KYExtensionAgBull | 诺克斯县作物病虫害预警与侦查阈值。 | 训练: 耕作
+WK_UKAgEconNotes | 课堂潦草笔记，换算表与产量估算仍实用。 | 训练: 耕作
+WK_FertSpreaderCalCard | 施肥机现场校准卡。 | 训练: 耕作
+WK_USDACropRotation | 含固氮量表的两年与四年玉米大豆及小粮轮作方案。 | 训练: 耕作
+WK_NoTillFarmingMan | 培育土壤的免耕与覆盖作物轮作。 | 训练: 耕作
+WK_KYTobaccoGrowGuide | 漂浮育苗、移栽与气烤烟叶的打顶管理。 | 训练: 耕作
+WK_RodaleOrganicPamph | 不使用现代农资的堆肥量、覆盖作物与综合防治。 | 训练: 耕作
+WK_KYCattlemensNews | 后页：无兽医时治疗粉眼病与腐蹄病的问答。 | 训练: 动物护理
+WK_FFALivestockJudging | 按物种列出的体况评分与缺陷识别。 | 训练: 动物护理
+WK_TysonPoultryGrower | 肉鸡生产的通风、垫料管理与饲料转化目标。 | 训练: 动物护理
+WK_TrackVetDailyLog | 兽医手写的赛前跛行评分记录，有波本威士忌渍。 | 训练: 动物护理
+WK_SheepGoatBreeder | 接产助产、修蹄与FAMACHA寄生虫评分。 | 训练: 动物护理
+WK_SwineProductionMan | 生猪的饲料配方、分娩围栏与断奶规程。 | 训练: 动物护理
+WK_DairyHerdMgmt | 发情检测、配种记录与挤奶厅规程。 | 训练: 动物护理
+WK_AgEdJudgingCard | 县级FFA牲畜竞赛评分表，有咖啡圈。 | 训练: 动物护理
+WK_UnionStockyardsCut | 以吨位为先而非外观的牛肉分割与原始部位分解。 | 训练: 屠宰
+WK_DeerProcessorGuide | 从剥皮到真空袋：分解、剔骨、排酸笔记，带猎血气味。 | 训练: 屠宰
+WK_SausageProductionNotes | 早餐肠、夏季香肠与辣肉肠的脂肪比例与绞肉顺序。 | 训练: 屠宰
+WK_SmallSlaughterhouseSOP | 检验周期与胴体处置标准作业规程。 | 训练: 屠宰
+WK_KosherButcheringRef | 洁食要求与前腿部位分割，页边有希伯来文批注。 | 训练: 屠宰
+WK_CharcuterieProduction | 干腌制品的腌料比例与湿度目标值。 | 训练: 屠宰
+WK_HolidayTurkeyCard | 大批量家禽加工的烫毛温度、拔毛与去内脏。 | 训练: 屠宰
+WK_CharcutierApprDiary | 一年的用盐比例记录与失败案例，修正处以红笔圈出。 | 训练: 屠宰
+WK_WildGameProcessor | 鹿、火鸡、兔、松鼠与野猪的剥皮与剔骨。 | 训练: 屠宰
+WK_HSTrackCoachManual | 训练周期化与各项目专项训练，书角有折痕。 | 训练: 奔跑
+WK_NCAAStrengthCondition | 一级大学周期划分：基础、积累、顶峰、减量与加速。 | 训练: 奔跑
+WK_KYHSAARulebook | 参赛资格、转学与招募规定，合规主任已盖章。 | 训练: 奔跑
+WK_BostonMarathonTrain | 十八周达标训练计划，每页附配速图表。 | 训练: 奔跑
+WK_SprintIntervalCard | Tabata式计时表，压膜上有哨声痕迹。 | 训练: 奔跑
+WK_CrossCountryRef | 高中长跑队的坡道重复跑与集体跑训练。 | 训练: 奔跑
+WK_PoliceRecruitFitness | 十二周学员体能训练计划，附每周基准目标。 | 训练: 奔跑
+WK_ArmyAPFTManual | 按年龄分组的两英里跑与俯卧撑标准，附后半段体能训练。 | 训练: 奔跑
+WK_HSFootballCondition | 休赛期力量房训练与冲刺组合，脊背夹有钢笔。 | 训练: 奔跑
+WK_BMXRacingTraining | 短跑与过弯技术训练，背面有泥点。 | 训练: 奔跑
+WK_USPFPowerlifting | 深蹲深度、卧推接触与硬拉锁定，含热身表。 | 训练: 力量
+WK_OlympicLiftingNotes | 抓举与挺举：髋铰链、发力点与下沉接杠。 | 训练: 力量
+WK_StrongmanTrainingMan | 阿特拉斯石、原木推举与框架行走：直接转化为实际搬运能力。 | 训练: 力量
+WK_MuscleBuilderMag | 乔·韦德健美杂志，棕橙配色。 | 训练: 力量
+WK_ArmyCombatLifter | 伤亡搬运与障碍突破的体重比例。 | 训练: 力量
+WK_FarmStrengthManual | 原木举起、石块装载与握力训练，适用于持续农场劳动。 | 训练: 力量
+WK_RugbyStrengthMan | 按位置划分的争球群与后卫体能训练。 | 训练: 力量
+WK_FreightDockLiftCard | 货运码头搬运卡，有汗渍。 | 训练: 力量
+WK_CollegeStrengthLog | 每周卧推、深蹲与上举数据，有铅笔批注。 | 训练: 力量
+WK_HSWrestlingStrength | 控体重策略与握力训练。 | 训练: 力量
+WK_ParamedicProtocolMan | 肾上腺素、吗啡、葡萄糖：野外急救人员的剂量与心脏规程。 | 训练: 急救
+WK_ERTriageTextbook | 大规模伤亡的损害控制：第一个小时内的致命因素。 | 训练: 急救
+WK_NursingFundamentals | 后医院时代的伤口评估与感染识别。 | 训练: 急救
+WK_PharmacistDispensing | 非处方药相互作用、最大剂量、抗生素疗程与失效迹象。 | 训练: 急救
+WK_ArmyCombatMedic | 止血带、针刺减压与无后送支援的伤口填塞。 | 训练: 急救
+WK_NursingHomeCareMan | 压疮预防与慢性护理的伤口分期。 | 训练: 急救
+WK_WoundCareSuturing | 清创、按污染程度选择缝合方式，附图解缝线位置。 | 训练: 急救
+WK_PediatricFirstAid | 按体重的儿科用药剂量、儿童CPR比例与病重识别。 | 训练: 急救
+WK_KYBassFishingClub | GPS坐标已划去，季节规律与水深参考保留。 | 训练: 钓鱼
+WK_CrappieAnglersGuide | 沉木深度、丛枝间距与垂直抖钓，附注水温。 | 训练: 钓鱼
+WK_KYTroutStocking | 鱼类与野生动物资源部按溪流列出的放流计划。 | 训练: 钓鱼
+WK_FlyTyingPattern | 模仿水生昆虫的毛钩图案，附毛皮与羽毛来源记录。 | 训练: 钓鱼
+WK_KYRiverCatfishing | 树枝线、浮筒与河湾弯处的饵料投放。 | 训练: 钓鱼
+WK_WalleyeFishingRef | 礁石钓法与水深选择，偏光镜镜片有划痕。 | 训练: 钓鱼
+WK_NoodlingHandfishing | 平石与空木：凭手感分辨鱼与鳄龟。 | 训练: 钓鱼
+WK_KYMusselRegs | 分辨可销售贝壳与受保护物种的合法渔具与物种鉴定。 | 训练: 钓鱼
+WK_KYWildflowerGuide | 肯塔基本地植物彩版图鉴，附栖息地与花期。 | 训练: 搜寻
+WK_StalkingWildAsparagus | 吉本斯采集笔记：去哪找，取哪部分，何时采。 | 训练: 搜寻
+WK_HerbalPharmacyEnc | 酊剂制备与用量笔记，书脊已裂。 | 训练: 搜寻
+WK_WildMushroomHunt | 孢子印与相似种警告，多页已折角。 | 训练: 搜寻
+WK_BackyardForaging | 从草坪到餐桌：蒲公英、马齿苋、酢浆草与车前草。 | 训练: 搜寻
+WK_EthnobotanyText | 东部林地植物用途：按社群分类的食物、药物与纤维。 | 训练: 搜寻
+WK_TraditionalAppPlants | 野韭、美洲商陆、血根草与接骨木，附有毒物种处理笔记。 | 训练: 搜寻
+WK_HunterGatherersRef | 秋挖根、春采叶、夏收种，按季节分类。 | 训练: 搜寻
+WK_WildEdiblesCookbook | 羊蹄草、橡子粉与宽叶香蒲花粉：从识别到实际烹饪。 | 训练: 搜寻
+WK_ApacheScoutTracking | 压力释放形态与微痕读取，判断方向与速度。 | 训练: 追踪
+WK_KYCoonHunting | 痕迹读取与上树判断，有无猎犬均可应用，带乡土气息。 | 训练: 追踪
+WK_SARTrackingTraining | 失联者行为规律与区域概率，附横切痕迹附录。 | 训练: 追踪
+WK_TurkeyHuntingRef | 鸣叫节奏、诱饵摆放与栖木读取。 | 训练: 追踪
+WK_BloodhoundHandlerCard | 气味物品处理与绕行恢复追踪，专为副警长编写。 | 训练: 追踪
+WK_WildlifeBiologyText | 活动范围、栖息廊道与季节迁移：生态背后的原因。 | 训练: 追踪
+WK_BowHunterCamoMan | 按季节划分的站位布置与轮廓破除技术。 | 训练: 追踪
+WK_NavySEALReconPamph | 隐蔽点构建与反追踪措施。 | 训练: 追踪
+WK_SignReadingNotes | 压力释放示意图与痕迹老化判断，叠折成口袋大小。 | 训练: 追踪
+WK_NTAFurHandlersGuide | 套筒剥皮与整皮，撑皮架尺寸及优质皮张与等外品的区别。 | 训练: 诱捕
+WK_KYBeaverTrapPamph | 塘边设置与滑道设置技术，手册带有海狸香气味。 | 训练: 诱捕
+WK_FoxHolerLureRecipes | 按季节配制的腺体与食物诱饵：狐狸用尿液与臭鼬的比例。 | 训练: 诱捕
+WK_ConibearSetTechnique | 体型夹放置位置与扳机灵敏度调整。 | 训练: 诱捕
+WK_FootholdStakingRef | 岩石、沙地与冻土上的固定桩与转环设置，以及拖钩选项。 | 训练: 诱捕
+WK_USDAAnimalDamage | 联邦动植物健康检验服务局损害控制手册。 | 训练: 诱捕
+WK_KDFWRNuisanceWild | 河狸、土狼与旱獭的活捕与排除措施及处置方式。 | 训练: 诱捕
+WK_MuskratPeltStretch | 撑皮架规格、肉膜深度与干燥时间，单页压膜。 | 训练: 诱捕
+WK_FurAuctionGrading | 按物种列出的分级标准，附猎获时机的成熟期日历。 | 训练: 诱捕
+WK_CabinetmakerJoinery | 按木材种类列出的燕尾榫、箱形榫与榫卯比例。 | 训练: 木工
+WK_RoofFramingCalcCard | 四坡顶与山墙顶的坡度表与椽条出檐。 | 训练: 木工
+WK_LogHomeBuildersRef | 榫头类型、地梁施工与填缝规格。 | 训练: 木工
+WK_AppTimberFramePamph | 无需工程图的楔销榫卯结构按跨度尺寸。 | 训练: 木工
+WK_ScoutCarpentryMerit | 划线规、凿刀与顺纹下刀前的木纹读取。 | 训练: 木工
+WK_FurnitureMakerNotes | 柜体与箱体家具的榫卯尺寸。 | 训练: 木工
+WK_VocSchoolBuildTrades | 墙体、楼面与屋顶框架：来自真正建过房子的人。 | 训练: 木工
