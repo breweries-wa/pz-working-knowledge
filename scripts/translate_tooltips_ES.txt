@@ -1,0 +1,372 @@
+WK_KCPDFirearmsQual | Las técnicas de agarre correctas están marcadas en tinta roja. | Entrena: Puntería
+WK_RangeSafetyOfficerRef | Comandos de fuego real y procedimientos de seguridad en el campo. | Entrena: Puntería
+WK_DefensiveHandgunRef | Bocetos detallados sobre poder de detención e impactos en el centro de masa. | Entrena: Puntería
+WK_SheriffQualLog | Puntuaciones a lápiz y notas de recuperación de los oficiales reprobados. | Entrena: Puntería
+WK_TacticalReloadRef | Secuencias de recarga rápida, administrativa y de retención. | Entrena: Recarga
+WK_MagazineDrillCard | Diagramas que ilustran el método Golpe, Amartilla y Dispara para despejar trabas. | Entrena: Recarga
+WK_ArmorersWeaponsRef | Verificaciones funcionales e inspección de cargadores por tipo de arma. | Entrena: Recarga
+WK_PracticalShootingRef | Reglas de recarga en competencia y posiciones de inicio. | Entrena: Recarga
+WK_OSHALoggingRef | Seguridad federal en tala: apeo y rutas de escape. | Entrena: Hacha
+WK_ArboristFieldGuide | Geometría avanzada para cortes Humboldt y de cara abierta. | Entrena: Hacha
+WK_ForcibleEntryRef | Técnica de bomberos para forzar puertas con hachas. | Entrena: Hacha
+WK_FirefighterHandToolSOP | Procedimiento para hachas, barras halligan y pértigas. | Entrena: Hacha
+WK_BrushClearingRef | Técnica de machete en parques estatales y cuidado de la hoja. | Entrena: Arma de hoja larga
+WK_MacheteUseGuide | Ilustra el círculo de peligro y el bloqueo de muñeca para evitar la fatiga. | Entrena: Arma de hoja larga
+WK_ForestryContractorSOP | Instrucciones para afilar zonas específicas según la densidad de la madera. | Entrena: Arma de hoja larga
+WK_KnifeMaintenanceLog | Programa diario de afilado para mantener el filo en cuchillos de cocina. | Entrena: Mantenimiento
+WK_EdgeToolSharpeningRef | Ángulos de afilado y progresión de granos por tipo de herramienta. | Entrena: Mantenimiento
+WK_HandToolConditionRef | Inspección y prevención de óxido en herramientas manuales. | Entrena: Mantenimiento
+WK_ImpactWeaponMaintSOP | Lista de verificación del resorte de retención e integridad de la punta. | Entrena: Mantenimiento
+WK_WhetstoneSelectionRef | Granos de piedra y lubricantes por categoría de herramienta. | Entrena: Mantenimiento
+WK_MeatFabricationRef | Diagrama de cortes primarios del USDA con ángulos de cuchillo por especie. | Entrena: Arma de hoja corta
+WK_NSFBladeSafetyRef | Normas de manejo e higiene de cuchillos de la NSF. | Entrena: Arma de hoja corta
+WK_FishFabricationRef | Referencia comercial de fileteado, desollado y porcionado. | Entrena: Arma de hoja corta
+WK_KCPDImpactWeaponsRef | Descripción de técnicas de agarre aprobadas y posturas defensivas. | Entrena: Arma contundente corta
+WK_OSHAHandToolSafety | Instrucciones de alineación de muñeca y tensión de agarre para prevenir lesiones. | Entrena: Arma contundente corta
+WK_FramingHammerCard | Posiciones de agarre y técnica para clavar en enmarcado. | Entrena: Arma contundente corta
+WK_PlumbingQuickClearRef | Técnica de desatasco por tipo de instalación y pasos de escalada. | Entrena: Arma contundente corta
+WK_BaseballSwingRef | Tarjeta de entrenamiento juvenil: postura y seguimiento del swing. | Entrena: Arma contundente larga
+WK_DemolitionHandToolRef | Agarre y oscilación del mazo para demolición controlada. | Entrena: Arma contundente larga
+WK_GolfSwingRef | Diagramas sobre la física rotacional del golpe largo. | Entrena: Arma contundente larga
+WK_CrowbarApplicationsRef | Guía del contratista de demolición sobre puntos de apalancamiento. | Entrena: Arma contundente larga
+WK_KDFWRPrimitiveWeapons | Notas detalladas sobre las limitaciones del equipo primitivo. | Entrena: Lanza
+WK_JavelinCoachingRef | Guía de preparatoria para trabajo de pies y agarre. | Entrena: Lanza
+WK_AtlatlSpearRef | Guía de escuela de supervivencia para mantener el astil recto. | Entrena: Lanza
+WK_StageCombatSpearRef | Cómo mantener distancia y trabajo de pies en estocadas teatrales. | Entrena: Lanza
+WK_ASTMMaterialSpecRef | Grados de acero, dureza y rangos de tratamiento térmico. | Entrena: Herrería
+WK_ForgeHeatTreatGuide | Medios de temple y colores de revenido para trabajo en fragua. | Entrena: Herrería
+WK_IndustrialMetalworkRef | Propiedades metálicas y velocidades de corte para metalistería. | Entrena: Herrería
+WK_BlacksmithGuildStandards | Tolerancias de ajuste para ojos de martillo, derivadores y collares. | Entrena: Herrería
+WK_LumberYardManual | Guía de seguridad y clasificación de materiales en el depósito. | Entrena: Carpintería
+WK_SpanTablesRef | Tablas de luces para viguetas, cabrios y cálculos de carga del AWC. | Entrena: Carpintería
+WK_FinishCarpentryNotes | Notas de uniones y copas de molduras. Márgenes escritos a mano. | Entrena: Carpintería
+WK_NDSWoodConstruction | Conexiones estructurales de madera y tablas de fijaciones. | Entrena: Carpintería
+WK_FramingSquareCard | Tarjeta de pendiente de techo, escalones de escalera y trazado de cabrios. | Entrena: Carpintería
+WK_WoodenHandleShaftRef | Selección y conformado de madera para mangos y astiles. | Entrena: Talla
+WK_FieldExpedientToolRef | Fabricación de herramientas de madera y hueso con cuchillo en campo. | Entrena: Talla
+WK_ArchaeologicalToolNotes | Notas universitarias sobre enmangue y producción de herramientas de hueso. | Entrena: Talla
+WK_TrapperBoneToolRef | Guía del trampero para punzones de hueso y pasadores de madera. | Entrena: Talla
+WK_KnifeHandleFittingRef | Selección y conformado de madera para fabricación de mangos de cuchillo. | Entrena: Talla
+WK_HACCPFoodSafetyPlan | Puntos críticos de control y registros de temperatura de cocina comercial. | Entrena: Cocina
+WK_TempTimeControlChart | Temperaturas de conservación y mínimos de cocción por proteína. | Entrena: Cocina
+WK_LineCookStationRef | Configuración de mise en place y flujo de pedidos para cocineros de línea. | Entrena: Cocina
+WK_SauceStockLog | Recetas base del restaurante y escalado de fondos por lotes. | Entrena: Cocina
+WK_ServSafeRef | Reglas de temperatura y contaminación cruzada para manipuladores. | Entrena: Cocina
+WK_NECArticleRef | Los artículos del NEC más citados. La referencia de bolsillo de todo oficial. | Entrena: Electrónica
+WK_WireGaugeAmpacityRef | Calibre de conductores y ratings de interruptores por tipo de circuito. | Entrena: Electrónica
+WK_OSHAElectricalSafety | Requisitos de bloqueo y EPP contra arco eléctrico. | Entrena: Electrónica
+WK_ConduitFillRef | Límites de llenado de tuberías y cajas por calibre de conductor. | Entrena: Electrónica
+WK_PanelInspectionChecklist | Cálculos de carga y referencia de código para etiquetado de circuitos. | Entrena: Electrónica
+WK_GlassAnnealingRef | Curvas de recocido por tipo de vidrio y espesor. | Entrena: Vidrería
+WK_FloatGlassManufRef | Temperaturas del baño de estaño y velocidades de extracción para vidrio float. | Entrena: Vidrería
+WK_KilnFormingRef | Temperaturas de fusión y tablas de compatibilidad de COE para taller. | Entrena: Vidrería
+WK_LithicTechnologyRef | Percusión y presión de descamación con diagramas de ángulo de plataforma. | Entrena: Talla de piedra
+WK_PrimitiveSkillsKnappingRef | Evaluación de piedra bruta por prueba de talla y fractura concoidea. | Entrena: Talla de piedra
+WK_LithicAnalysisStandards | Clasificación de herramientas talladas por técnica y marcas de uso. | Entrena: Talla de piedra
+WK_MortarMixRef | Proporciones de mezcla de mortero y requisitos de curado por aplicación. | Entrena: Albañilería
+WK_ASTMC90MasonryRef | Resistencia y tolerancias dimensionales de unidades de mampostería de concreto. | Entrena: Albañilería
+WK_BrickBlockInspectionRef | Perfiles de juntas y tolerancias de hiladas para trabajos de mampostería. | Entrena: Albañilería
+WK_ConcreteMixRef | Relaciones agua-cemento y especificaciones de asentamiento por aplicación. | Entrena: Albañilería
+WK_OBDIICodeRef | Códigos de diagnóstico OBD-II organizados por sistema. Muy usado. | Entrena: Mecánica
+WK_TorqueSpecsRef | Torques de fijaciones por marca y sistema del vehículo. | Entrena: Mecánica
+WK_BrakeServiceRef | Mínimos de rotor, inspección y procedimientos de sangrado. | Entrena: Mecánica
+WK_AutoElecDiagRef | Rastreo de fallas en cableado y prueba de componentes eléctricos. | Entrena: Mecánica
+WK_FleetMaintenanceLog | Intervalos de servicio de flotilla, especificaciones de fluidos y formularios. | Entrena: Mecánica
+WK_KilnFiringScheduleRef | Tasas de incremento de temperatura y curvas de enfriamiento para hornos. | Entrena: Alfarería
+WK_GlazeChemistryRef | Proporciones de fundentes y porcentajes de colorantes por tipo de esmalte. | Entrena: Alfarería
+WK_ClayBodyFormulationRef | Tasas de contracción y compatibilidad de cono para pastas cerámicas. | Entrena: Alfarería
+WK_PatternGradingRef | Reglas de gradación de prendas para escalado de patrones de producción. | Entrena: Sastrería
+WK_IndustrialSewingRef | Tensión del hilo y ajustes de puntada según el peso de la tela. | Entrena: Sastrería
+WK_FiberFabricRef | Comportamiento de telas y márgenes de costura por tipo de material. | Entrena: Sastrería
+WK_GarmentQualityRef | Resistencia de costuras y tolerancias de construcción en prendas. | Entrena: Sastrería
+WK_AWSD11WeldingRef | Tarjeta de referencia de campo del Código de Soldadura Estructural AWS. | Entrena: Metalistería
+WK_WeldingProcSpecRef | Procedimientos de soldadura certificados, precalentamiento y criterios de inspección. | Entrena: Metalistería
+WK_ElectrodeFillMetalRef | Tipos de electrodo según metal base y posición. | Entrena: Metalistería
+WK_WeldInspectionRef | Estándares de inspección visual y clasificación de defectos en soldaduras. | Entrena: Metalistería
+WK_OSHAWeldingSafety | Requisitos de ventilación, vigilancia contra incendios y EPP en soldadura. | Entrena: Metalistería
+WK_KnoxExtensionGuide | Calendarios de siembra y manejo de plagas del Condado de Knox. | Entrena: Agricultura
+WK_SoilTestInterpretRef | Lectura de análisis de suelos y cálculo de cal y fertilizante. | Entrena: Agricultura
+WK_PesticideApplicationRef | Tasas de aplicación y EPP por clase química de pesticida. | Entrena: Agricultura
+WK_IrrigationSchedulingRef | Tablas de evapotranspiración y metas de humedad del suelo. | Entrena: Agricultura
+WK_LivestockHealthRef | Signos vitales y signos de enfermedad por especie de granja. | Entrena: Cuidado de animales
+WK_VaccinationDosageRef | Dosis por especie y tiempos de retiro para ganado. | Entrena: Cuidado de animales
+WK_ReproductiveMgmtBinder | Fechas de apareamiento y registros de partos del ganado. | Entrena: Cuidado de animales
+WK_KDALivestockRef | Reglas del Departamento de Agricultura para marcado y transporte de ganado. | Entrena: Cuidado de animales
+WK_USDAMeatGradingRef | Estándares de clasificación del USDA publicados en todo local inspeccionado. | Entrena: Carnicería
+WK_PrimalSubPrimalRef | Secuencias de despiece y fabricación por especie. | Entrena: Carnicería
+WK_HACCPMeatProcessing | Puntos críticos de control y registros de temperatura para pequeños procesadores. | Entrena: Carnicería
+WK_LEFitnessStandardsRef | Tablas de calificación de evaluación física para policías y sheriffs. | Entrena: Carrera
+WK_FireAcademyFitnessRef | Parámetros de acondicionamiento aeróbico de la academia de bomberos. | Entrena: Carrera
+WK_NIOSHLiftingRef | Límites de levantamiento de seguridad ocupacional federal para manufactura. | Entrena: Fuerza
+WK_ManualMaterialsHandRef | Técnica de levantamiento y evaluación de carga para trabajo industrial. | Entrena: Fuerza
+WK_WorkplaceFirstAidSOP | Procedimiento estándar para atención de heridas y respuesta al shock. | Entrena: Primeros auxilios
+WK_CPRAEDRef | Compresiones de RCP, operación del DEA y respiración de rescate. | Entrena: Primeros auxilios
+WK_OSHAFirstAidRef | Insumos requeridos por OSHA y ratios de socorristas capacitados. | Entrena: Primeros auxilios
+WK_EmergencyTriageRef | Protocolo de triaje START y clasificación de prioridad de pacientes. | Entrena: Primeros auxilios
+WK_KYFishingRegs | Temporadas, tallas mínimas y límites de captura por especie en Kentucky. | Entrena: Pesca
+WK_FishIdentificationRef | Claves de especies para peces de Kentucky: escamas, aletas y mandíbulas. | Entrena: Pesca
+WK_RiggingTackleRef | Nudos, construcción de líderes y montaje de aparejos. Manchado de agua. | Entrena: Pesca
+WK_CommercialFishingSafetyRef | Procedimientos de la Guardia Costera para embarcaciones pequeñas. | Entrena: Pesca
+WK_EdiblePlantsRef | Comestibles del bosque del este. Algunas entradas están marcadas con círculos. | Entrena: Rebuscar
+WK_ToxicPlantRef | Especies peligrosas con apariencia similar a plantas comestibles. | Entrena: Rebuscar
+WK_WildcraftHerbalistRef | Ventanas de cosecha y preparación para especies del bosque. | Entrena: Rebuscar
+WK_WildlifeTrackSignRef | Morfología de huellas y patrones de marcha por especie. | Entrena: Rastreo
+WK_DeerMovementRef | Lectura del terreno y corredores de movimiento del venado cola blanca. | Entrena: Rastreo
+WK_KDFWRGameMgmtRef | Métodos de evaluación de población y hábitat del oficial de Fauna. | Entrena: Rastreo
+WK_WildlifeTrappingGuide | Tipos de trampa y construcción de montajes de KDFWR por especie. | Entrena: Trampas
+WK_FurbearerRef | Evaluación de calidad de piel y temporada de primeza por especie. | Entrena: Trampas
+WK_KDFWRTrapperRegs | Requisitos legales de montaje y restricciones de especies de Fauna. | Entrena: Trampas
+WK_NRAPistolInstructorMan | Análisis técnicos profundos sobre el disparo de gatillo perfecto. | Entrena: Puntería
+WK_BullseyeMatchProgramme | Instrucciones para impactar objetivos en movimiento bajo presión. | Entrena: Puntería
+WK_KYConcealedCarryGuide | Énfasis en desenfundar sin enganches desde la pistolera. | Entrena: Puntería
+WK_FBIQualScorebook | Anotado: "No le atino a nada con esta nueva arma". | Entrena: Puntería
+WK_USPSARulebook | Reglas de transición de objetivos de la Asociación de Tiro Práctico. | Entrena: Puntería
+WK_BoyScoutRiflery | Diagramas dibujados a mano para una posición prona estable. Desvanecidos. | Entrena: Puntería
+WK_VietnamRiflemanNotes | Garabateado en cada página: "controla la respiración, Marine". | Entrena: Puntería
+WK_HighPowerNewsletter | Consejos de veteranos sobre compensación de deriva y elevación. | Entrena: Puntería
+WK_PoliceAcademyHandgun | Las semanas 4 a 6 se enfocan por completo en desenfundar e insertar un cargador. | Entrena: Recarga
+WK_RevolverSpeedloaderCard | Se enfoca en la técnica de caída por gravedad para expulsar los casquillos. | Entrena: Recarga
+WK_CombatShootingDrills | Tiempos de referencia y ejercicios de práctica en seco. Manchado de café. | Entrena: Recarga
+WK_GunsmithStripping | Secuencias de desarme de campo para pistolas de servicio. | Entrena: Recarga
+WK_NavalGunnersManual | Procedimientos resistentes a la corrosión para la M9 y la venerable 1911. | Entrena: Recarga
+WK_ShotgunReloadingCard | Técnica de recarga de cuatro cartuchos desde la porta-cartuchos lateral. | Entrena: Recarga
+WK_RangemasterDrillBook | Ejercicios avanzados para despejar doble alimentación. Escudo en relieve. | Entrena: Recarga
+WK_GuardForceWeaponsManual | Procedimientos de recarga de combate en el espacio reducido de una cabina. | Entrena: Recarga
+WK_TimberCruiserHandbook | Evaluación del rodal y notas sobre dirección de apeo. | Entrena: Hacha
+WK_AppalachianFellingNotes | Diagramas a mano para tumbar un árbol contra su inclinación natural. | Entrena: Hacha
+WK_BoyScoutAxemanship | Verificaciones básicas para asegurar el ajuste de cabeza al mango. | Entrena: Hacha
+WK_MountainRescueIceAxe | Técnica de auto-arresto y extracción en crevasses. | Entrena: Hacha
+WK_BackcountryHatchetCard | Eliminación eficiente de ramas en V para evitar que la hoja se atasque. | Entrena: Hacha
+WK_TechnicalRescueAxeRef | Apertura de barreras reforzadas con golpes precisos en las esquinas. | Entrena: Hacha
+WK_EngineCompanyAxeRef | Ejercicios para liberar salidas bloqueadas con hacha sincronizada. | Entrena: Hacha
+WK_KDFWRDeadwoodPamph | Técnicas de corte limpio para despejar pasillos de tiro sin enganchar el equipo. | Entrena: Hacha
+WK_BushHogOperatorRef | Operación del implemento de tractor y seguridad de la toma de fuerza. | Entrena: Arma de hoja larga
+WK_KYHighwayBrushControl | Técnicas con gancho para desmontar matorrales sin sobreextenderse. | Entrena: Arma de hoja larga
+WK_CornDetasselingCard | Consejos escritos a mano para manejar el peso del machete en turnos de 10 horas. | Entrena: Arma de hoja larga
+WK_AppalachianHerbalCutting | Manual para identificar la dirección del grano y lograr un corte limpio de un golpe. | Entrena: Arma de hoja larga
+WK_StateParksTrailCrew | Técnicas para retirar ramas colgantes sin que la hoja se atasque. | Entrena: Arma de hoja larga
+WK_KaiserBladeFieldRef | Técnicas de oscilación asistida por gravedad para el pesado gancho de doble filo. | Entrena: Arma de hoja larga
+WK_SCAHeavyFightCard | Tarjeta de práctica de la Sociedad para la Anacronía Creativa. | Entrena: Arma de hoja larga
+WK_CaneCuttingManual | El swing de pivote bajo: cómo seccionar tallos gruesos en la base con poco esfuerzo. | Entrena: Arma de hoja larga
+WK_LarpFightChoreography | Bases del bloqueo en guardia cruzada y transiciones entre zonas de golpe. | Entrena: Arma de hoja larga
+WK_JewelersFileCard | Selección de grados de corte para afinar piezas mecánicas de precisión. | Entrena: Mantenimiento
+WK_ShopApprenticeToolLog | Lista de verificación diaria para aceitar mangos de madera y evitar grietas. | Entrena: Mantenimiento
+WK_BarberRazorStropping | Técnicas con suavizadores de cuero y lona para realinear un filo doblado. | Entrena: Mantenimiento
+WK_ScoutTroopToolCare | Guía dibujada a mano para usar una piedra redonda en una hachuela sin filo. | Entrena: Mantenimiento
+WK_BladesmithToolCare | Mantenimiento de la cara del yunque y perfiles de martillo para metalurgia limpia. | Entrena: Mantenimiento
+WK_BowSawSetGuide | Ángulos de lima precisos para afilar dientes de sierra en largo y en corto. | Entrena: Mantenimiento
+WK_AntiqueDealerCare | Notas sobre retención de pátina y prevención de óxido. | Entrena: Mantenimiento
+WK_SushiChefKnifeBook | El arte del corte de tracción en un solo movimiento para no magullar el producto. | Entrena: Arma de hoja corta
+WK_TaxidermistCapingRef | Procedimientos para desguazar colas y orejas sin perforar la piel. | Entrena: Arma de hoja corta
+WK_EMTRescueKnifeCard | Técnicas para usar el filo dentado y cortar cinturones de seguridad. | Entrena: Arma de hoja corta
+WK_ButchersBoningGuide | Técnicas de deshuesado en caliente: separar la carne del canal aún tibia. | Entrena: Arma de hoja corta
+WK_SurgeonScalpelRef | Describe el agarre de lápiz y el de punta para diferentes profundidades de incisión. | Entrena: Arma de hoja corta
+WK_ScoutCampcraftKnife | Folleto de manejo de cuchillo para instructores de campamento. | Entrena: Arma de hoja corta
+WK_UFCWCutleryTechRef | Ángulos ergonómicos de muñeca para evitar lesiones en cortes repetitivos. | Entrena: Arma de hoja corta
+WK_KnifemakerTestCutLog | Resultados de pruebas de geometría de filo por tipo de acero. | Entrena: Arma de hoja corta
+WK_NorthwoodsFilletCard | La técnica de extracción de la espina en Y para limpiar lucio del norte. | Entrena: Arma de hoja corta
+WK_NightstickTrainingMan | Protocolos de seguridad para bastones y métodos de porte estandarizados. | Entrena: Arma contundente corta
+WK_RailroadSpikeMaul | La mecánica del swing de arco completo para máxima energía cinética. | Entrena: Arma contundente corta
+WK_AutoBodyHammerNotes | Describe golpes de planish para alisar superficies metálicas. | Entrena: Arma contundente corta
+WK_ProductionFramerCard | Métodos para mantener el ritmo y aumentar la eficiencia en enmarcado. | Entrena: Arma contundente corta
+WK_BlacksmithHammerCard | Referencia de ángulo de martillo según el grosor del material. | Entrena: Arma contundente corta
+WK_MasonsHammerRef | Uso de extremos especializados para cincelado de detalle en piedra o azulejo. | Entrena: Arma contundente corta
+WK_CaverHammerPickRef | Manejo de herramientas de la Sociedad Nacional de Espeleología. | Entrena: Arma contundente corta
+WK_RoofersFlashingCard | Uso del punzón integrado para crear agujeros limpios en materiales frágiles. | Entrena: Arma contundente corta
+WK_TrackMaintenanceSledge | Diagramas del arco estandarizado para clavar pernos de vía. | Entrena: Arma contundente larga
+WK_RiotBatonInstructorRef | Referencia de bastón largo para control de disturbios. | Entrena: Arma contundente larga
+WK_CricketBowlersGuide | La mecánica del lanzamiento de brazo recto para mantener la velocidad. | Entrena: Arma contundente larga
+WK_LacrosseCoachManual | Técnicas de apalancamiento para checks de palo largo y posicionamiento defensivo. | Entrena: Arma contundente larga
+WK_HockeyStickHandling | Técnicas de carga del palo para disparos potentes con máxima flexión. | Entrena: Arma contundente larga
+WK_FirefighterHaliganRef | Técnicas para usar el extremo bifurcado y crear una brecha. | Entrena: Arma contundente larga
+WK_LandClearingMaul | Aprovechar el peso de la cabeza para que la gravedad haga el trabajo. | Entrena: Arma contundente larga
+WK_PulaskiSwingScale | El swing de doble uso: transición entre arcos de excavación y corte. | Entrena: Arma contundente larga
+WK_KDFWRBowfishingRef | Técnicas de puntería reactiva en entornos de aguas poco profundas. | Entrena: Lanza
+WK_SCAPolearmRef | Técnicas históricas de apalancamiento con asta larga para defensa. | Entrena: Lanza
+WK_CherokeeFishSpear | Técnica de arpón de tres dientes para la tradición pesquera en ríos. | Entrena: Lanza
+WK_TrackPoleVaultCard | Ejercicios de fuerza de agarre y coordinación de tren superior bajo carga. | Entrena: Lanza
+WK_WWIIBayonetTraining | Diagramas históricos de posturas de parada y ejercicios de recuperación. | Entrena: Lanza
+WK_KarateBoStaffMan | Usar toda la longitud del bastón para controlar el espacio y la distancia. | Entrena: Lanza
+WK_ScoutsPolearmDemo | Bases del porte en armas para transportar equipo largo. | Entrena: Lanza
+WK_PrimitiveSpearfishing | Cómo anticipar el objetivo y compensar la resistencia del agua al golpear. | Entrena: Lanza
+WK_ABANANewsletter | Números anteriores con notas de lectores sobre martillos de potencia y altura del yunque. | Entrena: Herrería
+WK_FarrierShoeingNotes | Ángulos de ajuste y colocación de clavos según la conformación del casco. | Entrena: Herrería
+WK_FrontierForgeRef | Planos dimensionados para una fragua de fuelle construida desde cero. | Entrena: Herrería
+WK_SteelmillProcessRef | Registros de temperatura del laminador y relaciones de reducción para palanquilla. | Entrena: Herrería
+WK_KnifemakerForgeWeld | Palanquilla de capas: conteo de capas, relaciones de estiramiento y tiempo de torsión. | Entrena: Herrería
+WK_ScoutMetalwork | Control de martillo y manejo del fuego. Formación de un clavo desde varilla. | Entrena: Herrería
+WK_SwordsmithApprDiary | Biseles fallidos y desastres de temperatura, correcciones marcadas en rojo. | Entrena: Herrería
+WK_ColonialIronworker | Las notas del dorso cubren secuencias de ensamble y manejo del fuego. | Entrena: Herrería
+WK_SpoonCarvingNotes | Diagramas de lectura del grano para evitar astillado en curvas internas. | Entrena: Talla
+WK_CountryCarversBook | Agarres, cortes con el pulgar y cortes de parada con proyectos fechados. | Entrena: Talla
+WK_ChipCarvingPattern | Guía de patrones geométricos para tallado en astilla. | Entrena: Talla
+WK_WaldenWoodcrafter | Selección del grano para tallado en madera verde. Uso de gubia y scorp. | Entrena: Talla
+WK_JuniorHighWoodshop | Seguridad con herramientas y afilado de formones escrito por quien lo sabía. | Entrena: Talla
+WK_AppalachianFolkArt | Selección de madera y desbaste transmitidos por tradición. Lo que funciona. | Entrena: Talla
+WK_BowyerTilleringNotes | Notas del proceso de curvado para arcos autóctonos. | Entrena: Talla
+WK_SullivanCulinaryText | Fondos, salsas madre y derivados como referencia de trabajo. | Entrena: Cocina
+WK_KYExtensionCookbook | Recetas de extensión. La sección de conservas cubre enlatado y almacenamiento en frío. | Entrena: Cocina
+WK_ArmyMessHallSOP | Cocción en lotes para 100 o más bajo condiciones de campo. Mimeógrafo desvanecido. | Entrena: Cocina
+WK_SchoolCafeteriaRef | Porciones y temperaturas del USDA. Las tablas calóricas sirven para el racionamiento. | Entrena: Cocina
+WK_PitBossBBQManual | Manual de BBQ de competencia estilo Memphis. | Entrena: Cocina
+WK_HeritageCookbook1957 | Recetas para grupos grandes sin refrigeración. Sustituciones anotadas. | Entrena: Cocina
+WK_TruckStopGriddleNotes | Temperatura por etapas y punto de cocción por sonido sobre el acero. | Entrena: Cocina
+WK_IBEWApprentBook | Ejercicios de acometida, distribución de tablero y tendido de tuberías. | Entrena: Electrónica
+WK_ResWiringText | Secuencias de cableado residencial habitación por habitación hasta el tomacorriente. | Entrena: Electrónica
+WK_MotorControlSchem | Esquemas de control de motores trifásicos. | Entrena: Electrónica
+WK_TransformerNamePlate | Tarjeta de identificación y clasificación de transformadores en pedestal. | Entrena: Electrónica
+WK_GroundingBondingRef | Calibre del conductor de puesta a tierra por tensión del sistema. Leer antes de tocar. | Entrena: Electrónica
+WK_KYStateLicensingMan | Preguntas de práctica del NEC. Ejercicios de caída de tensión y calibrado de conductores. | Entrena: Electrónica
+WK_UndergroundCableRef | Especificaciones y profundidades de entierro de cable residencial subterráneo. | Entrena: Electrónica
+WK_PenlandStudioGlass | Notas del curso magistral sobre vidrio reactivo en atmósferas reductoras. | Entrena: Vidrería
+WK_CorningEngineering | Especificación de borosilicato óptico: índice de refracción y tolerancias de tensión. | Entrena: Vidrería
+WK_StainedGlassChurch | Restauración del emplomado de un vitral de santuario de los años 1920. | Entrena: Vidrería
+WK_BorosilicateLampwork | Unión vidrio-metal y por qué la química de la llama previene fracturas. | Entrena: Vidrería
+WK_AntiqueBottleCollect | Manual de identificación y datación de botellas. Coleccionista aficionado. | Entrena: Vidrería
+WK_KilnFusedJewelry | Registros de compatibilidad de COE y preparación de repisas por marca. Metódico. | Entrena: Vidrería
+WK_TiffanyMethodRef | Calibres de emplomado y relaciones de soldadura para paneles curvos. | Entrena: Vidrería
+WK_NeonSignBenders | Montaje de electrodos, secuencias de carga de gas y ajustes del bombardeador. | Entrena: Vidrería
+WK_BeadSocietyLampwork | Química de varillas de vidrio y química de la llama del soplete. Aficionado entusiasta. | Entrena: Vidrería
+WK_CherokeeArrowhead | Estilos de muesca de la Banda Oriental y canteras de origen. Aroma a palma. | Entrena: Talla de piedra
+WK_FieldArchKnapping | Mecánica corporal de presión y cómo evitar fracturas en bisagra. | Entrena: Talla de piedra
+WK_PrimBowhunterFlint | Secuencias de enmangue para réplicas con adhesivos naturales. | Entrena: Talla de piedra
+WK_AmateurArchPamph | Introducción para identificar piedra trabajada frente a fractura natural. | Entrena: Talla de piedra
+WK_ObsidianSourceRef | Referencia arqueométrica de fuentes de obsidiana. | Entrena: Talla de piedra
+WK_RendezvousMtnMan | Talla en campamento: elección del percutor, retocadores de asta y tipos de piedra. | Entrena: Talla de piedra
+WK_KCMuseumLithicCat | Catálogo de identificación lítica del Museo del Condado de Knox. | Entrena: Talla de piedra
+WK_BSAPrimitiveSurvival | Ángulos de plataforma, agarre del percutor y protección ocular. Desde cero. | Entrena: Talla de piedra
+WK_ToolStoneQualityCard | Tarjeta de campo para evaluación de calidad de piedras silíceas. | Entrena: Talla de piedra
+WK_BIATraditionalBrick | Trazado, regla de hiladas y construcción de esquinas: la referencia del aprendiz. | Entrena: Albañilería
+WK_StonecutterApprenNote | División por grano, cuñas y plumas, acabado de caras en bruto. | Entrena: Albañilería
+WK_ChimneySweepInspect | Identificación de clase de creosota e inspección de tapa a dedal. | Entrena: Albañilería
+WK_HistoricPointingMan | Proporciones de mortero de cal para rejuntado y cuándo omitir el portland. | Entrena: Albañilería
+WK_ConcreteFinishersRef | Tiempo de la llana y lectura del agua de exudación antes de fratasar. | Entrena: Albañilería
+WK_KCMasonsLocalNews | Consejos del oficio sobre caliza local y mezclas para ciclos de hielo y deshielo. | Entrena: Albañilería
+WK_FieldstoneWalls | Colocación de piedras pasantes y lectura de piedra de campo para apilar estable. | Entrena: Albañilería
+WK_PavingStoneInstall | Compactación, profundidad de la cama de arena y borde de contención para adoquines vehiculares. | Entrena: Albañilería
+WK_ASEStudyGuide | Desglose de ocho sistemas: de motor a transmisión. Llena vacíos de conocimiento. | Entrena: Mecánica
+WK_KYVehicleInspection | Mínimos de frenos, calibradores de banda y cumplimiento de iluminación. | Entrena: Mecánica
+WK_BriggsStrattonRepair | Carburador, tiempo de encendido y holgura de válvulas en motores pequeños. | Entrena: Mecánica
+WK_DieselTroubleshoot | Árbol de fallas para no arranque y humo. Cebado de combustible y purga de inyectores. | Entrena: Mecánica
+WK_FordPickupShopMan | Cableado, transmisión y ejes. Huellas de grasa en el arranque. | Entrena: Mecánica
+WK_ChevyTechServiceBull | Correcciones de fábrica para fallas de motor pequeño y TH350 de finales de los 80. | Entrena: Mecánica
+WK_TruckingFleetPMSched | Intervalos de servicio de camión pesado con especificaciones de fluidos y formularios. | Entrena: Mecánica
+WK_UnivCeramicsText | Centrado, apertura, levantado y cierre: secuencias ilustradas. | Entrena: Alfarería
+WK_PenlandWheelRef | Lectura del grosor de la pared por tacto y presión de costilla en el fondo. | Entrena: Alfarería
+WK_RakuFiringNotes | Tiempo en la cámara de reducción y momento de sacar. Olor a humo impregnado. | Entrena: Alfarería
+WK_SaltGlazeStoneware | Momento de introducción de la sal y patrones de carga del horno para vapor parejo. | Entrena: Alfarería
+WK_AppFolkPotteryPamph | Extracción de arcilla regional y recetas de esmalte de ceniza de la tradición serrana. | Entrena: Alfarería
+WK_StudioKilnRepair | Cambio de resistencias, termopar y reparación de ladrillo refractario en hornos eléctricos. | Entrena: Alfarería
+WK_CommercialPotteryProc | Colado en molde y secuencias de jigger. Notas de molde de yeso y gravedad de barbotina. | Entrena: Alfarería
+WK_ChildrenPotteryLesson | Técnicas de pellizco y rollos. Los diagramas son claros. | Entrena: Alfarería
+WK_BeginnerWheelNotes | Centrado, apertura y levantado básico. Bocetos con dedicación. | Entrena: Alfarería
+WK_SearsPatternCatalog | Tablas de gradación y tolerancias de holgura para cortar desde cero. | Entrena: Sastrería
+WK_CarhartUnionShop | Puntos de tensión reforzados, costuras triples y refuerzo de bolsillos. | Entrena: Sastrería
+WK_AlterationsTailorCard | Límites de ajuste, margen de bastilla y modificación de manga por tipo de costura. | Entrena: Sastrería
+WK_HomeEcSewingText | Márgenes de costura, hilvanado y puntadas a mano para principiantes. | Entrena: Sastrería
+WK_TheatricalCostumeShop | Adaptación de sloper sin patrón y bastillado rápido para vestuario de época. | Entrena: Sastrería
+WK_HancockFabricsManual | Identificación de fibra por prueba de llama, pesos de tela y etiquetas de cuidado. | Entrena: Sastrería
+WK_UpholstererGuide | Atado de resortes, tensión del cinturón y tela de fondo para bastidores tapizados. | Entrena: Sastrería
+WK_BridalSeamstressNotes | Ampliar cuerpos estructurados sin disturbar las varillas. Reparación de encaje. | Entrena: Sastrería
+WK_AWSCertWelderManual | Pruebas de práctica 3G y 4G: las soldaduras que los autodidactas evitan. | Entrena: Metalistería
+WK_PipefittersWelding | Soldadura de raíz abierta en tubería: ojo de cerradura, cordón de techo, pases de relleno. | Entrena: Metalistería
+WK_AluminumMIGRef | Configuración del carrete portátil y tiempos de pre-flujo para aluminio delgado. | Entrena: Metalistería
+WK_UAWWeldingShopSOP | Extracción de humos, vigilancia contra incendios y permisos en talleres de producción. | Entrena: Metalistería
+WK_AutoBodyWeldingRef | Parches de panel y espaciado de soldaduras de tapón sin quemarse en acero delgado. | Entrena: Metalistería
+WK_StickRodSelectionGuide | Guía de selección entre electrodos 6011 y 7018. | Entrena: Metalistería
+WK_AerospaceTIGNotes | Requisitos de atmósfera inerte y limpieza previa del titanio. | Entrena: Metalistería
+WK_FFAVocAgText | Preparación del suelo, trasplante y fertilidad con nociones básicas de ganadería. | Entrena: Agricultura
+WK_KYExtensionAgBull | Alertas de plagas y enfermedades para cultivos del Condado de Knox con umbrales. | Entrena: Agricultura
+WK_UKAgEconNotes | Apuntes garabateados de clase. Las tablas de conversión y estimación de rendimiento aún sirven. | Entrena: Agricultura
+WK_FertSpreaderCalCard | Tarjeta de campo para calibración del distribuidor. | Entrena: Agricultura
+WK_USDACropRotation | Rotaciones de dos y cuatro años de maíz, soya y cereales con tablas de crédito de nitrógeno. | Entrena: Agricultura
+WK_NoTillFarmingMan | Secuencias de labranza reducida y cultivos de cobertura para mejorar el suelo. | Entrena: Agricultura
+WK_KYTobaccoGrowGuide | Semillero flotante, trasplante y descabezado para tabaco curado al aire. | Entrena: Agricultura
+WK_RodaleOrganicPamph | Tasas de compost, cultivos de cobertura y manejo integrado sin insumos modernos. | Entrena: Agricultura
+WK_KYCattlemensNews | Páginas finales: preguntas y respuestas para tratar conjuntivitis y pie podrido sin veterinario. | Entrena: Cuidado de animales
+WK_FFALivestockJudging | Puntuación de condición corporal e identificación de defectos por especie. | Entrena: Cuidado de animales
+WK_TysonPoultryGrower | Ventilación, manejo de cama y metas de conversión alimenticia para broilers. | Entrena: Cuidado de animales
+WK_TrackVetDailyLog | Puntuación de cojera previa a la carrera en letra de veterinario. Manchado de bourbon. | Entrena: Cuidado de animales
+WK_SheepGoatBreeder | Asistencia en partos, recorte de pezuñas y puntuación FAMACHA de parásitos. | Entrena: Cuidado de animales
+WK_SwineProductionMan | Formulación de raciones, jaula de parición y protocolos de destete para cerdos. | Entrena: Cuidado de animales
+WK_DairyHerdMgmt | Detección de celo, registros de reproducción y protocolos de sala de ordeño. | Entrena: Cuidado de animales
+WK_AgEdJudgingCard | Hoja de calificación de un concurso ganadero FFA del condado. Anillo de café. | Entrena: Cuidado de animales
+WK_UnionStockyardsCut | Partido de canales y despiece primario optimizado para tonelaje, no para presentación. | Entrena: Carnicería
+WK_DeerProcessorGuide | Del desollado al empaque al vacío: cuarteado, deshuesado y notas de añejamiento. | Entrena: Carnicería
+WK_SausageProductionNotes | Proporciones de grasa y secuencias de molido para salchicha, chorizo y pepperoni. | Entrena: Carnicería
+WK_SmallSlaughterhouseSOP | Procedimiento estándar para ciclos de inspección y disposición de canales. | Entrena: Carnicería
+WK_KosherButcheringRef | Requisitos de kashrut y cortes del cuarto delantero. Notas al margen en hebreo. | Entrena: Carnicería
+WK_CharcuterieProduction | Proporciones de cura y metas de humedad para productos curados en seco. | Entrena: Carnicería
+WK_HolidayTurkeyCard | Temperaturas de escaldado, plumas pinchudas y evisceración para aves de alto volumen. | Entrena: Carnicería
+WK_CharcutierApprDiary | Un año de porcentajes de sal y fracasos, correcciones marcadas en rojo. | Entrena: Carnicería
+WK_WildGameProcessor | Desollado y deshuesado de venado, pavo, conejo, ardilla y jabalí. | Entrena: Carnicería
+WK_HSTrackCoachManual | Periodización de entrenamientos y ejercicios por prueba. Páginas dobladas. | Entrena: Carrera
+WK_NCAAStrengthCondition | Periodización División I: base, desarrollo, pico, descarga y aceleración. | Entrena: Carrera
+WK_KYHSAARulebook | Reglas de elegibilidad, transferencia y reclutamiento. Sello del oficial de cumplimiento. | Entrena: Carrera
+WK_BostonMarathonTrain | Programa de clasificación de dieciocho semanas. Tablas de ritmo en cada página. | Entrena: Carrera
+WK_SprintIntervalCard | Tablas de tiempo estilo Tabata. Marcas de silbato en el plastificado. | Entrena: Carrera
+WK_CrossCountryRef | Repeticiones de cuesta y ejercicios en pelotón para equipos de fondo de preparatoria. | Entrena: Carrera
+WK_PoliceRecruitFitness | Programa de acondicionamiento de doce semanas con metas semanales. | Entrena: Carrera
+WK_ArmyAPFTManual | Carrera de dos millas y estándar de flexiones por edad, más ejercicios de segunda mitad. | Entrena: Carrera
+WK_HSFootballCondition | Pesas en temporada baja y gasers. Bolígrafo en el lomo. | Entrena: Carrera
+WK_BMXRacingTraining | Ejercicios de velocidad y técnica en curvas. Salpicaduras de lodo al dorso. | Entrena: Carrera
+WK_USPFPowerlifting | Profundidad de sentadilla, contacto en press y bloqueo en peso muerto. Tablas de calentamiento. | Entrena: Fuerza
+WK_OlympicLiftingNotes | Arranque y envión: bisagra de cadera, posición de potencia, tirón bajo la barra. | Entrena: Fuerza
+WK_StrongmanTrainingMan | Piedras atlas, press de tronco, acarreo de marco: transferencia al esfuerzo real. | Entrena: Fuerza
+WK_MuscleBuilderMag | Revista de culturismo Joe Weider. Color bronceado y naranja. | Entrena: Fuerza
+WK_ArmyCombatLifter | Proporciones de peso corporal para carga de bajas y apertura de brechas. | Entrena: Fuerza
+WK_FarmStrengthManual | Levantamiento de troncos, carga de piedras y trabajo de agarre para labor agrícola sostenida. | Entrena: Fuerza
+WK_RugbyStrengthMan | Acondicionamiento del scrum y línea de tres cuartos por posición. | Entrena: Fuerza
+WK_FreightDockLiftCard | Tarjeta de levantamiento del muelle de carga. Manchado de sudor. | Entrena: Fuerza
+WK_CollegeStrengthLog | Números semanales de press, sentadilla y cargada. Anotaciones a lápiz. | Entrena: Fuerza
+WK_HSWrestlingStrength | Estrategias para bajar de peso y rutinas de fuerza de agarre. | Entrena: Fuerza
+WK_ParamedicProtocolMan | Epinefrina, morfina, glucosa: dosis y protocolo cardiaco para paramédicos de campo. | Entrena: Primeros auxilios
+WK_ERTriageTextbook | Control de daños en emergencias masivas: lo que mata en la primera hora. | Entrena: Primeros auxilios
+WK_NursingFundamentals | Evaluación de heridas y reconocimiento de infección para un mundo sin hospitales. | Entrena: Primeros auxilios
+WK_PharmacistDispensing | Interacciones de OTC, dosis máximas, duración de antibióticos y signos de fracaso. | Entrena: Primeros auxilios
+WK_ArmyCombatMedic | Torniquete, descompresión con aguja y taponamiento sin respaldo hospitalario. | Entrena: Primeros auxilios
+WK_NursingHomeCareMan | Prevención de úlceras por presión y clasificación de heridas para cuidado crónico. | Entrena: Primeros auxilios
+WK_WoundCareSuturing | Desbridamiento, cierre según nivel de contaminación y colocación ilustrada de suturas. | Entrena: Primeros auxilios
+WK_PediatricFirstAid | Dosis por peso, proporciones de RCP pediátrico y signos de gravedad. | Entrena: Primeros auxilios
+WK_KYBassFishingClub | GPS eliminado. Los patrones estacionales y las referencias de profundidad permanecen. | Entrena: Pesca
+WK_CrappieAnglersGuide | Profundidad en madera sumergida, espaciado de montículos y jigging vertical. Temperaturas anotadas. | Entrena: Pesca
+WK_KYTroutStocking | Calendario de siembra por arroyo de Recursos de Pesca y Vida Silvestre. | Entrena: Pesca
+WK_FlyTyingPattern | Patrones de imitación con fuentes de pelo y pluma anotadas. | Entrena: Pesca
+WK_KYRiverCatfishing | Líneas de palanca, damajuanas y colocación de carnada en recodos del río. | Entrena: Pesca
+WK_WalleyeFishingRef | Técnica en arrecifes y selección de profundidad. Rasguños de lentes polarizados. | Entrena: Pesca
+WK_NoodlingHandfishing | Piedra plana y tronco hueco: pez o tortuga mordedora a tientas. | Entrena: Pesca
+WK_KYMusselRegs | Equipo legal e identificación de especies: conchas comercializables frente a protegidas. | Entrena: Pesca
+WK_KYWildflowerGuide | Identificación con láminas de color para especies nativas de Kentucky con hábitat. | Entrena: Rebuscar
+WK_StalkingWildAsparagus | Notas de cosecha de Gibbons: dónde encontrar, qué parte, cuándo tomar. | Entrena: Rebuscar
+WK_HerbalPharmacyEnc | Preparaciones de tintura y notas de dosificación. Lomo quebrado. | Entrena: Rebuscar
+WK_WildMushroomHunt | Impresiones de esporas y advertencias sobre especies similares. Varias páginas dobladas. | Entrena: Rebuscar
+WK_BackyardForaging | Guía del jardín a la mesa: diente de león, verdolaga, acedera, llantén. | Entrena: Rebuscar
+WK_EthnobotanyText | Usos de plantas de los Bosques del Este: alimento, medicina y fibra por comunidad. | Entrena: Rebuscar
+WK_TraditionalAppPlants | Ajo de oso, poke, sanguinaria y saúco, con notas de procesado para especies tóxicas. | Entrena: Rebuscar
+WK_HunterGatherersRef | Raíces en otoño, verdes en primavera, semillas en verano. Temporada por temporada. | Entrena: Rebuscar
+WK_WildEdiblesCookbook | Acedera, harina de bellota y polen de totora: del campo a la cocina. | Entrena: Rebuscar
+WK_ApacheScoutTracking | Lectura de huellas de presión y micro-rastros para dirección y velocidad. | Entrena: Rastreo
+WK_KYCoonHunting | La lectura de señales y detección en árbol sirven sin perros. Sabor sureño. | Entrena: Rastreo
+WK_SARTrackingTraining | Comportamiento de persona perdida y probabilidad de área. Apéndice de corte de señales. | Entrena: Rastreo
+WK_TurkeyHuntingRef | Cadencias de reclamo, disposición de señuelos y lectura de dormideros. | Entrena: Rastreo
+WK_BloodhoundHandlerCard | Manejo de artículos de olor y recuperación tras pérdida de rastro. Para agentes. | Entrena: Rastreo
+WK_WildlifeBiologyText | Área de acción, corredores de hábitat y movimiento estacional: el por qué ecológico. | Entrena: Rastreo
+WK_BowHunterCamoMan | Ubicación del puesto y ruptura de silueta por temporada. | Entrena: Rastreo
+WK_NavySEALReconPamph | Construcción de puestos ocultos y contramedidas de rastreo. | Entrena: Rastreo
+WK_SignReadingNotes | Diagramas de huellas de presión y pautas de envejecimiento. Doblado en bolsillo. | Entrena: Rastreo
+WK_NTAFurHandlersGuide | Pelaje en canal o abierto, tallas de bastidor y primeza versus descarte. | Entrena: Trampas
+WK_KYBeaverTrapPamph | Técnica de montaje en estanque y en deslizadero. El folleto huele a castóreo. | Entrena: Trampas
+WK_FoxHolerLureRecipes | Señuelos de glándula y comida por temporada: proporciones de orina y mofeta para zorro. | Entrena: Trampas
+WK_ConibearSetTechnique | Colocación del montaje de trampa de cuerpo y ajuste de sensibilidad del disparador. | Entrena: Trampas
+WK_FootholdStakingRef | Estaca y giratorio para roca, arena y suelo congelado. Opciones de gancho de arrastre. | Entrena: Trampas
+WK_USDAAnimalDamage | Manual federal de control de daños del Servicio de Inspección de Sanidad Animal. | Entrena: Trampas
+WK_KDFWRNuisanceWild | Trampa viva y exclusión para castor, coyote y marmota. Opciones de disposición. | Entrena: Trampas
+WK_MuskratPeltStretch | Talla del bastidor, profundidad de descarne y tiempo de secado. Una página, plastificada. | Entrena: Trampas
+WK_FurAuctionGrading | Estándares de corte de clasificación por especie. Calendario de primeza para la cosecha. | Entrena: Trampas
+WK_CabinetmakerJoinery | Proporciones de cola de milano, caja y espiga según especie de madera. | Entrena: Carpintería
+WK_RoofFramingCalcCard | Tablas de pendiente y vuelo de cabrio para techos a cuatro aguas y a dos aguas. | Entrena: Carpintería
+WK_LogHomeBuildersRef | Tipos de entalladuras, construcción del umbral y especificaciones de relleno. | Entrena: Carpintería
+WK_AppTimberFramePamph | Marcos de mortaja y espiga clavados, dimensionados por luz sin tablas de ingeniería. | Entrena: Carpintería
+WK_ScoutCarpentryMerit | Calibradores de trazado, formones y lectura del grano antes de golpear. | Entrena: Carpintería
+WK_FurnitureMakerNotes | Dimensiones de mortaja y espiga para cajones y muebles de cuerpo. | Entrena: Carpintería
+WK_VocSchoolBuildTrades | Enmarcado: muros, pisos y techos por quien construyó casas. | Entrena: Carpintería

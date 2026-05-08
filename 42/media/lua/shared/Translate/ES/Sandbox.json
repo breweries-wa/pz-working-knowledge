@@ -1,0 +1,12 @@
+{
+    "Sandbox_WorkingKnowledge": "Conocimiento Laboral",
+    "Sandbox_WorkingKnowledge_SpawnRate": "Tasa de Aparición de Documentos",
+    "Sandbox_WorkingKnowledge_SpawnRate_tooltip": "Con qué frecuencia aparecen los documentos de Conocimiento Laboral en los contenedores de botín. No afecta a los contenedores ya generados; solo a los nuevos que se carguen después de aplicar esta configuración.",
+    "Sandbox_WorkingKnowledge_SpawnRate_option1": "Muy rara",
+    "Sandbox_WorkingKnowledge_SpawnRate_option2": "Rara",
+    "Sandbox_WorkingKnowledge_SpawnRate_option3": "Normal",
+    "Sandbox_WorkingKnowledge_SpawnRate_option4": "Común",
+    "Sandbox_WorkingKnowledge_SpawnRate_option5": "Abundante",
+    "Sandbox_WorkingKnowledge_XPGrant": "Puntos de Experiencia Otorgados",
+    "Sandbox_WorkingKnowledge_XPGrant_tooltip": "Puntos de experiencia base otorgados cuando un personaje lee un documento por primera vez. Se escala según la tasa pasiva de habilidades del juego. Establécelo en 0 para desactivar la XP por completo. Valor predeterminado: 50."
+}
