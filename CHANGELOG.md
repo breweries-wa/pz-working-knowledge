@@ -5,8 +5,15 @@ All notable changes to Working Knowledge are documented here.
 ## [0.8] - 2026-05-08
 
 ### Added
-- Translations: Brazilian Portuguese, Russian, Simplified Chinese, and Spanish — item names,
-  tooltips, and sandbox option labels are now fully localised in all four languages
+- Translations: French, Brazilian Portuguese, Russian, Simplified Chinese, and Spanish — item
+  names, tooltips, and sandbox option labels are now fully localised in all five languages
+
+### Changed
+- All 372 document tooltip descriptions rewritten for consistent style and line width
+
+### Fixed
+- 32 documents were not spawning in the world due to a syntax issue in the item definitions
+- Tooltip punctuation pass: em-dashes replaced with commas and periods throughout
 
 ## [0.7] - 2026-05-04
 
