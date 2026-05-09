@@ -2,6 +2,12 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [0.8] - 2026-05-08
+
+### Added
+- Translations: Brazilian Portuguese, Russian, Simplified Chinese, and Spanish — item names,
+  tooltips, and sandbox option labels are now fully localised in all four languages
+
 ## [0.7] - 2026-05-04
 
 ### Fixed
