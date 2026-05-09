@@ -16,7 +16,7 @@ Different documents appear in contextually appropriate locations — a fleet mai
 
 See [DESIGN.md](DESIGN.md) for full product requirements — mechanic details, skill coverage philosophy, and spawning rules.
 
-The specific documents, their associated skills, spawn locations, and flavor text are catalogued separately.
+The specific documents, their associated skills, spawn locations, and flavor text are catalogued in [DOCUMENTS.md](DOCUMENTS.md).
 
 ## Configuration
 
