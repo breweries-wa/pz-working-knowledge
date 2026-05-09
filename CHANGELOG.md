@@ -13,7 +13,6 @@ All notable changes to Working Knowledge are documented here.
 
 ### Fixed
 - 32 documents were not spawning in the world due to a syntax issue in the item definitions
-- Tooltip punctuation pass: em-dashes replaced with commas and periods throughout
 
 ## [0.7] - 2026-05-04
 
