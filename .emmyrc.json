@@ -1,0 +1,17 @@
+{
+"workspace": {
+        "library": ["C:\\Users\\Ryan\\Tools\\Umbrella\\library"],
+        "workspaceRoots": ["42/media/lua"]
+    },
+    "runtime": {
+        "requirePattern": [
+            "shared/?.lua",
+            "client/?.lua",
+            "server/?.lua"
+        ],
+        "version": "Lua5.1"
+    },
+    "diagnostics": {
+        "disable": ["unnecessary-if"]
+    }
+}

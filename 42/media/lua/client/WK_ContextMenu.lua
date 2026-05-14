@@ -439,6 +439,7 @@ function ISReadABook:perform()
     local perkName = getWKDocs()[bareType]
     if not perkName then return origISReadABookPerform(self) end
 
+    ---@type table<string, any>
     local modData = self.character:getModData()
     local readKey = "WK_read_" .. bareType
     if modData[readKey] then return origISReadABookPerform(self) end
