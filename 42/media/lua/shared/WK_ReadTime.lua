@@ -20,7 +20,7 @@ function ISReadABook:getDuration()
         if ok and itemType then
             local bareType = itemType:match("%.(.+)$") or itemType
             if bareType:match("^WK_") then
-                local time = 200
+                local time = 200.0
                 if self.character then
                     if self.character:hasTrait(CharacterTrait.FAST_READER) then
                         time = time * 0.7
