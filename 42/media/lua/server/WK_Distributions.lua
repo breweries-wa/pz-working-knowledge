@@ -7,7 +7,7 @@
 local _spawnMult = 1.0
 local _opts = getSandboxOptions and getSandboxOptions()
 if _opts then
-    local _o = _opts:getOptionByName("WorkingKnowledge.SpawnRate")
+    local _o = _opts:getOptionByName("WorkingKnowledge.SpawnRate") --[[@as {getValue:fun():integer}|nil]]
     if _o then
         local _level = _o:getValue()  -- returns 1–5
         local _levels = { 0.25, 0.5, 1.0, 2.0, 4.0 }

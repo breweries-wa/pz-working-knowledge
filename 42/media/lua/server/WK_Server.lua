@@ -24,7 +24,7 @@ Events.OnClientCommand.Add(function(module, command, player, args)
         if not ok or not perk then return end
 
         local grant = (SandboxVars.WorkingKnowledge and SandboxVars.WorkingKnowledge.XPGrant) or 50
-        addXp(player, perk, grant)
+        addXp(player, perk --[[@as PerkFactory.Perk]], grant)
 
     elseif command == "AdminClearAll" then
         local lvl = player:getAccessLevel()
