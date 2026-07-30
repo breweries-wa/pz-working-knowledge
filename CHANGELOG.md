@@ -2,6 +2,11 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [0.9] - 2026-07-30
+
+### Fixed
+- Item names now display correctly following the B42.20 update, which changed the expected translation file format
+
 ## [0.8] - 2026-05-08
 
 ### Added
