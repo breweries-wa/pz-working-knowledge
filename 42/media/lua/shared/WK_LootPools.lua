@@ -838,6 +838,427 @@ WK_LootPools.list = {
             "WK_USPSARulebook",
         },
     },
+    -- ---------------------------------------------------------------------
+    -- Skill-specific workshop, studio and locker containers. These are rare
+    -- in the world and already thematically placed, so they carry a higher
+    -- hit rate than the generic desk and filing cabinet pools.
+    -- ---------------------------------------------------------------------
+
+    KnappingBooks = {
+        placeholder = "WK_Doc_KnappingBooks",
+        weight      = 3.75,  -- rolls 8, ~0.30 docs/container
+        docs = {
+            "WK_AmateurArchPamph",
+            "WK_BSAPrimitiveSurvival",
+            "WK_CherokeeArrowhead",
+            "WK_FieldArchKnapping",
+            "WK_KCMuseumLithicCat",
+            "WK_LithicAnalysisStandards",
+            "WK_LithicTechnologyRef",
+            "WK_ObsidianSourceRef",
+            "WK_PrimBowhunterFlint",
+            "WK_PrimitiveSkillsKnappingRef",
+            "WK_RendezvousMtnMan",
+            "WK_ToolStoneQualityCard",
+        },
+    },
+
+    KnappingTools = {
+        placeholder = "WK_Doc_KnappingTools",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_AmateurArchPamph",
+            "WK_BSAPrimitiveSurvival",
+            "WK_CherokeeArrowhead",
+            "WK_FieldArchKnapping",
+            "WK_KCMuseumLithicCat",
+            "WK_LithicAnalysisStandards",
+            "WK_LithicTechnologyRef",
+            "WK_ObsidianSourceRef",
+            "WK_PrimBowhunterFlint",
+            "WK_PrimitiveSkillsKnappingRef",
+            "WK_RendezvousMtnMan",
+            "WK_ToolStoneQualityCard",
+        },
+    },
+
+    PotteryStudioTools = {
+        placeholder = "WK_Doc_PotteryStudioTools",
+        weight      = 3.75,  -- rolls 8, ~0.30 docs/container
+        docs = {
+            "WK_AppFolkPotteryPamph",
+            "WK_BeginnerWheelNotes",
+            "WK_ChildrenPotteryLesson",
+            "WK_ClayBodyFormulationRef",
+            "WK_CommercialPotteryProc",
+            "WK_GlazeChemistryRef",
+            "WK_KilnFiringScheduleRef",
+            "WK_PenlandWheelRef",
+            "WK_RakuFiringNotes",
+            "WK_SaltGlazeStoneware",
+            "WK_StudioKilnRepair",
+            "WK_UnivCeramicsText",
+        },
+    },
+
+    GlassWorkshopTools = {
+        placeholder = "WK_Doc_GlassWorkshopTools",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_AntiqueBottleCollect",
+            "WK_BeadSocietyLampwork",
+            "WK_BorosilicateLampwork",
+            "WK_CorningEngineering",
+            "WK_FloatGlassManufRef",
+            "WK_GlassAnnealingRef",
+            "WK_KilnFormingRef",
+            "WK_KilnFusedJewelry",
+            "WK_NeonSignBenders",
+            "WK_PenlandStudioGlass",
+            "WK_StainedGlassChurch",
+            "WK_TiffanyMethodRef",
+        },
+    },
+
+    CarvingWorkshopTools = {
+        placeholder = "WK_Doc_CarvingWorkshopTools",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_AppalachianFolkArt",
+            "WK_ArchaeologicalToolNotes",
+            "WK_BowyerTilleringNotes",
+            "WK_ChipCarvingPattern",
+            "WK_CountryCarversBook",
+            "WK_FieldExpedientToolRef",
+            "WK_JuniorHighWoodshop",
+            "WK_KnifeHandleFittingRef",
+            "WK_SpoonCarvingNotes",
+            "WK_TrapperBoneToolRef",
+            "WK_WaldenWoodcrafter",
+            "WK_WoodenHandleShaftRef",
+        },
+    },
+
+    CarvingWorkshopMaterials = {
+        placeholder = "WK_Doc_CarvingWorkshopMaterials",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_AppalachianFolkArt",
+            "WK_ArchaeologicalToolNotes",
+            "WK_BowyerTilleringNotes",
+            "WK_ChipCarvingPattern",
+            "WK_CountryCarversBook",
+            "WK_FieldExpedientToolRef",
+            "WK_JuniorHighWoodshop",
+            "WK_KnifeHandleFittingRef",
+            "WK_SpoonCarvingNotes",
+            "WK_TrapperBoneToolRef",
+            "WK_WaldenWoodcrafter",
+            "WK_WoodenHandleShaftRef",
+        },
+    },
+
+    CarpentryBooks = {
+        placeholder = "WK_Doc_CarpentryBooks",
+        weight      = 3.75,  -- rolls 8, ~0.30 docs/container
+        docs = {
+            "WK_AppTimberFramePamph",
+            "WK_CabinetmakerJoinery",
+            "WK_FinishCarpentryNotes",
+            "WK_FramingSquareCard",
+            "WK_FurnitureMakerNotes",
+            "WK_LogHomeBuildersRef",
+            "WK_LumberYardManual",
+            "WK_NDSWoodConstruction",
+            "WK_RoofFramingCalcCard",
+            "WK_ScoutCarpentryMerit",
+            "WK_SpanTablesRef",
+            "WK_VocSchoolBuildTrades",
+        },
+    },
+
+    FurnitureFactoryTools = {
+        placeholder = "WK_Doc_FurnitureFactoryTools",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_AppTimberFramePamph",
+            "WK_CabinetmakerJoinery",
+            "WK_FinishCarpentryNotes",
+            "WK_FramingSquareCard",
+            "WK_FurnitureMakerNotes",
+            "WK_LogHomeBuildersRef",
+            "WK_LumberYardManual",
+            "WK_NDSWoodConstruction",
+            "WK_RoofFramingCalcCard",
+            "WK_ScoutCarpentryMerit",
+            "WK_SpanTablesRef",
+            "WK_VocSchoolBuildTrades",
+        },
+    },
+
+    BlacksmithTools = {
+        placeholder = "WK_Doc_BlacksmithTools",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_ABANANewsletter",
+            "WK_ASTMMaterialSpecRef",
+            "WK_BlacksmithGuildStandards",
+            "WK_ColonialIronworker",
+            "WK_FarrierShoeingNotes",
+            "WK_ForgeHeatTreatGuide",
+            "WK_FrontierForgeRef",
+            "WK_IndustrialMetalworkRef",
+            "WK_KnifemakerForgeWeld",
+            "WK_ScoutMetalwork",
+            "WK_SteelmillProcessRef",
+            "WK_SwordsmithApprDiary",
+        },
+    },
+
+    BlacksmithMolds = {
+        placeholder = "WK_Doc_BlacksmithMolds",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_ABANANewsletter",
+            "WK_ASTMMaterialSpecRef",
+            "WK_BlacksmithGuildStandards",
+            "WK_ColonialIronworker",
+            "WK_FarrierShoeingNotes",
+            "WK_ForgeHeatTreatGuide",
+            "WK_FrontierForgeRef",
+            "WK_IndustrialMetalworkRef",
+            "WK_KnifemakerForgeWeld",
+            "WK_ScoutMetalwork",
+            "WK_SteelmillProcessRef",
+            "WK_SwordsmithApprDiary",
+        },
+    },
+
+    TailoringTools = {
+        placeholder = "WK_Doc_TailoringTools",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_AlterationsTailorCard",
+            "WK_BridalSeamstressNotes",
+            "WK_CarhartUnionShop",
+            "WK_FiberFabricRef",
+            "WK_GarmentQualityRef",
+            "WK_HancockFabricsManual",
+            "WK_HomeEcSewingText",
+            "WK_IndustrialSewingRef",
+            "WK_PatternGradingRef",
+            "WK_SearsPatternCatalog",
+            "WK_TheatricalCostumeShop",
+            "WK_UpholstererGuide",
+        },
+    },
+
+    LeatherworkingTools = {
+        placeholder = "WK_Doc_LeatherworkingTools",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_AlterationsTailorCard",
+            "WK_BridalSeamstressNotes",
+            "WK_CarhartUnionShop",
+            "WK_FiberFabricRef",
+            "WK_GarmentQualityRef",
+            "WK_HancockFabricsManual",
+            "WK_HomeEcSewingText",
+            "WK_IndustrialSewingRef",
+            "WK_PatternGradingRef",
+            "WK_SearsPatternCatalog",
+            "WK_TheatricalCostumeShop",
+            "WK_UpholstererGuide",
+        },
+    },
+
+    CobblerTools = {
+        placeholder = "WK_Doc_CobblerTools",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_AlterationsTailorCard",
+            "WK_BridalSeamstressNotes",
+            "WK_CarhartUnionShop",
+            "WK_FiberFabricRef",
+            "WK_GarmentQualityRef",
+            "WK_HancockFabricsManual",
+            "WK_HomeEcSewingText",
+            "WK_IndustrialSewingRef",
+            "WK_PatternGradingRef",
+            "WK_SearsPatternCatalog",
+            "WK_TheatricalCostumeShop",
+            "WK_UpholstererGuide",
+        },
+    },
+
+    ClockRepairTools = {
+        placeholder = "WK_Doc_ClockRepairTools",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_AntiqueDealerCare",
+            "WK_BarberRazorStropping",
+            "WK_BladesmithToolCare",
+            "WK_BowSawSetGuide",
+            "WK_EdgeToolSharpeningRef",
+            "WK_HandToolConditionRef",
+            "WK_ImpactWeaponMaintSOP",
+            "WK_JewelersFileCard",
+            "WK_KnifeMaintenanceLog",
+            "WK_ScoutTroopToolCare",
+            "WK_ShopApprenticeToolLog",
+            "WK_WhetstoneSelectionRef",
+        },
+    },
+
+    ClockRepairLiterature = {
+        placeholder = "WK_Doc_ClockRepairLiterature",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_AntiqueDealerCare",
+            "WK_BarberRazorStropping",
+            "WK_BladesmithToolCare",
+            "WK_BowSawSetGuide",
+            "WK_EdgeToolSharpeningRef",
+            "WK_HandToolConditionRef",
+            "WK_ImpactWeaponMaintSOP",
+            "WK_JewelersFileCard",
+            "WK_KnifeMaintenanceLog",
+            "WK_ScoutTroopToolCare",
+            "WK_ShopApprenticeToolLog",
+            "WK_WhetstoneSelectionRef",
+        },
+    },
+
+    RangerDesk = {
+        placeholder = "WK_Doc_RangerDesk",
+        weight      = 15.0,  -- rolls 2, ~0.30 docs/container
+        docs = {
+            "WK_ApacheScoutTracking",
+            "WK_BackyardForaging",
+            "WK_BloodhoundHandlerCard",
+            "WK_BowHunterCamoMan",
+            "WK_DeerMovementRef",
+            "WK_EdiblePlantsRef",
+            "WK_EthnobotanyText",
+            "WK_HerbalPharmacyEnc",
+            "WK_HunterGatherersRef",
+            "WK_KDFWRGameMgmtRef",
+            "WK_KYCoonHunting",
+            "WK_KYWildflowerGuide",
+            "WK_NavySEALReconPamph",
+            "WK_SARTrackingTraining",
+            "WK_SignReadingNotes",
+            "WK_StalkingWildAsparagus",
+            "WK_ToxicPlantRef",
+            "WK_TraditionalAppPlants",
+            "WK_TurkeyHuntingRef",
+            "WK_WildEdiblesCookbook",
+            "WK_WildMushroomHunt",
+            "WK_WildcraftHerbalistRef",
+            "WK_WildlifeBiologyText",
+            "WK_WildlifeTrackSignRef",
+        },
+    },
+
+    RangerLockers = {
+        placeholder = "WK_Doc_RangerLockers",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_ApacheScoutTracking",
+            "WK_BloodhoundHandlerCard",
+            "WK_BowHunterCamoMan",
+            "WK_ConibearSetTechnique",
+            "WK_DeerMovementRef",
+            "WK_FootholdStakingRef",
+            "WK_FoxHolerLureRecipes",
+            "WK_FurAuctionGrading",
+            "WK_FurbearerRef",
+            "WK_KDFWRGameMgmtRef",
+            "WK_KDFWRNuisanceWild",
+            "WK_KDFWRTrapperRegs",
+            "WK_KYBeaverTrapPamph",
+            "WK_KYCoonHunting",
+            "WK_MuskratPeltStretch",
+            "WK_NTAFurHandlersGuide",
+            "WK_NavySEALReconPamph",
+            "WK_SARTrackingTraining",
+            "WK_SignReadingNotes",
+            "WK_TurkeyHuntingRef",
+            "WK_USDAAnimalDamage",
+            "WK_WildlifeBiologyText",
+            "WK_WildlifeTrackSignRef",
+            "WK_WildlifeTrappingGuide",
+        },
+    },
+
+    HuntingLockers = {
+        placeholder = "WK_Doc_HuntingLockers",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_BoyScoutRiflery",
+            "WK_BullseyeMatchProgramme",
+            "WK_ConibearSetTechnique",
+            "WK_DefensiveHandgunRef",
+            "WK_FBIQualScorebook",
+            "WK_FootholdStakingRef",
+            "WK_FoxHolerLureRecipes",
+            "WK_FurAuctionGrading",
+            "WK_FurbearerRef",
+            "WK_HighPowerNewsletter",
+            "WK_KCPDFirearmsQual",
+            "WK_KDFWRNuisanceWild",
+            "WK_KDFWRTrapperRegs",
+            "WK_KYBeaverTrapPamph",
+            "WK_KYConcealedCarryGuide",
+            "WK_MuskratPeltStretch",
+            "WK_NRAPistolInstructorMan",
+            "WK_NTAFurHandlersGuide",
+            "WK_RangeSafetyOfficerRef",
+            "WK_SheriffQualLog",
+            "WK_USDAAnimalDamage",
+            "WK_USPSARulebook",
+            "WK_VietnamRiflemanNotes",
+            "WK_WildlifeTrappingGuide",
+        },
+    },
+
+    PoliceLockers = {
+        placeholder = "WK_Doc_PoliceLockers",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_BoyScoutRiflery",
+            "WK_BullseyeMatchProgramme",
+            "WK_DefensiveHandgunRef",
+            "WK_FBIQualScorebook",
+            "WK_HighPowerNewsletter",
+            "WK_KCPDFirearmsQual",
+            "WK_KYConcealedCarryGuide",
+            "WK_NRAPistolInstructorMan",
+            "WK_RangeSafetyOfficerRef",
+            "WK_SheriffQualLog",
+            "WK_USPSARulebook",
+            "WK_VietnamRiflemanNotes",
+        },
+    },
+
+    PoliceLibraryLegal = {
+        placeholder = "WK_Doc_PoliceLibraryLegal",
+        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        docs = {
+            "WK_BoyScoutRiflery",
+            "WK_BullseyeMatchProgramme",
+            "WK_DefensiveHandgunRef",
+            "WK_FBIQualScorebook",
+            "WK_HighPowerNewsletter",
+            "WK_KCPDFirearmsQual",
+            "WK_KYConcealedCarryGuide",
+            "WK_NRAPistolInstructorMan",
+            "WK_RangeSafetyOfficerRef",
+            "WK_SheriffQualLog",
+            "WK_USPSARulebook",
+            "WK_VietnamRiflemanNotes",
+        },
+    },
 }
 
 return WK_LootPools
