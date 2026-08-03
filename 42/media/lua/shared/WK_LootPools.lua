@@ -601,7 +601,12 @@ WK_LootPools.list = {
 
     FilingCabinetGeneric = {
         placeholder = "WK_Doc_FilingCabinetGeneric",
-        weight      = 9.0738,
+        -- rolls(4) * 1.25 / 100 = 0.05 documents per cabinet, i.e. ~1 per 20,
+        -- matching the rate documented in the README. This was 9.0738 through
+        -- v0.9, which worked out to ~1 per 3 -- the old per-document weight was
+        -- tuned for a much smaller pool and never revisited as the pool grew
+        -- to 213 entries.
+        weight      = 1.25,
         docs = {
             "WK_LumberYardManual",
             "WK_SpanTablesRef",
