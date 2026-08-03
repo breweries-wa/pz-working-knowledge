@@ -1,0 +1,344 @@
+/* Working Knowledge loot placeholders.
+
+   These are never seen by the player. One is registered into each procedural
+   distribution in place of listing every document individually; WK_LootReplace.lua
+   swaps it for a real document as soon as the container is filled.
+
+   ItemType and DisplayCategory must match the real documents so that the
+   Literature loot-rarity sandbox setting scales them identically.
+
+   DisplayName is set directly so these need no translation entries. */
+
+module Base
+{
+
+    item WK_Doc_ArmySurplusLiterature
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_ArmyBunkerLockers
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_ArmyBunkerStorage
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_PoliceFilingCabinet
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_PoliceDesk
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_FireStorageTools
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_WildWestBlacksmith
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_MetalShopTools
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_WeldingWorkshopTools
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_MechanicShelfBooks
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_CarDealerFilingCabinet
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_ElectricianTools
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_ToolCabinetFarming
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_ButcherLiterature
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_ToolStoreMisc
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_FishingStoreGear
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_PlumbingSupplies
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_OfficeDesk
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_OfficeDeskHome
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_OfficeDeskHomeClassy
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_WaitingRoomDesk
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_ClassroomDesk
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_ClassroomSecondaryDesk
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_BlacksmithLiterature
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_TailoringLiterature
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_RangerBooks
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_MedicalOfficeDesk
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_GardenStoreMisc
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_DeskGeneric
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_FilingCabinetGeneric
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+}
