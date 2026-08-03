@@ -550,7 +550,10 @@ WK_LootPools.list = {
 
     DeskGeneric = {
         placeholder = "WK_Doc_DeskGeneric",
-        weight      = 0.8316,
+        -- Kept in step with FilingCabinetGeneric: both generic containers should
+        -- hit the same documented ~1 per 20. This was 0.8316 through v0.9, or
+        -- ~1 per 30.
+        weight      = 1.25,
         docs = {
             "WK_GolfSwingRef",
             "WK_BaseballSwingRef",
