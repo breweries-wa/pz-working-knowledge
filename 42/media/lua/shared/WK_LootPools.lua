@@ -12,11 +12,28 @@
 -- documents from `docs` therefore does not change how often one spawns, only
 -- which ones can.
 --
+-- Every weight is derived from one of three tiers rather than tuned by hand:
+--
+--   generic   1 document per 12 containers   furniture found across many
+--                                            unrelated building types
+--   specific  1 document per  6 containers   tied to one trade or building
+--                                            type that is reasonably common
+--   rare      1 document per  3 containers   tied to one trade or building
+--                                            type that is scarce map-wide
+--
+--   weight = 100 / (containersPerDocument * rolls)
+--
+-- The tiers exist because a flat per-container rate is not an encounter rate:
+-- a generic filing cabinet appears thousands of times on the map, a pottery
+-- studio a handful. Scarcer containers need a higher hit rate to stay findable.
+-- Deriving every weight this way is also what stops the drift that previously
+-- left FilingCabinetGeneric at 1 in 3 and ArmyBunkerLockers at 1 in 69.
+--
 -- Other mods can retune or extend this without overwriting the file:
 --
 --     local pools = require "WK_LootPools"
 --     table.insert(pools.list.OfficeDesk.docs, "MyMod_ExpenseReport")
---     pools.list.FilingCabinetGeneric.weight = 1.25
+--     pools.list.FilingCabinetGeneric.weight = 4.0
 
 local WK_LootPools = {}
 
@@ -24,7 +41,7 @@ WK_LootPools.list = {
 
     ArmySurplusLiterature = {
         placeholder = "WK_Doc_ArmySurplusLiterature",
-        weight      = 6.0852,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_VietnamRiflemanNotes",
             "WK_NavalGunnersManual",
@@ -43,7 +60,7 @@ WK_LootPools.list = {
 
     ArmyBunkerLockers = {
         placeholder = "WK_Doc_ArmyBunkerLockers",
-        weight      = 0.3625,
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_ArmyAPFTManual",
             "WK_ArmyCombatLifter",
@@ -55,7 +72,7 @@ WK_LootPools.list = {
 
     ArmyBunkerStorage = {
         placeholder = "WK_Doc_ArmyBunkerStorage",
-        weight      = 1.4019,
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_NavalGunnersManual",
             "WK_ArmyCombatMedic",
@@ -65,7 +82,7 @@ WK_LootPools.list = {
 
     PoliceFilingCabinet = {
         placeholder = "WK_Doc_PoliceFilingCabinet",
-        weight      = 14.038,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_KCPDFirearmsQual",
             "WK_RangeSafetyOfficerRef",
@@ -92,7 +109,7 @@ WK_LootPools.list = {
 
     PoliceDesk = {
         placeholder = "WK_Doc_PoliceDesk",
-        weight      = 4.3596,
+        weight      = 8.3333,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_KCPDFirearmsQual",
             "WK_DefensiveHandgunRef",
@@ -108,7 +125,7 @@ WK_LootPools.list = {
 
     FireStorageTools = {
         placeholder = "WK_Doc_FireStorageTools",
-        weight      = 4.5006,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_ForcibleEntryRef",
             "WK_FirefighterHandToolSOP",
@@ -128,7 +145,7 @@ WK_LootPools.list = {
 
     WildWestBlacksmith = {
         placeholder = "WK_Doc_WildWestBlacksmith",
-        weight      = 2.6424,
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_ASTMMaterialSpecRef",
             "WK_ForgeHeatTreatGuide",
@@ -144,7 +161,7 @@ WK_LootPools.list = {
 
     MetalShopTools = {
         placeholder = "WK_Doc_MetalShopTools",
-        weight      = 10.7508,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_ASTMMaterialSpecRef",
             "WK_ForgeHeatTreatGuide",
@@ -163,7 +180,7 @@ WK_LootPools.list = {
 
     WeldingWorkshopTools = {
         placeholder = "WK_Doc_WeldingWorkshopTools",
-        weight      = 6.1996,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_AWSD11WeldingRef",
             "WK_WeldingProcSpecRef",
@@ -181,7 +198,7 @@ WK_LootPools.list = {
 
     MechanicShelfBooks = {
         placeholder = "WK_Doc_MechanicShelfBooks",
-        weight      = 5.551,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_OBDIICodeRef",
             "WK_TorqueSpecsRef",
@@ -201,7 +218,7 @@ WK_LootPools.list = {
 
     CarDealerFilingCabinet = {
         placeholder = "WK_Doc_CarDealerFilingCabinet",
-        weight      = 5.3274,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_OBDIICodeRef",
             "WK_TorqueSpecsRef",
@@ -214,7 +231,7 @@ WK_LootPools.list = {
 
     ElectricianTools = {
         placeholder = "WK_Doc_ElectricianTools",
-        weight      = 8.4576,
+        weight      = 5.5556,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_NECArticleRef",
             "WK_WireGaugeAmpacityRef",
@@ -233,7 +250,7 @@ WK_LootPools.list = {
 
     ToolCabinetFarming = {
         placeholder = "WK_Doc_ToolCabinetFarming",
-        weight      = 7.587,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_KnoxExtensionGuide",
             "WK_SoilTestInterpretRef",
@@ -270,7 +287,7 @@ WK_LootPools.list = {
 
     ButcherLiterature = {
         placeholder = "WK_Doc_ButcherLiterature",
-        weight      = 1.428,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_USDAMeatGradingRef",
             "WK_PrimalSubPrimalRef",
@@ -294,7 +311,7 @@ WK_LootPools.list = {
 
     ToolStoreMisc = {
         placeholder = "WK_Doc_ToolStoreMisc",
-        weight      = 7.88,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_FramingHammerCard",
             "WK_CrowbarApplicationsRef",
@@ -341,7 +358,7 @@ WK_LootPools.list = {
 
     FishingStoreGear = {
         placeholder = "WK_Doc_FishingStoreGear",
-        weight      = 3.4886,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_FishIdentificationRef",
             "WK_RiggingTackleRef",
@@ -350,7 +367,7 @@ WK_LootPools.list = {
 
     PlumbingSupplies = {
         placeholder = "WK_Doc_PlumbingSupplies",
-        weight      = 4.6975,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_PlumbingQuickClearRef",
         },
@@ -358,7 +375,7 @@ WK_LootPools.list = {
 
     OfficeDesk = {
         placeholder = "WK_Doc_OfficeDesk",
-        weight      = 1.844,
+        weight      = 2.0833,  -- generic tier, ~1 per 12 containers
         docs = {
             "WK_WorkplaceFirstAidSOP",
             "WK_CPRAEDRef",
@@ -375,7 +392,7 @@ WK_LootPools.list = {
 
     OfficeDeskHome = {
         placeholder = "WK_Doc_OfficeDeskHome",
-        weight      = 4.2352,
+        weight      = 2.0833,  -- generic tier, ~1 per 12 containers
         docs = {
             "WK_GolfSwingRef",
             "WK_BaseballSwingRef",
@@ -390,7 +407,7 @@ WK_LootPools.list = {
 
     OfficeDeskHomeClassy = {
         placeholder = "WK_Doc_OfficeDeskHomeClassy",
-        weight      = 6.5632,
+        weight      = 2.0833,  -- generic tier, ~1 per 12 containers
         docs = {
             "WK_GolfSwingRef",
             "WK_BullseyeMatchProgramme",
@@ -405,7 +422,7 @@ WK_LootPools.list = {
 
     WaitingRoomDesk = {
         placeholder = "WK_Doc_WaitingRoomDesk",
-        weight      = 4.7352,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_WorkplaceFirstAidSOP",
             "WK_CPRAEDRef",
@@ -420,7 +437,7 @@ WK_LootPools.list = {
 
     ClassroomDesk = {
         placeholder = "WK_Doc_ClassroomDesk",
-        weight      = 9.5968,
+        weight      = 8.3333,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_BoyScoutRiflery",
             "WK_BoyScoutAxemanship",
@@ -435,7 +452,7 @@ WK_LootPools.list = {
 
     ClassroomSecondaryDesk = {
         placeholder = "WK_Doc_ClassroomSecondaryDesk",
-        weight      = 9.643,
+        weight      = 8.3333,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_JuniorHighWoodshop",
             "WK_HomeEcSewingText",
@@ -452,7 +469,7 @@ WK_LootPools.list = {
 
     BlacksmithLiterature = {
         placeholder = "WK_Doc_BlacksmithLiterature",
-        weight      = 1.806,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_ABANANewsletter",
             "WK_ForgeHeatTreatGuide",
@@ -469,7 +486,7 @@ WK_LootPools.list = {
 
     TailoringLiterature = {
         placeholder = "WK_Doc_TailoringLiterature",
-        weight      = 3.3624,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_PatternGradingRef",
             "WK_IndustrialSewingRef",
@@ -488,7 +505,7 @@ WK_LootPools.list = {
 
     RangerBooks = {
         placeholder = "WK_Doc_RangerBooks",
-        weight      = 5.0715,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_KDFWRGameMgmtRef",
             "WK_ApacheScoutTracking",
@@ -510,7 +527,7 @@ WK_LootPools.list = {
 
     MedicalOfficeDesk = {
         placeholder = "WK_Doc_MedicalOfficeDesk",
-        weight      = 3.1944,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_WorkplaceFirstAidSOP",
             "WK_CPRAEDRef",
@@ -528,7 +545,7 @@ WK_LootPools.list = {
 
     GardenStoreMisc = {
         placeholder = "WK_Doc_GardenStoreMisc",
-        weight      = 7.713,
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_KnoxExtensionGuide",
             "WK_SoilTestInterpretRef",
@@ -550,10 +567,7 @@ WK_LootPools.list = {
 
     DeskGeneric = {
         placeholder = "WK_Doc_DeskGeneric",
-        -- Kept in step with FilingCabinetGeneric: both generic containers should
-        -- hit the same documented ~1 per 20. This was 0.8316 through v0.9, or
-        -- ~1 per 30.
-        weight      = 1.25,
+        weight      = 2.0833,  -- generic tier, ~1 per 12 containers
         docs = {
             "WK_GolfSwingRef",
             "WK_BaseballSwingRef",
@@ -604,12 +618,7 @@ WK_LootPools.list = {
 
     FilingCabinetGeneric = {
         placeholder = "WK_Doc_FilingCabinetGeneric",
-        -- rolls(4) * 1.25 / 100 = 0.05 documents per cabinet, i.e. ~1 per 20,
-        -- matching the rate documented in the README. This was 9.0738 through
-        -- v0.9, which worked out to ~1 per 3 -- the old per-document weight was
-        -- tuned for a much smaller pool and never revisited as the pool grew
-        -- to 213 entries.
-        weight      = 1.25,
+        weight      = 2.0833,  -- generic tier, ~1 per 12 containers
         docs = {
             "WK_LumberYardManual",
             "WK_SpanTablesRef",
@@ -846,7 +855,7 @@ WK_LootPools.list = {
 
     KnappingBooks = {
         placeholder = "WK_Doc_KnappingBooks",
-        weight      = 3.75,  -- rolls 8, ~0.30 docs/container
+        weight      = 4.1667,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AmateurArchPamph",
             "WK_BSAPrimitiveSurvival",
@@ -865,7 +874,7 @@ WK_LootPools.list = {
 
     KnappingTools = {
         placeholder = "WK_Doc_KnappingTools",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AmateurArchPamph",
             "WK_BSAPrimitiveSurvival",
@@ -884,7 +893,7 @@ WK_LootPools.list = {
 
     PotteryStudioTools = {
         placeholder = "WK_Doc_PotteryStudioTools",
-        weight      = 3.75,  -- rolls 8, ~0.30 docs/container
+        weight      = 4.1667,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AppFolkPotteryPamph",
             "WK_BeginnerWheelNotes",
@@ -903,7 +912,7 @@ WK_LootPools.list = {
 
     GlassWorkshopTools = {
         placeholder = "WK_Doc_GlassWorkshopTools",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AntiqueBottleCollect",
             "WK_BeadSocietyLampwork",
@@ -922,7 +931,7 @@ WK_LootPools.list = {
 
     CarvingWorkshopTools = {
         placeholder = "WK_Doc_CarvingWorkshopTools",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AppalachianFolkArt",
             "WK_ArchaeologicalToolNotes",
@@ -941,7 +950,7 @@ WK_LootPools.list = {
 
     CarvingWorkshopMaterials = {
         placeholder = "WK_Doc_CarvingWorkshopMaterials",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AppalachianFolkArt",
             "WK_ArchaeologicalToolNotes",
@@ -960,7 +969,7 @@ WK_LootPools.list = {
 
     CarpentryBooks = {
         placeholder = "WK_Doc_CarpentryBooks",
-        weight      = 3.75,  -- rolls 8, ~0.30 docs/container
+        weight      = 4.1667,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AppTimberFramePamph",
             "WK_CabinetmakerJoinery",
@@ -979,7 +988,7 @@ WK_LootPools.list = {
 
     FurnitureFactoryTools = {
         placeholder = "WK_Doc_FurnitureFactoryTools",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AppTimberFramePamph",
             "WK_CabinetmakerJoinery",
@@ -998,7 +1007,7 @@ WK_LootPools.list = {
 
     BlacksmithTools = {
         placeholder = "WK_Doc_BlacksmithTools",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_ABANANewsletter",
             "WK_ASTMMaterialSpecRef",
@@ -1017,7 +1026,7 @@ WK_LootPools.list = {
 
     BlacksmithMolds = {
         placeholder = "WK_Doc_BlacksmithMolds",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_ABANANewsletter",
             "WK_ASTMMaterialSpecRef",
@@ -1036,7 +1045,7 @@ WK_LootPools.list = {
 
     TailoringTools = {
         placeholder = "WK_Doc_TailoringTools",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AlterationsTailorCard",
             "WK_BridalSeamstressNotes",
@@ -1055,7 +1064,7 @@ WK_LootPools.list = {
 
     LeatherworkingTools = {
         placeholder = "WK_Doc_LeatherworkingTools",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AlterationsTailorCard",
             "WK_BridalSeamstressNotes",
@@ -1074,7 +1083,7 @@ WK_LootPools.list = {
 
     CobblerTools = {
         placeholder = "WK_Doc_CobblerTools",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AlterationsTailorCard",
             "WK_BridalSeamstressNotes",
@@ -1093,7 +1102,7 @@ WK_LootPools.list = {
 
     ClockRepairTools = {
         placeholder = "WK_Doc_ClockRepairTools",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AntiqueDealerCare",
             "WK_BarberRazorStropping",
@@ -1112,7 +1121,7 @@ WK_LootPools.list = {
 
     ClockRepairLiterature = {
         placeholder = "WK_Doc_ClockRepairLiterature",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
         docs = {
             "WK_AntiqueDealerCare",
             "WK_BarberRazorStropping",
@@ -1131,7 +1140,7 @@ WK_LootPools.list = {
 
     RangerDesk = {
         placeholder = "WK_Doc_RangerDesk",
-        weight      = 15.0,  -- rolls 2, ~0.30 docs/container
+        weight      = 8.3333,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_ApacheScoutTracking",
             "WK_BackyardForaging",
@@ -1162,7 +1171,7 @@ WK_LootPools.list = {
 
     RangerLockers = {
         placeholder = "WK_Doc_RangerLockers",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_ApacheScoutTracking",
             "WK_BloodhoundHandlerCard",
@@ -1193,7 +1202,7 @@ WK_LootPools.list = {
 
     HuntingLockers = {
         placeholder = "WK_Doc_HuntingLockers",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_BoyScoutRiflery",
             "WK_BullseyeMatchProgramme",
@@ -1224,7 +1233,7 @@ WK_LootPools.list = {
 
     PoliceLockers = {
         placeholder = "WK_Doc_PoliceLockers",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_BoyScoutRiflery",
             "WK_BullseyeMatchProgramme",
@@ -1243,7 +1252,7 @@ WK_LootPools.list = {
 
     PoliceLibraryLegal = {
         placeholder = "WK_Doc_PoliceLibraryLegal",
-        weight      = 7.5,  -- rolls 4, ~0.30 docs/container
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_BoyScoutRiflery",
             "WK_BullseyeMatchProgramme",

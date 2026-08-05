@@ -26,15 +26,21 @@ Both options are found under **Working Knowledge** in the Sandbox settings when 
 
 Controls how often WK documents appear in loot containers.
 
-There are two tiers of container. **Generic** containers — everyday desks and filing cabinets found throughout Knox County — carry the full document catalogue at a low weight, so any document could turn up anywhere. **Specific** containers — the police filing cabinet, the fire station tool locker, the ranger station bookshelf — carry only documents relevant to that location, and are calibrated to spawn them at roughly twice the rate of generics. The table below reflects the generic baseline; expect to find documents about twice as often in a thematically matched specific container.
+There are three tiers of container, each twice as generous as the last:
 
-| Setting | Multiplier | Generic containers per document |
-|---|---|---|
-| Very Rare | 0.25× | ~80 |
-| Rare | 0.5× | ~40 |
-| **Normal** | **1×** | **~20 (default)** |
-| Common | 2× | ~10 |
-| Abundant | 4× | ~5 |
+- **Generic** — everyday desks and filing cabinets found throughout Knox County. These carry the full document catalogue, so any document could turn up anywhere.
+- **Specific** — tied to a trade or building type that is reasonably common: the police filing cabinet, the fire station tool locker, the mechanic's shelf, the ranger station bookshelf. These carry only documents relevant to that location.
+- **Rare** — tied to a trade or building type that is scarce map-wide: the pottery studio, the glass workshop, the knapping bench, the cobbler's station, the army bunker. Highest hit rate, because you may only ever find a handful of these.
+
+The tiers exist because a flat per-container rate is not the same as how often you actually encounter something. A generic filing cabinet appears thousands of times across the map; a pottery studio appears a handful of times. Without a higher hit rate, the documents in those rare workshops would effectively never be found.
+
+| Setting | Multiplier | Generic | Specific | Rare |
+|---|---|---|---|---|
+| Very Rare | 0.25× | 1 per 48 | 1 per 24 | 1 per 12 |
+| Rare | 0.5× | 1 per 24 | 1 per 12 | 1 per 6 |
+| **Normal** | **1×** | **1 per 12** | **1 per 6** | **1 per 3** |
+| Common | 2× | 1 per 6 | 1 per 3 | 1 per 1.5 |
+| Abundant | 4× | 1 per 3 | 1 per 1.5 | nearly every one |
 
 Changing this setting mid-save only affects containers generated after the change — already-looted areas are not retroactively updated.
 
