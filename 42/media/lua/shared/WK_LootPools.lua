@@ -60,7 +60,7 @@ WK_LootPools.list = {
 
     ArmyBunkerLockers = {
         placeholder = "WK_Doc_ArmyBunkerLockers",
-        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_ArmyAPFTManual",
             "WK_ArmyCombatLifter",
@@ -72,7 +72,7 @@ WK_LootPools.list = {
 
     ArmyBunkerStorage = {
         placeholder = "WK_Doc_ArmyBunkerStorage",
-        weight      = 8.3333,  -- rare tier, ~1 per 3 containers
+        weight      = 4.1667,  -- specific tier, ~1 per 6 containers
         docs = {
             "WK_NavalGunnersManual",
             "WK_ArmyCombatMedic",
