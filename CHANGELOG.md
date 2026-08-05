@@ -11,10 +11,12 @@ All notable changes to Working Knowledge are documented here.
   ranger, hunting and police lockers
 
 ### Changed
-- Documents in generic filing cabinets are now substantially rarer, and generic desks
-  slightly more common, so both match the documented rate of roughly one document per
-  20 generic containers. Thematic locations are unchanged, and are now clearly the
-  better place to search
+- Every location's spawn rate now follows one of three tiers instead of being tuned
+  location by location: everyday furniture gives one document per 12 containers,
+  trade-specific locations one per 6, and scarce workshops one per 3. Rates previously
+  ranged from one per 1.8 to one per 69 with no consistent rule, which left some
+  locations so sparse their documents were effectively unobtainable. Expect noticeably
+  more documents overall, and scarce workshops to be worth going out of your way for
 - Loot tables rewritten for performance. A generic filing cabinet previously evaluated
   235 loot entries every time one was generated; it now evaluates 23
 
