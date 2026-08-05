@@ -22,6 +22,8 @@ All notable changes to Working Knowledge are documented here.
 - 12 documents could never spawn. The Glassmaking, Pottery and sport shooting documents
   lost their locations in 0.3 and were never given new ones. All 372 documents are now
   findable, and the Pottery and Glassmaking ones have proper workshop homes
+- The version shown in the Mods menu was stuck at 0.7 since May. The bumps were being
+  written to a mod.info the game does not read in B42
 
 ## [0.9] - 2026-07-30
 
