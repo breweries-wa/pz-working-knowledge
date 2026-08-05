@@ -2,6 +2,27 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [1.0] - 2026-08-05
+
+### Added
+- 20 new document locations in skill-specific workplaces: pottery studios, glass
+  workshops, knapping and carving benches, blacksmith and tailoring workstations,
+  cobbler and leatherworking benches, clock repair shops, furniture factories, and
+  ranger, hunting and police lockers
+
+### Changed
+- Documents in generic filing cabinets are now substantially rarer, and generic desks
+  slightly more common, so both match the documented rate of roughly one document per
+  20 generic containers. Thematic locations are unchanged, and are now clearly the
+  better place to search
+- Loot tables rewritten for performance. A generic filing cabinet previously evaluated
+  235 loot entries every time one was generated; it now evaluates 23
+
+### Fixed
+- 12 documents could never spawn. The Glassmaking, Pottery and sport shooting documents
+  lost their locations in 0.3 and were never given new ones. All 372 documents are now
+  findable, and the Pottery and Glassmaking ones have proper workshop homes
+
 ## [0.9] - 2026-07-30
 
 ### Fixed
