@@ -2,6 +2,14 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [1.0.1] - 2026-08-08
+
+### Fixed
+- Error spam while exploring new areas. The loot replacement introduced in 1.0 assumed
+  the game always hands it a real container, but four of the ten places the game raises
+  that event pass a loot table definition instead, which has no contents to read. Those
+  are now ignored. Document spawning was never affected, only the error log
+
 ## [1.0] - 2026-08-05
 
 ### Added

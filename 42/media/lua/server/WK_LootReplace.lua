@@ -16,6 +16,15 @@ end
 local function replacePlaceholders(roomName, containerType, container)
     if not container then return end
 
+    -- OnFillContainer does not always hand back an ItemContainer. Four of the
+    -- ten trigger sites in ItemPickerJava pass containerDist.bags instead --
+    -- the "Zombie Bag" path and the nested-bag paths inside doRollItemInternal
+    -- -- which is an ItemPickerContainer, a distribution definition with no
+    -- getItems(). Indexing it throws in Kahlua, so bail out on anything that
+    -- is not a real container. Those paths fill bags from outfit bag
+    -- distributions, which WK never registers into, so nothing is missed.
+    if not instanceof(container, "ItemContainer") then return end
+
     local items = container:getItems()
     if not items then return end
 
