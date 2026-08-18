@@ -2,6 +2,14 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [1.0.2] - 2026-08-11
+
+### Changed
+- Startup now logs which spawn rate was detected and the resulting rates for a
+  sample of locations. This is diagnostic only and changes no behaviour: several
+  reports of documents being far rarer than the chosen setting suggest the sandbox
+  spawn rate may not always be read correctly, and the log makes that visible
+
 ## [1.0.1] - 2026-08-08
 
 ### Fixed
