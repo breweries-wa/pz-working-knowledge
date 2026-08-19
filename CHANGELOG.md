@@ -2,6 +2,14 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [1.1] - 2026-08-19
+
+### Changed
+- Documents are roughly twice as common everywhere. The rates introduced in 1.0 worked
+  out around four times rarer than 0.9 for the containers players actually open, which
+  was not intended: everyday furniture now gives one document per 6 containers rather
+  than 12, trade-specific locations one per 3, and scarce workshops one per 1.5
+
 ## [1.0.2] - 2026-08-11
 
 ### Changed

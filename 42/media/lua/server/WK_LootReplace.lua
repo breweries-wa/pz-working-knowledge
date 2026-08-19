@@ -1,9 +1,9 @@
 -- Swap Working Knowledge loot placeholders for real documents.
 --
 -- WK_Distributions registers one placeholder item per procedural distribution.
--- ItemPickerJava fires OnFillContainer immediately after filling a container
--- (see fillContainerTypeInternal call sites), which is where we exchange each
--- placeholder for a random document from that pool.
+-- ItemPickerJava fires OnFillContainer immediately after filling a container,
+-- which is where we exchange each placeholder for a random document from that
+-- pool.
 
 local WK_LootPools = require "WK_LootPools"
 
@@ -45,7 +45,7 @@ local function replacePlaceholders(roomName, containerType, container)
 
     for i = 1, #found do
         local entry = found[i]
-        local docs = entry.docs
+        local docs  = entry.docs
         container:Remove(entry.item)
         container:AddItem("Base." .. docs[ZombRand(#docs) + 1])
     end

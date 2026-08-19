@@ -36,11 +36,11 @@ The tiers exist because a flat per-container rate is not the same as how often y
 
 | Setting | Multiplier | Generic | Specific | Rare |
 |---|---|---|---|---|
-| Very Rare | 0.25× | 1 per 48 | 1 per 24 | 1 per 12 |
-| Rare | 0.5× | 1 per 24 | 1 per 12 | 1 per 6 |
-| **Normal** | **1×** | **1 per 12** | **1 per 6** | **1 per 3** |
-| Common | 2× | 1 per 6 | 1 per 3 | 1 per 1.5 |
-| Abundant | 4× | 1 per 3 | 1 per 1.5 | nearly every one |
+| Very Rare | 0.25x | 1 per 24 | 1 per 12 | 1 per 6 |
+| Rare | 0.5x | 1 per 12 | 1 per 6 | 1 per 3 |
+| **Normal** | **1x** | **1 per 6** | **1 per 3** | **1 per 1.5** |
+| Common | 2x | 1 per 3 | 1 per 1.5 | nearly every one |
+| Abundant | 4x | 1 per 1.5 | nearly every one | every one |
 
 Changing this setting mid-save only affects containers generated after the change — already-looted areas are not retroactively updated.
 
