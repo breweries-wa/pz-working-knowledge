@@ -8,5 +8,7 @@
     "Sandbox_WorkingKnowledge_SpawnRate_option4": "常见",
     "Sandbox_WorkingKnowledge_SpawnRate_option5": "大量",
     "Sandbox_WorkingKnowledge_XPGrant": "经验奖励",
-    "Sandbox_WorkingKnowledge_XPGrant_tooltip": "角色首次阅读文件时获得的基础经验值。受游戏被动技能倍率影响。设为0则完全禁用经验奖励。默认值：50。"
+    "Sandbox_WorkingKnowledge_XPGrant_tooltip": "角色首次阅读文件时获得的基础经验值。受游戏被动技能倍率影响。设为0则完全禁用经验奖励。默认值：50。",
+    "Sandbox_WorkingKnowledge_ConsumeOnRead": "阅读后销毁文件",
+    "Sandbox_WorkingKnowledge_ConsumeOnRead_tooltip": "启用后，文件在阅读完毕后即被销毁，无法再转交给其他幸存者。适用于不希望一份文件训练整个团队的多人服务器。默认：关闭。"
 }

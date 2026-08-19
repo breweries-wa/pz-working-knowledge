@@ -8,5 +8,7 @@
     "Sandbox_WorkingKnowledge_SpawnRate_option4": "Common",
     "Sandbox_WorkingKnowledge_SpawnRate_option5": "Abundant",
     "Sandbox_WorkingKnowledge_XPGrant": "XP Grant",
-    "Sandbox_WorkingKnowledge_XPGrant_tooltip": "Base XP awarded when a character reads a document for the first time. Scaled by the game's passive skill rate. Set to 0 to disable XP entirely. Default: 50."
+    "Sandbox_WorkingKnowledge_XPGrant_tooltip": "Base XP awarded when a character reads a document for the first time. Scaled by the game's passive skill rate. Set to 0 to disable XP entirely. Default: 50.",
+    "Sandbox_WorkingKnowledge_ConsumeOnRead": "Destroy Document After Reading",
+    "Sandbox_WorkingKnowledge_ConsumeOnRead_tooltip": "When enabled, a document is destroyed once it has been read, so it cannot be passed to another survivor. Intended for multiplayer servers that do not want a single copy training the whole group. Default: off."
 }

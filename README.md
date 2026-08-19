@@ -45,6 +45,10 @@ The tiers exist because a flat per-container rate is not the same as how often y
 
 Changing this setting mid-save only affects containers generated after the change — already-looted areas are not retroactively updated.
 
+### Destroy Document After Reading
+
+When enabled, a document is destroyed once it has been read, so it cannot be passed to another survivor. Off by default. Intended mainly for multiplayer servers that do not want a single copy training the whole group. The document is removed server-side, so a client cannot skip it.
+
 ### XP Grant
 
 The flat XP awarded when a document is read for the first time. Scaled by the game's passive skill multiplier. Default is **50**. Set to 0 to disable XP entirely while keeping documents as collectibles.

@@ -20,3 +20,12 @@ option WorkingKnowledge.XPGrant
 	page = WorkingKnowledge,
 	translation = WorkingKnowledge_XPGrant,
 }
+
+option WorkingKnowledge.ConsumeOnRead
+{
+	type = boolean,
+	default = false,
+
+	page = WorkingKnowledge,
+	translation = WorkingKnowledge_ConsumeOnRead,
+}

@@ -26,6 +26,19 @@ Events.OnClientCommand.Add(function(module, command, player, args)
         local grant = (SandboxVars.WorkingKnowledge and SandboxVars.WorkingKnowledge.XPGrant) or 50
         addXp(player, perk --[[@as PerkFactory.Perk]], grant)
 
+        -- Optional: destroy the document once read, so it cannot be passed on.
+        -- Off by default; wanted mainly on multiplayer servers that do not want
+        -- one copy training the whole group. Done server-side so a client
+        -- cannot simply skip it.
+        if SandboxVars.WorkingKnowledge and SandboxVars.WorkingKnowledge.ConsumeOnRead then
+            local inv  = player:getInventory()
+            local item = inv and inv:getFirstTypeRecurse("Base." .. itemType)
+            if item then
+                local holder = item:getContainer() or inv
+                holder:Remove(item)
+            end
+        end
+
     elseif command == "AdminClearAll" then
         local lvl = player:getAccessLevel()
         if lvl ~= "Admin" and lvl ~= "Moderator" then return end

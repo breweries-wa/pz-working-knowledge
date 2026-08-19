@@ -8,5 +8,7 @@
     "Sandbox_WorkingKnowledge_SpawnRate_option4": "Común",
     "Sandbox_WorkingKnowledge_SpawnRate_option5": "Abundante",
     "Sandbox_WorkingKnowledge_XPGrant": "Puntos de Experiencia Otorgados",
-    "Sandbox_WorkingKnowledge_XPGrant_tooltip": "Puntos de experiencia base otorgados cuando un personaje lee un documento por primera vez. Se escala según la tasa pasiva de habilidades del juego. Establécelo en 0 para desactivar la XP por completo. Valor predeterminado: 50."
+    "Sandbox_WorkingKnowledge_XPGrant_tooltip": "Puntos de experiencia base otorgados cuando un personaje lee un documento por primera vez. Se escala según la tasa pasiva de habilidades del juego. Establécelo en 0 para desactivar la XP por completo. Valor predeterminado: 50.",
+    "Sandbox_WorkingKnowledge_ConsumeOnRead": "Destruir el documento tras leerlo",
+    "Sandbox_WorkingKnowledge_ConsumeOnRead_tooltip": "Al activarlo, el documento se destruye una vez leído, por lo que no puede pasarse a otro superviviente. Pensado para servidores multijugador que no quieren que una sola copia entrene a todo el grupo. Por defecto: desactivado."
 }

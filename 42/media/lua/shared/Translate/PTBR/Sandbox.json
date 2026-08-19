@@ -8,5 +8,7 @@
     "Sandbox_WorkingKnowledge_SpawnRate_option4": "Comum",
     "Sandbox_WorkingKnowledge_SpawnRate_option5": "Abundante",
     "Sandbox_WorkingKnowledge_XPGrant": "Concessão de XP",
-    "Sandbox_WorkingKnowledge_XPGrant_tooltip": "XP base concedida quando um personagem lê um documento pela primeira vez. Escalonada pela taxa de habilidade passiva do jogo. Defina como 0 para desativar o XP completamente. Padrão: 50."
+    "Sandbox_WorkingKnowledge_XPGrant_tooltip": "XP base concedida quando um personagem lê um documento pela primeira vez. Escalonada pela taxa de habilidade passiva do jogo. Defina como 0 para desativar o XP completamente. Padrão: 50.",
+    "Sandbox_WorkingKnowledge_ConsumeOnRead": "Destruir documento após a leitura",
+    "Sandbox_WorkingKnowledge_ConsumeOnRead_tooltip": "Quando ativado, o documento é destruído depois de lido e não pode ser repassado a outro sobrevivente. Pensado para servidores multijogador que não querem que uma única cópia treine o grupo inteiro. Padrão: desativado."
 }

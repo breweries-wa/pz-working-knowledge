@@ -2,6 +2,25 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [1.2] - 2026-08-19
+
+### Added
+- **Destroy Document After Reading** sandbox option. When enabled, a document is
+  destroyed once read so it cannot be handed to another survivor. Off by default;
+  intended for multiplayer servers that do not want one copy training the whole
+  group. Available in all six supported languages
+- Documents now also appear in office drawers, mechanic tool cabinets, classroom
+  shelves, teacher desks and kids' bedroom desks
+
+### Changed
+- Bedroom and home office desks are now a separate, deliberately rarer tier. They
+  appear in nearly every house, so they previously handed out documents at the same
+  rate as a real office
+
+### Fixed
+- Classroom teacher desks could never contain anything at all. The base game points
+  them at a loot table it never defines; the mod now supplies one
+
 ## [1.1] - 2026-08-19
 
 ### Changed
