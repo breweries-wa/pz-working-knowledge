@@ -12,10 +12,12 @@
 -- documents from `docs` therefore does not change how often one spawns, only
 -- which ones can.
 --
--- Every weight is derived from one of three tiers rather than tuned by hand:
+-- Every weight is derived from one of four tiers rather than tuned by hand:
 --
---   generic   1 document per 6 containers     furniture found across many
---                                             unrelated building types
+--   household 1 document per 12 containers    home and bedroom desks, present
+--                                             in nearly every house
+--   generic   1 document per 6 containers     office furniture and filing
+--                                             cabinets, common but not universal
 --   specific  1 document per 3 containers     tied to one trade or building
 --                                             type that is reasonably common
 --   rare      1 document per 1.5 containers   tied to one trade or building
@@ -394,7 +396,7 @@ WK_LootPools.list = {
 
     OfficeDeskHome = {
         placeholder = "WK_Doc_OfficeDeskHome",
-        weight      = 4.1667,  -- generic tier, ~1 per 6 containers
+        weight      = 2.0833,  -- household tier, ~1 per 12 containers
         docs = {
             "WK_GolfSwingRef",
             "WK_BaseballSwingRef",
@@ -409,7 +411,7 @@ WK_LootPools.list = {
 
     OfficeDeskHomeClassy = {
         placeholder = "WK_Doc_OfficeDeskHomeClassy",
-        weight      = 4.1667,  -- generic tier, ~1 per 6 containers
+        weight      = 2.0833,  -- household tier, ~1 per 12 containers
         docs = {
             "WK_GolfSwingRef",
             "WK_BullseyeMatchProgramme",
@@ -1318,6 +1320,91 @@ WK_LootPools.list = {
             "WK_ParamedicProtocolMan",
             "WK_ArmyCombatMedic",
             "WK_SARTrackingTraining",
+        },
+    },
+    -- Office drawers, school and household containers.
+
+    OfficeDrawers = {
+        placeholder = "WK_Doc_OfficeDrawers",
+        weight      = 4.1667,  -- generic tier, ~1 per 6 containers
+        docs = {
+            "WK_WorkplaceFirstAidSOP",
+            "WK_CPRAEDRef",
+            "WK_OSHAHandToolSafety",
+            "WK_OSHAElectricalSafety",
+            "WK_OSHAFirstAidRef",
+            "WK_NIOSHLiftingRef",
+            "WK_ManualMaterialsHandRef",
+            "WK_FreightDockLiftCard",
+            "WK_FleetMaintenanceLog",
+            "WK_KYVehicleInspection",
+        },
+    },
+
+    KidsDesk = {
+        placeholder = "WK_Doc_KidsDesk",
+        weight      = 4.1667,  -- household tier, ~1 per 12 containers
+        docs = {
+            "WK_BoyScoutRiflery",
+            "WK_BoyScoutAxemanship",
+            "WK_ScoutTroopToolCare",
+            "WK_ScoutCampcraftKnife",
+            "WK_ScoutMetalwork",
+            "WK_ScoutCarpentryMerit",
+            "WK_BSAPrimitiveSurvival",
+            "WK_AgEdJudgingCard",
+        },
+    },
+
+    ClassroomShelves = {
+        placeholder = "WK_Doc_ClassroomShelves",
+        weight      = 8.3333,  -- specific tier, ~1 per 3 containers
+        docs = {
+            "WK_BoyScoutRiflery",
+            "WK_BoyScoutAxemanship",
+            "WK_ScoutTroopToolCare",
+            "WK_ScoutCampcraftKnife",
+            "WK_ScoutMetalwork",
+            "WK_ScoutCarpentryMerit",
+            "WK_BSAPrimitiveSurvival",
+            "WK_AgEdJudgingCard",
+        },
+    },
+
+    ToolCabinetMechanics = {
+        placeholder = "WK_Doc_ToolCabinetMechanics",
+        weight      = 8.3333,  -- specific tier, ~1 per 3 containers
+        docs = {
+            "WK_OBDIICodeRef",
+            "WK_TorqueSpecsRef",
+            "WK_BrakeServiceRef",
+            "WK_AutoElecDiagRef",
+            "WK_FleetMaintenanceLog",
+            "WK_AutoBodyHammerNotes",
+            "WK_ASEStudyGuide",
+            "WK_KYVehicleInspection",
+            "WK_BriggsStrattonRepair",
+            "WK_DieselTroubleshoot",
+            "WK_FordPickupShopMan",
+            "WK_ChevyTechServiceBull",
+            "WK_AutoBodyWeldingRef",
+        },
+    },
+
+    TeacherDesk = {
+        placeholder = "WK_Doc_TeacherDesk",
+        weight      = 8.3333,  -- specific tier, ~1 per 3 containers
+        docs = {
+            "WK_JuniorHighWoodshop",
+            "WK_HomeEcSewingText",
+            "WK_HSTrackCoachManual",
+            "WK_KYHSAARulebook",
+            "WK_SprintIntervalCard",
+            "WK_CrossCountryRef",
+            "WK_HSFootballCondition",
+            "WK_BMXRacingTraining",
+            "WK_HSWrestlingStrength",
+            "WK_AgEdJudgingCard",
         },
     },
 }

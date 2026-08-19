@@ -26,21 +26,22 @@ Both options are found under **Working Knowledge** in the Sandbox settings when 
 
 Controls how often WK documents appear in loot containers.
 
-There are three tiers of container, each twice as generous as the last:
+There are four tiers of container, each twice as generous as the last:
 
-- **Generic** — everyday desks and filing cabinets found throughout Knox County. These carry the full document catalogue, so any document could turn up anywhere.
-- **Specific** — tied to a trade or building type that is reasonably common: the police filing cabinet, the fire station tool locker, the mechanic's shelf, the ranger station bookshelf. These carry only documents relevant to that location.
-- **Rare** — tied to a trade or building type that is scarce map-wide: the pottery studio, the glass workshop, the knapping bench, the cobbler's station, the army bunker. Highest hit rate, because you may only ever find a handful of these.
+- **Household** — home and bedroom desks. These exist in nearly every house, so the rate is deliberately low.
+- **Generic** — office furniture and filing cabinets found throughout Knox County. These carry the full document catalogue, so any document could turn up anywhere.
+- **Specific** — tied to a trade or building type that is reasonably common: the police filing cabinet, the fire station tool locker, the mechanic's shelf, the classroom.
+- **Rare** — tied to a trade or building type that is scarce map-wide: the pottery studio, the glass workshop, the knapping bench, the cobbler's station. Highest hit rate, because you may only ever find a handful of these.
 
-The tiers exist because a flat per-container rate is not the same as how often you actually encounter something. A generic filing cabinet appears thousands of times across the map; a pottery studio appears a handful of times. Without a higher hit rate, the documents in those rare workshops would effectively never be found.
+The tiers exist because a flat per-container rate is not the same as how often you actually encounter something. A bedroom desk appears in every house; a pottery studio appears a handful of times on the whole map. Without a higher hit rate, the documents in those rare workshops would effectively never be found.
 
-| Setting | Multiplier | Generic | Specific | Rare |
-|---|---|---|---|---|
-| Very Rare | 0.25x | 1 per 24 | 1 per 12 | 1 per 6 |
-| Rare | 0.5x | 1 per 12 | 1 per 6 | 1 per 3 |
-| **Normal** | **1x** | **1 per 6** | **1 per 3** | **1 per 1.5** |
-| Common | 2x | 1 per 3 | 1 per 1.5 | nearly every one |
-| Abundant | 4x | 1 per 1.5 | nearly every one | every one |
+| Setting | Multiplier | Household | Generic | Specific | Rare |
+|---|---|---|---|---|---|
+| Very Rare | 0.25x | 1 per 48 | 1 per 24 | 1 per 12 | 1 per 6 |
+| Rare | 0.5x | 1 per 24 | 1 per 12 | 1 per 6 | 1 per 3 |
+| **Normal** | **1x** | **1 per 12** | **1 per 6** | **1 per 3** | **1 per 1.5** |
+| Common | 2x | 1 per 6 | 1 per 3 | 1 per 1.5 | nearly every one |
+| Abundant | 4x | 1 per 3 | 1 per 1.5 | nearly every one | every one |
 
 Changing this setting mid-save only affects containers generated after the change — already-looted areas are not retroactively updated.
 

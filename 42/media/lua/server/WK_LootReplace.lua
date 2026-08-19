@@ -13,6 +13,41 @@ for _, pool in pairs(WK_LootPools.list) do
     byPlaceholder[pool.placeholder] = pool.docs
 end
 
+-- ---------------------------------------------------------------------------
+-- TEMPORARY INSTRUMENTATION
+-- Records every container the game fills, keyed by room and container type,
+-- with how many received a document. Written to Zomboid/WK_lootlog.csv.
+-- Remove this block once the rates are settled.
+-- ---------------------------------------------------------------------------
+local track   = {}
+local nFills  = 0
+local nDocs   = 0
+local lastDump = 0
+local nextFull = 2500
+
+local function bump(room, ctype, hit)
+    local key = tostring(room) .. "|" .. tostring(ctype)
+    local t = track[key]
+    if not t then
+        t = { room = tostring(room), ctype = tostring(ctype), n = 0, h = 0 }
+        track[key] = t
+    end
+    t.n = t.n + 1
+    if hit then t.h = t.h + 1 end
+end
+
+local function dump(full)
+    print("[WorkingKnowledge] lootlog: " .. nFills .. " fills, " .. nDocs .. " documents placed")
+    if not full then return end
+    -- getFileWriter is a client-only global, so the table goes to the log.
+    -- One row per room + container type; parsed offline.
+    for _, t in pairs(track) do
+        print("[WorkingKnowledge] WKROW " .. t.room .. "|" .. t.ctype .. "|" .. t.n .. "|" .. t.h)
+    end
+end
+
+-- ---------------------------------------------------------------------------
+
 local function replacePlaceholders(roomName, containerType, container)
     if not container then return end
 
@@ -41,6 +76,18 @@ local function replacePlaceholders(roomName, containerType, container)
         end
     end
 
+    nFills = nFills + 1
+    bump(roomName, containerType, found ~= nil)
+
+    -- Flush on fill count rather than a game-time event: vanilla can wedge the
+    -- main thread (RBBurntCorpse looping on multi-tile removal), which stops
+    -- game time and would lose everything collected so far.
+    if nFills - lastDump >= 500 then
+        lastDump = nFills
+        dump(nFills >= nextFull)
+        if nFills >= nextFull then nextFull = nFills + 2500 end
+    end
+
     if not found then return end
 
     for i = 1, #found do
@@ -48,6 +95,7 @@ local function replacePlaceholders(roomName, containerType, container)
         local docs  = entry.docs
         container:Remove(entry.item)
         container:AddItem("Base." .. docs[ZombRand(#docs) + 1])
+        nDocs = nDocs + 1
     end
 end
 

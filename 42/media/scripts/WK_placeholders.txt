@@ -596,4 +596,60 @@ module Base
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
     }
+    /* Office drawers, school and household containers. */
+
+    item WK_Doc_OfficeDrawers
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_KidsDesk
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_ClassroomShelves
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_ToolCabinetMechanics
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_TeacherDesk
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
 }

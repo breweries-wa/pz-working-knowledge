@@ -47,6 +47,15 @@ if viaVars and viaOptions and viaVars ~= viaOptions then
 end
 
 local dist = ProceduralDistributions.list
+
+-- Distributions.lua points classroom desks at a "TeacherDesk" procedural list,
+-- but vanilla never defines it, so those desks receive no loot from anything.
+-- Create a minimal one only if nothing else has, so a future vanilla fix or
+-- another mod defining it takes precedence.
+if not dist.TeacherDesk then
+    dist.TeacherDesk = { rolls = 4, items = {} }
+    print("[WorkingKnowledge] defined missing vanilla distribution: TeacherDesk")
+end
 local registered, missing = 0, 0
 
 for distName, pool in pairs(WK_LootPools.list) do
