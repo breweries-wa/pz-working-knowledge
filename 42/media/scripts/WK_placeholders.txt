@@ -562,4 +562,38 @@ module Base
         StaticModel      = Paperwork1,
         WorldStaticModel = Paperwork1,
     }
+    /* Desks and lockers sharing a room with a covered container. */
+
+    item WK_Doc_PoliceCaptainDesk
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_CarDealerDesk
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
+
+    item WK_Doc_FireDeptLockers
+    {
+        ItemType         = base:literature,
+        DisplayCategory  = Literature,
+        DisplayName      = Document,
+        Weight           = 0.1,
+        Icon             = Paperwork1,
+        StaticModel      = Paperwork1,
+        WorldStaticModel = Paperwork1,
+    }
 }

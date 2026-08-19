@@ -1270,6 +1270,56 @@ WK_LootPools.list = {
             "WK_VietnamRiflemanNotes",
         },
     },
+    -- Desks and lockers sharing a room with a container we already cover.
+
+    PoliceCaptainDesk = {
+        placeholder = "WK_Doc_PoliceCaptainDesk",
+        weight      = 16.6667,  -- specific tier, ~1 per 3 containers
+        docs = {
+            "WK_KCPDFirearmsQual",
+            "WK_DefensiveHandgunRef",
+            "WK_TacticalReloadRef",
+            "WK_MagazineDrillCard",
+            "WK_ImpactWeaponMaintSOP",
+            "WK_KCPDImpactWeaponsRef",
+            "WK_PoliceAcademyHandgun",
+            "WK_CombatShootingDrills",
+            "WK_PoliceRecruitFitness",
+        },
+    },
+
+    CarDealerDesk = {
+        placeholder = "WK_Doc_CarDealerDesk",
+        weight      = 8.3333,  -- specific tier, ~1 per 3 containers
+        docs = {
+            "WK_OBDIICodeRef",
+            "WK_TorqueSpecsRef",
+            "WK_FleetMaintenanceLog",
+            "WK_ASEStudyGuide",
+            "WK_ChevyTechServiceBull",
+            "WK_TruckingFleetPMSched",
+        },
+    },
+
+    FireDeptLockers = {
+        placeholder = "WK_Doc_FireDeptLockers",
+        weight      = 8.3333,  -- specific tier, ~1 per 3 containers
+        docs = {
+            "WK_ForcibleEntryRef",
+            "WK_FirefighterHandToolSOP",
+            "WK_CPRAEDRef",
+            "WK_EmergencyTriageRef",
+            "WK_FireAcademyFitnessRef",
+            "WK_WorkplaceFirstAidSOP",
+            "WK_EngineCompanyAxeRef",
+            "WK_EMTRescueKnifeCard",
+            "WK_FirefighterHaliganRef",
+            "WK_PulaskiSwingScale",
+            "WK_ParamedicProtocolMan",
+            "WK_ArmyCombatMedic",
+            "WK_SARTrackingTraining",
+        },
+    },
 }
 
 return WK_LootPools
