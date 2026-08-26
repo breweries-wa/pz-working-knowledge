@@ -540,3 +540,29 @@ local function onGameStart()
     end
 end
 Events.OnGameStart.Add(onGameStart)
+
+-- ── Read marker ──────────────────────────────────────────────────────────────
+
+-- ISInventoryPane decides the read checkmark from vanilla's literature
+-- cooldown: the item needs a literatureTitle stamped on it, and the character's
+-- entry for that title has to still be inside SandboxOptions.literatureCooldown
+-- days. Neither holds for us. A copy picked up after reading another has no tag
+-- yet, so it looked unread, and once the cooldown lapses a document read weeks
+-- ago goes back to looking unread even though the XP is long since spent.
+--
+-- Our own read state is permanent and per character, so answer from that and
+-- fall through to vanilla for anything that is not a WK document.
+local origPaneIsLiteratureRead = ISInventoryPane.isLiteratureRead
+function ISInventoryPane:isLiteratureRead(playerObj, item)
+    if item and playerObj then
+        local itemType = item:getType()
+        if itemType then
+            local bareType = itemType:match("%.(.+)$") or itemType
+            if getWKDocs()[bareType] then
+                local modData = playerObj:getModData()
+                if modData and modData["WK_read_" .. bareType] then return true end
+            end
+        end
+    end
+    return origPaneIsLiteratureRead(self, playerObj, item)
+end

@@ -5,10 +5,16 @@ All notable changes to Working Knowledge are documented here.
 ## [1.2.1] - 2026-08-26
 
 ### Fixed
-- **Destroy Document After Reading** did not work correctly. Documents were destroyed
-  even with the option turned off, reading could break part-way through leaving no XP
-  when it was turned on, and spare copies of a document you had already read were never
-  destroyed at all. All three are fixed
+- **Destroy Document After Reading**: reading could break part-way through, leaving no
+  XP and the document still in place, because the mod told the server to destroy the
+  item before the base game had finished the reading action
+- **Destroy Document After Reading**: spare copies of a document you had already read
+  were never destroyed. They correctly gave no XP, but stayed in the inventory
+
+### Changed
+- A document already read by your character is now marked as read the moment you pick
+  up another copy, rather than only after you read that copy. The base game's marker
+  expires after a number of days; the mod's own record does not
 
 ## [1.2] - 2026-08-19
 
