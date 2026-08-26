@@ -1,14 +1,3 @@
--- Logging confirmed this arrives as a plain Lua boolean, so a bare truthiness
--- test would do. Kept explicit anyway: only nil and false are falsy in Lua, so
--- if the value ever came through as a Java Boolean or a string it would read as
--- true no matter what it held, and every document would be destroyed. Vanilla
--- guards the same way (ISMiniMap.lua compares against true explicitly).
-local function sandboxTrue(v)
-    if v == true then return true end
-    if v == false or v == nil then return false end
-    return string.lower(tostring(v)) == "true"
-end
-
 -- Destroy one copy of a document in the player's inventory. Off by default;
 -- wanted mainly on multiplayer servers that do not want one copy training the
 -- whole group. Done server-side so a client cannot simply skip it.
@@ -45,8 +34,10 @@ Events.OnClientCommand.Add(function(module, command, player, args)
 
         local modData    = player:getModData()
         local sv          = SandboxVars.WorkingKnowledge
-        local rawConsume  = sv and sv.ConsumeOnRead
-        local consume     = sandboxTrue(rawConsume)
+        -- Compared against true rather than tested for truthiness, the way
+        -- vanilla does (ISMiniMap.lua). Logging confirmed it arrives as a plain
+        -- Lua boolean, so either works; this one cannot go wrong.
+        local consume     = sv ~= nil and sv.ConsumeOnRead == true
         local alreadyRead = modData[xpKey] and true or false
 
         -- A document that has already been read grants no XP, but it must still
