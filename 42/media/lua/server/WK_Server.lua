@@ -12,13 +12,22 @@ end
 -- Destroy one copy of a document in the player's inventory. Off by default;
 -- wanted mainly on multiplayer servers that do not want one copy training the
 -- whole group. Done server-side so a client cannot simply skip it.
+--
+-- Removing from the container alone only changes the server's own view, so in
+-- multiplayer the document stayed in the player's inventory. The removal has to
+-- be broadcast as well. removeFromHands comes first because the document is
+-- held while it is being read. This mirrors what vanilla does, e.g.
+-- ISBuildUtil.lua consuming build materials.
 local function consumeDocument(player, itemType)
     local inv = player:getInventory()
     if not inv then return end
     local item = inv:getFirstTypeRecurse("Base." .. itemType)
     if not item then return end
+
+    player:removeFromHands(item)
     local holder = item:getContainer() or inv
     holder:Remove(item)
+    sendRemoveItemFromContainer(holder, item)
 end
 
 Events.OnClientCommand.Add(function(module, command, player, args)

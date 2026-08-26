@@ -10,6 +10,9 @@ All notable changes to Working Knowledge are documented here.
   item before the base game had finished the reading action
 - **Destroy Document After Reading**: spare copies of a document you had already read
   were never destroyed. They correctly gave no XP, but stayed in the inventory
+- **Destroy Document After Reading**: on multiplayer servers the document was never
+  destroyed at all. XP was awarded and the server dropped the item, but the removal
+  was not sent to the client, so it stayed in the player's inventory
 
 ### Changed
 - A document already read by your character is now marked as read the moment you pick
