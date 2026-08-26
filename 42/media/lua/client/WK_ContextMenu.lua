@@ -448,13 +448,17 @@ function ISReadABook:perform()
     -- document can never be got rid of.
     if modData[readKey] then
         local sv = SandboxVars.WorkingKnowledge
-        if sv and sv.ConsumeOnRead then
+        local consume = sv and sv.ConsumeOnRead
+        -- Vanilla perform() dereferences self.item:getContainer(), so it has to
+        -- run before the server is told to destroy the document.
+        local result = origISReadABookPerform(self)
+        if consume then
             sendClientCommand(self.character, "WorkingKnowledge", "ReadDocument", {
                 perk     = perkName,
                 itemType = bareType,
             })
         end
-        return origISReadABookPerform(self)
+        return result
     end
 
     -- Update read state BEFORE calling the vanilla perform so that any
@@ -470,12 +474,18 @@ function ISReadABook:perform()
     end
     pcall(function() syncItemFields(self.character, self.item) end)
 
+    -- Run the vanilla action to completion before notifying the server. With
+    -- Destroy Document After Reading enabled the server removes the item, and
+    -- ISReadABook:perform dereferences self.item:getContainer() -- which is nil
+    -- once the item is gone, breaking the read part-way through.
+    local result = origISReadABookPerform(self)
+
     sendClientCommand(self.character, "WorkingKnowledge", "ReadDocument", {
         perk     = perkName,
         itemType = bareType,
     })
 
-    origISReadABookPerform(self)
+    return result
 end
 
 -- ── Literature tagging ───────────────────────────────────────────────────────

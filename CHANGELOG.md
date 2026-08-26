@@ -2,6 +2,15 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [1.2.2] - 2026-08-26
+
+### Fixed
+- With **Destroy Document After Reading** enabled, reading a document could break
+  part-way through, leaving no XP and the document still in the inventory. The mod
+  told the server to destroy the item before the base game had finished the reading
+  action, and the game then tried to use the container the item had just left. The
+  read now completes first
+
 ## [1.2.1] - 2026-08-19
 
 ### Fixed
