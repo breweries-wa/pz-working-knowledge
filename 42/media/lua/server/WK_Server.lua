@@ -1,3 +1,15 @@
+-- Destroy one copy of a document in the player's inventory. Off by default;
+-- wanted mainly on multiplayer servers that do not want one copy training the
+-- whole group. Done server-side so a client cannot simply skip it.
+local function consumeDocument(player, itemType)
+    local inv = player:getInventory()
+    if not inv then return end
+    local item = inv:getFirstTypeRecurse("Base." .. itemType)
+    if not item then return end
+    local holder = item:getContainer() or inv
+    holder:Remove(item)
+end
+
 Events.OnClientCommand.Add(function(module, command, player, args)
     if module ~= "WorkingKnowledge" then return end
 
@@ -11,8 +23,18 @@ Events.OnClientCommand.Add(function(module, command, player, args)
         -- here the client's pre-emptive write would block every XP grant.
         local xpKey = "WK_xp_" .. itemType
 
-        local modData = player:getModData()
-        if modData[xpKey] then return end
+        local modData    = player:getModData()
+        local sv         = SandboxVars.WorkingKnowledge
+        local consume    = sv and sv.ConsumeOnRead
+        local alreadyRead = modData[xpKey] and true or false
+
+        -- A document that has already been read grants no XP, but it must still
+        -- be destroyed when the option is on, otherwise spare copies pile up in
+        -- the inventory and look like the mod has stopped working.
+        if alreadyRead then
+            if consume then consumeDocument(player, itemType) end
+            return
+        end
 
         modData[xpKey] = true
         -- Keep the vanilla readMap in sync so the inventory checkmark survives
@@ -21,23 +43,15 @@ Events.OnClientCommand.Add(function(module, command, player, args)
         modData.readMap["Base." .. itemType] = true
 
         local ok, perk = pcall(function() return Perks[perkStr] end)
-        if not ok or not perk then return end
+        if not ok or not perk then
+            if consume then consumeDocument(player, itemType) end
+            return
+        end
 
         local grant = (SandboxVars.WorkingKnowledge and SandboxVars.WorkingKnowledge.XPGrant) or 50
         addXp(player, perk --[[@as PerkFactory.Perk]], grant)
 
-        -- Optional: destroy the document once read, so it cannot be passed on.
-        -- Off by default; wanted mainly on multiplayer servers that do not want
-        -- one copy training the whole group. Done server-side so a client
-        -- cannot simply skip it.
-        if SandboxVars.WorkingKnowledge and SandboxVars.WorkingKnowledge.ConsumeOnRead then
-            local inv  = player:getInventory()
-            local item = inv and inv:getFirstTypeRecurse("Base." .. itemType)
-            if item then
-                local holder = item:getContainer() or inv
-                holder:Remove(item)
-            end
-        end
+        if consume then consumeDocument(player, itemType) end
 
     elseif command == "AdminClearAll" then
         local lvl = player:getAccessLevel()

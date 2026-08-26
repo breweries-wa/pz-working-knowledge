@@ -442,7 +442,20 @@ function ISReadABook:perform()
     ---@type table<string, any>
     local modData = self.character:getModData()
     local readKey = "WK_read_" .. bareType
-    if modData[readKey] then return origISReadABookPerform(self) end
+
+    -- Already read: no XP is due, but the server still needs to hear about it
+    -- when Destroy Document After Reading is on, otherwise spare copies of a
+    -- document can never be got rid of.
+    if modData[readKey] then
+        local sv = SandboxVars.WorkingKnowledge
+        if sv and sv.ConsumeOnRead then
+            sendClientCommand(self.character, "WorkingKnowledge", "ReadDocument", {
+                perk     = perkName,
+                itemType = bareType,
+            })
+        end
+        return origISReadABookPerform(self)
+    end
 
     -- Update read state BEFORE calling the vanilla perform so that any
     -- inventory refresh it triggers already sees readMap and draws the

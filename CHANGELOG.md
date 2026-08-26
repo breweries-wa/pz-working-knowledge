@@ -2,6 +2,14 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [1.2.1] - 2026-08-19
+
+### Fixed
+- With **Destroy Document After Reading** enabled, a second copy of a document you
+  had already read was never destroyed. It gave no XP, which is intended, but it
+  also stayed in the inventory, which made it look like the mod had stopped
+  working. Spare copies are now destroyed on reading whether or not XP is due
+
 ## [1.2] - 2026-08-19
 
 ### Added
