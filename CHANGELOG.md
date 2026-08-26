@@ -2,30 +2,13 @@
 
 All notable changes to Working Knowledge are documented here.
 
-## [1.2.3] - 2026-08-26
+## [1.2.1] - 2026-08-26
 
 ### Fixed
-- Documents were destroyed after reading even with **Destroy Document After Reading**
-  turned off. The setting was being read as an object rather than a plain true/false,
-  and anything that is not literally false counts as "on" in Lua, so the option was
-  always treated as enabled
-
-## [1.2.2] - 2026-08-26
-
-### Fixed
-- With **Destroy Document After Reading** enabled, reading a document could break
-  part-way through, leaving no XP and the document still in the inventory. The mod
-  told the server to destroy the item before the base game had finished the reading
-  action, and the game then tried to use the container the item had just left. The
-  read now completes first
-
-## [1.2.1] - 2026-08-19
-
-### Fixed
-- With **Destroy Document After Reading** enabled, a second copy of a document you
-  had already read was never destroyed. It gave no XP, which is intended, but it
-  also stayed in the inventory, which made it look like the mod had stopped
-  working. Spare copies are now destroyed on reading whether or not XP is due
+- **Destroy Document After Reading** did not work correctly. Documents were destroyed
+  even with the option turned off, reading could break part-way through leaving no XP
+  when it was turned on, and spare copies of a document you had already read were never
+  destroyed at all. All three are fixed
 
 ## [1.2] - 2026-08-19
 
