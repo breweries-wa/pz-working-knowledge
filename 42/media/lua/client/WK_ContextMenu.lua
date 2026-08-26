@@ -447,8 +447,12 @@ function ISReadABook:perform()
     -- when Destroy Document After Reading is on, otherwise spare copies of a
     -- document can never be got rid of.
     if modData[readKey] then
-        local sv = SandboxVars.WorkingKnowledge
-        local consume = sv and sv.ConsumeOnRead
+        -- SandboxVars booleans are not reliably Lua booleans; a Java Boolean is
+        -- truthy even when false. Compare through tostring. See WK_Server.lua.
+        local sv  = SandboxVars.WorkingKnowledge
+        local raw = sv and sv.ConsumeOnRead
+        local consume = (raw == true) or (raw ~= nil and raw ~= false
+                        and string.lower(tostring(raw)) == "true")
         -- Vanilla perform() dereferences self.item:getContainer(), so it has to
         -- run before the server is told to destroy the document.
         local result = origISReadABookPerform(self)

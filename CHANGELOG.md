@@ -2,6 +2,14 @@
 
 All notable changes to Working Knowledge are documented here.
 
+## [1.2.3] - 2026-08-26
+
+### Fixed
+- Documents were destroyed after reading even with **Destroy Document After Reading**
+  turned off. The setting was being read as an object rather than a plain true/false,
+  and anything that is not literally false counts as "on" in Lua, so the option was
+  always treated as enabled
+
 ## [1.2.2] - 2026-08-26
 
 ### Fixed

@@ -1,3 +1,17 @@
+-- SandboxVars booleans do not reliably arrive as Lua booleans. A Java Boolean
+-- object, or the string "false", is truthy in Lua regardless of the value it
+-- holds, so testing one directly destroys every document even with the option
+-- turned off. Vanilla hits the same problem and compares against true
+-- explicitly (see ISMiniMap.lua). Normalise through tostring so a Lua boolean,
+-- a Java Boolean and a string all behave.
+local function sandboxTrue(v)
+    if v == true then return true end
+    if v == false or v == nil then return false end
+    return string.lower(tostring(v)) == "true"
+end
+
+local reportedConsume = false
+
 -- Destroy one copy of a document in the player's inventory. Off by default;
 -- wanted mainly on multiplayer servers that do not want one copy training the
 -- whole group. Done server-side so a client cannot simply skip it.
@@ -24,9 +38,16 @@ Events.OnClientCommand.Add(function(module, command, player, args)
         local xpKey = "WK_xp_" .. itemType
 
         local modData    = player:getModData()
-        local sv         = SandboxVars.WorkingKnowledge
-        local consume    = sv and sv.ConsumeOnRead
+        local sv          = SandboxVars.WorkingKnowledge
+        local rawConsume  = sv and sv.ConsumeOnRead
+        local consume     = sandboxTrue(rawConsume)
         local alreadyRead = modData[xpKey] and true or false
+
+        if not reportedConsume then
+            reportedConsume = true
+            print("[WorkingKnowledge] ConsumeOnRead raw=" .. tostring(rawConsume)
+                  .. " type=" .. type(rawConsume) .. " -> " .. tostring(consume))
+        end
 
         -- A document that has already been read grants no XP, but it must still
         -- be destroyed when the option is on, otherwise spare copies pile up in
